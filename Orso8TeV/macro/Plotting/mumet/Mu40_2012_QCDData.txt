@@ -1,0 +1,2154 @@
+I saw PREFIX
+out -------------------------
+data -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_QCD_plots.root	0.220111
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_ZJets_plots.root	1.83592
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_WJets_plots.root	1.83592
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_WW_plots.root	1.83592
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_ZZ_plots.root	1.83592
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_WZ_plots.root	1.83592
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_TTBar_plots.root	1.03201
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_SChannel_plots.root	1.03201
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_SbarChannel_plots.root	1.03201
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_TWChannel_plots.root	1.03201
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_TbarWChannel_plots.root	1.03201
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_TChannel_plots.root	0.996356
+mcname -------------------------
+mcinput -------------------------
+beta -------------------------
+../../forStack/mumet/TreesMu_TbarChannel_plots.root	0.996356
+mcname -------------------------
+PREFIX: ../../forStack/mumet/TreesMu_
+Input files: 13
+Colors: 13
+Betas: 13
+names: 13
+samples: 13
+QCD	Z/gamma^{*}+jets	W+jets	DiBoson	DiBoson	DiBoson	t#bar{t}	s-channel	s-channel	tW-channel	tW-channel	t-channel	t-channel	
+Stack :-)
+Part 0, DefW_PV_PrimaryVertex
+	DefW_PV_Rho
+	DefW_PV_z
+	DefW_PV_ndof
+	DefW_PV_isFake
+	DefW_PV_nGPV
+Part 1, DefW_Muon_Muon
+	DefW_Muon_relIso
+	DefW_Muon_isGlobal
+	DefW_Muon_nMV
+	DefW_Muon_d0
+	DefW_Muon_Pt
+	DefW_Muon_Eta
+	DefW_Muon_absEta
+Part 2, DefW_Jet_Jet
+	DefW_Jet_CEF
+	DefW_Jet_NEF
+	DefW_Jet_CHF
+	DefW_Jet_NHF
+	DefW_Jet_NCH
+	DefW_Jet_NCaloTowers
+	DefW_Jet_Et
+	DefW_Jet_TCHE
+	DefW_Jet_TCHP
+	DefW_Jet_SSVHE
+	DefW_Jet_SSVHP
+	DefW_Jet_JP
+	DefW_Jet_JBP
+	DefW_Jet_CSVMVA
+	DefW_Jet_CSV
+	DefW_Jet_Pt
+	DefW_Jet_Eta
+	DefW_Jet_absEta
+	DefW_Jet_nGoodJets
+	DefW_Jet_nGoodBJets
+Part 3, DefW_BJet_Jet
+	DefW_BJet_CEF
+	DefW_BJet_NEF
+	DefW_BJet_CHF
+	DefW_BJet_NHF
+	DefW_BJet_NCH
+	DefW_BJet_NCaloTowers
+	DefW_BJet_Et
+	DefW_BJet_TCHE
+	DefW_BJet_TCHP
+	DefW_BJet_SSVHE
+	DefW_BJet_SSVHP
+	DefW_BJet_JP
+	DefW_BJet_JBP
+	DefW_BJet_CSVMVA
+	DefW_BJet_CSV
+	DefW_BJet_Pt
+	DefW_BJet_Eta
+	DefW_BJet_absEta
+	DefW_BJet_nGoodJets
+	DefW_BJet_nGoodBJets
+Part 4, DefW_nonBJet_Jet
+	DefW_nonBJet_CEF
+	DefW_nonBJet_NEF
+	DefW_nonBJet_CHF
+	DefW_nonBJet_NHF
+	DefW_nonBJet_NCH
+	DefW_nonBJet_NCaloTowers
+	DefW_nonBJet_Et
+	DefW_nonBJet_TCHE
+	DefW_nonBJet_TCHP
+	DefW_nonBJet_SSVHE
+	DefW_nonBJet_SSVHP
+	DefW_nonBJet_JP
+	DefW_nonBJet_JBP
+	DefW_nonBJet_CSVMVA
+	DefW_nonBJet_CSV
+	DefW_nonBJet_Pt
+	DefW_nonBJet_Eta
+	DefW_nonBJet_absEta
+	DefW_nonBJet_nGoodJets
+	DefW_nonBJet_nGoodBJets
+Part 5, DefW_FwD_Jet
+	DefW_FwD_CEF
+	DefW_FwD_NEF
+	DefW_FwD_CHF
+	DefW_FwD_NHF
+	DefW_FwD_NCH
+	DefW_FwD_NCaloTowers
+	DefW_FwD_Et
+	DefW_FwD_TCHE
+	DefW_FwD_TCHP
+	DefW_FwD_SSVHE
+	DefW_FwD_SSVHP
+	DefW_FwD_JP
+	DefW_FwD_JBP
+	DefW_FwD_CSVMVA
+	DefW_FwD_CSV
+	DefW_FwD_Pt
+	DefW_FwD_Eta
+	DefW_FwD_absEta
+	DefW_FwD_nGoodJets
+	DefW_FwD_nGoodBJets
+Part 6, DefW_Met_MET
+	DefW_Met_Pt
+	DefW_Met_Eta
+	DefW_Met_absEta
+Part 7, PuW_PV_PrimaryVertex
+	PuW_PV_Rho
+	PuW_PV_z
+	PuW_PV_ndof
+	PuW_PV_isFake
+	PuW_PV_nGPV
+Part 8, PuW_Muon_Muon
+	PuW_Muon_relIso
+	PuW_Muon_isGlobal
+	PuW_Muon_nMV
+	PuW_Muon_d0
+	PuW_Muon_Pt
+	PuW_Muon_Eta
+	PuW_Muon_absEta
+Part 9, PuW_Jet_Jet
+	PuW_Jet_CEF
+	PuW_Jet_NEF
+	PuW_Jet_CHF
+	PuW_Jet_NHF
+	PuW_Jet_NCH
+	PuW_Jet_NCaloTowers
+	PuW_Jet_Et
+	PuW_Jet_TCHE
+	PuW_Jet_TCHP
+	PuW_Jet_SSVHE
+	PuW_Jet_SSVHP
+	PuW_Jet_JP
+	PuW_Jet_JBP
+	PuW_Jet_CSVMVA
+	PuW_Jet_CSV
+	PuW_Jet_Pt
+	PuW_Jet_Eta
+	PuW_Jet_absEta
+	PuW_Jet_nGoodJets
+	PuW_Jet_nGoodBJets
+Part 10, PuW_BJet_Jet
+	PuW_BJet_CEF
+	PuW_BJet_NEF
+	PuW_BJet_CHF
+	PuW_BJet_NHF
+	PuW_BJet_NCH
+	PuW_BJet_NCaloTowers
+	PuW_BJet_Et
+	PuW_BJet_TCHE
+	PuW_BJet_TCHP
+	PuW_BJet_SSVHE
+	PuW_BJet_SSVHP
+	PuW_BJet_JP
+	PuW_BJet_JBP
+	PuW_BJet_CSVMVA
+	PuW_BJet_CSV
+	PuW_BJet_Pt
+	PuW_BJet_Eta
+	PuW_BJet_absEta
+	PuW_BJet_nGoodJets
+	PuW_BJet_nGoodBJets
+Part 11, PuW_nonBJet_Jet
+	PuW_nonBJet_CEF
+	PuW_nonBJet_NEF
+	PuW_nonBJet_CHF
+	PuW_nonBJet_NHF
+	PuW_nonBJet_NCH
+	PuW_nonBJet_NCaloTowers
+	PuW_nonBJet_Et
+	PuW_nonBJet_TCHE
+	PuW_nonBJet_TCHP
+	PuW_nonBJet_SSVHE
+	PuW_nonBJet_SSVHP
+	PuW_nonBJet_JP
+	PuW_nonBJet_JBP
+	PuW_nonBJet_CSVMVA
+	PuW_nonBJet_CSV
+	PuW_nonBJet_Pt
+	PuW_nonBJet_Eta
+	PuW_nonBJet_absEta
+	PuW_nonBJet_nGoodJets
+	PuW_nonBJet_nGoodBJets
+Part 12, PuW_FwD_Jet
+	PuW_FwD_CEF
+	PuW_FwD_NEF
+	PuW_FwD_CHF
+	PuW_FwD_NHF
+	PuW_FwD_NCH
+	PuW_FwD_NCaloTowers
+	PuW_FwD_Et
+	PuW_FwD_TCHE
+	PuW_FwD_TCHP
+	PuW_FwD_SSVHE
+	PuW_FwD_SSVHP
+	PuW_FwD_JP
+	PuW_FwD_JBP
+	PuW_FwD_CSVMVA
+	PuW_FwD_CSV
+	PuW_FwD_Pt
+	PuW_FwD_Eta
+	PuW_FwD_absEta
+	PuW_FwD_nGoodJets
+	PuW_FwD_nGoodBJets
+Part 13, PuW_Met_MET
+	PuW_Met_Pt
+	PuW_Met_Eta
+	PuW_Met_absEta
+Part 14, BtagPuW_PV_PrimaryVertex
+	BtagPuW_PV_Rho
+	BtagPuW_PV_z
+	BtagPuW_PV_ndof
+	BtagPuW_PV_isFake
+	BtagPuW_PV_nGPV
+Part 15, BtagPuW_Muon_Muon
+	BtagPuW_Muon_relIso
+	BtagPuW_Muon_isGlobal
+	BtagPuW_Muon_nMV
+	BtagPuW_Muon_d0
+	BtagPuW_Muon_Pt
+	BtagPuW_Muon_Eta
+	BtagPuW_Muon_absEta
+Part 16, BtagPuW_Jet_Jet
+	BtagPuW_Jet_CEF
+	BtagPuW_Jet_NEF
+	BtagPuW_Jet_CHF
+	BtagPuW_Jet_NHF
+	BtagPuW_Jet_NCH
+	BtagPuW_Jet_NCaloTowers
+	BtagPuW_Jet_Et
+	BtagPuW_Jet_TCHE
+	BtagPuW_Jet_TCHP
+	BtagPuW_Jet_SSVHE
+	BtagPuW_Jet_SSVHP
+	BtagPuW_Jet_JP
+	BtagPuW_Jet_JBP
+	BtagPuW_Jet_CSVMVA
+	BtagPuW_Jet_CSV
+	BtagPuW_Jet_Pt
+	BtagPuW_Jet_Eta
+	BtagPuW_Jet_absEta
+	BtagPuW_Jet_nGoodJets
+	BtagPuW_Jet_nGoodBJets
+Part 17, BtagPuW_BJet_Jet
+	BtagPuW_BJet_CEF
+	BtagPuW_BJet_NEF
+	BtagPuW_BJet_CHF
+	BtagPuW_BJet_NHF
+	BtagPuW_BJet_NCH
+	BtagPuW_BJet_NCaloTowers
+	BtagPuW_BJet_Et
+	BtagPuW_BJet_TCHE
+	BtagPuW_BJet_TCHP
+	BtagPuW_BJet_SSVHE
+	BtagPuW_BJet_SSVHP
+	BtagPuW_BJet_JP
+	BtagPuW_BJet_JBP
+	BtagPuW_BJet_CSVMVA
+	BtagPuW_BJet_CSV
+	BtagPuW_BJet_Pt
+	BtagPuW_BJet_Eta
+	BtagPuW_BJet_absEta
+	BtagPuW_BJet_nGoodJets
+	BtagPuW_BJet_nGoodBJets
+Part 18, BtagPuW_nonBJet_Jet
+	BtagPuW_nonBJet_CEF
+	BtagPuW_nonBJet_NEF
+	BtagPuW_nonBJet_CHF
+	BtagPuW_nonBJet_NHF
+	BtagPuW_nonBJet_NCH
+	BtagPuW_nonBJet_NCaloTowers
+	BtagPuW_nonBJet_Et
+	BtagPuW_nonBJet_TCHE
+	BtagPuW_nonBJet_TCHP
+	BtagPuW_nonBJet_SSVHE
+	BtagPuW_nonBJet_SSVHP
+	BtagPuW_nonBJet_JP
+	BtagPuW_nonBJet_JBP
+	BtagPuW_nonBJet_CSVMVA
+	BtagPuW_nonBJet_CSV
+	BtagPuW_nonBJet_Pt
+	BtagPuW_nonBJet_Eta
+	BtagPuW_nonBJet_absEta
+	BtagPuW_nonBJet_nGoodJets
+	BtagPuW_nonBJet_nGoodBJets
+Part 19, BtagPuW_FwD_Jet
+	BtagPuW_FwD_CEF
+	BtagPuW_FwD_NEF
+	BtagPuW_FwD_CHF
+	BtagPuW_FwD_NHF
+	BtagPuW_FwD_NCH
+	BtagPuW_FwD_NCaloTowers
+	BtagPuW_FwD_Et
+	BtagPuW_FwD_TCHE
+	BtagPuW_FwD_TCHP
+	BtagPuW_FwD_SSVHE
+	BtagPuW_FwD_SSVHP
+	BtagPuW_FwD_JP
+	BtagPuW_FwD_JBP
+	BtagPuW_FwD_CSVMVA
+	BtagPuW_FwD_CSV
+	BtagPuW_FwD_Pt
+	BtagPuW_FwD_Eta
+	BtagPuW_FwD_absEta
+	BtagPuW_FwD_nGoodJets
+	BtagPuW_FwD_nGoodBJets
+Part 20, BtagPuW_Met_MET
+	BtagPuW_Met_Pt
+	BtagPuW_Met_Eta
+	BtagPuW_Met_absEta
+Part 21, allW_PV_PrimaryVertex
+	allW_PV_Rho
+	allW_PV_z
+	allW_PV_ndof
+	allW_PV_isFake
+	allW_PV_nGPV
+Part 22, allW_Muon_Muon
+	allW_Muon_relIso
+	allW_Muon_isGlobal
+	allW_Muon_nMV
+	allW_Muon_d0
+	allW_Muon_Pt
+	allW_Muon_Eta
+	allW_Muon_absEta
+Part 23, allW_Jet_Jet
+	allW_Jet_CEF
+	allW_Jet_NEF
+	allW_Jet_CHF
+	allW_Jet_NHF
+	allW_Jet_NCH
+	allW_Jet_NCaloTowers
+	allW_Jet_Et
+	allW_Jet_TCHE
+	allW_Jet_TCHP
+	allW_Jet_SSVHE
+	allW_Jet_SSVHP
+	allW_Jet_JP
+	allW_Jet_JBP
+	allW_Jet_CSVMVA
+	allW_Jet_CSV
+	allW_Jet_Pt
+	allW_Jet_Eta
+	allW_Jet_absEta
+	allW_Jet_nGoodJets
+	allW_Jet_nGoodBJets
+Part 24, allW_BJet_Jet
+	allW_BJet_CEF
+	allW_BJet_NEF
+	allW_BJet_CHF
+	allW_BJet_NHF
+	allW_BJet_NCH
+	allW_BJet_NCaloTowers
+	allW_BJet_Et
+	allW_BJet_TCHE
+	allW_BJet_TCHP
+	allW_BJet_SSVHE
+	allW_BJet_SSVHP
+	allW_BJet_JP
+	allW_BJet_JBP
+	allW_BJet_CSVMVA
+	allW_BJet_CSV
+	allW_BJet_Pt
+	allW_BJet_Eta
+	allW_BJet_absEta
+	allW_BJet_nGoodJets
+	allW_BJet_nGoodBJets
+Part 25, allW_nonBJet_Jet
+	allW_nonBJet_CEF
+	allW_nonBJet_NEF
+	allW_nonBJet_CHF
+	allW_nonBJet_NHF
+	allW_nonBJet_NCH
+	allW_nonBJet_NCaloTowers
+	allW_nonBJet_Et
+	allW_nonBJet_TCHE
+	allW_nonBJet_TCHP
+	allW_nonBJet_SSVHE
+	allW_nonBJet_SSVHP
+	allW_nonBJet_JP
+	allW_nonBJet_JBP
+	allW_nonBJet_CSVMVA
+	allW_nonBJet_CSV
+	allW_nonBJet_Pt
+	allW_nonBJet_Eta
+	allW_nonBJet_absEta
+	allW_nonBJet_nGoodJets
+	allW_nonBJet_nGoodBJets
+Part 26, allW_FwD_Jet
+	allW_FwD_CEF
+	allW_FwD_NEF
+	allW_FwD_CHF
+	allW_FwD_NHF
+	allW_FwD_NCH
+	allW_FwD_NCaloTowers
+	allW_FwD_Et
+	allW_FwD_TCHE
+	allW_FwD_TCHP
+	allW_FwD_SSVHE
+	allW_FwD_SSVHP
+	allW_FwD_JP
+	allW_FwD_JBP
+	allW_FwD_CSVMVA
+	allW_FwD_CSV
+	allW_FwD_Pt
+	allW_FwD_Eta
+	allW_FwD_absEta
+	allW_FwD_nGoodJets
+	allW_FwD_nGoodBJets
+Part 27, allW_Met_MET
+	allW_Met_Pt
+	allW_Met_Eta
+	allW_Met_absEta
+Part 28, Default_Def
+	Default_DefcosTheta
+	Default_Def_Wmass
+	Default_Def_topMass
+	Default_Def_WmassMET
+	Default_Def_topMassMET
+	Default_DefcosTheta2D
+Part 29, Default_PuW
+	Default_PuWcosTheta
+	Default_PuW_Wmass
+	Default_PuW_topMass
+	Default_PuW_WmassMET
+	Default_PuW_topMassMET
+	Default_PuWcosTheta2D
+Part 30, Default_BtagPuW
+	Default_BtagPuWcosTheta
+	Default_BtagPuW_Wmass
+	Default_BtagPuW_topMass
+	Default_BtagPuW_WmassMET
+	Default_BtagPuW_topMassMET
+	Default_BtagPuWcosTheta2D
+Part 31, Default_allW
+	Default_allWcosTheta
+	Default_allW_Wmass
+	Default_allW_topMass
+	Default_allW_WmassMET
+	Default_allW_topMassMET
+	Default_allWcosTheta2D
+Part 32, EtaFwD_Def
+	EtaFwD_DefcosTheta
+	EtaFwD_Def_Wmass
+	EtaFwD_Def_topMass
+	EtaFwD_Def_WmassMET
+	EtaFwD_Def_topMassMET
+	EtaFwD_DefcosTheta2D
+Part 33, EtaFwD_PuW
+	EtaFwD_PuWcosTheta
+	EtaFwD_PuW_Wmass
+	EtaFwD_PuW_topMass
+	EtaFwD_PuW_WmassMET
+	EtaFwD_PuW_topMassMET
+	EtaFwD_PuWcosTheta2D
+Part 34, EtaFwD_BtagPuW
+	EtaFwD_BtagPuWcosTheta
+	EtaFwD_BtagPuW_Wmass
+	EtaFwD_BtagPuW_topMass
+	EtaFwD_BtagPuW_WmassMET
+	EtaFwD_BtagPuW_topMassMET
+	EtaFwD_BtagPuWcosTheta2D
+Part 35, EtaFwD_allW
+	EtaFwD_allWcosTheta
+	EtaFwD_allW_Wmass
+	EtaFwD_allW_topMass
+	EtaFwD_allW_WmassMET
+	EtaFwD_allW_topMassMET
+	EtaFwD_allWcosTheta2D
+Part 36, antiEtaFwD_allW
+	antiEtaFwD_allWcosTheta
+	antiEtaFwD_allW_Wmass
+	antiEtaFwD_allW_topMass
+	antiEtaFwD_allW_WmassMET
+	antiEtaFwD_allW_topMassMET
+	antiEtaFwD_allWcosTheta2D
+Part 37, HtCut_Def
+	HtCut_DefcosTheta
+	HtCut_Def_Wmass
+	HtCut_Def_topMass
+	HtCut_Def_WmassMET
+	HtCut_Def_topMassMET
+	HtCut_DefcosTheta2D
+Part 38, antiHtCut_Def
+	antiHtCut_DefcosTheta
+	antiHtCut_Def_Wmass
+	antiHtCut_Def_topMass
+	antiHtCut_Def_WmassMET
+	antiHtCut_Def_topMassMET
+	antiHtCut_DefcosTheta2D
+Part 39, DefaultTrue_Def
+	DefaultTrue_DefcosTheta
+	DefaultTrue_Def_Wmass
+	DefaultTrue_Def_topMass
+	DefaultTrue_Def_WmassMET
+	DefaultTrue_Def_topMassMET
+	DefaultTrue_DefcosTheta2D
+Part 40, EtaFwDTrue_Def
+	EtaFwDTrue_DefcosTheta
+	EtaFwDTrue_Def_Wmass
+	EtaFwDTrue_Def_topMass
+	EtaFwDTrue_Def_WmassMET
+	EtaFwDTrue_Def_topMassMET
+	EtaFwDTrue_DefcosTheta2D
+Part 41, DefaultTrue_allW
+	DefaultTrue_allWcosTheta
+	DefaultTrue_allW_Wmass
+	DefaultTrue_allW_topMass
+	DefaultTrue_allW_WmassMET
+	DefaultTrue_allW_topMassMET
+	DefaultTrue_allWcosTheta2D
+Part 42, EtaFwDTrue_allW
+	EtaFwDTrue_allWcosTheta
+	EtaFwDTrue_allW_Wmass
+	EtaFwDTrue_allW_topMass
+	EtaFwDTrue_allW_WmassMET
+	EtaFwDTrue_allW_topMassMET
+	EtaFwDTrue_allWcosTheta2D
+Part 43, antiEtaFwDTrue_Def
+	antiEtaFwDTrue_DefcosTheta
+	antiEtaFwDTrue_Def_Wmass
+	antiEtaFwDTrue_Def_topMass
+	antiEtaFwDTrue_Def_WmassMET
+	antiEtaFwDTrue_Def_topMassMET
+	antiEtaFwDTrue_DefcosTheta2D
+Part 44, HtCutTrue_Def
+	HtCutTrue_DefcosTheta
+	HtCutTrue_Def_Wmass
+	HtCutTrue_Def_topMass
+	HtCutTrue_Def_WmassMET
+	HtCutTrue_Def_topMassMET
+	HtCutTrue_DefcosTheta2D
+Part 45, antiHtCutTrue_Def
+	antiHtCutTrue_DefcosTheta
+	antiHtCutTrue_Def_Wmass
+	antiHtCutTrue_Def_topMass
+	antiHtCutTrue_Def_WmassMET
+	antiHtCutTrue_Def_topMassMET
+	antiHtCutTrue_DefcosTheta2D
+Hist 0, def_finalMT
+Hist 1, PuW_finalMT
+Hist 2, BtagPuW_finalMT
+Hist 3, allW_finalMT
+Hist 4, HT
+Hist 5, RMS
+Hist 6, nVtxcosTheta
+Directory number 28: Default_Def
+QCD: weight = 0.220111, Integral = 1546.72
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 1546.72
+Directory number 28: Default_Def
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 354.333
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 354.333
+Directory number 28: Default_Def
+W+jets: weight = 1.83592, Integral = 20738.6
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 20738.6
+Directory number 28: Default_Def
+DiBoson: weight = 1.83592, Integral = 2118.65
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 2118.65
+Directory number 28: Default_Def
+DiBoson: weight = 1.83592, Integral = 936.32
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 936.32
+Directory number 28: Default_Def
+DiBoson: weight = 1.83592, Integral = 4863.35
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 4863.35
+Directory number 28: Default_Def
+t#bar{t}: weight = 1.03201, Integral = 85614.5
+t#bar{t}: weight = 1.03201, Integral = 88796.2
+t#bar{t}: weight = 1.03201, Integral = 174411
+Directory number 28: Default_Def
+s-channel: weight = 1.03201, Integral = 2220.89
+s-channel: weight = 1.03201, Integral = 41084.3
+s-channel: weight = 1.03201, Integral = 43305.2
+Directory number 28: Default_Def
+s-channel: weight = 1.03201, Integral = 1184.75
+s-channel: weight = 1.03201, Integral = 21425.6
+s-channel: weight = 1.03201, Integral = 22610.3
+Directory number 28: Default_Def
+tW-channel: weight = 1.03201, Integral = 283.803
+tW-channel: weight = 1.03201, Integral = 2783.33
+tW-channel: weight = 1.03201, Integral = 3067.13
+Directory number 28: Default_Def
+tW-channel: weight = 1.03201, Integral = 264.195
+tW-channel: weight = 1.03201, Integral = 2743.08
+tW-channel: weight = 1.03201, Integral = 3007.28
+Directory number 28: Default_Def
+t-channel: weight = 0.996356, Integral = 2204.94
+t-channel: weight = 0.996356, Integral = 44133.6
+t-channel: weight = 0.996356, Integral = 46338.5
+Directory number 28: Default_Def
+t-channel: weight = 0.996356, Integral = 991.374
+t-channel: weight = 0.996356, Integral = 19072.2
+t-channel: weight = 0.996356, Integral = 20063.6
+Default_DefcosTheta integral: 343361,	data is 47967,	scale is 0.139699
+Number of QCD is:	1505.34
+Number of Z/gamma^{*}+jets is:	323.122
+Number of W+jets is:	18026.9
+Number of DiBoson is:	1868.97
+Number of DiBoson is:	809.641
+Number of DiBoson is:	4352.97
+Number of t#bar{t} is:	155361
+Number of s-channel is:	40168.9
+Number of s-channel is:	21224.3
+Number of tW-channel is:	2787.46
+Number of tW-channel is:	2725.54
+Number of t-channel is:	44490.3
+Number of t-channel is:	19275.5
+data has 43613 entries ...
+Number of QCD is:	1529.33
+Number of Z/gamma^{*}+jets is:	341.481
+Number of W+jets is:	18823.7
+Number of DiBoson is:	1944.24
+Number of DiBoson is:	844.524
+Number of DiBoson is:	4486.99
+Number of t#bar{t} is:	167764
+Number of s-channel is:	41670.5
+Number of s-channel is:	22031.3
+Number of tW-channel is:	2928.84
+Number of tW-channel is:	2885.5
+Number of t-channel is:	45896.1
+Number of t-channel is:	19889.3
+data has 46030 entries ...
+Directory number 29: Default_PuW
+QCD: weight = 0.220111, Integral = 1546.72
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 1546.72
+Directory number 29: Default_PuW
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 1150.03
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 1150.03
+Directory number 29: Default_PuW
+W+jets: weight = 1.83592, Integral = 12746.7
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 12746.7
+Directory number 29: Default_PuW
+DiBoson: weight = 1.83592, Integral = 237.372
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 237.372
+Directory number 29: Default_PuW
+DiBoson: weight = 1.83592, Integral = 15.529
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 15.529
+Directory number 29: Default_PuW
+DiBoson: weight = 1.83592, Integral = 297.599
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 297.599
+Directory number 29: Default_PuW
+t#bar{t}: weight = 1.03201, Integral = 9768.59
+t#bar{t}: weight = 1.03201, Integral = 15496.9
+t#bar{t}: weight = 1.03201, Integral = 25265.5
+Directory number 29: Default_PuW
+s-channel: weight = 1.03201, Integral = 13.3669
+s-channel: weight = 1.03201, Integral = 246.182
+s-channel: weight = 1.03201, Integral = 259.549
+Directory number 29: Default_PuW
+s-channel: weight = 1.03201, Integral = 6.38152
+s-channel: weight = 1.03201, Integral = 117.008
+s-channel: weight = 1.03201, Integral = 123.389
+Directory number 29: Default_PuW
+tW-channel: weight = 1.03201, Integral = 116.415
+tW-channel: weight = 1.03201, Integral = 1178.94
+tW-channel: weight = 1.03201, Integral = 1295.35
+Directory number 29: Default_PuW
+tW-channel: weight = 1.03201, Integral = 110.034
+tW-channel: weight = 1.03201, Integral = 1186.91
+tW-channel: weight = 1.03201, Integral = 1296.94
+Directory number 29: Default_PuW
+t-channel: weight = 0.996356, Integral = 188.227
+t-channel: weight = 0.996356, Integral = 3772.79
+t-channel: weight = 0.996356, Integral = 3961.02
+Directory number 29: Default_PuW
+t-channel: weight = 0.996356, Integral = 109.579
+t-channel: weight = 0.996356, Integral = 2123.62
+t-channel: weight = 0.996356, Integral = 2233.2
+Default_PuWcosTheta integral: 50428.9,	data is 47967,	scale is 0.95118
+Number of QCD is:	1505.34
+Number of Z/gamma^{*}+jets is:	1048.7
+Number of W+jets is:	11267.3
+Number of DiBoson is:	209.284
+Number of DiBoson is:	13.5049
+Number of DiBoson is:	266.444
+Number of t#bar{t} is:	22808.9
+Number of s-channel is:	241.097
+Number of s-channel is:	115.823
+Number of tW-channel is:	1180.59
+Number of tW-channel is:	1172.79
+Number of t-channel is:	3807.79
+Number of t-channel is:	2147.29
+data has 43613 entries ...
+Number of QCD is:	1529.33
+Number of Z/gamma^{*}+jets is:	1114.65
+Number of W+jets is:	11749.4
+Number of DiBoson is:	217.784
+Number of DiBoson is:	14.0055
+Number of DiBoson is:	274.764
+Number of t#bar{t} is:	24340.4
+Number of s-channel is:	249.712
+Number of s-channel is:	120.203
+Number of tW-channel is:	1237.53
+Number of tW-channel is:	1244.23
+Number of t-channel is:	3923.62
+Number of t-channel is:	2213.38
+data has 46030 entries ...
+Directory number 30: Default_BtagPuW
+QCD: weight = 0.220111, Integral = 1546.72
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 1546.72
+Directory number 30: Default_BtagPuW
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 1112.71
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 1112.71
+Directory number 30: Default_BtagPuW
+W+jets: weight = 1.83592, Integral = 12435.5
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 12435.5
+Directory number 30: Default_BtagPuW
+DiBoson: weight = 1.83592, Integral = 228.558
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 228.558
+Directory number 30: Default_BtagPuW
+DiBoson: weight = 1.83592, Integral = 14.7694
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 14.7694
+Directory number 30: Default_BtagPuW
+DiBoson: weight = 1.83592, Integral = 282.252
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 282.252
+Directory number 30: Default_BtagPuW
+t#bar{t}: weight = 1.03201, Integral = 9280.36
+t#bar{t}: weight = 1.03201, Integral = 14531.6
+t#bar{t}: weight = 1.03201, Integral = 23812
+Directory number 30: Default_BtagPuW
+s-channel: weight = 1.03201, Integral = 12.7747
+s-channel: weight = 1.03201, Integral = 235.345
+s-channel: weight = 1.03201, Integral = 248.119
+Directory number 30: Default_BtagPuW
+s-channel: weight = 1.03201, Integral = 6.09248
+s-channel: weight = 1.03201, Integral = 111.75
+s-channel: weight = 1.03201, Integral = 117.842
+Directory number 30: Default_BtagPuW
+tW-channel: weight = 1.03201, Integral = 109.002
+tW-channel: weight = 1.03201, Integral = 1098.67
+tW-channel: weight = 1.03201, Integral = 1207.67
+Directory number 30: Default_BtagPuW
+tW-channel: weight = 1.03201, Integral = 103.177
+tW-channel: weight = 1.03201, Integral = 1106.2
+tW-channel: weight = 1.03201, Integral = 1209.38
+Directory number 30: Default_BtagPuW
+t-channel: weight = 0.996356, Integral = 174.598
+t-channel: weight = 0.996356, Integral = 3500.86
+t-channel: weight = 0.996356, Integral = 3675.45
+Directory number 30: Default_BtagPuW
+t-channel: weight = 0.996356, Integral = 101.518
+t-channel: weight = 0.996356, Integral = 1970.08
+t-channel: weight = 0.996356, Integral = 2071.6
+Default_BtagPuWcosTheta integral: 47962.5,	data is 47967,	scale is 1.00009
+Number of QCD is:	1505.34
+Number of Z/gamma^{*}+jets is:	1004.59
+Number of W+jets is:	10929.8
+Number of DiBoson is:	200.424
+Number of DiBoson is:	12.8005
+Number of DiBoson is:	252.038
+Number of t#bar{t} is:	21474.1
+Number of s-channel is:	230.342
+Number of s-channel is:	110.576
+Number of tW-channel is:	1099.39
+Number of tW-channel is:	1091.98
+Number of t-channel is:	3532.3
+Number of t-channel is:	1991.19
+data has 43613 entries ...
+Number of QCD is:	1529.33
+Number of Z/gamma^{*}+jets is:	1073.07
+Number of W+jets is:	11399.8
+Number of DiBoson is:	208.684
+Number of DiBoson is:	13.2708
+Number of DiBoson is:	259.922
+Number of t#bar{t} is:	22927.3
+Number of s-channel is:	238.611
+Number of s-channel is:	114.767
+Number of tW-channel is:	1152.57
+Number of tW-channel is:	1158.91
+Number of t-channel is:	3639.94
+Number of t-channel is:	2052.79
+data has 46030 entries ...
+Directory number 31: Default_allW
+QCD: weight = 0.220111, Integral = 1546.72
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 1546.72
+Directory number 31: Default_allW
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 1112.71
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 1112.71
+Directory number 31: Default_allW
+W+jets: weight = 1.83592, Integral = 12435.5
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 12435.5
+Directory number 31: Default_allW
+DiBoson: weight = 1.83592, Integral = 228.558
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 228.558
+Directory number 31: Default_allW
+DiBoson: weight = 1.83592, Integral = 14.7694
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 14.7694
+Directory number 31: Default_allW
+DiBoson: weight = 1.83592, Integral = 282.252
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 282.252
+Directory number 31: Default_allW
+t#bar{t}: weight = 1.03201, Integral = 9280.36
+t#bar{t}: weight = 1.03201, Integral = 14531.6
+t#bar{t}: weight = 1.03201, Integral = 23812
+Directory number 31: Default_allW
+s-channel: weight = 1.03201, Integral = 12.7747
+s-channel: weight = 1.03201, Integral = 235.345
+s-channel: weight = 1.03201, Integral = 248.119
+Directory number 31: Default_allW
+s-channel: weight = 1.03201, Integral = 6.09248
+s-channel: weight = 1.03201, Integral = 111.75
+s-channel: weight = 1.03201, Integral = 117.842
+Directory number 31: Default_allW
+tW-channel: weight = 1.03201, Integral = 109.002
+tW-channel: weight = 1.03201, Integral = 1098.67
+tW-channel: weight = 1.03201, Integral = 1207.67
+Directory number 31: Default_allW
+tW-channel: weight = 1.03201, Integral = 103.177
+tW-channel: weight = 1.03201, Integral = 1106.2
+tW-channel: weight = 1.03201, Integral = 1209.38
+Directory number 31: Default_allW
+t-channel: weight = 0.996356, Integral = 174.598
+t-channel: weight = 0.996356, Integral = 3500.86
+t-channel: weight = 0.996356, Integral = 3675.45
+Directory number 31: Default_allW
+t-channel: weight = 0.996356, Integral = 101.518
+t-channel: weight = 0.996356, Integral = 1970.08
+t-channel: weight = 0.996356, Integral = 2071.6
+Default_allWcosTheta integral: 47962.5,	data is 47967,	scale is 1.00009
+Number of QCD is:	1505.34
+Number of Z/gamma^{*}+jets is:	1004.59
+Number of W+jets is:	10929.8
+Number of DiBoson is:	200.424
+Number of DiBoson is:	12.8005
+Number of DiBoson is:	252.038
+Number of t#bar{t} is:	21474.1
+Number of s-channel is:	230.342
+Number of s-channel is:	110.576
+Number of tW-channel is:	1099.39
+Number of tW-channel is:	1091.98
+Number of t-channel is:	3532.3
+Number of t-channel is:	1991.19
+data has 43613 entries ...
+Number of QCD is:	1529.33
+Number of Z/gamma^{*}+jets is:	1073.07
+Number of W+jets is:	11399.8
+Number of DiBoson is:	208.684
+Number of DiBoson is:	13.2708
+Number of DiBoson is:	259.922
+Number of t#bar{t} is:	22927.3
+Number of s-channel is:	238.611
+Number of s-channel is:	114.767
+Number of tW-channel is:	1152.57
+Number of tW-channel is:	1158.91
+Number of t-channel is:	3639.94
+Number of t-channel is:	2052.79
+data has 46030 entries ...
+Directory number 32: EtaFwD_Def
+QCD: weight = 0.220111, Integral = 583.074
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 583.074
+Directory number 32: EtaFwD_Def
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 176.248
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 176.248
+Directory number 32: EtaFwD_Def
+W+jets: weight = 1.83592, Integral = 9300.78
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 9300.78
+Directory number 32: EtaFwD_Def
+DiBoson: weight = 1.83592, Integral = 796.79
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 796.79
+Directory number 32: EtaFwD_Def
+DiBoson: weight = 1.83592, Integral = 407.574
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 407.574
+Directory number 32: EtaFwD_Def
+DiBoson: weight = 1.83592, Integral = 1835.92
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 1835.92
+Directory number 32: EtaFwD_Def
+t#bar{t}: weight = 1.03201, Integral = 31441.2
+t#bar{t}: weight = 1.03201, Integral = 26077.9
+t#bar{t}: weight = 1.03201, Integral = 57519.1
+Directory number 32: EtaFwD_Def
+s-channel: weight = 1.03201, Integral = 922.617
+s-channel: weight = 1.03201, Integral = 16760.9
+s-channel: weight = 1.03201, Integral = 17683.5
+Directory number 32: EtaFwD_Def
+s-channel: weight = 1.03201, Integral = 463.372
+s-channel: weight = 1.03201, Integral = 8136.37
+s-channel: weight = 1.03201, Integral = 8599.74
+Directory number 32: EtaFwD_Def
+tW-channel: weight = 1.03201, Integral = 101.137
+tW-channel: weight = 1.03201, Integral = 918.489
+tW-channel: weight = 1.03201, Integral = 1019.63
+Directory number 32: EtaFwD_Def
+tW-channel: weight = 1.03201, Integral = 99.073
+tW-channel: weight = 1.03201, Integral = 862.76
+tW-channel: weight = 1.03201, Integral = 961.833
+Directory number 32: EtaFwD_Def
+t-channel: weight = 0.996356, Integral = 1568.26
+t-channel: weight = 0.996356, Integral = 32354.7
+t-channel: weight = 0.996356, Integral = 33922.9
+Directory number 32: EtaFwD_Def
+t-channel: weight = 0.996356, Integral = 706.416
+t-channel: weight = 0.996356, Integral = 13127
+t-channel: weight = 0.996356, Integral = 13833.4
+EtaFwD_DefcosTheta integral: 146640,	data is 19579,	scale is 0.133517
+Number of QCD is:	566.786
+Number of Z/gamma^{*}+jets is:	157.889
+Number of W+jets is:	7997.27
+Number of DiBoson is:	697.65
+Number of DiBoson is:	354.333
+Number of DiBoson is:	1586.24
+Number of t#bar{t} is:	50341.4
+Number of s-channel is:	16269.6
+Number of s-channel is:	7993.95
+Number of tW-channel is:	891.657
+Number of tW-channel is:	829.736
+Number of t-channel is:	32544
+Number of t-channel is:	13297.4
+data has 17710 entries ...
+Number of QCD is:	573.609
+Number of Z/gamma^{*}+jets is:	165.233
+Number of W+jets is:	8351.6
+Number of DiBoson is:	721.517
+Number of DiBoson is:	369.02
+Number of DiBoson is:	1648.66
+Number of t#bar{t} is:	54440.6
+Number of s-channel is:	16826.9
+Number of s-channel is:	8303.55
+Number of tW-channel is:	945.321
+Number of tW-channel is:	897.849
+Number of t-channel is:	33581.2
+Number of t-channel is:	13707.9
+data has 18622 entries ...
+Directory number 33: EtaFwD_PuW
+QCD: weight = 0.220111, Integral = 583.074
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 583.074
+Directory number 33: EtaFwD_PuW
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 615.992
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 615.992
+Directory number 33: EtaFwD_PuW
+W+jets: weight = 1.83592, Integral = 5689.78
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 5689.78
+Directory number 33: EtaFwD_PuW
+DiBoson: weight = 1.83592, Integral = 88.7796
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 88.7796
+Directory number 33: EtaFwD_PuW
+DiBoson: weight = 1.83592, Integral = 6.97791
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 6.97791
+Directory number 33: EtaFwD_PuW
+DiBoson: weight = 1.83592, Integral = 111.663
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 111.663
+Directory number 33: EtaFwD_PuW
+t#bar{t}: weight = 1.03201, Integral = 3565.89
+t#bar{t}: weight = 1.03201, Integral = 4579.34
+t#bar{t}: weight = 1.03201, Integral = 8145.23
+Directory number 33: EtaFwD_PuW
+s-channel: weight = 1.03201, Integral = 5.55304
+s-channel: weight = 1.03201, Integral = 100.94
+s-channel: weight = 1.03201, Integral = 106.493
+Directory number 33: EtaFwD_PuW
+s-channel: weight = 1.03201, Integral = 2.55367
+s-channel: weight = 1.03201, Integral = 44.5953
+s-channel: weight = 1.03201, Integral = 47.1489
+Directory number 33: EtaFwD_PuW
+tW-channel: weight = 1.03201, Integral = 42.2498
+tW-channel: weight = 1.03201, Integral = 398.998
+tW-channel: weight = 1.03201, Integral = 441.248
+Directory number 33: EtaFwD_PuW
+tW-channel: weight = 1.03201, Integral = 40.3485
+tW-channel: weight = 1.03201, Integral = 378.362
+tW-channel: weight = 1.03201, Integral = 418.71
+Directory number 33: EtaFwD_PuW
+t-channel: weight = 0.996356, Integral = 133.848
+t-channel: weight = 0.996356, Integral = 2768.66
+t-channel: weight = 0.996356, Integral = 2902.5
+Directory number 33: EtaFwD_PuW
+t-channel: weight = 0.996356, Integral = 78.4927
+t-channel: weight = 0.996356, Integral = 1461.06
+t-channel: weight = 0.996356, Integral = 1539.56
+EtaFwD_PuWcosTheta integral: 20697.2,	data is 19579,	scale is 0.945975
+Number of QCD is:	566.786
+Number of Z/gamma^{*}+jets is:	558.21
+Number of W+jets is:	4990.5
+Number of DiBoson is:	77.3183
+Number of DiBoson is:	6.12452
+Number of DiBoson is:	96.3267
+Number of t#bar{t} is:	7218.52
+Number of s-channel is:	98.0537
+Number of s-channel is:	43.8163
+Number of tW-channel is:	387.753
+Number of tW-channel is:	360.223
+Number of t-channel is:	2788.21
+Number of t-channel is:	1481.62
+data has 17710 entries ...
+Number of QCD is:	573.609
+Number of Z/gamma^{*}+jets is:	587.599
+Number of W+jets is:	5180.49
+Number of DiBoson is:	80.0953
+Number of DiBoson is:	6.32457
+Number of DiBoson is:	100.409
+Number of t#bar{t} is:	7726.27
+Number of s-channel is:	101.373
+Number of s-channel is:	45.5441
+Number of tW-channel is:	408.707
+Number of tW-channel is:	389.233
+Number of t-channel is:	2873.87
+Number of t-channel is:	1525.44
+data has 18622 entries ...
+Directory number 34: EtaFwD_BtagPuW
+QCD: weight = 0.220111, Integral = 583.074
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 583.074
+Directory number 34: EtaFwD_BtagPuW
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 597.812
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 597.812
+Directory number 34: EtaFwD_BtagPuW
+W+jets: weight = 1.83592, Integral = 5566.34
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 5566.34
+Directory number 34: EtaFwD_BtagPuW
+DiBoson: weight = 1.83592, Integral = 85.8225
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 85.8225
+Directory number 34: EtaFwD_BtagPuW
+DiBoson: weight = 1.83592, Integral = 6.63985
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 6.63985
+Directory number 34: EtaFwD_BtagPuW
+DiBoson: weight = 1.83592, Integral = 105.541
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 105.541
+Directory number 34: EtaFwD_BtagPuW
+t#bar{t}: weight = 1.03201, Integral = 3371.25
+t#bar{t}: weight = 1.03201, Integral = 4289.08
+t#bar{t}: weight = 1.03201, Integral = 7660.33
+Directory number 34: EtaFwD_BtagPuW
+s-channel: weight = 1.03201, Integral = 5.2978
+s-channel: weight = 1.03201, Integral = 96.2053
+s-channel: weight = 1.03201, Integral = 101.503
+Directory number 34: EtaFwD_BtagPuW
+s-channel: weight = 1.03201, Integral = 2.43037
+s-channel: weight = 1.03201, Integral = 42.4415
+s-channel: weight = 1.03201, Integral = 44.8719
+Directory number 34: EtaFwD_BtagPuW
+tW-channel: weight = 1.03201, Integral = 39.6046
+tW-channel: weight = 1.03201, Integral = 371.901
+tW-channel: weight = 1.03201, Integral = 411.506
+Directory number 34: EtaFwD_BtagPuW
+tW-channel: weight = 1.03201, Integral = 37.8255
+tW-channel: weight = 1.03201, Integral = 352.528
+tW-channel: weight = 1.03201, Integral = 390.354
+Directory number 34: EtaFwD_BtagPuW
+t-channel: weight = 0.996356, Integral = 123.754
+t-channel: weight = 0.996356, Integral = 2561.9
+t-channel: weight = 0.996356, Integral = 2685.66
+Directory number 34: EtaFwD_BtagPuW
+t-channel: weight = 0.996356, Integral = 72.4612
+t-channel: weight = 0.996356, Integral = 1351.34
+t-channel: weight = 0.996356, Integral = 1423.8
+EtaFwD_BtagPuWcosTheta integral: 19663.2,	data is 19579,	scale is 0.995715
+Number of QCD is:	566.786
+Number of Z/gamma^{*}+jets is:	535.06
+Number of W+jets is:	4852.7
+Number of DiBoson is:	74.2503
+Number of DiBoson is:	5.8155
+Number of DiBoson is:	90.7422
+Number of t#bar{t} is:	6782.01
+Number of s-channel is:	93.3901
+Number of s-channel is:	41.6874
+Number of tW-channel is:	360.94
+Number of tW-channel is:	335.035
+Number of t-channel is:	2579.12
+Number of t-channel is:	1369.71
+data has 17710 entries ...
+Number of QCD is:	573.609
+Number of Z/gamma^{*}+jets is:	564.919
+Number of W+jets is:	5040.01
+Number of DiBoson is:	76.9296
+Number of DiBoson is:	6.00545
+Number of DiBoson is:	94.5755
+Number of t#bar{t} is:	7261.16
+Number of s-channel is:	96.5654
+Number of s-channel is:	43.3297
+Number of tW-channel is:	380.52
+Number of tW-channel is:	362.234
+Number of t-channel is:	2658.52
+Number of t-channel is:	1410.44
+data has 18622 entries ...
+Directory number 35: EtaFwD_allW
+QCD: weight = 0.220111, Integral = 583.074
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 583.074
+Directory number 35: EtaFwD_allW
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 597.812
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 597.812
+Directory number 35: EtaFwD_allW
+W+jets: weight = 1.83592, Integral = 5566.34
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 5566.34
+Directory number 35: EtaFwD_allW
+DiBoson: weight = 1.83592, Integral = 85.8225
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 85.8225
+Directory number 35: EtaFwD_allW
+DiBoson: weight = 1.83592, Integral = 6.63985
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 6.63985
+Directory number 35: EtaFwD_allW
+DiBoson: weight = 1.83592, Integral = 105.541
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 105.541
+Directory number 35: EtaFwD_allW
+t#bar{t}: weight = 1.03201, Integral = 3371.25
+t#bar{t}: weight = 1.03201, Integral = 4289.08
+t#bar{t}: weight = 1.03201, Integral = 7660.33
+Directory number 35: EtaFwD_allW
+s-channel: weight = 1.03201, Integral = 5.2978
+s-channel: weight = 1.03201, Integral = 96.2053
+s-channel: weight = 1.03201, Integral = 101.503
+Directory number 35: EtaFwD_allW
+s-channel: weight = 1.03201, Integral = 2.43037
+s-channel: weight = 1.03201, Integral = 42.4415
+s-channel: weight = 1.03201, Integral = 44.8719
+Directory number 35: EtaFwD_allW
+tW-channel: weight = 1.03201, Integral = 39.6046
+tW-channel: weight = 1.03201, Integral = 371.901
+tW-channel: weight = 1.03201, Integral = 411.506
+Directory number 35: EtaFwD_allW
+tW-channel: weight = 1.03201, Integral = 37.8255
+tW-channel: weight = 1.03201, Integral = 352.528
+tW-channel: weight = 1.03201, Integral = 390.354
+Directory number 35: EtaFwD_allW
+t-channel: weight = 0.996356, Integral = 123.754
+t-channel: weight = 0.996356, Integral = 2561.9
+t-channel: weight = 0.996356, Integral = 2685.66
+Directory number 35: EtaFwD_allW
+t-channel: weight = 0.996356, Integral = 72.4612
+t-channel: weight = 0.996356, Integral = 1351.34
+t-channel: weight = 0.996356, Integral = 1423.8
+EtaFwD_allWcosTheta integral: 19663.2,	data is 19579,	scale is 0.995715
+Number of QCD is:	566.786
+Number of Z/gamma^{*}+jets is:	535.06
+Number of W+jets is:	4852.7
+Number of DiBoson is:	74.2503
+Number of DiBoson is:	5.8155
+Number of DiBoson is:	90.7422
+Number of t#bar{t} is:	6782.01
+Number of s-channel is:	93.3901
+Number of s-channel is:	41.6874
+Number of tW-channel is:	360.94
+Number of tW-channel is:	335.035
+Number of t-channel is:	2579.12
+Number of t-channel is:	1369.71
+data has 17710 entries ...
+Number of QCD is:	573.609
+Number of Z/gamma^{*}+jets is:	564.919
+Number of W+jets is:	5040.01
+Number of DiBoson is:	76.9296
+Number of DiBoson is:	6.00545
+Number of DiBoson is:	94.5755
+Number of t#bar{t} is:	7261.16
+Number of s-channel is:	96.5654
+Number of s-channel is:	43.3297
+Number of tW-channel is:	380.52
+Number of tW-channel is:	362.234
+Number of t-channel is:	2658.52
+Number of t-channel is:	1410.44
+data has 18622 entries ...
+Directory number 36: antiEtaFwD_allW
+QCD: weight = 0.220111, Integral = 963.646
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 963.646
+Directory number 36: antiEtaFwD_allW
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 514.901
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 514.901
+Directory number 36: antiEtaFwD_allW
+W+jets: weight = 1.83592, Integral = 6869.17
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 6869.17
+Directory number 36: antiEtaFwD_allW
+DiBoson: weight = 1.83592, Integral = 142.735
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 142.735
+Directory number 36: antiEtaFwD_allW
+DiBoson: weight = 1.83592, Integral = 8.12955
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 8.12955
+Directory number 36: antiEtaFwD_allW
+DiBoson: weight = 1.83592, Integral = 176.712
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 176.712
+Directory number 36: antiEtaFwD_allW
+t#bar{t}: weight = 1.03201, Integral = 5909.11
+t#bar{t}: weight = 1.03201, Integral = 10242.5
+t#bar{t}: weight = 1.03201, Integral = 16151.6
+Directory number 36: antiEtaFwD_allW
+s-channel: weight = 1.03201, Integral = 7.47687
+s-channel: weight = 1.03201, Integral = 139.139
+s-channel: weight = 1.03201, Integral = 146.616
+Directory number 36: antiEtaFwD_allW
+s-channel: weight = 1.03201, Integral = 3.6621
+s-channel: weight = 1.03201, Integral = 69.3083
+s-channel: weight = 1.03201, Integral = 72.9704
+Directory number 36: antiEtaFwD_allW
+tW-channel: weight = 1.03201, Integral = 69.3979
+tW-channel: weight = 1.03201, Integral = 726.771
+tW-channel: weight = 1.03201, Integral = 796.169
+Directory number 36: antiEtaFwD_allW
+tW-channel: weight = 1.03201, Integral = 65.3514
+tW-channel: weight = 1.03201, Integral = 753.676
+tW-channel: weight = 1.03201, Integral = 819.027
+Directory number 36: antiEtaFwD_allW
+t-channel: weight = 0.996356, Integral = 50.8438
+t-channel: weight = 0.996356, Integral = 938.954
+t-channel: weight = 0.996356, Integral = 989.798
+Directory number 36: antiEtaFwD_allW
+t-channel: weight = 0.996356, Integral = 29.0571
+t-channel: weight = 0.996356, Integral = 618.737
+t-channel: weight = 0.996356, Integral = 647.794
+antiEtaFwD_allWcosTheta integral: 28299.3,	data is 28388,	scale is 1.00313
+Number of QCD is:	938.553
+Number of Z/gamma^{*}+jets is:	469.528
+Number of W+jets is:	6077.06
+Number of DiBoson is:	126.174
+Number of DiBoson is:	6.98502
+Number of DiBoson is:	161.296
+Number of t#bar{t} is:	14692.1
+Number of s-channel is:	136.952
+Number of s-channel is:	68.8891
+Number of tW-channel is:	738.446
+Number of tW-channel is:	756.946
+Number of t-channel is:	953.18
+Number of t-channel is:	621.478
+data has 25903 entries ...
+Number of QCD is:	955.722
+Number of Z/gamma^{*}+jets is:	508.148
+Number of W+jets is:	6359.75
+Number of DiBoson is:	131.754
+Number of DiBoson is:	7.26532
+Number of DiBoson is:	165.347
+Number of t#bar{t} is:	15666.1
+Number of s-channel is:	142.046
+Number of s-channel is:	71.4371
+Number of tW-channel is:	772.051
+Number of tW-channel is:	796.68
+Number of t-channel is:	981.417
+Number of t-channel is:	642.355
+data has 27408 entries ...
+Directory number 37: HtCut_Def
+QCD: weight = 0.220111, Integral = 1410.25
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 1410.25
+Directory number 37: HtCut_Def
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 343.317
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 343.317
+Directory number 37: HtCut_Def
+W+jets: weight = 1.83592, Integral = 20510.9
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 20510.9
+Directory number 37: HtCut_Def
+DiBoson: weight = 1.83592, Integral = 2091.11
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 2091.11
+Directory number 37: HtCut_Def
+DiBoson: weight = 1.83592, Integral = 916.125
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 916.125
+Directory number 37: HtCut_Def
+DiBoson: weight = 1.83592, Integral = 4758.71
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 4758.71
+Directory number 37: HtCut_Def
+t#bar{t}: weight = 1.03201, Integral = 85448.4
+t#bar{t}: weight = 1.03201, Integral = 88554.7
+t#bar{t}: weight = 1.03201, Integral = 174003
+Directory number 37: HtCut_Def
+s-channel: weight = 1.03201, Integral = 2202.31
+s-channel: weight = 1.03201, Integral = 40861.4
+s-channel: weight = 1.03201, Integral = 43063.7
+Directory number 37: HtCut_Def
+s-channel: weight = 1.03201, Integral = 1171.33
+s-channel: weight = 1.03201, Integral = 21311
+s-channel: weight = 1.03201, Integral = 22482.3
+Directory number 37: HtCut_Def
+tW-channel: weight = 1.03201, Integral = 283.803
+tW-channel: weight = 1.03201, Integral = 2768.88
+tW-channel: weight = 1.03201, Integral = 3052.69
+Directory number 37: HtCut_Def
+tW-channel: weight = 1.03201, Integral = 263.163
+tW-channel: weight = 1.03201, Integral = 2733.79
+tW-channel: weight = 1.03201, Integral = 2996.96
+Directory number 37: HtCut_Def
+t-channel: weight = 0.996356, Integral = 2181.02
+t-channel: weight = 0.996356, Integral = 43843.6
+t-channel: weight = 0.996356, Integral = 46024.7
+Directory number 37: HtCut_Def
+t-channel: weight = 0.996356, Integral = 979.418
+t-channel: weight = 0.996356, Integral = 18943.7
+t-channel: weight = 0.996356, Integral = 19923.1
+HtCut_DefcosTheta integral: 341577,	data is 47603,	scale is 0.139362
+Number of QCD is:	1368.87
+Number of Z/gamma^{*}+jets is:	312.107
+Number of W+jets is:	17799.3
+Number of DiBoson is:	1841.43
+Number of DiBoson is:	789.446
+Number of DiBoson is:	4248.32
+Number of t#bar{t} is:	154956
+Number of s-channel is:	39927.4
+Number of s-channel is:	21096.3
+Number of tW-channel is:	2773.01
+Number of tW-channel is:	2715.22
+Number of t-channel is:	44177.4
+Number of t-channel is:	19136
+data has 43250 entries ...
+Number of QCD is:	1392.86
+Number of Z/gamma^{*}+jets is:	330.466
+Number of W+jets is:	18596
+Number of DiBoson is:	1916.7
+Number of DiBoson is:	824.329
+Number of DiBoson is:	4382.34
+Number of t#bar{t} is:	167356
+Number of s-channel is:	41429
+Number of s-channel is:	21903.4
+Number of tW-channel is:	2914.4
+Number of tW-channel is:	2875.18
+Number of t-channel is:	45582.3
+Number of t-channel is:	19748.8
+data has 45666 entries ...
+Directory number 38: antiHtCut_Def
+QCD: weight = 0.220111, Integral = 136.469
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 136.469
+Directory number 38: antiHtCut_Def
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 11.0155
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 11.0155
+Directory number 38: antiHtCut_Def
+W+jets: weight = 1.83592, Integral = 227.654
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 227.654
+Directory number 38: antiHtCut_Def
+DiBoson: weight = 1.83592, Integral = 27.5388
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 27.5388
+Directory number 38: antiHtCut_Def
+DiBoson: weight = 1.83592, Integral = 20.1951
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 20.1951
+Directory number 38: antiHtCut_Def
+DiBoson: weight = 1.83592, Integral = 104.647
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 104.647
+Directory number 38: antiHtCut_Def
+t#bar{t}: weight = 1.03201, Integral = 166.154
+t#bar{t}: weight = 1.03201, Integral = 241.49
+t#bar{t}: weight = 1.03201, Integral = 407.644
+Directory number 38: antiHtCut_Def
+s-channel: weight = 1.03201, Integral = 18.5762
+s-channel: weight = 1.03201, Integral = 222.914
+s-channel: weight = 1.03201, Integral = 241.49
+Directory number 38: antiHtCut_Def
+s-channel: weight = 1.03201, Integral = 13.4161
+s-channel: weight = 1.03201, Integral = 114.553
+s-channel: weight = 1.03201, Integral = 127.969
+Directory number 38: antiHtCut_Def
+tW-channel: weight = 1.03201, Integral = 0
+tW-channel: weight = 1.03201, Integral = 14.4481
+tW-channel: weight = 1.03201, Integral = 14.4481
+Directory number 38: antiHtCut_Def
+tW-channel: weight = 1.03201, Integral = 1.03201
+tW-channel: weight = 1.03201, Integral = 9.28809
+tW-channel: weight = 1.03201, Integral = 10.3201
+Directory number 38: antiHtCut_Def
+t-channel: weight = 0.996356, Integral = 23.9125
+t-channel: weight = 0.996356, Integral = 289.94
+t-channel: weight = 0.996356, Integral = 313.852
+Directory number 38: antiHtCut_Def
+t-channel: weight = 0.996356, Integral = 11.9563
+t-channel: weight = 0.996356, Integral = 128.53
+t-channel: weight = 0.996356, Integral = 140.486
+antiHtCut_DefcosTheta integral: 1783.73,	data is 364,	scale is 0.204067
+Number of QCD is:	136.469
+Number of Z/gamma^{*}+jets is:	11.0155
+Number of W+jets is:	227.654
+Number of DiBoson is:	27.5388
+Number of DiBoson is:	20.1951
+Number of DiBoson is:	104.647
+Number of t#bar{t} is:	404.548
+Number of s-channel is:	241.49
+Number of s-channel is:	127.969
+Number of tW-channel is:	14.4481
+Number of tW-channel is:	10.3201
+Number of t-channel is:	312.856
+Number of t-channel is:	139.49
+data has 363 entries ...
+Number of QCD is:	136.469
+Number of Z/gamma^{*}+jets is:	11.0155
+Number of W+jets is:	227.654
+Number of DiBoson is:	27.5388
+Number of DiBoson is:	20.1951
+Number of DiBoson is:	104.647
+Number of t#bar{t} is:	407.644
+Number of s-channel is:	241.49
+Number of s-channel is:	127.969
+Number of tW-channel is:	14.4481
+Number of tW-channel is:	10.3201
+Number of t-channel is:	313.852
+Number of t-channel is:	140.486
+data has 364 entries ...
+Directory number 39: DefaultTrue_Def
+QCD: weight = 0.220111, Integral = 1318.02
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 1318.02
+Directory number 39: DefaultTrue_Def
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 227.654
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 227.654
+Directory number 39: DefaultTrue_Def
+W+jets: weight = 1.83592, Integral = 12029
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 12029
+Directory number 39: DefaultTrue_Def
+DiBoson: weight = 1.83592, Integral = 1272.29
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 1272.29
+Directory number 39: DefaultTrue_Def
+DiBoson: weight = 1.83592, Integral = 615.034
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 615.034
+Directory number 39: DefaultTrue_Def
+DiBoson: weight = 1.83592, Integral = 3207.35
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 3207.35
+Directory number 39: DefaultTrue_Def
+t#bar{t}: weight = 1.03201, Integral = 32796.2
+t#bar{t}: weight = 1.03201, Integral = 54854.4
+t#bar{t}: weight = 1.03201, Integral = 87650.7
+Directory number 39: DefaultTrue_Def
+s-channel: weight = 1.03201, Integral = 2042.35
+s-channel: weight = 1.03201, Integral = 23850.8
+s-channel: weight = 1.03201, Integral = 25893.1
+Directory number 39: DefaultTrue_Def
+s-channel: weight = 1.03201, Integral = 1083.61
+s-channel: weight = 1.03201, Integral = 12058
+s-channel: weight = 1.03201, Integral = 13141.6
+Directory number 39: DefaultTrue_Def
+tW-channel: weight = 1.03201, Integral = 215.69
+tW-channel: weight = 1.03201, Integral = 1583.1
+tW-channel: weight = 1.03201, Integral = 1798.79
+Directory number 39: DefaultTrue_Def
+tW-channel: weight = 1.03201, Integral = 201.242
+tW-channel: weight = 1.03201, Integral = 1519.12
+tW-channel: weight = 1.03201, Integral = 1720.36
+Directory number 39: DefaultTrue_Def
+t-channel: weight = 0.996356, Integral = 2004.67
+t-channel: weight = 0.996356, Integral = 24662.8
+t-channel: weight = 0.996356, Integral = 26667.5
+Directory number 39: DefaultTrue_Def
+t-channel: weight = 0.996356, Integral = 902.698
+t-channel: weight = 0.996356, Integral = 10707.8
+t-channel: weight = 0.996356, Integral = 11610.5
+DefaultTrue_DefcosTheta integral: 187152,	data is 26772,	scale is 0.14305
+Number of QCD is:	1306.8
+Number of Z/gamma^{*}+jets is:	220.311
+Number of W+jets is:	10679.6
+Number of DiBoson is:	1156.63
+Number of DiBoson is:	572.807
+Number of DiBoson is:	2930.13
+Number of t#bar{t} is:	84642.4
+Number of s-channel is:	24769.3
+Number of s-channel is:	12723.7
+Number of tW-channel is:	1716.23
+Number of tW-channel is:	1646.06
+Number of t-channel is:	26358.6
+Number of t-channel is:	11482
+data has 25634 entries ...
+Number of QCD is:	1306.8
+Number of Z/gamma^{*}+jets is:	220.311
+Number of W+jets is:	10679.6
+Number of DiBoson is:	1156.63
+Number of DiBoson is:	572.807
+Number of DiBoson is:	2930.13
+Number of t#bar{t} is:	84642.4
+Number of s-channel is:	24769.3
+Number of s-channel is:	12723.7
+Number of tW-channel is:	1716.23
+Number of tW-channel is:	1646.06
+Number of t-channel is:	26358.6
+Number of t-channel is:	11482
+data has 25634 entries ...
+Directory number 40: EtaFwDTrue_Def
+QCD: weight = 0.220111, Integral = 502.734
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 502.734
+Directory number 40: EtaFwDTrue_Def
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 111.991
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 111.991
+Directory number 40: EtaFwDTrue_Def
+W+jets: weight = 1.83592, Integral = 5423.31
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 5423.31
+Directory number 40: EtaFwDTrue_Def
+DiBoson: weight = 1.83592, Integral = 481.011
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 481.011
+Directory number 40: EtaFwDTrue_Def
+DiBoson: weight = 1.83592, Integral = 284.568
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 284.568
+Directory number 40: EtaFwDTrue_Def
+DiBoson: weight = 1.83592, Integral = 1208.04
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 1208.04
+Directory number 40: EtaFwDTrue_Def
+t#bar{t}: weight = 1.03201, Integral = 11824.8
+t#bar{t}: weight = 1.03201, Integral = 15943.5
+t#bar{t}: weight = 1.03201, Integral = 27768.3
+Directory number 40: EtaFwDTrue_Def
+s-channel: weight = 1.03201, Integral = 852.44
+s-channel: weight = 1.03201, Integral = 9685.41
+s-channel: weight = 1.03201, Integral = 10537.9
+Directory number 40: EtaFwDTrue_Def
+s-channel: weight = 1.03201, Integral = 410.74
+s-channel: weight = 1.03201, Integral = 4472.73
+s-channel: weight = 1.03201, Integral = 4883.47
+Directory number 40: EtaFwDTrue_Def
+tW-channel: weight = 1.03201, Integral = 71.2087
+tW-channel: weight = 1.03201, Integral = 511.877
+tW-channel: weight = 1.03201, Integral = 583.086
+Directory number 40: EtaFwDTrue_Def
+tW-channel: weight = 1.03201, Integral = 71.2087
+tW-channel: weight = 1.03201, Integral = 452.02
+tW-channel: weight = 1.03201, Integral = 523.229
+Directory number 40: EtaFwDTrue_Def
+t-channel: weight = 0.996356, Integral = 1424.79
+t-channel: weight = 0.996356, Integral = 17905.5
+t-channel: weight = 0.996356, Integral = 19330.3
+Directory number 40: EtaFwDTrue_Def
+t-channel: weight = 0.996356, Integral = 636.671
+t-channel: weight = 0.996356, Integral = 7281.37
+t-channel: weight = 0.996356, Integral = 7918.04
+EtaFwDTrue_DefcosTheta integral: 79555.9,	data is 10851,	scale is 0.136395
+Number of QCD is:	497.231
+Number of Z/gamma^{*}+jets is:	106.483
+Number of W+jets is:	4758.71
+Number of DiBoson is:	433.277
+Number of DiBoson is:	264.373
+Number of DiBoson is:	1074.01
+Number of t#bar{t} is:	26462.8
+Number of s-channel is:	9983.66
+Number of s-channel is:	4689.45
+Number of tW-channel is:	539.741
+Number of tW-channel is:	481.949
+Number of t-channel is:	19096.2
+Number of t-channel is:	7831.36
+data has 10304 entries ...
+Number of QCD is:	497.231
+Number of Z/gamma^{*}+jets is:	106.483
+Number of W+jets is:	4758.71
+Number of DiBoson is:	433.277
+Number of DiBoson is:	264.373
+Number of DiBoson is:	1074.01
+Number of t#bar{t} is:	26462.8
+Number of s-channel is:	9983.66
+Number of s-channel is:	4689.45
+Number of tW-channel is:	539.741
+Number of tW-channel is:	481.949
+Number of t-channel is:	19096.2
+Number of t-channel is:	7831.36
+data has 10304 entries ...
+Directory number 41: DefaultTrue_allW
+QCD: weight = 0.220111, Integral = 1318.02
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 1318.02
+Directory number 41: DefaultTrue_allW
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 724.037
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 724.037
+Directory number 41: DefaultTrue_allW
+W+jets: weight = 1.83592, Integral = 7188.68
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 7188.68
+Directory number 41: DefaultTrue_allW
+DiBoson: weight = 1.83592, Integral = 138.894
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 138.894
+Directory number 41: DefaultTrue_allW
+DiBoson: weight = 1.83592, Integral = 9.97224
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 9.97224
+Directory number 41: DefaultTrue_allW
+DiBoson: weight = 1.83592, Integral = 188.141
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 188.141
+Directory number 41: DefaultTrue_allW
+t#bar{t}: weight = 1.03201, Integral = 3744.32
+t#bar{t}: weight = 1.03201, Integral = 9049.51
+t#bar{t}: weight = 1.03201, Integral = 12793.8
+Directory number 41: DefaultTrue_allW
+s-channel: weight = 1.03201, Integral = 11.8024
+s-channel: weight = 1.03201, Integral = 137.993
+s-channel: weight = 1.03201, Integral = 149.795
+Directory number 41: DefaultTrue_allW
+s-channel: weight = 1.03201, Integral = 5.63324
+s-channel: weight = 1.03201, Integral = 63.6619
+s-channel: weight = 1.03201, Integral = 69.2951
+Directory number 41: DefaultTrue_allW
+tW-channel: weight = 1.03201, Integral = 84.315
+tW-channel: weight = 1.03201, Integral = 637.724
+tW-channel: weight = 1.03201, Integral = 722.039
+Directory number 41: DefaultTrue_allW
+tW-channel: weight = 1.03201, Integral = 77.607
+tW-channel: weight = 1.03201, Integral = 619.841
+tW-channel: weight = 1.03201, Integral = 697.448
+Directory number 41: DefaultTrue_allW
+t-channel: weight = 0.996356, Integral = 159.332
+t-channel: weight = 0.996356, Integral = 1971.34
+t-channel: weight = 0.996356, Integral = 2130.67
+Directory number 41: DefaultTrue_allW
+t-channel: weight = 0.996356, Integral = 92.6452
+t-channel: weight = 0.996356, Integral = 1115.66
+t-channel: weight = 0.996356, Integral = 1208.31
+DefaultTrue_allWcosTheta integral: 27339.1,	data is 26772,	scale is 0.979255
+Number of QCD is:	1306.8
+Number of Z/gamma^{*}+jets is:	690.599
+Number of W+jets is:	6453.14
+Number of DiBoson is:	126.143
+Number of DiBoson is:	9.24032
+Number of DiBoson is:	171.312
+Number of t#bar{t} is:	12331
+Number of s-channel is:	143.152
+Number of s-channel is:	67.0549
+Number of tW-channel is:	688.808
+Number of tW-channel is:	664.98
+Number of t-channel is:	2105.83
+Number of t-channel is:	1194.24
+data has 25634 entries ...
+Number of QCD is:	1306.8
+Number of Z/gamma^{*}+jets is:	690.599
+Number of W+jets is:	6453.14
+Number of DiBoson is:	126.143
+Number of DiBoson is:	9.24032
+Number of DiBoson is:	171.312
+Number of t#bar{t} is:	12331
+Number of s-channel is:	143.152
+Number of s-channel is:	67.0549
+Number of tW-channel is:	688.808
+Number of tW-channel is:	664.98
+Number of t-channel is:	2105.83
+Number of t-channel is:	1194.24
+data has 25634 entries ...
+Directory number 42: EtaFwDTrue_allW
+QCD: weight = 0.220111, Integral = 502.734
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 502.734
+Directory number 42: EtaFwDTrue_allW
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 382.572
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 382.572
+Directory number 42: EtaFwDTrue_allW
+W+jets: weight = 1.83592, Integral = 3253.85
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 3253.85
+Directory number 42: EtaFwDTrue_allW
+DiBoson: weight = 1.83592, Integral = 52.0216
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 52.0216
+Directory number 42: EtaFwDTrue_allW
+DiBoson: weight = 1.83592, Integral = 4.83699
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 4.83699
+Directory number 42: EtaFwDTrue_allW
+DiBoson: weight = 1.83592, Integral = 70.2624
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 70.2624
+Directory number 42: EtaFwDTrue_allW
+t#bar{t}: weight = 1.03201, Integral = 1324.66
+t#bar{t}: weight = 1.03201, Integral = 2644.37
+t#bar{t}: weight = 1.03201, Integral = 3969.02
+Directory number 42: EtaFwDTrue_allW
+s-channel: weight = 1.03201, Integral = 4.91816
+s-channel: weight = 1.03201, Integral = 56.0633
+s-channel: weight = 1.03201, Integral = 60.9815
+Directory number 42: EtaFwDTrue_allW
+s-channel: weight = 1.03201, Integral = 2.1729
+s-channel: weight = 1.03201, Integral = 23.5808
+s-channel: weight = 1.03201, Integral = 25.7537
+Directory number 42: EtaFwDTrue_allW
+tW-channel: weight = 1.03201, Integral = 29.1459
+tW-channel: weight = 1.03201, Integral = 210.924
+tW-channel: weight = 1.03201, Integral = 240.07
+Directory number 42: EtaFwDTrue_allW
+tW-channel: weight = 1.03201, Integral = 27.2008
+tW-channel: weight = 1.03201, Integral = 189.284
+tW-channel: weight = 1.03201, Integral = 216.485
+Directory number 42: EtaFwDTrue_allW
+t-channel: weight = 0.996356, Integral = 112.82
+t-channel: weight = 0.996356, Integral = 1425.22
+t-channel: weight = 0.996356, Integral = 1538.04
+Directory number 42: EtaFwDTrue_allW
+t-channel: weight = 0.996356, Integral = 65.425
+t-channel: weight = 0.996356, Integral = 754.933
+t-channel: weight = 0.996356, Integral = 820.358
+EtaFwDTrue_allWcosTheta integral: 11137,	data is 10851,	scale is 0.974321
+Number of QCD is:	497.231
+Number of Z/gamma^{*}+jets is:	355.888
+Number of W+jets is:	2878.11
+Number of DiBoson is:	46.7941
+Number of DiBoson is:	4.51014
+Number of DiBoson is:	62.2094
+Number of t#bar{t} is:	3772.06
+Number of s-channel is:	57.7068
+Number of s-channel is:	24.7423
+Number of tW-channel is:	222.074
+Number of tW-channel is:	197.975
+Number of t-channel is:	1519.57
+Number of t-channel is:	810.908
+data has 10304 entries ...
+Number of QCD is:	497.231
+Number of Z/gamma^{*}+jets is:	355.888
+Number of W+jets is:	2878.11
+Number of DiBoson is:	46.7941
+Number of DiBoson is:	4.51014
+Number of DiBoson is:	62.2094
+Number of t#bar{t} is:	3772.06
+Number of s-channel is:	57.7068
+Number of s-channel is:	24.7423
+Number of tW-channel is:	222.074
+Number of tW-channel is:	197.975
+Number of t-channel is:	1519.57
+Number of t-channel is:	810.908
+data has 10304 entries ...
+Directory number 43: antiEtaFwDTrue_Def
+QCD: weight = 0.220111, Integral = 815.291
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 815.291
+Directory number 43: antiEtaFwDTrue_Def
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 115.663
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 115.663
+Directory number 43: antiEtaFwDTrue_Def
+W+jets: weight = 1.83592, Integral = 6605.64
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 6605.64
+Directory number 43: antiEtaFwDTrue_Def
+DiBoson: weight = 1.83592, Integral = 791.282
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 791.282
+Directory number 43: antiEtaFwDTrue_Def
+DiBoson: weight = 1.83592, Integral = 330.466
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 330.466
+Directory number 43: antiEtaFwDTrue_Def
+DiBoson: weight = 1.83592, Integral = 1999.32
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 1999.32
+Directory number 43: antiEtaFwDTrue_Def
+t#bar{t}: weight = 1.03201, Integral = 20971.5
+t#bar{t}: weight = 1.03201, Integral = 38910.9
+t#bar{t}: weight = 1.03201, Integral = 59882.4
+Directory number 43: antiEtaFwDTrue_Def
+s-channel: weight = 1.03201, Integral = 1189.91
+s-channel: weight = 1.03201, Integral = 14165.4
+s-channel: weight = 1.03201, Integral = 15355.3
+Directory number 43: antiEtaFwDTrue_Def
+s-channel: weight = 1.03201, Integral = 672.871
+s-channel: weight = 1.03201, Integral = 7585.27
+s-channel: weight = 1.03201, Integral = 8258.14
+Directory number 43: antiEtaFwDTrue_Def
+tW-channel: weight = 1.03201, Integral = 144.481
+tW-channel: weight = 1.03201, Integral = 1071.23
+tW-channel: weight = 1.03201, Integral = 1215.71
+Directory number 43: antiEtaFwDTrue_Def
+tW-channel: weight = 1.03201, Integral = 130.033
+tW-channel: weight = 1.03201, Integral = 1067.1
+tW-channel: weight = 1.03201, Integral = 1197.13
+Directory number 43: antiEtaFwDTrue_Def
+t-channel: weight = 0.996356, Integral = 579.879
+t-channel: weight = 0.996356, Integral = 6757.29
+t-channel: weight = 0.996356, Integral = 7337.16
+Directory number 43: antiEtaFwDTrue_Def
+t-channel: weight = 0.996356, Integral = 266.027
+t-channel: weight = 0.996356, Integral = 3426.47
+t-channel: weight = 0.996356, Integral = 3692.49
+antiEtaFwDTrue_DefcosTheta integral: 107596,	data is 15921,	scale is 0.14797
+Number of QCD is:	809.568
+Number of Z/gamma^{*}+jets is:	113.827
+Number of W+jets is:	5920.85
+Number of DiBoson is:	723.353
+Number of DiBoson is:	308.435
+Number of DiBoson is:	1856.12
+Number of t#bar{t} is:	58179.6
+Number of s-channel is:	14785.6
+Number of s-channel is:	8034.2
+Number of tW-channel is:	1176.49
+Number of tW-channel is:	1164.11
+Number of t-channel is:	7262.44
+Number of t-channel is:	3650.65
+data has 15330 entries ...
+Number of QCD is:	809.568
+Number of Z/gamma^{*}+jets is:	113.827
+Number of W+jets is:	5920.85
+Number of DiBoson is:	723.353
+Number of DiBoson is:	308.435
+Number of DiBoson is:	1856.12
+Number of t#bar{t} is:	58179.6
+Number of s-channel is:	14785.6
+Number of s-channel is:	8034.2
+Number of tW-channel is:	1176.49
+Number of tW-channel is:	1164.11
+Number of t-channel is:	7262.44
+Number of t-channel is:	3650.65
+data has 15330 entries ...
+Directory number 44: HtCutTrue_Def
+QCD: weight = 0.220111, Integral = 1184.2
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 1184.2
+Directory number 44: HtCutTrue_Def
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 216.639
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 216.639
+Directory number 44: HtCutTrue_Def
+W+jets: weight = 1.83592, Integral = 11849
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 11849
+Directory number 44: HtCutTrue_Def
+DiBoson: weight = 1.83592, Integral = 1252.1
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 1252.1
+Directory number 44: HtCutTrue_Def
+DiBoson: weight = 1.83592, Integral = 600.346
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 600.346
+Directory number 44: HtCutTrue_Def
+DiBoson: weight = 1.83592, Integral = 3119.23
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 3119.23
+Directory number 44: HtCutTrue_Def
+t#bar{t}: weight = 1.03201, Integral = 32648.7
+t#bar{t}: weight = 1.03201, Integral = 54634.6
+t#bar{t}: weight = 1.03201, Integral = 87283.3
+Directory number 44: HtCutTrue_Def
+s-channel: weight = 1.03201, Integral = 2023.77
+s-channel: weight = 1.03201, Integral = 23651.6
+s-channel: weight = 1.03201, Integral = 25675.4
+Directory number 44: HtCutTrue_Def
+s-channel: weight = 1.03201, Integral = 1071.23
+s-channel: weight = 1.03201, Integral = 11957.9
+s-channel: weight = 1.03201, Integral = 13029.1
+Directory number 44: HtCutTrue_Def
+tW-channel: weight = 1.03201, Integral = 215.69
+tW-channel: weight = 1.03201, Integral = 1571.75
+tW-channel: weight = 1.03201, Integral = 1787.44
+Directory number 44: HtCutTrue_Def
+tW-channel: weight = 1.03201, Integral = 200.21
+tW-channel: weight = 1.03201, Integral = 1512.93
+tW-channel: weight = 1.03201, Integral = 1713.14
+Directory number 44: HtCutTrue_Def
+t-channel: weight = 0.996356, Integral = 1980.76
+t-channel: weight = 0.996356, Integral = 24407.7
+t-channel: weight = 0.996356, Integral = 26388.5
+Directory number 44: HtCutTrue_Def
+t-channel: weight = 0.996356, Integral = 890.742
+t-channel: weight = 0.996356, Integral = 10592.3
+t-channel: weight = 0.996356, Integral = 11483
+HtCutTrue_DefcosTheta integral: 185581,	data is 26473,	scale is 0.142649
+Number of QCD is:	1172.97
+Number of Z/gamma^{*}+jets is:	209.295
+Number of W+jets is:	10499.6
+Number of DiBoson is:	1136.44
+Number of DiBoson is:	558.12
+Number of DiBoson is:	2842.01
+Number of t#bar{t} is:	84275
+Number of s-channel is:	24551.5
+Number of s-channel is:	12611.2
+Number of tW-channel is:	1704.88
+Number of tW-channel is:	1638.83
+Number of t-channel is:	26079.6
+Number of t-channel is:	11354.5
+data has 25335 entries ...
+Number of QCD is:	1172.97
+Number of Z/gamma^{*}+jets is:	209.295
+Number of W+jets is:	10499.6
+Number of DiBoson is:	1136.44
+Number of DiBoson is:	558.12
+Number of DiBoson is:	2842.01
+Number of t#bar{t} is:	84275
+Number of s-channel is:	24551.5
+Number of s-channel is:	12611.2
+Number of tW-channel is:	1704.88
+Number of tW-channel is:	1638.83
+Number of t-channel is:	26079.6
+Number of t-channel is:	11354.5
+data has 25335 entries ...
+Directory number 45: antiHtCutTrue_Def
+QCD: weight = 0.220111, Integral = 133.827
+QCD: weight = 0.220111, Integral = 0
+QCD: weight = 0.220111, Integral = 133.827
+Directory number 45: antiHtCutTrue_Def
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 11.0155
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 0
+Z/gamma^{*}+jets: weight = 1.83592, Integral = 11.0155
+Directory number 45: antiHtCutTrue_Def
+W+jets: weight = 1.83592, Integral = 179.92
+W+jets: weight = 1.83592, Integral = 0
+W+jets: weight = 1.83592, Integral = 179.92
+Directory number 45: antiHtCutTrue_Def
+DiBoson: weight = 1.83592, Integral = 20.1951
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 20.1951
+Directory number 45: antiHtCutTrue_Def
+DiBoson: weight = 1.83592, Integral = 14.6874
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 14.6874
+Directory number 45: antiHtCutTrue_Def
+DiBoson: weight = 1.83592, Integral = 88.1242
+DiBoson: weight = 1.83592, Integral = 0
+DiBoson: weight = 1.83592, Integral = 88.1242
+Directory number 45: antiHtCutTrue_Def
+t#bar{t}: weight = 1.03201, Integral = 147.577
+t#bar{t}: weight = 1.03201, Integral = 219.818
+t#bar{t}: weight = 1.03201, Integral = 367.396
+Directory number 45: antiHtCutTrue_Def
+s-channel: weight = 1.03201, Integral = 18.5762
+s-channel: weight = 1.03201, Integral = 199.178
+s-channel: weight = 1.03201, Integral = 217.754
+Directory number 45: antiHtCutTrue_Def
+s-channel: weight = 1.03201, Integral = 12.3841
+s-channel: weight = 1.03201, Integral = 100.105
+s-channel: weight = 1.03201, Integral = 112.489
+Directory number 45: antiHtCutTrue_Def
+tW-channel: weight = 1.03201, Integral = 0
+tW-channel: weight = 1.03201, Integral = 11.3521
+tW-channel: weight = 1.03201, Integral = 11.3521
+Directory number 45: antiHtCutTrue_Def
+tW-channel: weight = 1.03201, Integral = 1.03201
+tW-channel: weight = 1.03201, Integral = 6.19206
+tW-channel: weight = 1.03201, Integral = 7.22407
+Directory number 45: antiHtCutTrue_Def
+t-channel: weight = 0.996356, Integral = 23.9125
+t-channel: weight = 0.996356, Integral = 255.067
+t-channel: weight = 0.996356, Integral = 278.98
+Directory number 45: antiHtCutTrue_Def
+t-channel: weight = 0.996356, Integral = 11.9563
+t-channel: weight = 0.996356, Integral = 115.577
+t-channel: weight = 0.996356, Integral = 127.534
+antiHtCutTrue_DefcosTheta integral: 1570.5,	data is 299,	scale is 0.190385
+Number of QCD is:	133.827
+Number of Z/gamma^{*}+jets is:	11.0155
+Number of W+jets is:	179.92
+Number of DiBoson is:	20.1951
+Number of DiBoson is:	14.6874
+Number of DiBoson is:	88.1242
+Number of t#bar{t} is:	367.396
+Number of s-channel is:	217.754
+Number of s-channel is:	112.489
+Number of tW-channel is:	11.3521
+Number of tW-channel is:	7.22407
+Number of t-channel is:	278.98
+Number of t-channel is:	127.534
+data has 299 entries ...
+Number of QCD is:	133.827
+Number of Z/gamma^{*}+jets is:	11.0155
+Number of W+jets is:	179.92
+Number of DiBoson is:	20.1951
+Number of DiBoson is:	14.6874
+Number of DiBoson is:	88.1242
+Number of t#bar{t} is:	367.396
+Number of s-channel is:	217.754
+Number of s-channel is:	112.489
+Number of tW-channel is:	11.3521
+Number of tW-channel is:	7.22407
+Number of t-channel is:	278.98
+Number of t-channel is:	127.534
+data has 299 entries ...
+ --- ../../forStack/mumet/TreesMu_QCD_plots.root
+ --- ../../forStack/mumet/TreesMu_ZJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WW_plots.root
+ --- ../../forStack/mumet/TreesMu_ZZ_plots.root
+ --- ../../forStack/mumet/TreesMu_WZ_plots.root
+ --- ../../forStack/mumet/TreesMu_TTBar_plots.root
+ --- ../../forStack/mumet/TreesMu_SChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_SbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_QCD_plots.root
+ --- ../../forStack/mumet/TreesMu_ZJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WW_plots.root
+ --- ../../forStack/mumet/TreesMu_ZZ_plots.root
+ --- ../../forStack/mumet/TreesMu_WZ_plots.root
+ --- ../../forStack/mumet/TreesMu_TTBar_plots.root
+ --- ../../forStack/mumet/TreesMu_SChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_SbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_QCD_plots.root
+ --- ../../forStack/mumet/TreesMu_ZJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WW_plots.root
+ --- ../../forStack/mumet/TreesMu_ZZ_plots.root
+ --- ../../forStack/mumet/TreesMu_WZ_plots.root
+ --- ../../forStack/mumet/TreesMu_TTBar_plots.root
+ --- ../../forStack/mumet/TreesMu_SChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_SbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_QCD_plots.root
+ --- ../../forStack/mumet/TreesMu_ZJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WW_plots.root
+ --- ../../forStack/mumet/TreesMu_ZZ_plots.root
+ --- ../../forStack/mumet/TreesMu_WZ_plots.root
+ --- ../../forStack/mumet/TreesMu_TTBar_plots.root
+ --- ../../forStack/mumet/TreesMu_SChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_SbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_QCD_plots.root
+ --- ../../forStack/mumet/TreesMu_ZJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WW_plots.root
+ --- ../../forStack/mumet/TreesMu_ZZ_plots.root
+ --- ../../forStack/mumet/TreesMu_WZ_plots.root
+ --- ../../forStack/mumet/TreesMu_TTBar_plots.root
+ --- ../../forStack/mumet/TreesMu_SChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_SbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_QCD_plots.root
+ --- ../../forStack/mumet/TreesMu_ZJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WW_plots.root
+ --- ../../forStack/mumet/TreesMu_ZZ_plots.root
+ --- ../../forStack/mumet/TreesMu_WZ_plots.root
+ --- ../../forStack/mumet/TreesMu_TTBar_plots.root
+ --- ../../forStack/mumet/TreesMu_SChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_SbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_QCD_plots.root
+ --- ../../forStack/mumet/TreesMu_ZJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WJets_plots.root
+ --- ../../forStack/mumet/TreesMu_WW_plots.root
+ --- ../../forStack/mumet/TreesMu_ZZ_plots.root
+ --- ../../forStack/mumet/TreesMu_WZ_plots.root
+ --- ../../forStack/mumet/TreesMu_TTBar_plots.root
+ --- ../../forStack/mumet/TreesMu_SChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_SbarChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarWChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TChannel_plots.root
+ --- ../../forStack/mumet/TreesMu_TbarChannel_plots.root
+here

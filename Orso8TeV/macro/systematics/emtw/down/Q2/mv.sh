@@ -1,0 +1,16 @@
+
+mv TreesEle_die_TTBar_Q2Down_RW.root	TreesEle_die_TTBar_RW.root
+mv TreesEle_dimu_TTBar_Q2Down_RW.root	TreesEle_dimu_TTBar_RW.root
+mv TreesEle_disemitau_TTBar_Q2Down_RW.root	TreesEle_disemitau_TTBar_RW.root
+mv TreesEle_ehad_TTBar_Q2Down_RW.root	TreesEle_ehad_TTBar_RW.root
+mv TreesEle_etau_TTBar_Q2Down_RW.root	TreesEle_etau_TTBar_RW.root
+mv TreesEle_mue_TTBar_Q2Down_RW.root	TreesEle_mue_TTBar_RW.root
+mv TreesEle_muhad_TTBar_Q2Down_RW.root	TreesEle_muhad_TTBar_RW.root
+mv TreesEle_mutau_TTBar_Q2Down_RW.root	TreesEle_mutau_TTBar_RW.root
+
+mv TreesEle_TbarChannel_Q2Down_RW.root	TreesEle_TbarChannel_RW.root
+
+mv TreesEle_TChannel_Q2Down_RW.root	TreesEle_TChannel_RW.root
+
+
+

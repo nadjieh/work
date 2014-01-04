@@ -1,0 +1,12 @@
+dirs.puch_back("btag"); 
+dirs.puch_back("ctag"); 
+dirs.puch_back("JER"); 
+dirs.puch_back("JES"); 
+dirs.puch_back("lumi"); 
+dirs.puch_back("mass"); 
+dirs.puch_back("MET"); 
+dirs.puch_back("pu"); 
+dirs.puch_back("Q2"); 
+dirs.puch_back("ewknorm"); 
+dirs.puch_back("qcdnorm"); 
+dirs.puch_back("tt");

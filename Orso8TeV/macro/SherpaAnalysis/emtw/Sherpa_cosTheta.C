@@ -1,0 +1,101 @@
+{
+//=========Macro generated from canvas: Canvas_1/Canvas_1
+//=========  (Thu Nov 21 12:02:49 2013) by ROOT version5.32/00
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",434,76,700,502);
+   Canvas_1->Range(-1.25,47479.76,1.25,136986.3);
+   Canvas_1->SetFillColor(0);
+   Canvas_1->SetBorderMode(0);
+   Canvas_1->SetBorderSize(2);
+   Canvas_1->SetFrameBorderMode(0);
+   Canvas_1->SetFrameBorderMode(0);
+   
+   TH1D *Default_allWcosTheta = new TH1D("Default_allWcosTheta","Default_allW: cos(#theta)",20,-1,1);
+   Default_allWcosTheta->SetBinContent(1,62077.06);
+   Default_allWcosTheta->SetBinContent(2,60365.01);
+   Default_allWcosTheta->SetBinContent(3,66333.63);
+   Default_allWcosTheta->SetBinContent(4,72225.13);
+   Default_allWcosTheta->SetBinContent(5,76311.57);
+   Default_allWcosTheta->SetBinContent(6,81941);
+   Default_allWcosTheta->SetBinContent(7,83357.71);
+   Default_allWcosTheta->SetBinContent(8,86432.63);
+   Default_allWcosTheta->SetBinContent(9,87754.46);
+   Default_allWcosTheta->SetBinContent(10,90455.43);
+   Default_allWcosTheta->SetBinContent(11,94323.55);
+   Default_allWcosTheta->SetBinContent(12,96212.83);
+   Default_allWcosTheta->SetBinContent(13,99586.34);
+   Default_allWcosTheta->SetBinContent(14,101994.9);
+   Default_allWcosTheta->SetBinContent(15,103370.1);
+   Default_allWcosTheta->SetBinContent(16,107062.3);
+   Default_allWcosTheta->SetBinContent(17,109715.7);
+   Default_allWcosTheta->SetBinContent(18,112787.5);
+   Default_allWcosTheta->SetBinContent(19,118180.3);
+   Default_allWcosTheta->SetBinContent(20,123632.2);
+   Default_allWcosTheta->SetBinError(1,696.7465);
+   Default_allWcosTheta->SetBinError(2,687.1979);
+   Default_allWcosTheta->SetBinError(3,721.7423);
+   Default_allWcosTheta->SetBinError(4,753.0058);
+   Default_allWcosTheta->SetBinError(5,774.6646);
+   Default_allWcosTheta->SetBinError(6,804.1022);
+   Default_allWcosTheta->SetBinError(7,810.9672);
+   Default_allWcosTheta->SetBinError(8,827.5585);
+   Default_allWcosTheta->SetBinError(9,833.2533);
+   Default_allWcosTheta->SetBinError(10,845.4321);
+   Default_allWcosTheta->SetBinError(11,865.5006);
+   Default_allWcosTheta->SetBinError(12,874.0768);
+   Default_allWcosTheta->SetBinError(13,890.5789);
+   Default_allWcosTheta->SetBinError(14,900.1579);
+   Default_allWcosTheta->SetBinError(15,906.2645);
+   Default_allWcosTheta->SetBinError(16,924.2725);
+   Default_allWcosTheta->SetBinError(17,936.2498);
+   Default_allWcosTheta->SetBinError(18,948.0134);
+   Default_allWcosTheta->SetBinError(19,972.5583);
+   Default_allWcosTheta->SetBinError(20,993.6374);
+   Default_allWcosTheta->SetEntries(262769);
+   
+   TPaveStats *ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("Default_allWcosTheta");
+   text->SetTextSize(0.0368);
+   text = ptstats->AddText("Entries = 262769 ");
+   text = ptstats->AddText("Mean  = 0.1118");
+   text = ptstats->AddText("RMS   = 0.5649");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   Default_allWcosTheta->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(Default_allWcosTheta);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   Default_allWcosTheta->SetLineColor(ci);
+   Default_allWcosTheta->GetXaxis()->SetTitle("cos(#theta*)");
+   Default_allWcosTheta->GetXaxis()->SetLabelFont(42);
+   Default_allWcosTheta->GetXaxis()->SetLabelSize(0.035);
+   Default_allWcosTheta->GetXaxis()->SetTitleSize(0.035);
+   Default_allWcosTheta->GetXaxis()->SetTitleFont(42);
+   Default_allWcosTheta->GetYaxis()->SetLabelFont(42);
+   Default_allWcosTheta->GetYaxis()->SetLabelSize(0.035);
+   Default_allWcosTheta->GetYaxis()->SetTitleSize(0.035);
+   Default_allWcosTheta->GetYaxis()->SetTitleFont(42);
+   Default_allWcosTheta->GetZaxis()->SetLabelFont(42);
+   Default_allWcosTheta->GetZaxis()->SetLabelSize(0.035);
+   Default_allWcosTheta->GetZaxis()->SetTitleSize(0.035);
+   Default_allWcosTheta->GetZaxis()->SetTitleFont(42);
+   Default_allWcosTheta->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.3276437,0.9342405,0.6723563,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("Default_allW: cos(#theta)");
+   pt->Draw();
+   Canvas_1->Modified();
+   Canvas_1->cd();
+   Canvas_1->SetSelected(Canvas_1);
+}

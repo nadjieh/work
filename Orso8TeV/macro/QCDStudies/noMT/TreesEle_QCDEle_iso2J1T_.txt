@@ -1,0 +1,20 @@
+START
+file number 1: ~/work/samples/postMoriond/Aug2013/QCDEle.root
+I am in tree = 0
+inDirect
+treeName: QCDEle_2J_1T_noSyst
+QCDEle_2J_1T_noSyst	0x3059200
+0x3059200 tree afterward
+tree name: QCDEle_2J_1T_noSyst
+before closing file input /home/nadjieh/work/samples/postMoriond/Aug2013/QCDEle.root
+before endjob
+0
+0
+0
+24
+14
+nW+: 15	nW-: 9
+SR+8
+SR-3
+SB+7
+SB-6

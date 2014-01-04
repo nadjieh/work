@@ -1,0 +1,12 @@
+cd btag; source muOneDfit.sh; cd -;
+cd ctag; source muOneDfit.sh; cd -;
+cd JER; source muOneDfit.sh; cd -;
+cd JES; source muOneDfit.sh; cd -;
+cd lumi; source muOneDfit.sh; cd -;
+cd mass; source muOneDfit.sh; cd -;
+cd MET; source muOneDfit.sh; cd -;
+cd pu; source muOneDfit.sh; cd -;
+cd Q2; source muOneDfit.sh; cd -;
+cd tt; source muOneDfit.sh; cd -;
+cd ewknorm; source muOneDfit.sh; cd -;
+cd qcdnorm; source muOneDfit.sh; cd -;

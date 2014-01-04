@@ -1,0 +1,15 @@
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBENu_LVLT_0010  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBENu_LVLT_0010_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBENu_LVLT_unphys  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBENu_LVLT_unphys_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBENu_LVRV_0100  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBENu_LVRV_0100_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBENu_LVRV_unphys  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBENu_LVRV_unphys_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBENu  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBENu_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBMuNu_LVLT_0010  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBMuNu_LVLT_0010_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBMuNu_LVLT_unphys  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBMuNu_LVLT_unphys_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBMuNu_LVRV_0100  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBMuNu_LVRV_0100_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBMuNu_LVRV_unphys  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBMuNu_LVRV_unphys_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBMuNu  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBMuNu_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBTauNu_LVLT_0010  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBTauNu_LVLT_0010_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBTauNu_LVLT_unphys  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBTauNu_LVLT_unphys_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBTauNu_LVRV_0100  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBTauNu_LVRV_0100_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBTauNu_LVRV_unphys  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBTauNu_LVRV_unphys_Ele.txt
+./SevenTeVOrsoHistogramCreator dirName TreesEle input TToBTauNu  METResolFileName /home/nadjieh/work/AnalysisClasses/ToyAnalysis/macro/METresolutions.root isData no > TToBTauNu_Ele.txt

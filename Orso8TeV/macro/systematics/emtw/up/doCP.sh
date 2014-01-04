@@ -1,0 +1,70 @@
+cp ../../up/btag/eDDOneDfit.sh btag;
+cp ../../up/ctag/eDDOneDfit.sh  ctag;
+cp ../../up/JER/eDDOneDfit.sh JER;
+cp ../../up/JES/eDDOneDfit.sh JES;
+cp ../../up/lumi/eDDOneDfit.sh lumi;
+cp ../../up/mass/eDDOneDfit.sh mass;
+cp ../../up/MET/eDDOneDfit.sh MET;
+cp ../../up/pu/eDDOneDfit.sh pu;
+cp ../../up/Q2/eDDOneDfit.sh Q2;
+cp ../../up/tt/eDDOneDfit.sh tt;
+cp ../../up/qcdnorm/eDDOneDfit.sh qcdnorm;
+cp ../../up/ewknorm/eDDOneDfit.sh ewknorm;
+cp ../../up/t/eDDOneDfit.sh t;
+cp ../../up/cwshape/eDDOneDfit.sh cwshape;
+cp ../../up/bwshape/eDDOneDfit.sh bwshape;
+cp ../../up/generator/eDDOneDfit.sh generator;
+
+
+cp ../../up/btag/eMGOneDfit.sh btag;
+cp ../../up/ctag/eMGOneDfit.sh  ctag;
+cp ../../up/JER/eMGOneDfit.sh JER;
+cp ../../up/JES/eMGOneDfit.sh JES;
+cp ../../up/lumi/eMGOneDfit.sh lumi;
+cp ../../up/mass/eMGOneDfit.sh mass;
+cp ../../up/MET/eMGOneDfit.sh MET;
+cp ../../up/pu/eMGOneDfit.sh pu;
+cp ../../up/Q2/eMGOneDfit.sh Q2;
+cp ../../up/tt/eMGOneDfit.sh tt;
+cp ../../up/qcdnorm/eMGOneDfit.sh qcdnorm;
+cp ../../up/ewknorm/eMGOneDfit.sh ewknorm;
+cp ../../up/t/eMGOneDfit.sh t;
+cp ../../up/cwshape/eMGOneDfit.sh cwshape;
+cp ../../up/bwshape/eMGOneDfit.sh bwshape;
+cp ../../up/generator/eMGOneDfit.sh generator;
+
+
+cp ../../up/btag/muDDOneDfit.sh btag;
+cp ../../up/ctag/muDDOneDfit.sh  ctag;
+cp ../../up/JER/muDDOneDfit.sh JER;
+cp ../../up/JES/muDDOneDfit.sh JES;
+cp ../../up/lumi/muDDOneDfit.sh lumi;
+cp ../../up/mass/muDDOneDfit.sh mass;
+cp ../../up/MET/muDDOneDfit.sh MET;
+cp ../../up/pu/muDDOneDfit.sh pu;
+cp ../../up/Q2/muDDOneDfit.sh Q2;
+cp ../../up/tt/muDDOneDfit.sh tt;
+cp ../../up/qcdnorm/muDDOneDfit.sh qcdnorm;
+cp ../../up/ewknorm/muDDOneDfit.sh ewknorm;
+cp ../../up/t/muDDOneDfit.sh t;
+cp ../../up/cwshape/muDDOneDfit.sh cwshape;
+cp ../../up/bwshape/muDDOneDfit.sh bwshape;
+cp ../../up/generator/muDDOneDfit.sh generator;
+
+
+cp ../../up/btag/muMGOneDfit.sh btag;
+cp ../../up/ctag/muMGOneDfit.sh  ctag;
+cp ../../up/JER/muMGOneDfit.sh JER;
+cp ../../up/JES/muMGOneDfit.sh JES;
+cp ../../up/lumi/muMGOneDfit.sh lumi;
+cp ../../up/mass/muMGOneDfit.sh mass;
+cp ../../up/MET/muMGOneDfit.sh MET;
+cp ../../up/pu/muMGOneDfit.sh pu;
+cp ../../up/Q2/muMGOneDfit.sh Q2;
+cp ../../up/tt/muMGOneDfit.sh tt;
+cp ../../up/qcdnorm/muMGOneDfit.sh qcdnorm;
+cp ../../up/ewknorm/muMGOneDfit.sh ewknorm;
+cp ../../up/t/muMGOneDfit.sh t;
+cp ../../up/cwshape/muMGOneDfit.sh cwshape;
+cp ../../up/bwshape/muMGOneDfit.sh bwshape;
+cp ../../up/generator/muMGOneDfit.sh generator;

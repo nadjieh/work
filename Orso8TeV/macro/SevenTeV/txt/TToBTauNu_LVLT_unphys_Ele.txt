@@ -1,0 +1,2534 @@
+START
+file number 1: ~/work/samples/postMoriond/July2013/TToBTauNu_LVLT_unphys.root
+Sample is: TToBTauNu
+I am in tree = 0
+inDirect
+treeName: TToBTauNu_noSyst
+TToBTauNu_noSyst	0x3072930
+0x3072930 tree afterward
+chain: 0x3072930
+tree name: TToBTauNu_noSyst
+New event: 0--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1--------------------
+New event: 2--------------------
+New event: 3--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 4--------------------
+New event: 5--------------------
+New event: 6--------------------
+New event: 7--------------------
+New event: 8--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 9--------------------
+New event: 10--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 11--------------------
+New event: 12--------------------
+New event: 13--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 14--------------------
+New event: 15--------------------
+New event: 16--------------------
+New event: 17--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 18--------------------
+New event: 19--------------------
+New event: 20--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 21--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 22--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 23--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 24--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 25--------------------
+New event: 26--------------------
+New event: 27--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 28--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 29--------------------
+New event: 30--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 31--------------------
+New event: 32--------------------
+New event: 33--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 34--------------------
+New event: 35--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 36--------------------
+New event: 37--------------------
+New event: 38--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 39--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 40--------------------
+New event: 41--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 42--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 43--------------------
+New event: 44--------------------
+New event: 45--------------------
+New event: 46--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 47--------------------
+New event: 48--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 49--------------------
+New event: 50--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 51--------------------
+New event: 52--------------------
+New event: 53--------------------
+New event: 54--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 55--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 56--------------------
+New event: 57--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 58--------------------
+New event: 59--------------------
+New event: 60--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 61--------------------
+New event: 62--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 63--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 64--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 65--------------------
+New event: 66--------------------
+New event: 67--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 68--------------------
+New event: 69--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 70--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 71--------------------
+New event: 72--------------------
+New event: 73--------------------
+New event: 74--------------------
+New event: 75--------------------
+New event: 76--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 77--------------------
+New event: 78--------------------
+New event: 79--------------------
+New event: 80--------------------
+New event: 81--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 82--------------------
+New event: 83--------------------
+New event: 84--------------------
+New event: 85--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 86--------------------
+New event: 87--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 88--------------------
+New event: 89--------------------
+New event: 90--------------------
+New event: 91--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 92--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 93--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 94--------------------
+New event: 95--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 96--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 97--------------------
+New event: 98--------------------
+New event: 99--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 100--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 101--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 102--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 103--------------------
+New event: 104--------------------
+New event: 105--------------------
+New event: 106--------------------
+New event: 107--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 108--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 109--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 110--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 111--------------------
+New event: 112--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 113--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 114--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 115--------------------
+New event: 116--------------------
+New event: 117--------------------
+New event: 118--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 119--------------------
+New event: 120--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 121--------------------
+New event: 122--------------------
+New event: 123--------------------
+New event: 124--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 125--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 126--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 127--------------------
+New event: 128--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 129--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 130--------------------
+New event: 131--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 132--------------------
+New event: 133--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 134--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 135--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 136--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 137--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 138--------------------
+New event: 139--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 140--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 141--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 142--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 143--------------------
+New event: 144--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 145--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 146--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 147--------------------
+New event: 148--------------------
+New event: 149--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 150--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 151--------------------
+New event: 152--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 153--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 154--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 155--------------------
+New event: 156--------------------
+New event: 157--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 158--------------------
+New event: 159--------------------
+New event: 160--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 161--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 162--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 163--------------------
+New event: 164--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 165--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 166--------------------
+New event: 167--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 168--------------------
+New event: 169--------------------
+New event: 170--------------------
+New event: 171--------------------
+New event: 172--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 173--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 174--------------------
+New event: 175--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 176--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 177--------------------
+New event: 178--------------------
+New event: 179--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 180--------------------
+New event: 181--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 182--------------------
+New event: 183--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 184--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 185--------------------
+New event: 186--------------------
+New event: 187--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 188--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 189--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 190--------------------
+New event: 191--------------------
+New event: 192--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 193--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 194--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 195--------------------
+New event: 196--------------------
+New event: 197--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 198--------------------
+New event: 199--------------------
+New event: 200--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 201--------------------
+New event: 202--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 203--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 204--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 205--------------------
+New event: 206--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 207--------------------
+New event: 208--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 209--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 210--------------------
+New event: 211--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 212--------------------
+New event: 213--------------------
+New event: 214--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 215--------------------
+New event: 216--------------------
+New event: 217--------------------
+New event: 218--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 219--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 220--------------------
+New event: 221--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 222--------------------
+New event: 223--------------------
+New event: 224--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 225--------------------
+New event: 226--------------------
+New event: 227--------------------
+New event: 228--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 229--------------------
+New event: 230--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 231--------------------
+New event: 232--------------------
+New event: 233--------------------
+New event: 234--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 235--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 236--------------------
+New event: 237--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 238--------------------
+New event: 239--------------------
+New event: 240--------------------
+New event: 241--------------------
+New event: 242--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 243--------------------
+New event: 244--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 245--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 246--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 247--------------------
+New event: 248--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+MET does not have solution even after mW smearing.
+The solution is returned as if Delta was zero ...
+MET does not have solution even after MET smearing.
+The solution is returned as if Delta was zero ...
+New event: 249--------------------
+New event: 250--------------------
+New event: 251--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 252--------------------
+New event: 253--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 254--------------------
+New event: 255--------------------
+New event: 256--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 257--------------------
+New event: 258--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 259--------------------
+New event: 260--------------------
+New event: 261--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 262--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 263--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 264--------------------
+New event: 265--------------------
+New event: 266--------------------
+New event: 267--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 268--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 269--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 270--------------------
+New event: 271--------------------
+New event: 272--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 273--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 274--------------------
+New event: 275--------------------
+New event: 276--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 277--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 278--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 279--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 280--------------------
+New event: 281--------------------
+New event: 282--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 283--------------------
+New event: 284--------------------
+New event: 285--------------------
+New event: 286--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 287--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 288--------------------
+New event: 289--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 290--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 291--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 292--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 293--------------------
+New event: 294--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 295--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 296--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 297--------------------
+New event: 298--------------------
+New event: 299--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 300--------------------
+New event: 301--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 302--------------------
+New event: 303--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 304--------------------
+New event: 305--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 306--------------------
+New event: 307--------------------
+New event: 308--------------------
+New event: 309--------------------
+New event: 310--------------------
+New event: 311--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 312--------------------
+New event: 313--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 314--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 315--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 316--------------------
+New event: 317--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 318--------------------
+New event: 319--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 320--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 321--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 322--------------------
+New event: 323--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 324--------------------
+New event: 325--------------------
+New event: 326--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 327--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 328--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 329--------------------
+New event: 330--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 331--------------------
+New event: 332--------------------
+New event: 333--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 334--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 335--------------------
+New event: 336--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 337--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 338--------------------
+New event: 339--------------------
+New event: 340--------------------
+New event: 341--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 342--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 343--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 344--------------------
+New event: 345--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 346--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 347--------------------
+New event: 348--------------------
+New event: 349--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 350--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 351--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 352--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 353--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 354--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 355--------------------
+New event: 356--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 357--------------------
+New event: 358--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 359--------------------
+New event: 360--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 361--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 362--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 363--------------------
+New event: 364--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 365--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 366--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 367--------------------
+New event: 368--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 369--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 370--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 371--------------------
+New event: 372--------------------
+New event: 373--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 374--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 375--------------------
+New event: 376--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 377--------------------
+New event: 378--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 379--------------------
+New event: 380--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 381--------------------
+New event: 382--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 383--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 384--------------------
+New event: 385--------------------
+New event: 386--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 387--------------------
+New event: 388--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 389--------------------
+New event: 390--------------------
+New event: 391--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 392--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 393--------------------
+New event: 394--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 395--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 396--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 397--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 398--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 399--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 400--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 401--------------------
+New event: 402--------------------
+New event: 403--------------------
+New event: 404--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 405--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 406--------------------
+New event: 407--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 408--------------------
+New event: 409--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 410--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 411--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 412--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 413--------------------
+New event: 414--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 415--------------------
+New event: 416--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 417--------------------
+New event: 418--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 419--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 420--------------------
+New event: 421--------------------
+New event: 422--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 423--------------------
+New event: 424--------------------
+New event: 425--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 426--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 427--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 428--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 429--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 430--------------------
+New event: 431--------------------
+New event: 432--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 433--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 434--------------------
+New event: 435--------------------
+New event: 436--------------------
+New event: 437--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 438--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 439--------------------
+New event: 440--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 441--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 442--------------------
+New event: 443--------------------
+New event: 444--------------------
+New event: 445--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 446--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 447--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 448--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 449--------------------
+New event: 450--------------------
+New event: 451--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 452--------------------
+New event: 453--------------------
+New event: 454--------------------
+New event: 455--------------------
+New event: 456--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 457--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 458--------------------
+New event: 459--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 460--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 461--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 462--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 463--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 464--------------------
+New event: 465--------------------
+New event: 466--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 467--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 468--------------------
+New event: 469--------------------
+New event: 470--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 471--------------------
+New event: 472--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 473--------------------
+New event: 474--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 475--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 476--------------------
+New event: 477--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 478--------------------
+New event: 479--------------------
+New event: 480--------------------
+New event: 481--------------------
+New event: 482--------------------
+New event: 483--------------------
+New event: 484--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 485--------------------
+New event: 486--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 487--------------------
+New event: 488--------------------
+New event: 489--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 490--------------------
+New event: 491--------------------
+New event: 492--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 493--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 494--------------------
+New event: 495--------------------
+New event: 496--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 497--------------------
+New event: 498--------------------
+New event: 499--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 500--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 501--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 502--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 503--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 504--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 505--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 506--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 507--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 508--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 509--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 510--------------------
+New event: 511--------------------
+New event: 512--------------------
+New event: 513--------------------
+New event: 514--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 515--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 516--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 517--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 518--------------------
+New event: 519--------------------
+New event: 520--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 521--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 522--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 523--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 524--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 525--------------------
+New event: 526--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 527--------------------
+New event: 528--------------------
+New event: 529--------------------
+New event: 530--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 531--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 532--------------------
+New event: 533--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 534--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 535--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 536--------------------
+New event: 537--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 538--------------------
+New event: 539--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 540--------------------
+New event: 541--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 542--------------------
+New event: 543--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 544--------------------
+New event: 545--------------------
+New event: 546--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 547--------------------
+New event: 548--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 549--------------------
+New event: 550--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 551--------------------
+New event: 552--------------------
+New event: 553--------------------
+New event: 554--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 555--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 556--------------------
+New event: 557--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 558--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 559--------------------
+New event: 560--------------------
+New event: 561--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 562--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 563--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 564--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 565--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 566--------------------
+New event: 567--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 568--------------------
+New event: 569--------------------
+New event: 570--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 571--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 572--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 573--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 574--------------------
+New event: 575--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 576--------------------
+New event: 577--------------------
+New event: 578--------------------
+New event: 579--------------------
+New event: 580--------------------
+New event: 581--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 582--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 583--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 584--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 585--------------------
+New event: 586--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 587--------------------
+New event: 588--------------------
+New event: 589--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 590--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 591--------------------
+New event: 592--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 593--------------------
+New event: 594--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 595--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 596--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 597--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 598--------------------
+New event: 599--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 600--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 601--------------------
+New event: 602--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 603--------------------
+New event: 604--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 605--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 606--------------------
+New event: 607--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 608--------------------
+New event: 609--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 610--------------------
+New event: 611--------------------
+New event: 612--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 613--------------------
+New event: 614--------------------
+New event: 615--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 616--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 617--------------------
+New event: 618--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 619--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 620--------------------
+New event: 621--------------------
+New event: 622--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 623--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 624--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 625--------------------
+New event: 626--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 627--------------------
+New event: 628--------------------
+New event: 629--------------------
+New event: 630--------------------
+New event: 631--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 632--------------------
+New event: 633--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 634--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 635--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 636--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 637--------------------
+New event: 638--------------------
+New event: 639--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 640--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 641--------------------
+New event: 642--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 643--------------------
+New event: 644--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 645--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 646--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 647--------------------
+New event: 648--------------------
+New event: 649--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 650--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 651--------------------
+New event: 652--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 653--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 654--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 655--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 656--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 657--------------------
+New event: 658--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 659--------------------
+New event: 660--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 661--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 662--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 663--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 664--------------------
+New event: 665--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 666--------------------
+New event: 667--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 668--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 669--------------------
+New event: 670--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 671--------------------
+New event: 672--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 673--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 674--------------------
+New event: 675--------------------
+New event: 676--------------------
+New event: 677--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 678--------------------
+New event: 679--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 680--------------------
+New event: 681--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 682--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 683--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 684--------------------
+New event: 685--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 686--------------------
+New event: 687--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 688--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 689--------------------
+New event: 690--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 691--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 692--------------------
+New event: 693--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 694--------------------
+New event: 695--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 696--------------------
+New event: 697--------------------
+New event: 698--------------------
+New event: 699--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 700--------------------
+New event: 701--------------------
+New event: 702--------------------
+New event: 703--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 704--------------------
+New event: 705--------------------
+New event: 706--------------------
+New event: 707--------------------
+New event: 708--------------------
+New event: 709--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 710--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 711--------------------
+New event: 712--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 713--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 714--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 715--------------------
+New event: 716--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 717--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 718--------------------
+New event: 719--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 720--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 721--------------------
+New event: 722--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 723--------------------
+New event: 724--------------------
+New event: 725--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 726--------------------
+New event: 727--------------------
+New event: 728--------------------
+New event: 729--------------------
+New event: 730--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 731--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 732--------------------
+New event: 733--------------------
+New event: 734--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 735--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 736--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 737--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 738--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 739--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 740--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 741--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 742--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 743--------------------
+New event: 744--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 745--------------------
+New event: 746--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 747--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 748--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 749--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 750--------------------
+New event: 751--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 752--------------------
+New event: 753--------------------
+New event: 754--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 755--------------------
+New event: 756--------------------
+New event: 757--------------------
+New event: 758--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 759--------------------
+New event: 760--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 761--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 762--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 763--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 764--------------------
+New event: 765--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 766--------------------
+New event: 767--------------------
+New event: 768--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 769--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 770--------------------
+New event: 771--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 772--------------------
+New event: 773--------------------
+New event: 774--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 775--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 776--------------------
+New event: 777--------------------
+New event: 778--------------------
+New event: 779--------------------
+New event: 780--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 781--------------------
+New event: 782--------------------
+New event: 783--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 784--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 785--------------------
+New event: 786--------------------
+New event: 787--------------------
+New event: 788--------------------
+New event: 789--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 790--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 791--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 792--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 793--------------------
+New event: 794--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 795--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 796--------------------
+New event: 797--------------------
+New event: 798--------------------
+New event: 799--------------------
+New event: 800--------------------
+New event: 801--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 802--------------------
+New event: 803--------------------
+New event: 804--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 805--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 806--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 807--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 808--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 809--------------------
+New event: 810--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 811--------------------
+New event: 812--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 813--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 814--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 815--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 816--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 817--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 818--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 819--------------------
+New event: 820--------------------
+New event: 821--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 822--------------------
+New event: 823--------------------
+New event: 824--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 825--------------------
+New event: 826--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 827--------------------
+New event: 828--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 829--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 830--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 831--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 832--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 833--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 834--------------------
+New event: 835--------------------
+New event: 836--------------------
+New event: 837--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 838--------------------
+New event: 839--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 840--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 841--------------------
+New event: 842--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 843--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 844--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 845--------------------
+New event: 846--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 847--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 848--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 849--------------------
+New event: 850--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 851--------------------
+New event: 852--------------------
+New event: 853--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 854--------------------
+New event: 855--------------------
+New event: 856--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 857--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 858--------------------
+New event: 859--------------------
+New event: 860--------------------
+New event: 861--------------------
+New event: 862--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 863--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 864--------------------
+New event: 865--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 866--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 867--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 868--------------------
+New event: 869--------------------
+New event: 870--------------------
+New event: 871--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 872--------------------
+New event: 873--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 874--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 875--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 876--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 877--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 878--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 879--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 880--------------------
+New event: 881--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 882--------------------
+New event: 883--------------------
+New event: 884--------------------
+New event: 885--------------------
+New event: 886--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 887--------------------
+New event: 888--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 889--------------------
+New event: 890--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 891--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 892--------------------
+New event: 893--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 894--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 895--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 896--------------------
+New event: 897--------------------
+New event: 898--------------------
+New event: 899--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 900--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 901--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 902--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 903--------------------
+New event: 904--------------------
+New event: 905--------------------
+New event: 906--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 907--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 908--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 909--------------------
+New event: 910--------------------
+New event: 911--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 912--------------------
+New event: 913--------------------
+New event: 914--------------------
+New event: 915--------------------
+New event: 916--------------------
+New event: 917--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 918--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 919--------------------
+New event: 920--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 921--------------------
+New event: 922--------------------
+New event: 923--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 924--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 925--------------------
+New event: 926--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 927--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 928--------------------
+New event: 929--------------------
+New event: 930--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 931--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 932--------------------
+New event: 933--------------------
+New event: 934--------------------
+New event: 935--------------------
+New event: 936--------------------
+New event: 937--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 938--------------------
+New event: 939--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 940--------------------
+New event: 941--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 942--------------------
+New event: 943--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 944--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 945--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 946--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 947--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 948--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 949--------------------
+New event: 950--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 951--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 952--------------------
+New event: 953--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 954--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 955--------------------
+New event: 956--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 957--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 958--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 959--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 960--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 961--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 962--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 963--------------------
+New event: 964--------------------
+New event: 965--------------------
+New event: 966--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 967--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 968--------------------
+New event: 969--------------------
+New event: 970--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 971--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 972--------------------
+New event: 973--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 974--------------------
+New event: 975--------------------
+New event: 976--------------------
+New event: 977--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 978--------------------
+New event: 979--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 980--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 981--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 982--------------------
+New event: 983--------------------
+New event: 984--------------------
+New event: 985--------------------
+New event: 986--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 987--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 988--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 989--------------------
+New event: 990--------------------
+New event: 991--------------------
+New event: 992--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 993--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 994--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 995--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 996--------------------
+New event: 997--------------------
+New event: 998--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 999--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1000--------------------
+New event: 1001--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1002--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1003--------------------
+New event: 1004--------------------
+New event: 1005--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1006--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1007--------------------
+New event: 1008--------------------
+New event: 1009--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1010--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1011--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1012--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1013--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1014--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1015--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1016--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1017--------------------
+New event: 1018--------------------
+New event: 1019--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1020--------------------
+New event: 1021--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1022--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1023--------------------
+New event: 1024--------------------
+New event: 1025--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1026--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1027--------------------
+New event: 1028--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1029--------------------
+New event: 1030--------------------
+New event: 1031--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1032--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1033--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1034--------------------
+New event: 1035--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1036--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1037--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1038--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1039--------------------
+New event: 1040--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1041--------------------
+New event: 1042--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1043--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1044--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1045--------------------
+New event: 1046--------------------
+New event: 1047--------------------
+New event: 1048--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1049--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1050--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1051--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1052--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1053--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1054--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1055--------------------
+New event: 1056--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1057--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1058--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1059--------------------
+New event: 1060--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1061--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1062--------------------
+New event: 1063--------------------
+New event: 1064--------------------
+New event: 1065--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1066--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1067--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1068--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1069--------------------
+New event: 1070--------------------
+New event: 1071--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1072--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1073--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1074--------------------
+New event: 1075--------------------
+New event: 1076--------------------
+New event: 1077--------------------
+New event: 1078--------------------
+New event: 1079--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1080--------------------
+New event: 1081--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1082--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1083--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1084--------------------
+New event: 1085--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1086--------------------
+New event: 1087--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1088--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1089--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1090--------------------
+New event: 1091--------------------
+New event: 1092--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1093--------------------
+New event: 1094--------------------
+New event: 1095--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1096--------------------
+New event: 1097--------------------
+New event: 1098--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1099--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1100--------------------
+New event: 1101--------------------
+New event: 1102--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1103--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1104--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1105--------------------
+New event: 1106--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1107--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1108--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1109--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1110--------------------
+New event: 1111--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1112--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1113--------------------
+New event: 1114--------------------
+New event: 1115--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1116--------------------
+New event: 1117--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1118--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1119--------------------
+New event: 1120--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1121--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1122--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1123--------------------
+New event: 1124--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1125--------------------
+New event: 1126--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1127--------------------
+New event: 1128--------------------
+New event: 1129--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1130--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1131--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1132--------------------
+New event: 1133--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1134--------------------
+New event: 1135--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1136--------------------
+New event: 1137--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1138--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1139--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1140--------------------
+New event: 1141--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1142--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1143--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1144--------------------
+New event: 1145--------------------
+New event: 1146--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1147--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1148--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1149--------------------
+New event: 1150--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1151--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1152--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1153--------------------
+New event: 1154--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1155--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1156--------------------
+New event: 1157--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1158--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1159--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1160--------------------
+New event: 1161--------------------
+New event: 1162--------------------
+New event: 1163--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1164--------------------
+New event: 1165--------------------
+New event: 1166--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1167--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1168--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1169--------------------
+New event: 1170--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1171--------------------
+New event: 1172--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1173--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1174--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1175--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1176--------------------
+New event: 1177--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1178--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1179--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1180--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1181--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1182--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1183--------------------
+New event: 1184--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1185--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1186--------------------
+New event: 1187--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1188--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1189--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1190--------------------
+I am a top-contained sample :-)
+0000 1:TreesEle
+New event: 1191--------------------
+before closing file input /home/nadjieh/work/samples/postMoriond/July2013/TToBTauNu_LVLT_unphys.root
+before endjob
+0
+0
+0
+658
+632
+nW+: 424	nW-: 234
+SR+252
+SR-125
+SB+172
+SB-109

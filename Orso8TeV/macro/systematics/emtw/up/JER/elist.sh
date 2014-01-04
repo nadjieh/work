@@ -1,0 +1,2 @@
+./Plot prefix ./forAdding/TreesEle_ out AllUp.root data etau_TTBar mcinput bkgWithWTemp beta  1 mcname  bkg mcinput TTBar beta 1 mcname  t#bar{t} mcinput SChannel beta 1 mcname  s-channel mcinput SbarChannel beta 1 mcname  s-channel mcinput TWChannel beta 1 mcname  tW-channel mcinput TbarWChannel beta 1 mcname  tW-channel mcinput TChannel beta 1 mcname  t-channel mcinput TbarChannel beta 1 mcname  t-channel > AllUp.txt
+

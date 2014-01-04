@@ -1,0 +1,27 @@
+**************************
+SYSTEMATIC SITUATION: 
+**************************
+btagUP SYST
+**************************
+file number 1: ~/work/samples/postMoriond/Aug2013/ZJets.root
+sample name does not have _
+I am in tree = 0
+inDirect
+treeName: ZJets_2J_1T_noSyst
+ZJets_2J_1T_noSyst	0x2345280
+0x2345280 tree afterward
+chain: 0x2345280
+ZJets_2J_1T_noSyst
+1234
+MET does not have solution even after MET smearing.
+The solution is returned as if Delta was zero ...
+MET does not have solution even after MET smearing.
+The solution is returned as if Delta was zero ...
+MET does not have solution even after MET smearing.
+The solution is returned as if Delta was zero ...
+MET does not have solution even after MET smearing.
+The solution is returned as if Delta was zero ...
+MET does not have solution even after MET smearing.
+The solution is returned as if Delta was zero ...
+before closing file input /home/nadjieh/work/samples/postMoriond/Aug2013/ZJets.root
+before endjob

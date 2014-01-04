@@ -1,0 +1,24 @@
+START
+file number 1: ~/work/samples/postMoriond/Aug2013/QCDMu.root
+I am in tree = 0
+inDirect
+treeName: QCDMu_2J_0T_QCD_noSyst
+QCDMu_2J_0T_QCD_noSyst	0x14fdc20
+0x14fdc20 tree afterward
+tree name: QCDMu_2J_0T_QCD_noSyst
+MET does not have solution even after MET smearing.
+The solution is returned as if Delta was zero ...
+MET does not have solution even after MET smearing.
+The solution is returned as if Delta was zero ...
+before closing file input /home/nadjieh/work/samples/postMoriond/Aug2013/QCDMu.root
+before endjob
+0
+0
+0
+14909
+6102
+nW+: 3073	nW-: 3082
+SR+1875
+SR-1847
+SB+1198
+SB-1235

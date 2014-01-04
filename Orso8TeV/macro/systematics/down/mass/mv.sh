@@ -1,0 +1,28 @@
+
+mv TreesEle_die_TTBar_MassDown_RW.root	TreesEle_die_TTBar_RW.root
+mv TreesEle_dimu_TTBar_MassDown_RW.root	TreesEle_dimu_TTBar_RW.root
+mv TreesEle_disemitau_TTBar_MassDown_RW.root	TreesEle_disemitau_TTBar_RW.root
+mv TreesEle_ehad_TTBar_MassDown_RW.root	TreesEle_ehad_TTBar_RW.root
+mv TreesEle_etau_TTBar_MassDown_RW.root	TreesEle_etau_TTBar_RW.root
+mv TreesEle_mue_TTBar_MassDown_RW.root	TreesEle_mue_TTBar_RW.root
+mv TreesEle_muhad_TTBar_MassDown_RW.root	TreesEle_muhad_TTBar_RW.root
+mv TreesEle_mutau_TTBar_MassDown_RW.root	TreesEle_mutau_TTBar_RW.root
+
+mv TreesEle_TbarChannel_MassDown_RW.root	TreesEle_TbarChannel_RW.root
+
+mv TreesEle_TChannel_MassDown_RW.root	TreesEle_TChannel_RW.root
+mv TreesEle_TTBar_MassDown_RW.root	TreesEle_TTBar_RW.root
+
+mv TreesMu_die_TTBar_MassDown_RW.root	TreesMu_die_TTBar_RW.root
+mv TreesMu_dimu_TTBar_MassDown_RW.root	TreesMu_dimu_TTBar_RW.root
+mv TreesMu_disemitau_TTBar_MassDown_RW.root	TreesMu_disemitau_TTBar_RW.root
+mv TreesMu_ehad_TTBar_MassDown_RW.root	TreesMu_ehad_TTBar_RW.root
+mv TreesMu_etau_TTBar_MassDown_RW.root	TreesMu_etau_TTBar_RW.root
+mv TreesMu_mue_TTBar_MassDown_RW.root	TreesMu_mue_TTBar_RW.root
+mv TreesMu_muhad_TTBar_MassDown_RW.root	TreesMu_muhad_TTBar_RW.root
+mv TreesMu_mutau_TTBar_MassDown_RW.root	TreesMu_mutau_TTBar_RW.root
+
+mv TreesMu_TbarChannel_MassDown_RW.root	TreesMu_TbarChannel_RW.root
+
+mv TreesMu_TChannel_MassDown_RW.root	TreesMu_TChannel_RW.root
+mv TreesMu_TTBar_MassDown_RW.root	TreesMu_TTBar_RW.root

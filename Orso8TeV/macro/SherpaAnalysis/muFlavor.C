@@ -1,0 +1,140 @@
+{
+//=========Macro generated from canvas: Canvas_1/Canvas_1
+//=========  (Wed Nov 20 12:10:47 2013) by ROOT version5.32/00
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",305,103,700,504);
+   Canvas_1->Range(-0.5,-0.125,4.5,1.125);
+   Canvas_1->SetFillColor(0);
+   Canvas_1->SetBorderMode(0);
+   Canvas_1->SetBorderSize(2);
+   Canvas_1->SetFrameBorderMode(0);
+   Canvas_1->SetFrameBorderMode(0);
+   
+   TH1F *htemp__1__1 = new TH1F("htemp__1__1","",4,0,4);
+   htemp__1__1->SetBinContent(2,0.6106306);
+   htemp__1__1->SetBinContent(3,0.2818035);
+   htemp__1__1->SetBinContent(4,0.1075659);
+   htemp__1__1->SetMinimum(0);
+   htemp__1__1->SetMaximum(1);
+   htemp__1__1->SetEntries(703838);
+   htemp__1__1->SetDirectory(0);
+   
+   TPaveStats *ptstats = new TPaveStats(0.6752874,0.644958,0.8764368,0.8067227,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("Mean  =  1.997");
+   text = ptstats->AddText("RMS   =  0.682");
+   ptstats->SetOptStat(1100);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   htemp__1__1->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(htemp__1__1);
+   htemp__1__1->SetLineColor(2);
+   htemp__1__1->SetLineWidth(2);
+   htemp__1__1->GetXaxis()->SetTitle("eventFlavour");
+   htemp__1__1->GetXaxis()->SetBinLabel(1,"");
+   htemp__1__1->GetXaxis()->SetBinLabel(2,"W+l");
+   htemp__1__1->GetXaxis()->SetBinLabel(3,"W+c");
+   htemp__1__1->GetXaxis()->SetBinLabel(4,"W+bX");
+   htemp__1__1->GetXaxis()->SetLabelFont(42);
+   htemp__1__1->GetXaxis()->SetLabelSize(0.035);
+   htemp__1__1->GetXaxis()->SetTitleSize(0.035);
+   htemp__1__1->GetXaxis()->SetTitleFont(42);
+   htemp__1__1->GetYaxis()->SetLabelFont(42);
+   htemp__1__1->GetYaxis()->SetLabelSize(0.035);
+   htemp__1__1->GetYaxis()->SetTitleSize(0.035);
+   htemp__1__1->GetYaxis()->SetTitleFont(42);
+   htemp__1__1->GetZaxis()->SetLabelFont(42);
+   htemp__1__1->GetZaxis()->SetLabelSize(0.035);
+   htemp__1__1->GetZaxis()->SetTitleSize(0.035);
+   htemp__1__1->GetZaxis()->SetTitleFont(42);
+   htemp__1__1->Draw("");
+   
+   ptstats = new TPaveStats(0.6681034,0.644958,0.8692529,0.8067227,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   text = ptstats->AddText("htemp");
+   text->SetTextSize(0.03720588);
+   text = ptstats->AddText("Entries = 1629852");
+   text = ptstats->AddText("Mean  =  1.191");
+   text = ptstats->AddText("RMS   = 0.4241");
+   ptstats->SetOptStat(1100);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   
+   TH1F *htemp__2__2 = new TH1F("htemp__2__2","",4,0,4);
+   htemp__2__2->SetBinContent(2,0.8211776);
+   htemp__2__2->SetBinContent(3,0.1662679);
+   htemp__2__2->SetBinContent(4,0.01255451);
+   htemp__2__2->SetEntries(1629852);
+   htemp__2__2->SetDirectory(0);
+   
+   ptstats = new TPaveStats(0.6724138,0.6428571,0.8735632,0.8046218,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   text = ptstats->AddText("Mean  =  1.691");
+   text = ptstats->AddText("RMS   = 0.4241");
+   ptstats->SetOptStat(1100);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   htemp__2__2->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(htemp__2__2);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   htemp__2__2->SetLineColor(ci);
+   htemp__2__2->SetLineWidth(2);
+   htemp__2__2->GetXaxis()->SetTitle("eventFlavour");
+   htemp__2__2->GetXaxis()->SetLabelFont(42);
+   htemp__2__2->GetXaxis()->SetLabelSize(0.035);
+   htemp__2__2->GetXaxis()->SetTitleSize(0.035);
+   htemp__2__2->GetXaxis()->SetTitleFont(42);
+   htemp__2__2->GetYaxis()->SetLabelFont(42);
+   htemp__2__2->GetYaxis()->SetLabelSize(0.035);
+   htemp__2__2->GetYaxis()->SetTitleSize(0.035);
+   htemp__2__2->GetYaxis()->SetTitleFont(42);
+   htemp__2__2->GetZaxis()->SetLabelFont(42);
+   htemp__2__2->GetZaxis()->SetLabelSize(0.035);
+   htemp__2__2->GetZaxis()->SetTitleSize(0.035);
+   htemp__2__2->GetZaxis()->SetTitleFont(42);
+   htemp__2__2->Draw("sames");
+   
+   TLegend *leg = new TLegend(0.5775862,0.552521,0.8893678,0.8382353,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetTextFont(62);
+   leg->SetLineColor(0);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("htemp__1","Sherpa 2J0T","lpf");
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(2);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(1);
+   entry->SetMarkerSize(1);
+   entry=leg->AddEntry("htemp__2","MadGraph 2J0T","lpf");
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#000099");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(1);
+   entry->SetMarkerSize(1);
+   leg->Draw();
+   Canvas_1->Modified();
+   Canvas_1->cd();
+   Canvas_1->SetSelected(Canvas_1);
+}

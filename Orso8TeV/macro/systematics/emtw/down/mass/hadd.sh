@@ -1,0 +1,11 @@
+rm -f Trees*_TbarWChannel_RW.root Trees*_TWChannel_RW.root
+hadd  TreesEle_TbarWChannel_RW.root TreesEle_TbarWChannelFullLep_MassDown_RW.root TreesEle_TbarWChannelThadWlep_MassDown_RW.root TreesEle_TbarWChannelTlepWhad_MassDown_RW.root 
+
+hadd  TreesEle_TWChannel_RW.root TreesEle_TWChannelFullLep_MassDown_RW.root TreesEle_TWChannelThadWlep_MassDown_RW.root TreesEle_TWChannelTlepWhad_MassDown_RW.root
+
+
+hadd  TreesMu_TbarWChannel_RW.root TreesMu_TbarWChannelFullLep_MassDown_RW.root TreesMu_TbarWChannelThadWlep_MassDown_RW.root TreesMu_TbarWChannelTlepWhad_MassDown_RW.root 
+
+hadd  TreesMu_TWChannel_RW.root TreesMu_TWChannelFullLep_MassDown_RW.root TreesMu_TWChannelThadWlep_MassDown_RW.root TreesMu_TWChannelTlepWhad_MassDown_RW.root
+
+

@@ -1,0 +1,239 @@
+I saw PREFIX
+out -------------------------
+data -------------------------
+for RW!
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_bkgWithWTemp_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_die_TTBar_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_dimu_TTBar_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_mue_TTBar_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_etau_TTBar_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_mutau_TTBar_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_ehad_TTBar_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_muhad_TTBar_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_disemitau_TTBar_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_SChannel_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_SbarChannel_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_TWChannel_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_TbarWChannel_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_TChannel_RW.root	1
+mcname -------------------------
+mcinput -------------------------
+for RW!
+beta -------------------------
+./forAdding/TreesEle_TbarChannel_RW.root	1
+mcname -------------------------
+PREFIX: ./forAdding/TreesEle_
+Input files: 15
+Colors: 14
+Betas: 15
+names: 15
+samples: 15
+bkg	t#bar{t}	t#bar{t}	t#bar{t}	t#bar{t}	t#bar{t}	t#bar{t}	t#bar{t}	t#bar{t}	s-channel	s-channel	tW-channel	tW-channel	t-channel	t-channel	
+./forAdding/TreesEle_etau_TTBar_RW.root--------------------------
+is3D: Default_allWcosTheta	0
+is3D: Default_allW_Wmass	0
+is3D: Default_allW_topMass	0
+is3D: Default_allW_WmassMET	0
+is3D: Default_allW_topMassMET	0
+is3D: Default_allWcosTheta2D	0
+is3D: Default_allWcosTheta3D	1
+Size of structure: 1
+Part 0, Default_allW
+	Default_allWcosTheta
+	Default_allW_Wmass
+	Default_allW_topMass
+	Default_allW_WmassMET
+	Default_allW_topMassMET
+	Default_allWcosTheta2D
+	Default_allWcosTheta3D
+0x27a45d0	Default_allWcosTheta
+./forAdding/TreesEle_bkgWithWTemp_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x27ad390	Default_allWcosTheta
+./forAdding/TreesEle_die_TTBar_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x28ab020	Default_allWcosTheta
+./forAdding/TreesEle_dimu_TTBar_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x27e53f0	Default_allWcosTheta
+./forAdding/TreesEle_mue_TTBar_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x28af860	Default_allWcosTheta
+./forAdding/TreesEle_etau_TTBar_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x28babd0	Default_allWcosTheta
+./forAdding/TreesEle_mutau_TTBar_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x28b3bd0	Default_allWcosTheta
+./forAdding/TreesEle_ehad_TTBar_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x28b6a90	Default_allWcosTheta
+./forAdding/TreesEle_muhad_TTBar_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x28b0d40	Default_allWcosTheta
+./forAdding/TreesEle_disemitau_TTBar_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x67780b0	Default_allWcosTheta
+./forAdding/TreesEle_SChannel_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x6779560	Default_allWcosTheta
+./forAdding/TreesEle_SbarChannel_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x677a280	Default_allWcosTheta
+./forAdding/TreesEle_TWChannel_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x677ff50	Default_allWcosTheta
+./forAdding/TreesEle_TbarWChannel_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x6781410	Default_allWcosTheta
+./forAdding/TreesEle_TChannel_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x6785d10	Default_allWcosTheta
+./forAdding/TreesEle_TbarChannel_RW.root
+I was not qcd +++++++++++++++++++++++++
+0x67879a0	Default_allW_Wmass
+0x67885c0	Default_allW_Wmass
+0x6788ba0	Default_allW_Wmass
+0x6789580	Default_allW_Wmass
+0x6789d40	Default_allW_Wmass
+0x67ab0b0	Default_allW_Wmass
+0x67ae7a0	Default_allW_Wmass
+0x67aefc0	Default_allW_Wmass
+0x67af9a0	Default_allW_Wmass
+0x67b0560	Default_allW_Wmass
+0x67b0b40	Default_allW_Wmass
+0x67b16a0	Default_allW_Wmass
+0x67b1c80	Default_allW_Wmass
+0x67b2840	Default_allW_Wmass
+0x67b2e20	Default_allW_Wmass
+0x67b3a80	Default_allW_topMass
+0x67b4560	Default_allW_topMass
+0x67b4d80	Default_allW_topMass
+0x67b5840	Default_allW_topMass
+0x67b6000	Default_allW_topMass
+0x67b67c0	Default_allW_topMass
+0x67b5440	Default_allW_topMass
+0x67b7640	Default_allW_topMass
+0x67b8300	Default_allW_topMass
+0x67b7e60	Default_allW_topMass
+0x67b9180	Default_allW_topMass
+0x67b9dc0	Default_allW_topMass
+0x67b9940	Default_allW_topMass
+0x67ab590	Default_allW_topMass
+0x67ac800	Default_allW_topMass
+0x67ac410	Default_allW_WmassMET
+0x67874f0	Default_allW_WmassMET
+0x67adf90	Default_allW_WmassMET
+0x67bad40	Default_allW_WmassMET
+0x67be6e0	Default_allW_WmassMET
+0x67bef00	Default_allW_WmassMET
+0x67bf970	Default_allW_WmassMET
+0x67bfda0	Default_allW_WmassMET
+0x67c0380	Default_allW_WmassMET
+0x67bbda0	Default_allW_WmassMET
+0x67bb930	Default_allW_WmassMET
+0x67bc430	Default_allW_WmassMET
+0x67bd7b0	Default_allW_WmassMET
+0x67bd380	Default_allW_WmassMET
+0x67c0f50	Default_allW_WmassMET
+0x67c4c30	Default_allW_topMassMET
+0x67c5210	Default_allW_topMassMET
+0x67c59d0	Default_allW_topMassMET
+0x67c64a0	Default_allW_topMassMET
+0x67c1380	Default_allW_topMassMET
+0x67c1bb0	Default_allW_topMassMET
+0x67c5fe0	Default_allW_topMassMET
+0x67c2bf0	Default_allW_topMassMET
+0x67c3680	Default_allW_topMassMET
+0x67c3e40	Default_allW_topMassMET
+0x67c7450	Default_allW_topMassMET
+0x67c7d10	Default_allW_topMassMET
+0x67c7880	Default_allW_topMassMET
+0x67cb220	Default_allW_topMassMET
+0x67cbad0	Default_allW_topMassMET
+0x27a3100	Default_allWcosTheta2D
+0x27acaa0	Default_allWcosTheta2D
+0x28aa730	Default_allWcosTheta2D
+0x27e4b00	Default_allWcosTheta2D
+0x28af0c0	Default_allWcosTheta2D
+0x28bb680	Default_allWcosTheta2D
+0x28b32e0	Default_allWcosTheta2D
+0x28b61a0	Default_allWcosTheta2D
+0x28afc90	Default_allWcosTheta2D
+0x6777910	Default_allWcosTheta2D
+0x67784e0	Default_allWcosTheta2D
+0x677dc10	Default_allWcosTheta2D
+0x677f8e0	Default_allWcosTheta2D
+0x6780380	Default_allWcosTheta2D
+0x6781840	Default_allWcosTheta2D
+0x67c4640	Default_allWcosTheta3D
+0x67c81f0	Default_allWcosTheta3D
+0x67c8850	Default_allWcosTheta3D
+0x67c8eb0	Default_allWcosTheta3D
+0x67c9510	Default_allWcosTheta3D
+0x67c9b70	Default_allWcosTheta3D
+0x67ca1d0	Default_allWcosTheta3D
+0x67ca830	Default_allWcosTheta3D
+0x67e2ac0	Default_allWcosTheta3D
+0x67e2f80	Default_allWcosTheta3D
+0x67e35b0	Default_allWcosTheta3D
+0x67e3c10	Default_allWcosTheta3D
+0x67e4270	Default_allWcosTheta3D
+0x67e48d0	Default_allWcosTheta3D
+0x67e4f30	Default_allWcosTheta3D
+here

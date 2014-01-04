@@ -1,0 +1,14 @@
+#cd btag; mkdir DD; mkdir MG; cd -;
+#cd ctag; mkdir DD; mkdir MG; cd -;
+#cd JER; mkdir DD; mkdir MG; cd -;
+#cd JES; mkdir DD; mkdir MG; cd -;
+#cd lumi; mkdir DD; mkdir MG; cd -;
+cd mass; mkdir DD; mkdir MG; cd -;
+#cd MET; mkdir DD; mkdir MG; cd -;
+#cd pu; mkdir DD; mkdir MG; cd -;
+cd Q2; mkdir DD; mkdir MG; cd -;
+cd tt; mkdir DD; mkdir MG; cd -;
+cd qcdnorm; mkdir DD; mkdir MG; cd -;
+cd ewknorm; mkdir DD; mkdir MG; cd -;
+cd cwshape; mkdir DD; mkdir MG; cd -;
+cd bwshape; mkdir DD; mkdir MG; cd -;

@@ -1,0 +1,107 @@
+{
+//=========Macro generated from canvas: Canvas_1/Canvas_1
+//=========  (Sat Aug  3 17:02:57 2013) by ROOT version5.32/00
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",325,100,363,327);
+   Canvas_1->Range(-25,-15006.32,225,135056.9);
+   Canvas_1->SetFillColor(0);
+   Canvas_1->SetBorderMode(0);
+   Canvas_1->SetBorderSize(2);
+   Canvas_1->SetFrameBorderMode(0);
+   Canvas_1->SetFrameBorderMode(0);
+   
+   TH1D *allW_Muon_Pt = new TH1D("allW_Muon_Pt","allW_Muon_Pt",25,0,200);
+   allW_Muon_Pt->SetBinContent(4,30379.67);
+   allW_Muon_Pt->SetBinContent(5,110724.2);
+   allW_Muon_Pt->SetBinContent(6,89076.37);
+   allW_Muon_Pt->SetBinContent(7,64429.7);
+   allW_Muon_Pt->SetBinContent(8,47377.59);
+   allW_Muon_Pt->SetBinContent(9,34611.15);
+   allW_Muon_Pt->SetBinContent(10,25613.97);
+   allW_Muon_Pt->SetBinContent(11,19427.93);
+   allW_Muon_Pt->SetBinContent(12,14640.77);
+   allW_Muon_Pt->SetBinContent(13,10709.19);
+   allW_Muon_Pt->SetBinContent(14,8803.622);
+   allW_Muon_Pt->SetBinContent(15,6881.141);
+   allW_Muon_Pt->SetBinContent(16,5165.466);
+   allW_Muon_Pt->SetBinContent(17,4310.592);
+   allW_Muon_Pt->SetBinContent(18,3361.473);
+   allW_Muon_Pt->SetBinContent(19,2637.979);
+   allW_Muon_Pt->SetBinContent(20,2113.761);
+   allW_Muon_Pt->SetBinContent(21,1711.531);
+   allW_Muon_Pt->SetBinContent(22,1448.552);
+   allW_Muon_Pt->SetBinContent(23,1201.47);
+   allW_Muon_Pt->SetBinContent(24,939.5829);
+   allW_Muon_Pt->SetBinContent(25,814.0949);
+   allW_Muon_Pt->SetBinContent(26,4561.875);
+   allW_Muon_Pt->SetBinError(4,1428.347);
+   allW_Muon_Pt->SetBinError(5,3609.681);
+   allW_Muon_Pt->SetBinError(6,2536.699);
+   allW_Muon_Pt->SetBinError(7,1718.021);
+   allW_Muon_Pt->SetBinError(8,1173.088);
+   allW_Muon_Pt->SetBinError(9,822.9914);
+   allW_Muon_Pt->SetBinError(10,597.4018);
+   allW_Muon_Pt->SetBinError(11,440.6593);
+   allW_Muon_Pt->SetBinError(12,333.2507);
+   allW_Muon_Pt->SetBinError(13,240.571);
+   allW_Muon_Pt->SetBinError(14,198.339);
+   allW_Muon_Pt->SetBinError(15,157.3591);
+   allW_Muon_Pt->SetBinError(16,122.987);
+   allW_Muon_Pt->SetBinError(17,104.2311);
+   allW_Muon_Pt->SetBinError(18,86.07037);
+   allW_Muon_Pt->SetBinError(19,72.33866);
+   allW_Muon_Pt->SetBinError(20,61.26762);
+   allW_Muon_Pt->SetBinError(21,52.5626);
+   allW_Muon_Pt->SetBinError(22,46.14394);
+   allW_Muon_Pt->SetBinError(23,41.10321);
+   allW_Muon_Pt->SetBinError(24,35.29498);
+   allW_Muon_Pt->SetBinError(25,31.75155);
+   allW_Muon_Pt->SetBinError(26,64.03313);
+   allW_Muon_Pt->SetEntries(1309424);
+   
+   TPaveStats *ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("allW_Muon_Pt");
+   text->SetTextSize(0.0368);
+   text = ptstats->AddText("Entries = 1309424");
+   text = ptstats->AddText("Mean  =  58.68");
+   text = ptstats->AddText("RMS   =  28.72");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   allW_Muon_Pt->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(allW_Muon_Pt);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   allW_Muon_Pt->SetLineColor(ci);
+   allW_Muon_Pt->GetXaxis()->SetTitle("P_{T}");
+   allW_Muon_Pt->GetXaxis()->SetLabelFont(42);
+   allW_Muon_Pt->GetXaxis()->SetLabelSize(0.035);
+   allW_Muon_Pt->GetXaxis()->SetTitleSize(0.035);
+   allW_Muon_Pt->GetXaxis()->SetTitleFont(42);
+   allW_Muon_Pt->GetYaxis()->SetLabelFont(42);
+   allW_Muon_Pt->GetYaxis()->SetLabelSize(0.035);
+   allW_Muon_Pt->GetYaxis()->SetTitleSize(0.035);
+   allW_Muon_Pt->GetYaxis()->SetTitleFont(42);
+   allW_Muon_Pt->GetZaxis()->SetLabelFont(42);
+   allW_Muon_Pt->GetZaxis()->SetLabelSize(0.035);
+   allW_Muon_Pt->GetZaxis()->SetTitleSize(0.035);
+   allW_Muon_Pt->GetZaxis()->SetTitleFont(42);
+   allW_Muon_Pt->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.3813858,0.9318421,0.6186142,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("allW_Muon_Pt");
+   pt->Draw();
+   Canvas_1->Modified();
+   Canvas_1->cd();
+   Canvas_1->SetSelected(Canvas_1);
+}

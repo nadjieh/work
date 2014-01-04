@@ -1,0 +1,12 @@
+mv *txt TreesMu_T*WC*MassUp* src/
+mv TreesMu_die_TTBar_MassUp_plots.root	TreesMu_die_TTBar_plots.root
+mv TreesMu_dimu_TTBar_MassUp_plots.root	TreesMu_dimu_TTBar_plots.root
+mv TreesMu_disemitau_TTBar_MassUp_plots.root	TreesMu_disemitau_TTBar_plots.root
+mv TreesMu_ehad_TTBar_MassUp_plots.root	TreesMu_ehad_TTBar_plots.root
+mv TreesMu_etau_TTBar_MassUp_plots.root	TreesMu_etau_TTBar_plots.root
+mv TreesMu_mue_TTBar_MassUp_plots.root	TreesMu_mue_TTBar_plots.root
+mv TreesMu_muhad_TTBar_MassUp_plots.root	TreesMu_muhad_TTBar_plots.root
+mv TreesMu_mutau_TTBar_MassUp_plots.root	TreesMu_mutau_TTBar_plots.root
+mv TreesMu_TbarChannel_MassUp_plots.root	TreesMu_TbarChannel_plots.root
+mv TreesMu_TTBar_MassUp_plots.root	TreesMu_TTBar_plots.root
+mv TreesMu_TChannel_MassUp_plots.root	TreesMu_TChannel_plots.root

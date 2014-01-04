@@ -1,0 +1,194 @@
+{
+//=========Macro generated from canvas: Canvas_1/Canvas_1
+//=========  (Mon Aug 12 23:07:19 2013) by ROOT version5.32/00
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",67,53,700,502);
+   Canvas_1->Range(-4,1610.363,4,2488.229);
+   Canvas_1->SetFillColor(0);
+   Canvas_1->SetBorderMode(0);
+   Canvas_1->SetBorderSize(2);
+   Canvas_1->SetFrameBorderMode(0);
+   Canvas_1->SetFrameBorderMode(0);
+   
+   TH1D *hMetPhi = new TH1D("hMetPhi","uncorrected",20,-3.2,3.2);
+   hMetPhi->SetBinContent(1,1759);
+   hMetPhi->SetBinContent(2,2332);
+   hMetPhi->SetBinContent(3,2303);
+   hMetPhi->SetBinContent(4,2333);
+   hMetPhi->SetBinContent(5,2322);
+   hMetPhi->SetBinContent(6,2367);
+   hMetPhi->SetBinContent(7,2321);
+   hMetPhi->SetBinContent(8,2309);
+   hMetPhi->SetBinContent(9,2350);
+   hMetPhi->SetBinContent(10,2256);
+   hMetPhi->SetBinContent(11,2209);
+   hMetPhi->SetBinContent(12,2087);
+   hMetPhi->SetBinContent(13,2086);
+   hMetPhi->SetBinContent(14,1985);
+   hMetPhi->SetBinContent(15,1956);
+   hMetPhi->SetBinContent(16,2027);
+   hMetPhi->SetBinContent(17,1921);
+   hMetPhi->SetBinContent(18,2045);
+   hMetPhi->SetBinContent(19,2028);
+   hMetPhi->SetBinContent(20,1730);
+   hMetPhi->SetEntries(42726);
+   
+   TPaveStats *ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("hMetPhi");
+   text->SetTextSize(0.0368);
+   text = ptstats->AddText("Entries = 42726  ");
+   text = ptstats->AddText("Mean  = -0.09804");
+   text = ptstats->AddText("RMS   =  1.804");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   hMetPhi->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(hMetPhi);
+   hMetPhi->SetLineColor(2);
+   hMetPhi->GetXaxis()->SetLabelFont(42);
+   hMetPhi->GetXaxis()->SetLabelSize(0.035);
+   hMetPhi->GetXaxis()->SetTitleSize(0.035);
+   hMetPhi->GetXaxis()->SetTitleFont(42);
+   hMetPhi->GetYaxis()->SetLabelFont(42);
+   hMetPhi->GetYaxis()->SetLabelSize(0.035);
+   hMetPhi->GetYaxis()->SetTitleSize(0.035);
+   hMetPhi->GetYaxis()->SetTitleFont(42);
+   hMetPhi->GetZaxis()->SetLabelFont(42);
+   hMetPhi->GetZaxis()->SetLabelSize(0.035);
+   hMetPhi->GetZaxis()->SetTitleSize(0.035);
+   hMetPhi->GetZaxis()->SetTitleFont(42);
+   hMetPhi->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.423908,0.94,0.576092,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("hMetPhi");
+   pt->Draw();
+   
+
+TH1D *hMetPhi2 = new TH1D("hMetPhi22","summer12 correction",20,-3.2,3.2);
+   hMetPhi2->SetBinContent(1,1700);
+   hMetPhi2->SetBinContent(2,2227);
+   hMetPhi2->SetBinContent(3,2168);
+   hMetPhi2->SetBinContent(4,2175);
+   hMetPhi2->SetBinContent(5,2182);
+   hMetPhi2->SetBinContent(6,2242);
+   hMetPhi2->SetBinContent(7,2248);
+   hMetPhi2->SetBinContent(8,2225);
+   hMetPhi2->SetBinContent(9,2368);
+   hMetPhi2->SetBinContent(10,2324);
+   hMetPhi2->SetBinContent(11,2286);
+   hMetPhi2->SetBinContent(12,2222);
+   hMetPhi2->SetBinContent(13,2227);
+   hMetPhi2->SetBinContent(14,2127);
+   hMetPhi2->SetBinContent(15,2122);
+   hMetPhi2->SetBinContent(16,2102);
+   hMetPhi2->SetBinContent(17,2020);
+   hMetPhi2->SetBinContent(18,2004);
+   hMetPhi2->SetBinContent(19,2055);
+   hMetPhi2->SetBinContent(20,1702);
+   hMetPhi2->SetEntries(42726);
+   
+   ptstats = new TPaveStats(0.2590529,0.1869159,0.4568245,0.3489097,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   text = ptstats->AddText("hMetPhi2");
+   text->SetTextSize(0.03725857);
+   text = ptstats->AddText("Entries = 42726  ");
+   text = ptstats->AddText("Mean  = -0.03998");
+   text = ptstats->AddText("RMS   =  1.789");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   hMetPhi2->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(hMetPhi2);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   hMetPhi2->SetLineColor(kGreen);
+   hMetPhi2->GetXaxis()->SetLabelFont(42);
+   hMetPhi2->GetXaxis()->SetLabelSize(0.035);
+   hMetPhi2->GetXaxis()->SetTitleSize(0.035);
+   hMetPhi2->GetXaxis()->SetTitleFont(42);
+   hMetPhi2->GetYaxis()->SetLabelFont(42);
+   hMetPhi2->GetYaxis()->SetLabelSize(0.035);
+   hMetPhi2->GetYaxis()->SetTitleSize(0.035);
+   hMetPhi2->GetYaxis()->SetTitleFont(42);
+   hMetPhi2->GetZaxis()->SetLabelFont(42);
+   hMetPhi2->GetZaxis()->SetLabelSize(0.035);
+   hMetPhi2->GetZaxis()->SetTitleSize(0.035);
+   hMetPhi2->GetZaxis()->SetTitleFont(42);
+   hMetPhi2->Draw("sames");
+
+
+
+   TH1D *hMetphiCorr = new TH1D("hMetphiCorr","summer13 JEC correction",20,-3.2,3.2);
+   hMetphiCorr->SetBinContent(1,1736);
+   hMetphiCorr->SetBinContent(2,2272);
+   hMetphiCorr->SetBinContent(3,2231);
+   hMetphiCorr->SetBinContent(4,2226);
+   hMetphiCorr->SetBinContent(5,2205);
+   hMetphiCorr->SetBinContent(6,2242);
+   hMetphiCorr->SetBinContent(7,2261);
+   hMetphiCorr->SetBinContent(8,2189);
+   hMetphiCorr->SetBinContent(9,2306);
+   hMetphiCorr->SetBinContent(10,2287);
+   hMetphiCorr->SetBinContent(11,2234);
+   hMetphiCorr->SetBinContent(12,2163);
+   hMetphiCorr->SetBinContent(13,2178);
+   hMetphiCorr->SetBinContent(14,2093);
+   hMetphiCorr->SetBinContent(15,2068);
+   hMetphiCorr->SetBinContent(16,2125);
+   hMetphiCorr->SetBinContent(17,2011);
+   hMetphiCorr->SetBinContent(18,2059);
+   hMetphiCorr->SetBinContent(19,2085);
+   hMetphiCorr->SetBinContent(20,1755);
+   hMetphiCorr->SetEntries(42726);
+   
+   ptstats = new TPaveStats(0.5617816,0.7890295,0.762931,0.9493671,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   text = ptstats->AddText("hMetphiCorr");
+   text->SetTextSize(0.03687764);
+   text = ptstats->AddText("Entries = 42726  ");
+   text = ptstats->AddText("Mean  = -0.04657");
+   text = ptstats->AddText("RMS   =  1.803");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   hMetphiCorr->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(hMetphiCorr);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   hMetphiCorr->SetLineColor(ci);
+   hMetphiCorr->GetXaxis()->SetLabelFont(42);
+   hMetphiCorr->GetXaxis()->SetLabelSize(0.035);
+   hMetphiCorr->GetXaxis()->SetTitleSize(0.035);
+   hMetphiCorr->GetXaxis()->SetTitleFont(42);
+   hMetphiCorr->GetYaxis()->SetLabelFont(42);
+   hMetphiCorr->GetYaxis()->SetLabelSize(0.035);
+   hMetphiCorr->GetYaxis()->SetTitleSize(0.035);
+   hMetphiCorr->GetYaxis()->SetTitleFont(42);
+   hMetphiCorr->GetZaxis()->SetLabelFont(42);
+   hMetphiCorr->GetZaxis()->SetLabelSize(0.035);
+   hMetphiCorr->GetZaxis()->SetTitleSize(0.035);
+   hMetphiCorr->GetZaxis()->SetTitleFont(42);
+   hMetphiCorr->Draw("sames");
+   Canvas_1->Modified();
+   Canvas_1->cd();
+   Canvas_1->SetSelected(Canvas_1);
+}

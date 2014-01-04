@@ -1,0 +1,23 @@
+START
+file number 1: ~/work/samples/postMoriond/July2013/TToBENu.root
+Sample is: TToBENu
+I am in tree = 0
+inDirect
+treeName: TToBENu_noSyst
+TToBENu_noSyst	0x1abfde0
+0x1abfde0 tree afterward
+chain: 0x1abfde0
+tree name: TToBENu_noSyst
+New event: 0--------------------
+before closing file input /home/nadjieh/work/samples/postMoriond/July2013/TToBENu.root
+before endjob
+0
+0
+0
+0
+0
+nW+: 0	nW-: 0
+SR+0
+SR-0
+SB+0
+SB-0

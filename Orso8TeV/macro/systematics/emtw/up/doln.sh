@@ -1,0 +1,13 @@
+cd btag;  ln -s ../../../up/btag/TreesMu_bkgWithWMG_RW.root ; cd -;
+cd ctag;  ln -s ../../../up/ctag/TreesMu_bkgWithWMG_RW.root ; cd -;
+cd JER;  ln -s ../../../up/JER/TreesMu_bkgWithWMG_RW.root ; cd -;
+cd JES;  ln -s ../../../up/JES/TreesMu_bkgWithWMG_RW.root ; cd -;
+cd lumi;  ln -s ../../../up/lumi/TreesMu_bkgWithWMG_RW.root ; cd -;
+#cd mass;  ln -s ../../../up/mass/TreesMu_bkgWithWMG_RW.root ; cd -;
+cd MET;  ln -s ../../../up/MET/TreesMu_bkgWithWMG_RW.root ; cd -;
+cd pu;  ln -s ../../../up/pu/TreesMu_bkgWithWMG_RW.root ; cd -;
+#cd Q2;  ln -s ../../../up/Q2/TreesMu_bkgWithWMG_RW.root ; cd -;
+#cd tt;  ln -s ../../../up/tt/TreesMu_bkgWithWMG_RW.root ; cd -;
+#cd t;  ln -s ../../../up/t/TreesMu_bkgWithWMG_RW.root ; cd -;
+cd qcdnorm;  ln -s ../../../up/qcdnorm/TreesMu_bkgWithWMG_RW.root ; cd -;
+cd ewknorm;  ln -s ../../../up/ewknorm/TreesMu_bkgWithWMG_RW.root ; cd -;

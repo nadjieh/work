@@ -1,0 +1,9 @@
+cp TreesEle_TToBENu_LVRV_unphys_plots.root ../forLVRV/TreesEle_unphys_plots.root
+cp TreesEle_TToBENu_LVRV_0100_plots.root ../forLVRV/TreesEle_r_plots.root
+cp TreesMu_TToBMuNu_LVRV_0100_plots.root ../forLVRV/TreesMu_r_plots.root
+cp TreesMu_TToBMuNu_LVRV_unphys_plots.root ../forLVRV/TreesMu_unphys_plots.root
+cp TreesMu_TToBMuNu_LVLT_unphys_plots.root ../forLVLT/TreesMu_unphys_plots.root
+cp TreesEle_TToBENu_LVLT_unphys_plots.root ../forLVLT/TreesEle_unphys_plots.root
+cp TreesEle_TToBENu_LVLT_0010_plots.root ../forLVLT/TreesEle_r_plots.root
+cp TreesMu_TToBMuNu_LVLT_0010_plots.root ../forLVLT/TreesMu_r_plots.root
+

@@ -1,0 +1,101 @@
+{
+//=========Macro generated from canvas: Canvas_1/Canvas_1
+//=========  (Sat Aug  3 17:05:51 2013) by ROOT version5.32/00
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",325,100,363,327);
+   Canvas_1->Range(-6.215278,-7839.661,6.25,68418.86);
+   Canvas_1->SetFillColor(0);
+   Canvas_1->SetBorderMode(0);
+   Canvas_1->SetBorderSize(2);
+   Canvas_1->SetFrameBorderMode(0);
+   Canvas_1->SetFrameBorderMode(0);
+   
+   TH1D *allW_FwD_Eta = new TH1D("allW_FwD_Eta","allW_FwD_Eta",20,-5,5);
+   allW_FwD_Eta->SetBinContent(1,69.04987);
+   allW_FwD_Eta->SetBinContent(2,1064.025);
+   allW_FwD_Eta->SetBinContent(3,4647.898);
+   allW_FwD_Eta->SetBinContent(4,10338.67);
+   allW_FwD_Eta->SetBinContent(5,24946.86);
+   allW_FwD_Eta->SetBinContent(6,39601.16);
+   allW_FwD_Eta->SetBinContent(7,50909.54);
+   allW_FwD_Eta->SetBinContent(8,56593.64);
+   allW_FwD_Eta->SetBinContent(9,41758.5);
+   allW_FwD_Eta->SetBinContent(10,15531.94);
+   allW_FwD_Eta->SetBinContent(11,15597.17);
+   allW_FwD_Eta->SetBinContent(12,41989.58);
+   allW_FwD_Eta->SetBinContent(13,56540.29);
+   allW_FwD_Eta->SetBinContent(14,50906.46);
+   allW_FwD_Eta->SetBinContent(15,40070.98);
+   allW_FwD_Eta->SetBinContent(16,24464.79);
+   allW_FwD_Eta->SetBinContent(17,10241.86);
+   allW_FwD_Eta->SetBinContent(18,4443.668);
+   allW_FwD_Eta->SetBinContent(19,1142.548);
+   allW_FwD_Eta->SetBinContent(20,83.01663);
+   allW_FwD_Eta->SetBinError(1,10.0572);
+   allW_FwD_Eta->SetBinError(2,36.56219);
+   allW_FwD_Eta->SetBinError(3,83.03112);
+   allW_FwD_Eta->SetBinError(4,133.7104);
+   allW_FwD_Eta->SetBinError(5,302.9528);
+   allW_FwD_Eta->SetBinError(6,896.3515);
+   allW_FwD_Eta->SetBinError(7,905.8809);
+   allW_FwD_Eta->SetBinError(8,1327.09);
+   allW_FwD_Eta->SetBinError(9,633.345);
+   allW_FwD_Eta->SetBinError(10,238.7515);
+   allW_FwD_Eta->SetBinError(11,244.3389);
+   allW_FwD_Eta->SetBinError(12,636.4888);
+   allW_FwD_Eta->SetBinError(13,1339.926);
+   allW_FwD_Eta->SetBinError(14,886.7209);
+   allW_FwD_Eta->SetBinError(15,919.8633);
+   allW_FwD_Eta->SetBinError(16,300.1316);
+   allW_FwD_Eta->SetBinError(17,135.5229);
+   allW_FwD_Eta->SetBinError(18,82.87335);
+   allW_FwD_Eta->SetBinError(19,44.08061);
+   allW_FwD_Eta->SetBinError(20,10.43094);
+   allW_FwD_Eta->SetEntries(1309424);
+   
+   TPaveStats *ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("allW_FwD_Eta");
+   text->SetTextSize(0.0368);
+   text = ptstats->AddText("Entries = 1309424");
+   text = ptstats->AddText("Mean  = -0.001565");
+   text = ptstats->AddText("RMS   =  1.858");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   allW_FwD_Eta->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(allW_FwD_Eta);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   allW_FwD_Eta->SetLineColor(ci);
+   allW_FwD_Eta->GetXaxis()->SetTitle("#eta");
+   allW_FwD_Eta->GetXaxis()->SetLabelFont(42);
+   allW_FwD_Eta->GetXaxis()->SetLabelSize(0.035);
+   allW_FwD_Eta->GetXaxis()->SetTitleSize(0.035);
+   allW_FwD_Eta->GetXaxis()->SetTitleFont(42);
+   allW_FwD_Eta->GetYaxis()->SetLabelFont(42);
+   allW_FwD_Eta->GetYaxis()->SetLabelSize(0.035);
+   allW_FwD_Eta->GetYaxis()->SetTitleSize(0.035);
+   allW_FwD_Eta->GetYaxis()->SetTitleFont(42);
+   allW_FwD_Eta->GetZaxis()->SetLabelFont(42);
+   allW_FwD_Eta->GetZaxis()->SetLabelSize(0.035);
+   allW_FwD_Eta->GetZaxis()->SetTitleSize(0.035);
+   allW_FwD_Eta->GetZaxis()->SetTitleFont(42);
+   allW_FwD_Eta->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.3381894,0.9351869,0.6618106,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("allW_FwD_Eta");
+   pt->Draw();
+   Canvas_1->Modified();
+   Canvas_1->cd();
+   Canvas_1->SetSelected(Canvas_1);
+}

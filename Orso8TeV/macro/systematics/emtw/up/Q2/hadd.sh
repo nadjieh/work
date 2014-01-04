@@ -1,0 +1,10 @@
+rm -f TreesEle_TbarWChannel_RW.root TreesEle_TWChannel_RW.root TreesMu_TbarWChannel_RW.root TreesMu_TWChannel_RW.root
+
+hadd  TreesEle_TbarWChannel_RW.root TreesEle_TbarWChannelFullLep_Q2Up_RW.root TreesEle_TbarWChannelThadWlep_Q2Up_RW.root TreesEle_TbarWChannelTlepWhad_Q2Up_RW.root 
+
+hadd  TreesEle_TWChannel_RW.root TreesEle_TWChannelFullLep_Q2Up_RW.root TreesEle_TWChannelThadWlep_Q2Up_RW.root TreesEle_TWChannelTlepWhad_Q2Up_RW.root
+
+
+hadd  TreesMu_TbarWChannel_RW.root TreesMu_TbarWChannelFullLep_Q2Up_RW.root TreesMu_TbarWChannelThadWlep_Q2Up_RW.root TreesMu_TbarWChannelTlepWhad_Q2Up_RW.root 
+
+hadd  TreesMu_TWChannel_RW.root TreesMu_TWChannelFullLep_Q2Up_RW.root TreesMu_TWChannelThadWlep_Q2Up_RW.root TreesMu_TWChannelTlepWhad_Q2Up_RW.root

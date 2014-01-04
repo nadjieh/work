@@ -1,0 +1,148 @@
+{
+//=========Macro generated from canvas: Canvas_1/Canvas_1
+//=========  (Thu Oct 17 16:10:11 2013) by ROOT version5.32/00
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",458,177,700,502);
+   Canvas_1->Range(-1.25,-18750,11.25,168750);
+   Canvas_1->SetFillColor(0);
+   Canvas_1->SetBorderMode(0);
+   Canvas_1->SetBorderSize(2);
+   Canvas_1->SetFrameBorderMode(0);
+   Canvas_1->SetFrameBorderMode(0);
+   
+   TH1D *cutFlow = new TH1D("cutFlow","electron",10,0,10);
+   cutFlow->SetBinContent(1,82029);
+   cutFlow->SetBinContent(2,82029);
+   cutFlow->SetBinContent(3,82029);
+   cutFlow->SetBinContent(4,74531);
+   cutFlow->SetBinContent(5,60892);
+   cutFlow->SetMinimum(0);
+   cutFlow->SetMaximum(150000);
+   cutFlow->SetEntries(5);
+   
+   TPaveStats *ptstats = new TPaveStats(0.6307471,0.6666667,0.8318966,0.8270042,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("cutFlow");
+   text->SetTextSize(0.03687764);
+   text = ptstats->AddText("Entries = 5      ");
+   text = ptstats->AddText("Mean  =   2.37");
+   text = ptstats->AddText("RMS   =  1.375");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   cutFlow->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(cutFlow);
+   cutFlow->SetLineColor(2);
+   cutFlow->SetLineWidth(2);
+   cutFlow->GetXaxis()->SetBinLabel(1,"Intitial");
+   cutFlow->GetXaxis()->SetBinLabel(2,"p_{T} (lep.) > 26");
+   cutFlow->GetXaxis()->SetBinLabel(3,"p_{T} (lep.) > 30");
+   cutFlow->GetXaxis()->SetBinLabel(4,"p_{T} (bjet) > 40");
+   cutFlow->GetXaxis()->SetBinLabel(5,"p_{T} (fjet) > 40");
+   cutFlow->GetXaxis()->SetLabelFont(42);
+   cutFlow->GetXaxis()->SetLabelSize(0.035);
+   cutFlow->GetXaxis()->SetTitleSize(0.035);
+   cutFlow->GetXaxis()->SetTitleFont(42);
+   cutFlow->GetYaxis()->SetLabelFont(42);
+   cutFlow->GetYaxis()->SetLabelSize(0.035);
+   cutFlow->GetYaxis()->SetTitleSize(0.035);
+   cutFlow->GetYaxis()->SetTitleFont(42);
+   cutFlow->GetZaxis()->SetLabelFont(42);
+   cutFlow->GetZaxis()->SetLabelSize(0.035);
+   cutFlow->GetZaxis()->SetTitleSize(0.035);
+   cutFlow->GetZaxis()->SetTitleFont(42);
+   cutFlow->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.6853448,0.6877637,0.8376437,0.742616,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("electron");
+   pt->Draw();
+   
+   TH1D *cutFlow = new TH1D("cutFlow","muon",10,0,10);
+   cutFlow->SetBinContent(1,116538);
+   cutFlow->SetBinContent(2,100546);
+   cutFlow->SetBinContent(3,89432);
+   cutFlow->SetBinContent(4,81167);
+   cutFlow->SetBinContent(5,66213);
+   cutFlow->SetEntries(5);
+   
+   ptstats = new TPaveStats(0.5603448,0.6835443,0.7614943,0.8438819,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   text = ptstats->AddText("cutFlow");
+   text->SetTextSize(0.03687764);
+   text = ptstats->AddText("Entries = 5      ");
+   text = ptstats->AddText("Mean  =  2.236");
+   text = ptstats->AddText("RMS   =  1.393");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   cutFlow->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(cutFlow);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   cutFlow->SetLineColor(ci);
+   cutFlow->SetLineStyle(2);
+   cutFlow->SetLineWidth(2);
+   cutFlow->GetXaxis()->SetBinLabel(1,"Intitial");
+   cutFlow->GetXaxis()->SetBinLabel(2,"p_{T} (lep.) > 26");
+   cutFlow->GetXaxis()->SetBinLabel(3,"p_{T} (lep.) > 30");
+   cutFlow->GetXaxis()->SetBinLabel(4,"p_{T} (bjet) > 40");
+   cutFlow->GetXaxis()->SetBinLabel(5,"p_{T} (fjet) > 40");
+   cutFlow->GetXaxis()->SetLabelFont(42);
+   cutFlow->GetXaxis()->SetLabelSize(0.035);
+   cutFlow->GetXaxis()->SetTitleSize(0.035);
+   cutFlow->GetXaxis()->SetTitleFont(42);
+   cutFlow->GetYaxis()->SetLabelFont(42);
+   cutFlow->GetYaxis()->SetLabelSize(0.035);
+   cutFlow->GetYaxis()->SetTitleSize(0.035);
+   cutFlow->GetYaxis()->SetTitleFont(42);
+   cutFlow->GetZaxis()->SetLabelFont(42);
+   cutFlow->GetZaxis()->SetLabelSize(0.035);
+   cutFlow->GetZaxis()->SetTitleSize(0.035);
+   cutFlow->GetZaxis()->SetTitleFont(42);
+   cutFlow->Draw("sames");
+   
+   TLegend *leg = new TLegend(0.5100575,0.6265823,0.8893678,0.8797468,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetTextFont(62);
+   leg->SetTextSize(0.04219409);
+   leg->SetLineColor(0);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("cutFlow","electron","lpf");
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(2);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(1);
+   entry->SetMarkerSize(1);
+   entry=leg->AddEntry("cutFlow","muon","lpf");
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#000099");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(2);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(1);
+   entry->SetMarkerSize(1);
+   leg->Draw();
+   Canvas_1->Modified();
+   Canvas_1->cd();
+   Canvas_1->SetSelected(Canvas_1);
+}

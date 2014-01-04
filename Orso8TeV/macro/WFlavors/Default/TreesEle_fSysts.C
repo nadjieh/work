@@ -1,0 +1,486 @@
+{
+//=========Macro generated from canvas: c/c
+//=========  (Thu Aug  1 19:42:59 2013) by ROOT version5.32/00
+   TCanvas *c = new TCanvas("c", "c",67,53,604,630);
+   c->Range(-1.275862,-0.009302326,1.022989,0.08372093);
+   c->SetFillColor(0);
+   c->SetBorderMode(0);
+   c->SetBorderSize(2);
+   c->SetLeftMargin(0.12);
+   c->SetRightMargin(0.01);
+   c->SetTopMargin(0.04);
+   c->SetFrameBorderMode(0);
+   c->SetFrameBorderMode(0);
+   
+   TH1D *hbup = new TH1D("hbup","2J0T Data (b-syst.)",20,-1,1);
+   hbup->SetBinContent(1,0.04174833);//04374833
+   hbup->SetBinContent(2,0.04065898);//04265898
+   hbup->SetBinContent(3,0.04584338);
+   hbup->SetBinContent(4,0.0557722);
+   hbup->SetBinContent(5,0.06361262);
+   hbup->SetBinContent(6,0.06179325);
+   hbup->SetBinContent(7,0.06686039);
+   hbup->SetBinContent(8,0.06704962);
+   hbup->SetBinContent(9,0.06560581);
+   hbup->SetBinContent(10,0.06392461);
+   hbup->SetBinContent(11,0.06127384);
+   hbup->SetBinContent(12,0.05893144);
+   hbup->SetBinContent(13,0.05483615);
+   hbup->SetBinContent(14,0.05415447);
+   hbup->SetBinContent(15,0.04882803);
+   hbup->SetBinContent(16,0.04169208);
+   hbup->SetBinContent(17,0.03459372);
+   hbup->SetBinContent(18,0.02554594);
+   hbup->SetBinContent(19,0.02537126);
+   hbup->SetBinContent(20,0.0179039);
+   hbup->SetBinError(1,0.004538088);
+   hbup->SetBinError(2,0.004156889);
+   hbup->SetBinError(3,0.003754452);
+   hbup->SetBinError(4,0.004424544);
+   hbup->SetBinError(5,0.004686303);
+   hbup->SetBinError(6,0.004491565);
+   hbup->SetBinError(7,0.00457326);
+   hbup->SetBinError(8,0.004678493);
+   hbup->SetBinError(9,0.004366381);
+   hbup->SetBinError(10,0.004247025);
+   hbup->SetBinError(11,0.0042062);
+   hbup->SetBinError(12,0.004064643);
+   hbup->SetBinError(13,0.003972814);
+   hbup->SetBinError(14,0.00405001);
+   hbup->SetBinError(15,0.003944806);
+   hbup->SetBinError(16,0.003450239);
+   hbup->SetBinError(17,0.003125559);
+   hbup->SetBinError(18,0.002763548);
+   hbup->SetBinError(19,0.002788714);
+   hbup->SetBinError(20,0.002358283);
+   hbup->SetMinimum(0);
+   hbup->SetMaximum(0.08);
+   hbup->SetEntries(3142.705);
+   hbup->SetDirectory(0);
+   hbup->SetStats(0);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#ffcc00");
+   hbup->SetFillColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   hbup->SetLineColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   hbup->SetMarkerColor(ci);
+   hbup->GetXaxis()->SetTitle("cos(#theta*)");
+   hbup->GetYaxis()->SetTitle("Normalized to unity");
+   hbup->GetXaxis()->SetLabelFont(42);
+   hbup->GetXaxis()->SetLabelSize(0.035);
+   hbup->GetXaxis()->SetTitleSize(0.035);
+   hbup->GetXaxis()->SetTitleFont(42);
+   hbup->GetYaxis()->SetLabelFont(42);
+   hbup->GetYaxis()->SetLabelSize(0.035);
+   hbup->GetYaxis()->SetTitleSize(0.035);
+   hbup->GetYaxis()->SetTitleFont(42);
+   hbup->GetZaxis()->SetLabelFont(42);
+   hbup->GetZaxis()->SetLabelSize(0.035);
+   hbup->GetZaxis()->SetTitleSize(0.035);
+   hbup->GetZaxis()->SetTitleFont(42);
+   hbup->Draw("E4");
+   
+   TH1D *hbdown = new TH1D("hbdown","2J0T Data (b-syst.)",20,-1,1);
+   hbdown->SetBinContent(1,0.04648443);
+   hbdown->SetBinContent(2,0.0448937);//0438937
+   hbdown->SetBinContent(3,0.05030712);
+   hbdown->SetBinContent(4,0.05530562);
+   hbdown->SetBinContent(5,0.06580421);
+   hbdown->SetBinContent(6,0.06192751);
+   hbdown->SetBinContent(7,0.06646403);
+   hbdown->SetBinContent(8,0.07148932);
+   hbdown->SetBinContent(9,0.06479834);
+   hbdown->SetBinContent(10,0.06281131);
+   hbdown->SetBinContent(11,0.06215911);
+   hbdown->SetBinContent(12,0.06084268);
+   hbdown->SetBinContent(13,0.05192133);
+   hbdown->SetBinContent(14,0.05642357);
+   hbdown->SetBinContent(15,0.04542824);
+   hbdown->SetBinContent(16,0.03884873);
+   hbdown->SetBinContent(17,0.03250969);
+   hbdown->SetBinContent(18,0.02433403);
+   hbdown->SetBinContent(19,0.02191281);
+   hbdown->SetBinContent(20,0.01633419);
+   hbdown->SetBinError(1,0.004669256);
+   hbdown->SetBinError(2,0.004171934);
+   hbdown->SetBinError(3,0.004240802);
+   hbdown->SetBinError(4,0.004577408);
+   hbdown->SetBinError(5,0.004973221);
+   hbdown->SetBinError(6,0.004629125);
+   hbdown->SetBinError(7,0.004667743);
+   hbdown->SetBinError(8,0.004961187);
+   hbdown->SetBinError(9,0.004397487);
+   hbdown->SetBinError(10,0.004290139);
+   hbdown->SetBinError(11,0.004371002);
+   hbdown->SetBinError(12,0.004302577);
+   hbdown->SetBinError(13,0.003841304);
+   hbdown->SetBinError(14,0.00438772);
+   hbdown->SetBinError(15,0.003736395);
+   hbdown->SetBinError(16,0.003373433);
+   hbdown->SetBinError(17,0.002988423);
+   hbdown->SetBinError(18,0.002737546);
+   hbdown->SetBinError(19,0.002475246);
+   hbdown->SetBinError(20,0.002223643);
+   hbdown->SetEntries(3003.791);
+   hbdown->SetDirectory(0);
+   hbdown->SetStats(0);
+
+   ci = TColor::GetColor("#ffcc00");
+   hbdown->SetFillColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   hbdown->SetLineColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   hbdown->SetMarkerColor(ci);
+   hbdown->GetXaxis()->SetTitle("cos(#theta*)");
+   hbdown->GetXaxis()->SetLabelFont(42);
+   hbdown->GetXaxis()->SetLabelSize(0.035);
+   hbdown->GetXaxis()->SetTitleSize(0.035);
+   hbdown->GetXaxis()->SetTitleFont(42);
+   hbdown->GetYaxis()->SetLabelFont(42);
+   hbdown->GetYaxis()->SetLabelSize(0.035);
+   hbdown->GetYaxis()->SetTitleSize(0.035);
+   hbdown->GetYaxis()->SetTitleFont(42);
+   hbdown->GetZaxis()->SetLabelFont(42);
+   hbdown->GetZaxis()->SetLabelSize(0.035);
+   hbdown->GetZaxis()->SetTitleSize(0.035);
+   hbdown->GetZaxis()->SetTitleFont(42);
+   hbdown->Draw("E4SAME");
+   TH1D *hcup = new TH1D("hcup","2J0T Data (c-syst.)",20,-1,1);
+   hcup->SetBinContent(1,0.04093912);//04193912
+   hcup->SetBinContent(2,0.04265683);//04165683
+   hcup->SetBinContent(3,0.04234091);
+   hcup->SetBinContent(4,0.05767702);
+   hcup->SetBinContent(5,0.06304061);
+   hcup->SetBinContent(6,0.06211798);
+   hcup->SetBinContent(7,0.06789826);
+   hcup->SetBinContent(8,0.06413816);
+   hcup->SetBinContent(9,0.06586075);
+   hcup->SetBinContent(10,0.06517839);
+   hcup->SetBinContent(11,0.06033661);
+   hcup->SetBinContent(12,0.05650418);
+   hcup->SetBinContent(13,0.05644187);
+   hcup->SetBinContent(14,0.05229652);
+   hcup->SetBinContent(15,0.05118694);
+   hcup->SetBinContent(16,0.04249829);
+   hcup->SetBinContent(17,0.03621213);
+   hcup->SetBinContent(18,0.02608247);
+   hcup->SetBinContent(19,0.02787982);
+   hcup->SetBinContent(20,0.01871313);
+   hcup->SetBinError(1,0.004378751);
+   hcup->SetBinError(2,0.004041063);
+   hcup->SetBinError(3,0.00347344);
+   hcup->SetBinError(4,0.0044535);
+   hcup->SetBinError(5,0.00456285);
+   hcup->SetBinError(6,0.004414753);
+   hcup->SetBinError(7,0.004528797);
+   hcup->SetBinError(8,0.004500006);
+   hcup->SetBinError(9,0.004288773);
+   hcup->SetBinError(10,0.004223181);
+   hcup->SetBinError(11,0.004061632);
+   hcup->SetBinError(12,0.003860979);
+   hcup->SetBinError(13,0.003973052);
+   hcup->SetBinError(14,0.003848808);
+   hcup->SetBinError(15,0.004002409);
+   hcup->SetBinError(16,0.003394847);
+   hcup->SetBinError(17,0.003183627);
+   hcup->SetBinError(18,0.002731775);
+   hcup->SetBinError(19,0.002927043);
+   hcup->SetBinError(20,0.002394069);
+   hcup->SetMinimum(0);
+   hcup->SetMaximum(0.08);
+   hcup->SetEntries(3266.431);
+   hcup->SetDirectory(0);
+   hcup->SetStats(0);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#ffcc00");
+   hcup->SetFillColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   hcup->SetLineColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   hcup->SetMarkerColor(ci);
+   hcup->GetXaxis()->SetTitle("cos(#theta*)");
+   hcup->GetXaxis()->SetLabelFont(42);
+   hcup->GetXaxis()->SetLabelSize(0.035);
+   hcup->GetXaxis()->SetTitleSize(0.035);
+   hcup->GetXaxis()->SetTitleFont(42);
+   hcup->GetYaxis()->SetLabelFont(42);
+   hcup->GetYaxis()->SetLabelSize(0.035);
+   hcup->GetYaxis()->SetTitleSize(0.035);
+   hcup->GetYaxis()->SetTitleFont(42);
+   hcup->GetZaxis()->SetLabelFont(42);
+   hcup->GetZaxis()->SetLabelSize(0.035);
+   hcup->GetZaxis()->SetTitleSize(0.035);
+   hcup->GetZaxis()->SetTitleFont(42);
+   hcup->Draw("E4SAME");
+   
+   TH1D *hcdown = new TH1D("hcdown","2J0T Data (c-syst.)",20,-1,1);
+   hcdown->SetBinContent(1,0.04695874);//04295874
+   hcdown->SetBinContent(2,0.04016744);//04196744
+   hcdown->SetBinContent(3,0.04356084);
+   hcdown->SetBinContent(4,0.05878829);
+   hcdown->SetBinContent(5,0.06456347);
+   hcdown->SetBinContent(6,0.06250092);
+   hcdown->SetBinContent(7,0.06837513);
+   hcdown->SetBinContent(8,0.06581214);
+   hcdown->SetBinContent(9,0.06533524);
+   hcdown->SetBinContent(10,0.06518025);
+   hcdown->SetBinContent(11,0.06038324);
+   hcdown->SetBinContent(12,0.05627973);
+   hcdown->SetBinContent(13,0.0550967);
+   hcdown->SetBinContent(14,0.05285428);
+   hcdown->SetBinContent(15,0.05000923);
+   hcdown->SetBinContent(16,0.04057415);
+   hcdown->SetBinContent(17,0.03562903);
+   hcdown->SetBinContent(18,0.02541764);
+   hcdown->SetBinContent(19,0.02676952);
+   hcdown->SetBinContent(20,0.01794404);
+   hcdown->SetBinError(1,0.004443843);
+   hcdown->SetBinError(2,0.004053289);
+   hcdown->SetBinError(3,0.003619359);
+   hcdown->SetBinError(4,0.00468406);
+   hcdown->SetBinError(5,0.004739539);
+   hcdown->SetBinError(6,0.004507231);
+   hcdown->SetBinError(7,0.004615154);
+   hcdown->SetBinError(8,0.004645325);
+   hcdown->SetBinError(9,0.004279914);
+   hcdown->SetBinError(10,0.004280924);
+   hcdown->SetBinError(11,0.004086748);
+   hcdown->SetBinError(12,0.003881231);
+   hcdown->SetBinError(13,0.003890089);
+   hcdown->SetBinError(14,0.003965988);
+   hcdown->SetBinError(15,0.003931396);
+   hcdown->SetBinError(16,0.003246825);
+   hcdown->SetBinError(17,0.003140802);
+   hcdown->SetBinError(18,0.002683292);
+   hcdown->SetBinError(19,0.002821317);
+   hcdown->SetBinError(20,0.002311914);
+   hcdown->SetEntries(3199.871);
+   hcdown->SetDirectory(0);
+   hcdown->SetStats(0);
+
+   ci = TColor::GetColor("#ffcc00");
+   hcdown->SetFillColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   hcdown->SetLineColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   hcdown->SetMarkerColor(ci);
+   hcdown->GetXaxis()->SetTitle("cos(#theta*)");
+   hcdown->GetXaxis()->SetLabelFont(42);
+   hcdown->GetXaxis()->SetLabelSize(0.035);
+   hcdown->GetXaxis()->SetTitleSize(0.035);
+   hcdown->GetXaxis()->SetTitleFont(42);
+   hcdown->GetYaxis()->SetLabelFont(42);
+   hcdown->GetYaxis()->SetLabelSize(0.035);
+   hcdown->GetYaxis()->SetTitleSize(0.035);
+   hcdown->GetYaxis()->SetTitleFont(42);
+   hcdown->GetZaxis()->SetLabelFont(42);
+   hcdown->GetZaxis()->SetLabelSize(0.035);
+   hcdown->GetZaxis()->SetTitleSize(0.035);
+   hcdown->GetZaxis()->SetTitleFont(42);
+   hcdown->Draw("E4SAME");
+   
+   TH1D *data = new TH1D("data","2J0T Data (N)",20,-1,1);
+   data->SetBinContent(1,0.04391081);
+   data->SetBinContent(2,0.04202477);
+   data->SetBinContent(3,0.04949487);
+   data->SetBinContent(4,0.05698966);
+   data->SetBinContent(5,0.06151389);
+   data->SetBinContent(6,0.06441038);
+   data->SetBinContent(7,0.0660704);
+   data->SetBinContent(8,0.06689661);
+   data->SetBinContent(9,0.06663071);
+   data->SetBinContent(10,0.06525748);
+   data->SetBinContent(11,0.06322709);
+   data->SetBinContent(12,0.05995453);
+   data->SetBinContent(13,0.0571758);
+   data->SetBinContent(14,0.0517);
+   data->SetBinContent(15,0.0468282);
+   data->SetBinContent(16,0.0399412);
+   data->SetBinContent(17,0.03230206);
+   data->SetBinContent(18,0.02565817);
+   data->SetBinContent(19,0.02162207);
+   data->SetBinContent(20,0.0183913);
+   data->SetEntries(526499);
+   data->SetDirectory(0);
+   data->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   data->SetLineColor(ci);
+   data->GetXaxis()->SetTitle("cos(#theta*)");
+   data->GetXaxis()->SetLabelFont(42);
+   data->GetXaxis()->SetLabelSize(0.035);
+   data->GetXaxis()->SetTitleSize(0.035);
+   data->GetXaxis()->SetTitleFont(42);
+   data->GetYaxis()->SetLabelFont(42);
+   data->GetYaxis()->SetLabelSize(0.035);
+   data->GetYaxis()->SetTitleSize(0.035);
+   data->GetYaxis()->SetTitleFont(42);
+   data->GetZaxis()->SetLabelFont(42);
+   data->GetZaxis()->SetLabelSize(0.035);
+   data->GetZaxis()->SetTitleSize(0.035);
+   data->GetZaxis()->SetTitleFont(42);
+   data->Draw("sames");
+   
+   TH1D *mc = new TH1D("mc","2J1T MC",20,-1,1);
+   mc->SetBinContent(1,0.03826932);
+   mc->SetBinContent(2,0.0361607);
+   mc->SetBinContent(3,0.04591271);
+   mc->SetBinContent(4,0.0579122);
+   mc->SetBinContent(5,0.05506758);
+   mc->SetBinContent(6,0.06284357);
+   mc->SetBinContent(7,0.06296071);
+   mc->SetBinContent(8,0.06950521);
+   mc->SetBinContent(9,0.06560467);
+   mc->SetBinContent(10,0.06901103);
+   mc->SetBinContent(11,0.06623936);
+   mc->SetBinContent(12,0.06168272);
+   mc->SetBinContent(13,0.05690485);
+   mc->SetBinContent(14,0.0534518);
+   mc->SetBinContent(15,0.04774919);
+   mc->SetBinContent(16,0.0427694);
+   mc->SetBinContent(17,0.03591685);
+   mc->SetBinContent(18,0.02804693);
+   mc->SetBinContent(19,0.02354654);
+   mc->SetBinContent(20,0.02044466);
+   mc->SetBinError(1,0.002516492);
+   mc->SetBinError(2,0.002288224);
+   mc->SetBinError(3,0.002608744);
+   mc->SetBinError(4,0.003229626);
+   mc->SetBinError(5,0.002786);
+   mc->SetBinError(6,0.003219511);
+   mc->SetBinError(7,0.002996132);
+   mc->SetBinError(8,0.003277228);
+   mc->SetBinError(9,0.002997917);
+   mc->SetBinError(10,0.003171091);
+   mc->SetBinError(11,0.003204129);
+   mc->SetBinError(12,0.002948379);
+   mc->SetBinError(13,0.00284419);
+   mc->SetBinError(14,0.002751431);
+   mc->SetBinError(15,0.0026718);
+   mc->SetBinError(16,0.002501781);
+   mc->SetBinError(17,0.002252283);
+   mc->SetBinError(18,0.001990629);
+   mc->SetBinError(19,0.001817134);
+   mc->SetBinError(20,0.001769919);
+   mc->SetEntries(9738);
+   mc->SetDirectory(0);
+   mc->SetStats(0);
+   mc->SetLineColor(2);
+   mc->SetLineWidth(2);
+   mc->GetXaxis()->SetTitle("cos(#theta*)");
+   mc->GetXaxis()->SetLabelFont(42);
+   mc->GetXaxis()->SetLabelSize(0.035);
+   mc->GetXaxis()->SetTitleSize(0.035);
+   mc->GetXaxis()->SetTitleFont(42);
+   mc->GetYaxis()->SetLabelFont(42);
+   mc->GetYaxis()->SetLabelSize(0.035);
+   mc->GetYaxis()->SetTitleSize(0.035);
+   mc->GetYaxis()->SetTitleFont(42);
+   mc->GetZaxis()->SetLabelFont(42);
+   mc->GetZaxis()->SetLabelSize(0.035);
+   mc->GetZaxis()->SetTitleSize(0.035);
+   mc->GetZaxis()->SetTitleFont(42);
+   mc->Draw("sames");
+   TH1D * bDataSyst = (TH1D*)data->Clone("bDataSyst");
+   for(int i = 0; i<bDataSyst->GetXaxis()->GetNbins(); i++){
+	    double bu = fabs(hbup->GetBinContent(i+1) - data->GetBinContent(i+1));
+	    double bd = fabs(hbdown->GetBinContent(i+1) - data->GetBinContent(i+1));
+	    double cu = fabs(hcup->GetBinContent(i+1) - data->GetBinContent(i+1));
+	    double cd = fabs(hcdown->GetBinContent(i+1) - data->GetBinContent(i+1));
+
+		double bavg = (bu+bd)/2.;
+		double cavg = (cu+cd)/2.;
+		double err = sqrt(pow(bavg,2)+pow(cavg,2));
+		bDataSyst->SetBinError(i+1,err);
+   }
+   bDataSyst->SetLineColor(kGreen+2);
+   bDataSyst->SetLineWidth(0);
+   bDataSyst->SetFillColor(kGreen+2);
+   bDataSyst->SetFillStyle(0);
+   bDataSyst->Draw("E4SAME");
+   TPaveText *pt = new TPaveText(0.2083333,0.2192691,0.4516667,0.2790698,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   TText *text = pt->AddText("2J0T Data (b-syst.)");
+   pt->Draw();
+   
+   TLegend *leg = new TLegend(0.185,0.1528239,0.565,0.3621262,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetTextFont(62);
+   leg->SetLineColor(0);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("hbup","2J0T flavor scaled Data stat. band","lpf");
+
+   ci = TColor::GetColor("#ffcc00");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#ffcc00");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#ffcc00");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(1);
+   entry->SetMarkerSize(1);
+
+
+   entry=leg->AddEntry("bDataSyst","2J0T Data syst. band","lpf");
+
+   ci = TColor::GetColor("#ffcc00");
+   entry->SetFillColor(kGreen+2);
+   entry->SetFillStyle(0);
+
+   ci = TColor::GetColor("#ffcc00");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(0);
+
+   ci = TColor::GetColor("#ffcc00");
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(1);
+   entry->SetMarkerSize(1);
+
+
+   entry=leg->AddEntry("Default_DefcosTheta__7","2J0T Data nominal","lpf");
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#000099");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(1);
+   entry->SetMarkerSize(1);
+   entry=leg->AddEntry("Default_allWcosTheta__8","2J1T MC","lpf");
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(2);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(1);
+   entry->SetMarkerSize(1);
+   leg->Draw();
+
+   c->Modified();
+   c->cd();
+   c->SetSelected(c);
+}

@@ -1,0 +1,127 @@
+{
+std::vector<double> F0Up;
+std::vector<double> FlUp;
+std::vector<double> FrUp;
+std::vector<std::string> names;
+names.push_back("b-tag");
+names.push_back("mis-tag");
+names.push_back("JER");
+names.push_back("JES");
+names.push_back("luminosity");
+names.push_back("$\\rm m_{top}$");
+names.push_back("Unclust. Energy");
+names.push_back("pile up");
+names.push_back("$\\rm Q^{2}$ scale");
+names.push_back("$t\\bar{t}$ norm.");
+names.push_back("single-top norm.");
+names.push_back("EWK norm.");
+names.push_back("QCD norm.");
+names.push_back("Wshape (c-flavor)");
+names.push_back("Wshape (b-flavor)");
+//names.push_back("PDF");
+names.push_back("CompHep");
+/*names.push_back("MC stat.");
+names.push_back("Anom. $V_R$");
+names.push_back("Anom. $g_L$");
+names.push_back("SM W-helicity Ref.");
+*/
+//// btagUp
+F0Up.push_back(-0.00445654);	FlUp.push_back(0.0045647);	FrUp.push_back(-0.00010816);
+//// ctagUp
+F0Up.push_back(-2.80664e-07);	FlUp.push_back(-2.3753e-07);	FrUp.push_back(5.18194e-07);
+//// JERUp
+F0Up.push_back(-0.00140808);	FlUp.push_back(0.00109889);	FrUp.push_back(0.000309192);
+//// JERUp
+F0Up.push_back(-0.00567077);	FlUp.push_back(0.00548575);	FrUp.push_back(0.000185015);
+//// lumiUp
+F0Up.push_back(-0.000386074);	FlUp.push_back(0.000386858);	FrUp.push_back(-7.8394e-07);
+//// massUp
+F0Up.push_back(-0.001797);	FlUp.push_back(0.00159902);	FrUp.push_back(0.000197987);
+//// METUp
+F0Up.push_back(-0.0052076);	FlUp.push_back(0.00586336);	FrUp.push_back(0.0052076-0.00586336);
+//// puUp
+F0Up.push_back(0.00141966);	FlUp.push_back(-0.00130524);	FrUp.push_back(-0.000114425);
+//// Q2Up
+F0Up.push_back(0.00650882);	FlUp.push_back(-0.0106265);	FrUp.push_back(0.0106265-0.00650882);
+//// ttUp
+F0Up.push_back(0.00151459);	FlUp.push_back(-0.00154387);	FrUp.push_back(2.928e-05);
+//// tUp
+F0Up.push_back(-0.00104228);	FlUp.push_back(0.00104573);	FrUp.push_back(-3.44213e-06);
+//// ewknormUp
+F0Up.push_back(-0.00170453);	FlUp.push_back(0.00182689);	FrUp.push_back(-0.000122362);
+//// ewknormUp
+F0Up.push_back(-0.00385406);	FlUp.push_back(-0.00649788);	FrUp.push_back(0.00649788+0.00385406);
+//// cwshapeUp
+F0Up.push_back(-0.00544806);	FlUp.push_back(0.00715141);	FrUp.push_back(-0.00170335);
+//// bwshapeUp
+F0Up.push_back(-0.00216359);	FlUp.push_back(0.00337572);	FrUp.push_back(-0.00121213);
+//// generatorUp
+F0Up.push_back(-0.01043342);	FlUp.push_back(0.00762407);	FrUp.push_back(-0.003190654);
+std::vector<double> F0Down;
+std::vector<double> FlDown;
+std::vector<double> FrDown;
+
+//// btagDown
+F0Down.push_back(0.00432307);	FlDown.push_back(-0.00443045);	FrDown.push_back(0.000107377);
+//// ctagDown
+F0Down.push_back(-2.80664e-07);	FlDown.push_back(-2.3753e-07);	FrDown.push_back(5.18194e-07);
+//// JERDown
+F0Down.push_back(0.00318784);	FlDown.push_back(-0.00465231);	FrDown.push_back(0.00146447);
+//// JERDown
+F0Down.push_back(0.00319338);	FlDown.push_back(-0.00381016);	FrDown.push_back(0.000616788);
+//// lumiDown
+F0Down.push_back(0.000675581);	FlDown.push_back(-0.000710291);	FrDown.push_back(3.47101e-05);
+//// massDown
+F0Down.push_back(0.00134628);	FlDown.push_back(-0.00147129);	FrDown.push_back(0.000125008);
+//// METDown
+F0Down.push_back(0.00763829);	FlDown.push_back(-0.00823047);	FrDown.push_back(-0.00763829+0.00823047);
+//// puDown
+F0Down.push_back(-0.00107527);	FlDown.push_back(0.000985856);	FrDown.push_back(8.94186e-05);
+//// Q2Down
+F0Down.push_back(0.00186163);	FlDown.push_back(-0.0059414);	FrDown.push_back(0.0059414-0.00186163);
+//// ttDown
+F0Down.push_back(-0.00165273);	FlDown.push_back(0.0016815);	FrDown.push_back(-2.87696e-05);
+//// tDown
+F0Down.push_back(0.00105893);	FlDown.push_back(-0.0010634);	FrDown.push_back(4.47151e-06);
+//// ewknormDown
+F0Down.push_back(0.00169422);	FlDown.push_back(-0.00181774);	FrDown.push_back(0.000123523);
+//// ewknormDown
+F0Down.push_back(0.00324771);	FlDown.push_back(0.005686242);	FrDown.push_back(-0.00324771-0.005686242);
+//// cwshapeDown
+F0Down.push_back(-0.00212207);	FlDown.push_back(0.00336201);	FrDown.push_back(-0.00123994);
+//// bwshapeDown
+F0Down.push_back(0.00526723);	FlDown.push_back(-0.00504198);	FrDown.push_back(-0.000225254);
+//// generatorDown
+F0Down.push_back(-0.01043342);	FlDown.push_back(0.00762407);	FrDown.push_back(-0.003190654);
+cout<<F0Down.size()<<"\t"<<F0Up.size()<<"\t"<<names.size()<<endl;
+std::cout.setf(std::ios::fixed);
+std::cout.precision(3);
+	std::vector<double> F0Sum;
+	std::vector<double> FlSum;
+	std::vector<double> FrSum;
+	cout<<"|\t"<<"|\t\\Delta F_0|\t\\Delta F_L|\t\\Delta F_R"<<endl;
+	for(unsigned int i = 0; i<F0Up.size(); i++){
+		double f0 = (fabs(F0Up[i])+fabs(F0Down[i]))/2.;
+		double fl = (fabs(FlUp[i])+fabs(FlDown[i]))/2.;
+		double fr = (fabs(FrUp[i])+fabs(FrDown[i]))/2.;
+		if(names[i] == "$\\rm m_{top}$"){
+			f0=f0/3.;
+			fl=fl/3.;
+			fr=fr/3.;
+		}
+		std::cout<<"|"<<names[i]<<"|\t"<<f0<<"|\t"<<fl<<"|\t"<<fr<<std::endl;
+		F0Sum.push_back(f0);
+		FlSum.push_back(fl);
+		FrSum.push_back(fr);
+	}
+	double df0 = 0;
+	double dfl = 0;
+	double dfr = 0;
+	for(unsigned int i = 0; i<F0Up.size(); i++){
+		df0 += pow(F0Sum[i],2);
+		dfl += pow(FlSum[i],2);
+		dfr += pow(FrSum[i],2);
+	}
+		std::cout<<"| Sum |\t"<<sqrt(df0)<<"|\t"<<sqrt(dfl)<<"|\t"<<sqrt(dfr)<<std::endl;
+
+}

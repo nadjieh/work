@@ -1,0 +1,102 @@
+{
+//=========Macro generated from canvas: Canvas_1/Canvas_1
+//=========  (Tue Nov 26 16:28:05 2013) by ROOT version5.32/00
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",67,53,700,502);
+   Canvas_1->Range(-1.25,-0.01140523,1.25,0.1026471);
+   Canvas_1->SetFillColor(0);
+   Canvas_1->SetBorderMode(0);
+   Canvas_1->SetBorderSize(2);
+   Canvas_1->SetFrameBorderMode(0);
+   Canvas_1->SetFrameBorderMode(0);
+   
+   TH1D *Default_DefcosTheta__1 = new TH1D("Default_DefcosTheta__1","Default_Def: cos(#theta)",20,-1,1);
+   Default_DefcosTheta__1->SetBinContent(1,0.000251067);
+   Default_DefcosTheta__1->SetBinContent(2,0.0005021341);
+   Default_DefcosTheta__1->SetBinContent(3,0.006527743);
+   Default_DefcosTheta__1->SetBinContent(4,0.02862164);
+   Default_DefcosTheta__1->SetBinContent(5,0.04443887);
+   Default_DefcosTheta__1->SetBinContent(6,0.04745167);
+   Default_DefcosTheta__1->SetBinContent(7,0.0479538);
+   Default_DefcosTheta__1->SetBinContent(8,0.05146874);
+   Default_DefcosTheta__1->SetBinContent(9,0.04669847);
+   Default_DefcosTheta__1->SetBinContent(10,0.05222194);
+   Default_DefcosTheta__1->SetBinContent(11,0.06201356);
+   Default_DefcosTheta__1->SetBinContent(12,0.05874969);
+   Default_DefcosTheta__1->SetBinContent(13,0.06176249);
+   Default_DefcosTheta__1->SetBinContent(14,0.0662817);
+   Default_DefcosTheta__1->SetBinContent(15,0.06904343);
+   Default_DefcosTheta__1->SetBinContent(16,0.07481798);
+   Default_DefcosTheta__1->SetBinContent(17,0.08234999);
+   Default_DefcosTheta__1->SetBinContent(18,0.07632438);
+   Default_DefcosTheta__1->SetBinContent(19,0.05674115);
+   Default_DefcosTheta__1->SetBinContent(20,0.06577956);
+   Default_DefcosTheta__1->SetBinError(1,0.000251067);
+   Default_DefcosTheta__1->SetBinError(2,0.0003550624);
+   Default_DefcosTheta__1->SetBinError(3,0.001280196);
+   Default_DefcosTheta__1->SetBinError(4,0.002680662);
+   Default_DefcosTheta__1->SetBinError(5,0.00334023);
+   Default_DefcosTheta__1->SetBinError(6,0.003451601);
+   Default_DefcosTheta__1->SetBinError(7,0.003469815);
+   Default_DefcosTheta__1->SetBinError(8,0.003594733);
+   Default_DefcosTheta__1->SetBinError(9,0.003424098);
+   Default_DefcosTheta__1->SetBinError(10,0.00362094);
+   Default_DefcosTheta__1->SetBinError(11,0.003945828);
+   Default_DefcosTheta__1->SetBinError(12,0.003840587);
+   Default_DefcosTheta__1->SetBinError(13,0.003937833);
+   Default_DefcosTheta__1->SetBinError(14,0.004079356);
+   Default_DefcosTheta__1->SetBinError(15,0.004163476);
+   Default_DefcosTheta__1->SetBinError(16,0.004334089);
+   Default_DefcosTheta__1->SetBinError(17,0.004547017);
+   Default_DefcosTheta__1->SetBinError(18,0.004377503);
+   Default_DefcosTheta__1->SetBinError(19,0.003774365);
+   Default_DefcosTheta__1->SetBinError(20,0.004063875);
+   Default_DefcosTheta__1->SetEntries(3983);
+   Default_DefcosTheta__1->SetDirectory(0);
+   
+   TPaveStats *ptstats = new TPaveStats(0.183908,0.7194093,0.3850575,0.8797468,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("Default_DefcosTheta");
+   text->SetTextSize(0.03687764);
+   text = ptstats->AddText("Entries = 3983   ");
+   text = ptstats->AddText("Mean  =  0.236");
+   text = ptstats->AddText("RMS   = 0.4716");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   Default_DefcosTheta__1->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(Default_DefcosTheta__1);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   Default_DefcosTheta__1->SetLineColor(ci);
+   Default_DefcosTheta__1->GetXaxis()->SetTitle("cos(#theta*)");
+   Default_DefcosTheta__1->GetXaxis()->SetLabelFont(42);
+   Default_DefcosTheta__1->GetXaxis()->SetLabelSize(0.035);
+   Default_DefcosTheta__1->GetXaxis()->SetTitleSize(0.035);
+   Default_DefcosTheta__1->GetXaxis()->SetTitleFont(42);
+   Default_DefcosTheta__1->GetYaxis()->SetLabelFont(42);
+   Default_DefcosTheta__1->GetYaxis()->SetLabelSize(0.035);
+   Default_DefcosTheta__1->GetYaxis()->SetTitleSize(0.035);
+   Default_DefcosTheta__1->GetYaxis()->SetTitleFont(42);
+   Default_DefcosTheta__1->GetZaxis()->SetLabelFont(42);
+   Default_DefcosTheta__1->GetZaxis()->SetLabelSize(0.035);
+   Default_DefcosTheta__1->GetZaxis()->SetTitleSize(0.035);
+   Default_DefcosTheta__1->GetZaxis()->SetTitleFont(42);
+   Default_DefcosTheta__1->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.3348276,0.9342405,0.6651724,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("Default_Def: cos(#theta)");
+   pt->Draw();
+   Canvas_1->Modified();
+   Canvas_1->cd();
+   Canvas_1->SetSelected(Canvas_1);
+}
