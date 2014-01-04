@@ -1,0 +1,196 @@
+1 ---- fzRef
+3 ---- flRef
+5 ---- fRef
+7 ---- nwRef
+9 ---- do3D
+do3D
+11 ---- is2Drecgen
+is2Drecgen
+13 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_die_TTBar_RW.root as signal
+ in 3D :-)
+0x1577f70
+15 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+100
+17 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+100
+19 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_ehad_TTBar_RW.root as signal
+ in 3D :-)
+0x25da1b0
+100
+21 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_etau_TTBar_RW.root as signal
+ in 3D :-)
+0x25ee200
+100
+23 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_mue_TTBar_RW.root as signal
+ in 3D :-)
+0x25f1eb0
+100
+25 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+100
+27 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+100
+29 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 84.2042
+100
+31 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 176.884
+100
+33 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 1503.01
+100
+35 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 853.226
+100
+37 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 2689.81
+100
+39 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 859.841
+100
+41 ---- bkg7
+bkg 7
+TreesEle_bkg_RW.root	myQCD: 0
+here ..
+43 ---- wtemplate7
+w template 7
+45 ---- data7
+data 7
+47 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+100
+49 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+ in 3D :-)
+0x2632fb0
+100
+51 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+100
+53 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+100
+55 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+100
+57 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_mue_TTBar_RW.root as signal
+ in 3D :-)
+0x264abc0
+100
+59 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+ in 3D :-)
+0x2650ea0
+100
+61 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+ in 3D :-)
+0x2657360
+100
+63 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 111.75
+100
+65 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 235.345
+100
+67 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 1970.08
+100
+69 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 1106.2
+100
+71 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 3500.86
+100
+73 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 1098.67
+100
+75 ---- bkg8
+bkg 8
+here ..
+77 ---- wtemplate8
+w template 8
+79 ---- data8
+data 8
+7: 0x261db10	0xb86e400	0x261a660
+8: 0x267e210	0x267a450	0x2683ac0
+In Bias fit: 
+	size of 2D signal at 7 TeV is 10
+	size of 3D signal at 7 TeV is 4
+In Bias fit: 
+	size of 2D signal at 8 TeV is 10
+	size of 3D signal at 8 TeV is 4
+Here
+before get minimum simple: 
+bkg bins 7: 100
+bkg bins 8: 100
+w bins 7: 100
+w bins 8: 100
+data bins 7: 100
+data bins 8: 100
+f0_mu              : 0.700231	+/-	0
+fl_mu              : 0.229937	+/-	0
+df0_e              : 0.0250273	+/-	0.0646467
+dfl_e              : 0.0159374	+/-	0.0417215
+reg_gen factor muon: 1	+/-	0
+n_{W+jets}     muon: 12447.3	+/-	0
+reg_gen factor ele : 1	+/-	0
+n_{W+jets}     ele : 10857.9	+/-	339.408
+dfr_e              : -0.0409648	+/-	0.0321052
+(df0_e;dfl_e) correlation: -0.90635

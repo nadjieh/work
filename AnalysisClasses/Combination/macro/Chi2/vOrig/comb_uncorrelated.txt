@@ -1,0 +1,750 @@
+1 ---- do3D
+2 ---- yes
+3 ---- is2Drecgen
+4 ---- yes
+5 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_die_TTBar_RW.root as signal
+ in 3D :-)
+1 ---- do3D
+2 ---- yes
+3 ---- is2Drecgen
+4 ---- yes
+5 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_die_TTBar_RW.root as signal
+ in 3D :-)
+0x1841160
+7 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+10
+9 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+10
+11 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_ehad_TTBar_RW.root as signal
+ in 3D :-)
+0x2b5e960
+10
+13 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_etau_TTBar_RW.root as signal
+ in 3D :-)
+0x2b61380
+10
+15 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_mue_TTBar_RW.root as signal
+ in 3D :-)
+0x2b69e30
+10
+17 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+10
+19 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+10
+21 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 84.2042
+10
+23 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 176.884
+10
+25 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 1503.01
+10
+27 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 853.226
+10
+29 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 2689.81
+10
+31 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 859.841
+10
+33 ---- bkg7
+bkg 7
+35 ---- wtemplate7
+w template 7
+37 ---- data7
+data 7
+39 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+10
+41 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+ in 3D :-)
+0x3348030
+10
+43 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+10
+45 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+10
+47 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+10
+49 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_mue_TTBar_RW.root as signal
+ in 3D :-)
+0x3367d30
+10
+51 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+ in 3D :-)
+0x3365cf0
+10
+53 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+ in 3D :-)
+0x336d910
+10
+55 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 147.562
+10
+57 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 298.982
+10
+59 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 2762.06
+10
+61 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 1372.08
+10
+63 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 4857.03
+10
+65 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 1365.12
+10
+67 ---- bkg8
+bkg 8
+here ..
+69 ---- wtemplate8
+w template 8
+71 ---- data8
+data 8
+73 ---- FL
+75 ---- F0
+77 ---- F0Stat
+79 ---- FLStat
+81 ---- F0Syst
+83 ---- FLSyst
+85 ---- F0Tot
+87 ---- FLTot
+89 ---- nW7
+91 ---- nW8
+93 ---- name
+7: 0x2b95460	0x2b9f990	0x288c460
+8: 0x99352e0	0x9950a00	0x9946a80
+In Bias fit: 
+	size of 2D signal at 7 TeV is 10
+	size of 3D signal at 7 TeV is 4
+In Bias fit: 
+	size of 2D signal at 8 TeV is 10
+	size of 3D signal at 8 TeV is 4
+Reached here
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2Stat_uncorrelated_7TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2Stat_uncorrelated_7TeV
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2Stat_uncorrelated_8TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2Stat_uncorrelated_8TeV
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+In CombinedChi2Stat_uncorrelated_7TeV ======================================= 
+==========  0.716711	0.292326
+==========  1	11099.5
+==========  15
+==========  nBins signal         : 20
+==========  signal integral      : 59782.1
+==========  nBins signal RW      : 20
+==========  signalRW integral    : 59844.7
+==========  nBins background     : 20
+==========  background integral  : 38899.8
+==========  nBins data           : 20
+==========  data integral        : 98736
+==========  nBins signal up      : 20
+==========  signal up integral   : 59688.1
+==========  nBins signal down    : 20
+==========  signal down integral : 59997.7
+======================================================= 
+ChiSquared: 36.3249
+NormalChiSquared: 2.42166
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2Syst_uncorrelated_7TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2Syst_uncorrelated_7TeV
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2Syst_uncorrelated_8TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2Syst_uncorrelated_8TeV
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+In CombinedChi2Syst_uncorrelated_7TeV ======================================= 
+==========  0.716711	0.292326
+==========  1	11099.5
+==========  15
+==========  nBins signal         : 20
+==========  signal integral      : 59782.1
+==========  nBins signal RW      : 20
+==========  signalRW integral    : 59844.7
+==========  nBins background     : 20
+==========  background integral  : 38899.8
+==========  nBins data           : 20
+==========  data integral        : 98736
+==========  nBins signal up      : 20
+==========  signal up integral   : 60480.1
+==========  nBins signal down    : 20
+==========  signal down integral : 59199.4
+======================================================= 
+ChiSquared: 29.3405
+NormalChiSquared: 1.95603
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2total_uncorrelated_7TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2total_uncorrelated_7TeV
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2total_uncorrelated_8TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2total_uncorrelated_8TeV
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+In CombinedChi2total_uncorrelated_7TeV ======================================= 
+==========  0.716711	0.292326
+==========  1	11099.5
+==========  15
+==========  nBins signal         : 20
+==========  signal integral      : 59782.1
+==========  nBins signal RW      : 20
+==========  signalRW integral    : 59844.7
+==========  nBins background     : 20
+==========  background integral  : 38899.8
+==========  nBins data           : 20
+==========  data integral        : 98736
+==========  nBins signal up      : 20
+==========  signal up integral   : 60328.7
+==========  nBins signal down    : 20
+==========  signal down integral : 59353.6
+======================================================= 
+ChiSquared: 38.8843
+NormalChiSquared: 2.59229
+1 ---- do3D
+2 ---- yes
+3 ---- is2Drecgen
+4 ---- yes
+5 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_die_TTBar_RW.root as signal
+ in 3D :-)
+1 ---- do3D
+2 ---- yes
+3 ---- is2Drecgen
+4 ---- yes
+5 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_die_TTBar_RW.root as signal
+ in 3D :-)
+0x1749160
+7 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+10
+9 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+10
+11 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_ehad_TTBar_RW.root as signal
+ in 3D :-)
+0x2a66960
+10
+13 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_etau_TTBar_RW.root as signal
+ in 3D :-)
+0x2a69380
+10
+15 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_mue_TTBar_RW.root as signal
+ in 3D :-)
+0x2a71e30
+10
+17 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+10
+19 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 0
+10
+21 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 84.2042
+10
+23 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 176.884
+10
+25 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 1503.01
+10
+27 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 853.226
+10
+29 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 2689.81
+10
+31 ---- signal7
+signal7
+Default_allWcosTheta2D
+signal2D integral 7: 859.841
+10
+33 ---- bkg7
+bkg 7
+35 ---- wtemplate7
+w template 7
+37 ---- data7
+data 7
+39 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+10
+41 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+ in 3D :-)
+0x3250030
+10
+43 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+10
+45 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+10
+47 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 0
+10
+49 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_mue_TTBar_RW.root as signal
+ in 3D :-)
+0x326fd30
+10
+51 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+ in 3D :-)
+0x326dcf0
+10
+53 ---- signal8
+signal8
+I am in signal8 (muon) channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+ in 3D :-)
+0x3275910
+10
+55 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 147.562
+10
+57 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 298.982
+10
+59 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 2762.06
+10
+61 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 1372.08
+10
+63 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 4857.03
+10
+65 ---- signal8
+signal8
+Default_allWcosTheta2D
+signal2D integral 8: 1365.12
+10
+67 ---- bkg8
+bkg 8
+here ..
+69 ---- wtemplate8
+w template 8
+71 ---- data8
+data 8
+73 ---- FL
+75 ---- F0
+77 ---- F0Stat
+79 ---- FLStat
+81 ---- F0Syst
+83 ---- FLSyst
+85 ---- F0Tot
+87 ---- FLTot
+89 ---- nW7
+91 ---- nW8
+93 ---- name
+7: 0x2a9d460	0x2aa7990	0x2794460
+8: 0x983d2e0	0x9858a00	0x984ea80
+In Bias fit: 
+	size of 2D signal at 7 TeV is 10
+	size of 3D signal at 7 TeV is 4
+In Bias fit: 
+	size of 2D signal at 8 TeV is 10
+	size of 3D signal at 8 TeV is 4
+Reached here
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2Stat_uncorrelated_7TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2Stat_uncorrelated_7TeV
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2Stat_uncorrelated_8TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2Stat_uncorrelated_8TeV
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+In CombinedChi2Stat_uncorrelated_7TeV ======================================= 
+==========  0.716711	0.292326
+==========  1	11099.5
+==========  15
+==========  nBins signal         : 20
+==========  signal integral      : 59782.1
+==========  nBins signal RW      : 20
+==========  signalRW integral    : 59844.7
+==========  nBins background     : 20
+==========  background integral  : 38899.8
+==========  nBins data           : 20
+==========  data integral        : 98736
+==========  nBins signal up      : 20
+==========  signal up integral   : 59688.1
+==========  nBins signal down    : 20
+==========  signal down integral : 59997.7
+======================================================= 
+ChiSquared: 36.3249
+NormalChiSquared: 2.42166
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2Syst_uncorrelated_7TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2Syst_uncorrelated_7TeV
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2Syst_uncorrelated_8TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2Syst_uncorrelated_8TeV
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+In CombinedChi2Syst_uncorrelated_7TeV ======================================= 
+==========  0.716711	0.292326
+==========  1	11099.5
+==========  15
+==========  nBins signal         : 20
+==========  signal integral      : 59782.1
+==========  nBins signal RW      : 20
+==========  signalRW integral    : 59844.7
+==========  nBins background     : 20
+==========  background integral  : 38899.8
+==========  nBins data           : 20
+==========  data integral        : 98736
+==========  nBins signal up      : 20
+==========  signal up integral   : 60480.1
+==========  nBins signal down    : 20
+==========  signal down integral : 59199.4
+======================================================= 
+ChiSquared: 29.3405
+NormalChiSquared: 1.95603
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2total_uncorrelated_7TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2total_uncorrelated_7TeV
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+CombinedChi2total_uncorrelated_8TeV_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor CombinedChi2total_uncorrelated_8TeV
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+20
+7TeV: 
+In CombinedChi2total_uncorrelated_7TeV ======================================= 
+==========  0.716711	0.292326
+==========  1	11099.5
+==========  15
+==========  nBins signal         : 20
+==========  signal integral      : 59782.1
+==========  nBins signal RW      : 20
+==========  signalRW integral    : 59844.7
+==========  nBins background     : 20
+==========  background integral  : 38899.8
+==========  nBins data           : 20
+==========  data integral        : 98736
+==========  nBins signal up      : 20
+==========  signal up integral   : 60328.7
+==========  nBins signal down    : 20
+==========  signal down integral : 59353.6
+======================================================= 
+ChiSquared: 38.8843
+NormalChiSquared: 2.59229

@@ -1,0 +1,57 @@
+1 ---- channel
+3 ---- signal
+I am in e channel and I accept TreesEle_die_TTBar_RW.root as signal
+5 ---- signal
+ : 0 + 0 = 0
+7 ---- signal
+ : 0 + 644.05 = 644.05
+9 ---- signal
+I am in e channel and I accept TreesEle_ehad_TTBar_RW.root as signal
+11 ---- signal
+I am in e channel and I accept TreesEle_etau_TTBar_RW.root as signal
+13 ---- signal
+I am in e channel and I accept TreesEle_mue_TTBar_RW.root as signal
+15 ---- signal
+ : 0 + 0.733265 = 0.733265
+17 ---- signal
+ : 0 + 26.2404 = 26.2404
+19 ---- signal
+ : 42.4799 + 3.72082 = 46.2007
+21 ---- signal
+ : 93.066 + 7.77362 = 100.84
+23 ---- signal
+ : 768.827 + 65.0777 = 833.904
+25 ---- signal
+ : 434.883 + 66.2092 = 501.092
+27 ---- signal
+ : 1348.87 + 107.341 = 1456.21
+29 ---- signal
+ : 449.844 + 72.6065 = 522.451
+31 ---- bkg
+bkg
+2394.84
+TreesEle_bkgEle_RW.root	myQCD: 0
+here ..
+33 ---- wtemplate
+w template
+TreesEle_WJets_RW.root	0x3f80550
+35 ---- data
+data
+0x2fc36f0
+0x3f7bf40	0x2fc36f0	0x3f80550	0
+no rec_gen matrix fit
+Data: 20779	Signal: 12719	bkg: 2394.84
+f0            : 0.721335	+/-	0.0207163
+f_            : 0.282949	+/-	0.0201129
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 5574.68	+/-	205.631
+fr            : -0.00428333	+/-	0.00304419
+Df0 Syst       : 0.753548
+DfL Syst       : 0.268483
+Df0            : -0.0264525
+DfL            : 0.0284828
+ErrF0          : 0.10697
+ErrFL          : 0.0684265
+f0-f_ correlation: -0.989316
+f0-NW correlation: -0.18821
+fl-NW correlation: 0.19659

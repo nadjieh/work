@@ -1,0 +1,5 @@
+source /localgrid/ajafari/directsubmissiontest/root/bin/thisroot.sh	
+which root
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/localgrid/ajafari/directsubmissiontest/lib/
+cd /localgrid/ajafari/directsubmissiontest/Summer11/AnalysisClasses/ToyAnalysis/macro/
+./doCombLVRVProdBiasEstimate StartPEX $STARTPEX LPEX $LENPEX StartPEXPull $STARTPEXPULL LPEXPull $LENPEXPULL prefix  $PREF suffix $SUFF histName $HISTNAME dirName $DIRNAME outDir $OUTDIR Lumi $LUMI

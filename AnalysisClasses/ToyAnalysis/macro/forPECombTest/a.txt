@@ -1,0 +1,898 @@
+Luminosity: 19300
+Default_Def/Default_DefcosTheta
+0x195c3e0
+muon bkg is added dy
+Default_Def/Default_DefcosTheta
+0x1dfb700
+electron bkg is added dy
+Default_Def/Default_DefcosTheta
+0x1e19db0
+muon bkg is added w
+Default_Def/Default_DefcosTheta
+0x1f295b0
+electron bkg is added w
+Default_Def/Default_DefcosTheta
+0x2039620
+10	10
+Default_Def/Default_DefcosTheta
+0x2054d20
+10	10
+Default_Def/Default_DefcosTheta
+0x2073a80
+10	10
+Default_Def/Default_DefcosTheta
+0x208e3d0
+10	10
+Default_Def/Default_DefcosTheta
+0x2249740
+10	10
+Default_Def/Default_DefcosTheta
+0x224b790
+10	10
+Default_Def/Default_DefcosTheta
+0x22dc270
+10	10
+Default_Def/Default_DefcosTheta
+0x22ce150
+10	10
+Default_Def/Default_DefcosTheta
+0x22e7b80
+10	10
+Default_Def/Default_DefcosTheta
+0x230c890
+10	10
+Default_Def/Default_DefcosTheta
+0x2337420
+10	10
+Default_Def/Default_DefcosTheta
+0x234f8d0
+10	10
+Default_Def/Default_DefcosTheta
+0x2565480
+10	10
+Default_Def/Default_DefcosTheta
+0x257ddc0
+10	10
+Default_Def/Default_DefcosTheta
+0x31ea690
+10	10
+Default_Def/Default_DefcosTheta
+0x3200c40
+10	10
+Default_Def/Default_DefcosTheta
+0x37765c0
+Default_Def/Default_DefcosTheta
+0x376e4d0
+AC is added r 1
+ACE is added r 1
+Default_Def/Default_DefcosTheta
+0x3783640
+10	10
+Default_Def/Default_DefcosTheta
+0x3796360
+10	10
+Default_Def/Default_DefcosTheta
+0x3e06aa0
+10	10
+Default_Def/Default_DefcosTheta
+0x3e1f040
+10	10
+Default_Def/Default_DefcosTheta
+0x418d870
+Default_Def/Default_DefcosTheta
+0x419be00
+AC is added sm 2
+ACE is added sm 2
+Default_Def/Default_DefcosTheta
+0x41aa060
+10	10
+Default_Def/Default_DefcosTheta
+0x41c1470
+10	10
+Default_Def/Default_DefcosTheta
+0x4c380f0
+10	10
+Default_Def/Default_DefcosTheta
+0x4c50430
+10	10
+Default_Def/Default_DefcosTheta
+0x4cd2940
+10	10
+Default_Def/Default_DefcosTheta
+0x4ceaf70
+10	10
+Default_Def/Default_DefcosTheta
+0x4d6cef0
+Default_Def/Default_DefcosTheta
+0x4d7b720
+AC is added unphys 3
+ACE is added unphys 3
+PEX: 0
+ ... Skipped
+PEX: 1
+nPEX: 1	VAC: 0.00182667
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+-------------------- bkg_samples.size(): 2
+background dy
+background w
+-------------------- bkg_samplesE.size(): 2
+background dy
+background w
+before likelihood: 
+	Muon:
+	Signal: 41194.2
+	Bkg: 153670
+	PD: 183586
+before likelihood: 
+	Electron:
+	Signal: 41194.2
+	Bkg: 153670
+	PD: 183683
+after likelihood
+Muon: 0.655392	0.338885
+Elec: 0.653172	0.338982
+f0               : -0.420798	+/-	4.09445e-09
+f_               : -0.588371	+/-	1.01346e-07
+reg_gen factor mu: -0.852035	+/-	1.71071e-07
+reg_gen factor  e: -0.852073	+/-	1.59354e-09
+f0-f_ correlation: 0.00102957
+fr               : 2.00917	+/-	1.01433e-07
+before deleting
+after deleting
+PEX: 2
+nPEX: 2	VAC: 0.00365333
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+-------------------- bkg_samples.size(): 2
+background dy
+background w
+-------------------- bkg_samplesE.size(): 2
+background dy
+background w
+before likelihood: 
+	Muon:
+	Signal: 41194.2
+	Bkg: 153670
+	PD: 183820
+before likelihood: 
+	Electron:
+	Signal: 41194.2
+	Bkg: 153670
+	PD: 183902
+after likelihood
+Muon: 0.659114	0.335838
+Elec: 0.655561	0.338485
+f0               : -1.23003	+/-	1
+f_               : -0.131622	+/-	1
+reg_gen factor mu: -0.816117	+/-	1
+reg_gen factor  e: -0.816354	+/-	1
+f0-f_ correlation: -1.3773e-14
+fr               : 2.36165	+/-	1.41421
+before deleting
+after deleting
+PEX: 3
+nPEX: 3	VAC: 0.00548
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+signal to add!!!
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+confirmation: 0
+confirmation II: 0
+-------------------- bkg_samples.size(): 2
+background dy
+background w
+-------------------- bkg_samplesE.size(): 2
+background dy
+background w
+before likelihood: 
+	Muon:
+	Signal: 41194.2
+	Bkg: 153670
+	PD: 183987
+before likelihood: 
+	Electron:
+	Signal: 41194.2
+	Bkg: 153670
+	PD: 183805
+after likelihood
+Muon: 0.652494	0.339601
+Elec: 0.660789	0.331462
+f0               : -0.428082	+/-	9.10183e-08
+f_               : -0.58563	+/-	7.45392e-08
+reg_gen factor mu: 0.0196858	+/-	0.00340492
+reg_gen factor  e: -0.851433	+/-	1.05006e-08
+f0-f_ correlation: 0.999432
+fr               : 2.01371	+/-	1.65534e-07
+before deleting
+after deleting
+PEX: 4
+ ... Skipped
+PEX: 5
+ ... Skipped
+PEX: 6
+ ... Skipped
+PEX: 7
+ ... Skipped
+PEX: 8
+ ... Skipped
+PEX: 9
+ ... Skipped
+PEX: 10
+ ... Skipped
+PEX: 11
+ ... Skipped
+PEX: 12
+ ... Skipped
+PEX: 13
+ ... Skipped
+PEX: 14
+ ... Skipped
+PEX: 15
+ ... Skipped
+PEX: 16
+ ... Skipped
+PEX: 17
+ ... Skipped
+PEX: 18
+ ... Skipped
+PEX: 19
+ ... Skipped
+PEX: 20
+ ... Skipped
+PEX: 21
+ ... Skipped
+PEX: 22
+ ... Skipped
+PEX: 23
+ ... Skipped
+PEX: 24
+ ... Skipped
+PEX: 25
+ ... Skipped
+PEX: 26
+ ... Skipped
+PEX: 27
+ ... Skipped
+PEX: 28
+ ... Skipped
+PEX: 29
+ ... Skipped
+PEX: 30
+ ... Skipped
+PEX: 31
+ ... Skipped
+PEX: 32
+ ... Skipped
+PEX: 33
+ ... Skipped
+PEX: 34
+ ... Skipped
+PEX: 35
+ ... Skipped
+PEX: 36
+ ... Skipped
+PEX: 37
+ ... Skipped
+PEX: 38
+ ... Skipped
+PEX: 39
+ ... Skipped
+PEX: 40
+ ... Skipped
+PEX: 41
+ ... Skipped
+PEX: 42
+ ... Skipped
+PEX: 43
+ ... Skipped
+PEX: 44
+ ... Skipped
+PEX: 45
+ ... Skipped
+PEX: 46
+ ... Skipped
+PEX: 47
+ ... Skipped
+PEX: 48
+ ... Skipped
+PEX: 49
+ ... Skipped
+PEX: 50
+ ... Skipped
+PEX: 51
+ ... Skipped
+PEX: 52
+ ... Skipped
+PEX: 53
+ ... Skipped
+PEX: 54
+ ... Skipped
+PEX: 55
+ ... Skipped
+PEX: 56
+ ... Skipped
+PEX: 57
+ ... Skipped
+PEX: 58
+ ... Skipped
+PEX: 59
+ ... Skipped
+PEX: 60
+ ... Skipped
+PEX: 61
+ ... Skipped
+PEX: 62
+ ... Skipped
+PEX: 63
+ ... Skipped
+PEX: 64
+ ... Skipped
+PEX: 65
+ ... Skipped
+PEX: 66
+ ... Skipped
+PEX: 67
+ ... Skipped
+PEX: 68
+ ... Skipped
+PEX: 69
+ ... Skipped
+PEX: 70
+ ... Skipped
+PEX: 71
+ ... Skipped
+PEX: 72
+ ... Skipped
+PEX: 73
+ ... Skipped
+PEX: 74
+ ... Skipped
+PEX: 75
+ ... Skipped
+PEX: 76
+ ... Skipped
+PEX: 77
+ ... Skipped
+PEX: 78
+ ... Skipped
+PEX: 79
+ ... Skipped
+PEX: 80
+ ... Skipped
+PEX: 81
+ ... Skipped
+PEX: 82
+ ... Skipped
+PEX: 83
+ ... Skipped
+PEX: 84
+ ... Skipped
+PEX: 85
+ ... Skipped
+PEX: 86
+ ... Skipped
+PEX: 87
+ ... Skipped
+PEX: 88
+ ... Skipped
+PEX: 89
+ ... Skipped
+PEX: 90
+ ... Skipped
+PEX: 91
+ ... Skipped
+PEX: 92
+ ... Skipped
+PEX: 93
+ ... Skipped
+PEX: 94
+ ... Skipped
+PEX: 95
+ ... Skipped
+PEX: 96
+ ... Skipped
+PEX: 97
+ ... Skipped
+PEX: 98
+ ... Skipped
+PEX: 99
+ ... Skipped
+PEX: 100
+ ... Skipped
+PEX: 101
+ ... Skipped
+PEX: 102
+ ... Skipped
+PEX: 103
+ ... Skipped
+PEX: 104
+ ... Skipped
+PEX: 105
+ ... Skipped
+PEX: 106
+ ... Skipped
+PEX: 107
+ ... Skipped
+PEX: 108
+ ... Skipped
+PEX: 109
+ ... Skipped
+PEX: 110
+ ... Skipped
+PEX: 111
+ ... Skipped
+PEX: 112
+ ... Skipped
+PEX: 113
+ ... Skipped
+PEX: 114
+ ... Skipped
+PEX: 115
+ ... Skipped
+PEX: 116
+ ... Skipped
+PEX: 117
+ ... Skipped
+PEX: 118
+ ... Skipped
+PEX: 119
+ ... Skipped
+PEX: 120
+ ... Skipped
+PEX: 121
+ ... Skipped
+PEX: 122
+ ... Skipped
+PEX: 123
+ ... Skipped
+PEX: 124
+ ... Skipped
+PEX: 125
+ ... Skipped
+PEX: 126
+ ... Skipped
+PEX: 127
+ ... Skipped
+PEX: 128
+ ... Skipped
+PEX: 129
+ ... Skipped
+PEX: 130
+ ... Skipped
+PEX: 131
+ ... Skipped
+PEX: 132
+ ... Skipped
+PEX: 133
+ ... Skipped
+PEX: 134
+ ... Skipped
+PEX: 135
+ ... Skipped
+PEX: 136
+ ... Skipped
+PEX: 137
+ ... Skipped
+PEX: 138
+ ... Skipped
+PEX: 139
+ ... Skipped
+PEX: 140
+ ... Skipped
+PEX: 141
+ ... Skipped
+PEX: 142
+ ... Skipped
+PEX: 143
+ ... Skipped
+PEX: 144
+ ... Skipped
+PEX: 145
+ ... Skipped
+PEX: 146
+ ... Skipped
+PEX: 147
+ ... Skipped
+PEX: 148
+ ... Skipped
+PEX: 149
+ ... Skipped
+PEX: 150
+ ... Skipped
+PEX: 151
+ ... Skipped
+PEX: 152
+ ... Skipped
+PEX: 153
+ ... Skipped
+PEX: 154
+ ... Skipped
+PEX: 155
+ ... Skipped
+PEX: 156
+ ... Skipped
+PEX: 157
+ ... Skipped
+PEX: 158
+ ... Skipped
+PEX: 159
+ ... Skipped
+PEX: 160
+ ... Skipped
+PEX: 161
+ ... Skipped
+PEX: 162
+ ... Skipped
+PEX: 163
+ ... Skipped
+PEX: 164
+ ... Skipped
+PEX: 165
+ ... Skipped
+PEX: 166
+ ... Skipped
+PEX: 167
+ ... Skipped
+PEX: 168
+ ... Skipped
+PEX: 169
+ ... Skipped
+PEX: 170
+ ... Skipped
+PEX: 171
+ ... Skipped
+PEX: 172
+ ... Skipped
+PEX: 173
+ ... Skipped
+PEX: 174
+ ... Skipped
+PEX: 175
+ ... Skipped
+PEX: 176
+ ... Skipped
+PEX: 177
+ ... Skipped
+PEX: 178
+ ... Skipped
+PEX: 179
+ ... Skipped
+PEX: 180
+ ... Skipped
+PEX: 181
+ ... Skipped
+PEX: 182
+ ... Skipped
+PEX: 183
+ ... Skipped
+PEX: 184
+ ... Skipped
+PEX: 185
+ ... Skipped
+PEX: 186
+ ... Skipped
+PEX: 187
+ ... Skipped
+PEX: 188
+ ... Skipped
+PEX: 189
+ ... Skipped
+PEX: 190
+ ... Skipped
+PEX: 191
+ ... Skipped
+PEX: 192
+ ... Skipped
+PEX: 193
+ ... Skipped
+PEX: 194
+ ... Skipped
+PEX: 195
+ ... Skipped
+PEX: 196
+ ... Skipped
+PEX: 197
+ ... Skipped
+PEX: 198
+ ... Skipped
+PEX: 199
+ ... Skipped
+PEX: 200
+ ... Skipped
+PEX: 201
+ ... Skipped
+PEX: 202
+ ... Skipped
+PEX: 203
+ ... Skipped
+PEX: 204
+ ... Skipped
+PEX: 205
+ ... Skipped
+PEX: 206
+ ... Skipped
+PEX: 207
+ ... Skipped
+PEX: 208
+ ... Skipped
+PEX: 209
+ ... Skipped
+PEX: 210
+ ... Skipped
+PEX: 211
+ ... Skipped
+PEX: 212
+ ... Skipped
+PEX: 213
+ ... Skipped
+PEX: 214
+ ... Skipped
+PEX: 215
+ ... Skipped
+PEX: 216
+ ... Skipped
+PEX: 217
+ ... Skipped
+PEX: 218
+ ... Skipped
+PEX: 219
+ ... Skipped
+PEX: 220
+ ... Skipped
+PEX: 221
+ ... Skipped
+PEX: 222
+ ... Skipped
+PEX: 223
+ ... Skipped
+PEX: 224
+ ... Skipped
+PEX: 225
+ ... Skipped
+PEX: 226
+ ... Skipped
+PEX: 227
+ ... Skipped
+PEX: 228
+ ... Skipped
+PEX: 229
+ ... Skipped
+PEX: 230
+ ... Skipped
+PEX: 231
+ ... Skipped
+PEX: 232
+ ... Skipped
+PEX: 233
+ ... Skipped
+PEX: 234
+ ... Skipped
+PEX: 235
+ ... Skipped
+PEX: 236
+ ... Skipped
+PEX: 237
+ ... Skipped
+PEX: 238
+ ... Skipped
+PEX: 239
+ ... Skipped
+PEX: 240
+ ... Skipped
+PEX: 241
+ ... Skipped
+PEX: 242
+ ... Skipped
+PEX: 243
+ ... Skipped
+PEX: 244
+ ... Skipped
+PEX: 245
+ ... Skipped
+PEX: 246
+ ... Skipped
+PEX: 247
+ ... Skipped
+PEX: 248
+ ... Skipped
+PEX: 249
+ ... Skipped
+PEX: 250
+ ... Skipped
+PEX: 251
+ ... Skipped
+PEX: 252
+ ... Skipped
+PEX: 253
+ ... Skipped
+PEX: 254
+ ... Skipped
+PEX: 255
+ ... Skipped
+PEX: 256
+ ... Skipped
+PEX: 257
+ ... Skipped
+PEX: 258
+ ... Skipped
+PEX: 259
+ ... Skipped
+PEX: 260
+ ... Skipped
+PEX: 261
+ ... Skipped
+PEX: 262
+ ... Skipped
+PEX: 263
+ ... Skipped
+PEX: 264
+ ... Skipped
+PEX: 265
+ ... Skipped
+PEX: 266
+ ... Skipped
+PEX: 267
+ ... Skipped
+PEX: 268
+ ... Skipped
+PEX: 269
+ ... Skipped
+PEX: 270
+ ... Skipped
+PEX: 271
+ ... Skipped
+PEX: 272
+ ... Skipped
+PEX: 273
+ ... Skipped
+PEX: 274
+ ... Skipped
+PEX: 275
+ ... Skipped
+PEX: 276
+ ... Skipped
+PEX: 277
+ ... Skipped
+PEX: 278
+ ... Skipped
+PEX: 279
+ ... Skipped
+PEX: 280
+ ... Skipped
+PEX: 281
+ ... Skipped
+PEX: 282
+ ... Skipped
+PEX: 283
+ ... Skipped
+PEX: 284
+ ... Skipped
+PEX: 285
+ ... Skipped
+PEX: 286
+ ... Skipped
+PEX: 287
+ ... Skipped
+PEX: 288
+ ... Skipped
+PEX: 289
+ ... Skipped
+PEX: 290
+ ... Skipped
+PEX: 291
+ ... Skipped
+PEX: 292
+ ... Skipped
+PEX: 293
+ ... Skipped
+PEX: 294
+ ... Skipped
+PEX: 295
+ ... Skipped
+PEX: 296
+ ... Skipped
+PEX: 297
+ ... Skipped
+PEX: 298
+ ... Skipped
+PEX: 299
+ ... Skipped

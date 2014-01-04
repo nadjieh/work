@@ -1,0 +1,24 @@
+In Bias fit: 
+	size of 2D signal at 7 TeV is 10
+	size of 3D signal at 7 TeV is 4
+In Bias fit: 
+	size of 2D signal at 8 TeV is 10
+	size of 3D signal at 8 TeV is 4
+Here
+before get minimum simple: 
+bkg bins 7: 100
+bkg bins 8: 100
+w bins 7: 100
+w bins 8: 100
+data bins 7: 100
+data bins 8: 100
+f0_mu              : 0.675681	+/-	0
+fl_mu              : 0.284222	+/-	0
+df0_e              : 0.030364	+/-	0.1023235
+dfl_e              : -0.007988	+/-	0.0542073
+reg_gen factor muon: 1	+/-	0
+n_{W+jets}     muon: 6897.64	+/-	0
+reg_gen factor ele : 1	+/-	0
+n_{W+jets}     ele : 5577.68	+/-	204.951
+dfr_e              : -0.0223761	+/-	0.0609017
+(df0_e;dfl_e) correlation: -0.8743528

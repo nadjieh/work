@@ -1,0 +1,11 @@
+f0               : 0.702836	+/-	0.00837077
+f_               : 0.31072	+/-	0.00685293
+reg_gen factor  e: 1.01734	+/-	0.0118112
+reg_gen factor mu: 1.003	+/-	0.00964772
+f0-f_ correlation: -0.946273
+fr               : -0.0135558	+/-	0.00290996
+//// lUp
+F0Up.push_back(0.00126922);	FlUp.push_back(0.00151957);	FrUp.push_back(-0.00278879);
+
+//// lUp
+F0Up.push_back(-3.7512e-07);	FlUp.push_back(-1.86005e-07);	FrUp.push_back(5.61125e-07);

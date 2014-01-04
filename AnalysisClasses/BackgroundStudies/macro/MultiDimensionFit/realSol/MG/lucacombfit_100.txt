@@ -1,0 +1,18 @@
+Here
+before get minimum simple: 
+bkg bins 7: 100
+bkg bins 8: 100
+w bins 7: 100
+w bins 8: 100
+data bins 7: 100
+data bins 8: 100
+f0_mu              : 0.715455	+/-	0
+fl_mu              : 0.315562	+/-	0
+df0_e              : -0.009409	+/-	0.1023235
+dfl_e              : -0.039328	+/-	0.0542073
+reg_gen factor muon: 1	+/-	0
+n_{W+jets}     muon: 10249.2	+/-	0
+reg_gen factor ele : 1	+/-	0
+n_{W+jets}     ele : 5574.68	+/-	205.631
+dfr_e              : 0.048738	+/-	0.0609017
+(df0_e;dfl_e) correlation: -0.8743528

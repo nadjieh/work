@@ -1,0 +1,14 @@
+8TeV Info: 
+	nData: 20779
+	nSignal: 11667.6
+	nBkg: 9201.42
+7TeV Info: 
+	nData: 20779
+	nSignal: 11667.6
+	nBkg: 9201.42
+f0               : 0.760147	+/-	0.0216568
+f_               : 0.277989	+/-	0.0159515
+reg_gen factor  e: 0.980201	+/-	0.0177908
+reg_gen factor mu: 0.980201	+/-	0.0177908
+f0-f_ correlation: -0.882625
+fr               : -0.0381356	+/-	0.0106605

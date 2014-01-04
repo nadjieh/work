@@ -1,0 +1,161 @@
+1 ---- channel
+3 ---- signal
+I am in e channel and I accept TreesEle_die_TTBar_RW.root as signal
+ : 1450.47 + 0 = 1450.47
+5 ---- signal
+ : 0 + 0 = 0
+7 ---- signal
+ : 0 + 780.58 = 780.58
+9 ---- signal
+I am in e channel and I accept TreesEle_ehad_TTBar_RW.root as signal
+ : 11660.5 + 35.0293 = 11695.6
+11 ---- signal
+I am in e channel and I accept TreesEle_etau_TTBar_RW.root as signal
+ : 3832.51 + 81.5728 = 3914.08
+13 ---- signal
+I am in e channel and I accept TreesEle_mue_TTBar_RW.root as signal
+ : 1172.55 + 3.48479 = 1176.04
+15 ---- signal
+ : 0 + 0.970555 = 0.970555
+17 ---- signal
+ : 0 + 51.1673 = 51.1673
+19 ---- signal
+ : 84.2042 + 4.32705 = 88.5313
+21 ---- signal
+ : 176.884 + 9.17493 = 186.059
+23 ---- signal
+ : 1503.01 + 75.3645 = 1578.38
+25 ---- signal
+ : 853.226 + 92.0016 = 945.228
+27 ---- signal
+ : 2689.81 + 126.761 = 2816.57
+29 ---- signal
+ : 859.841 + 100.337 = 960.178
+31 ---- bkg
+bkg
+here ..
+33 ---- wtemplate
+w template
+TreesEle_WTemplateDefFormat_plots.root	0x3aab760
+35 ---- data
+data
+0x3aa5700
+37 ---- FL
+39 ---- F0
+41 ---- F0Stat
+43 ---- FLStat
+45 ---- F0Syst
+47 ---- FLSyst
+49 ---- F0Tot
+51 ---- FLTot
+53 ---- nW7
+55 ---- name
+0x3a9d160	0x3aa5700	0x3aab760
+TH1.Print Name  = Default_allWcosTheta, Entries= 40297, Total sum= 40297
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 1360.77 bkg: 3614.11
+bkg: 4974.88 data: 40297 signal: 24283
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+e_Chi2Syst_uncorrelated_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor e_Chi2Syst_uncorrelated
+In e_Chi2Syst_uncorrelated ======================================= 
+==========  0.648717	0.283083
+==========  1	10986.9
+==========  6
+==========  nBins signal         : 10
+==========  signal integral      : 24283
+==========  nBins signal RW      : 10
+==========  signalRW integral    : 24322.3
+==========  nBins background     : 10
+==========  background integral  : 15961.8
+==========  nBins data           : 10
+==========  data integral        : 40297
+==========  nBins signal up      : 10
+==========  signal up integral   : 24420.5
+==========  nBins signal down    : 10
+==========  signal down integral : 24221.5
+======================================================= 
+ChiSquared: 9.10126
+NormalChiSquared: 1.51688
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+e_Chi2Stat_uncorrelated_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor e_Chi2Stat_uncorrelated
+In e_Chi2Stat_uncorrelated ======================================= 
+==========  0.648717	0.283083
+==========  1	10986.9
+==========  6
+==========  nBins signal         : 10
+==========  signal integral      : 24283
+==========  nBins signal RW      : 10
+==========  signalRW integral    : 24322.3
+==========  nBins background     : 10
+==========  background integral  : 15961.8
+==========  nBins data           : 10
+==========  data integral        : 40297
+==========  nBins signal up      : 10
+==========  signal up integral   : 24424
+==========  nBins signal down    : 10
+==========  signal down integral : 24214.4
+======================================================= 
+ChiSquared: 8.98609
+NormalChiSquared: 1.49768
+6
+nBins2: 10
+..... 3D size is 4
+nBins3: 10
+systUD is made: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+nBins2: 10
+nBins3: 10
+e_Chi2total_uncorrelated_mySignal
+nBins3: 10
+nBins2: 10
+I am done with constructor e_Chi2total_uncorrelated
+In e_Chi2total_uncorrelated ======================================= 
+==========  0.648717	0.283083
+==========  1	10986.9
+==========  6
+==========  nBins signal         : 10
+==========  signal integral      : 24283
+==========  nBins signal RW      : 10
+==========  signalRW integral    : 24322.3
+==========  nBins background     : 10
+==========  background integral  : 15961.8
+==========  nBins data           : 10
+==========  data integral        : 40297
+==========  nBins signal up      : 10
+==========  signal up integral   : 24461.6
+==========  nBins signal down    : 10
+==========  signal down integral : 24174.5
+======================================================= 
+ChiSquared: 8.78501
+NormalChiSquared: 1.46417

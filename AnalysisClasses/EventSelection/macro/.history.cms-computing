@@ -1,0 +1,1000 @@
+gedit run.sh 
+bg
+ls  /cmsnas/ajafari/data/V02-05-01/RanAAug/SingleMu-Aug05_Second_* > run2.sh
+gedit run2.sh 
+screen -r
+screen -r 30377.pts-4.cms-computing
+screen -r 30858.pts-4.cms-computing
+screen -r 30771.pts-4.cms-computing
+cd ../dy/
+ls -ltr
+vi dy.txt 
+more run.sh 
+ls -ltr /cmsnas/ajafari/MCsamplesMuSample/DYJets/
+root -l  /cmsnas/ajafari/MCsamplesMuSample/DYJets/DYJets_905.root
+screen -r
+screen -r 30068.pts-4.cms-computing
+screen -r 30820.pts-4.cms-computing
+screen -r 10949.pts-4.cms-computing
+screen -r 30225.pts-4.cms-computing
+screen -r 30167.pts-4.cms-computing
+screen -r 30771.pts-4.cms-computing
+screen -r 30858.pts-4.cms-computing
+screen -r 30377.pts-4.cms-computing
+cd ../
+ls
+cd RunB
+ls -ltr
+root -l 216_SingleMu-PR-V1_RunB.root
+cd /cmsnas/ajafari/data/V02-05-01/RanAAug/
+ls -ltr
+exit
+top -h
+htop 
+exit
+cd work/AnalysisClasses/EventSelection/macro/t-SingleTopSelection/
+ls
+cd RunB/
+ls -l 
+vi RunB.txt 
+root -l 40_SingleMu-PR-V1_RunB.root
+root -l 100_SingleMu-PR-V1_RunB.root
+cd ../RunA_May/
+ls -l 
+root -l 9_SingleMu-RR-May10.root
+cd ../RunA_Aug/
+ls -l 
+rm -f *~
+vi run2.sh 
+mv run2.sh run.sh 
+ls
+screen
+cd ..
+ls
+cd RunB/
+ls -l
+more run.sh 
+cd /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/
+ls
+root -l SingleMu-PR-V1_10.root
+root -l SingleMu-PR-V1_3.root
+root -l SingleMu-PR-V1_Second_80.root
+l
+ls
+root -l SingleMu-PR-V1_Third_11.root
+cd -
+cd ../RunA_Aug/
+ls
+root -l 7_SingleMu-RR-Aug05.root
+root -l 10_SingleMu-RR-Aug05.root
+root -l 4_SingleMu-RR-Aug05.root 
+la -ltr
+ls -ltr
+cd ../RunB/
+vi RunB.txt 
+gedit RunB.txt 
+bg
+vi ../SelectAndSave.C 
+screen -r
+screen -r 30820.pts-4.cms-computing
+root -l /cmsnas/ajafari/MCsamplesMuSample/T_t-channel/T_t_174.root
+cd /cmsnas/ajafari/MCsamplesMuSample/T_t-channel/
+ls -ltr
+screen -r 
+screen -r 10409.pts-6.cms-computing
+screen -r 30771.pts-4.cms-computing
+cd /cmsnas/ajafari/MCsamplesMuSample/DYJets/
+ls -ltr
+ls -ltr DYJets_387.root 
+screen -r 30771.pts-4.cms-computing
+screen -r 
+screen -r 30820.pts-4.cms-computing
+cd -
+cd ~/work/AnalysisClasses/EventSelection/macro/t-SingleTopSelection/
+ls
+emacs -nw SelectAndSave.C 
+make
+cd dy/
+cp run.sh test.sh
+gedit test.sh 
+bg
+ls-ltr
+ls -ltr
+more dy.txt 
+ls -ltr
+screen -r 30820.pts-4.cms-computing
+ls -ltr /cmsnas/ajafari/MCsamplesMuSample/DYJets/
+vi test.sh 
+./../SelectAndSave out DYJets.root input  /cmsnas/ajafari/MCsamplesMuSample/DYJets/DYJets_501.root   input  /cmsnas/ajafari/MCsamplesMuSample/DYJets/DYJets_504.root   input  /cmsnas/ajafari/MCsamplesMuSample/DYJets/DYJets_505.root  XSec 1 Lumi 1 preSelEff 1 JES 1 isData no
+cd ../RunB/
+ls
+gedit RunB.txt 
+bg
+cd /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/
+cd -
+cd ..
+vi SelectAndSave.C 
+vi ../../../../TopBrussels/TopTreeProducer/interface/TRootHLTInfo.h
+vi SelectAndSave.C 
+vi ../../../../TopBrussels/TopTreeProducer/interface/TRootEvent.h
+vi ../../../../TopBrussels/TopTreeProducer/interface/TRootHLTInfo.h
+make
+vi run.sh 
+l /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/SingleMu-PR-V1_10.root
+ls /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/SingleMu-PR-V1_10.root
+source run.sh 
+vi run.sh 
+vi run.sh~
+vi run.sh 
+source run.sh 
+vi ../../../../TopBrussels/TopTreeProducer/interface/TRootHLTInfo.h
+vi ../../../../TopBrussels/TopTreeProducer/interface/TRootEvent.h
+vi ../../../../TopBrussels/TopTreeProducer/interface/TRootRun.h 
+vi SelectAndSave.C 
+make
+source run.sh 
+vi SelectAndSave.C 
+screen -r
+screen -r 30377.pts-4.cms-computing
+make
+screen -r 30377.pts-4.cms-computing
+screen -r 30858.pts-4.cms-computing
+screen -r 30377.pts-4.cms-computing
+vi SelectAndSave.C 
+cp SelectAndSave.C RunB/RunB_SelectAndSave.C
+cp Makefile RunB/
+cd Makefile 
+cd RunB/
+ls
+gedit Makefile 
+bg
+make
+gedit RunB_SelectAndSave.C 
+bg
+make
+vi run.sh 
+source run.sh 
+make
+source run.sh 
+screen -r
+screen -r 30820.pts-4.cms-computing
+screen -r 10409.pts-6.cms-computing
+screen -r 30771.pts-4.cms-computing
+screen -r 30858.pts-4.cms-computing
+screen -r 30377.pts-4.cms-computing
+cd ..
+vi SelectAndSave.C 
+make
+vi ../../../../TopBrussels/TopTreeProducer/interface/TRootHLTInfo.h
+make
+source run.sh 
+screen -r
+screen -r 30820.pts-4.cms-computing
+screen -r 10409.pts-6.cms-computing
+screen -r 30771.pts-4.cms-computing
+screen -r 30858.pts-4.cms-computing
+screen -r 
+screen
+ls -ltr
+cd RunA_Aug/
+ls -ltr
+screen -r
+screen -r 30377.pts-4.cms-computing
+screen -r 30820.pts-4.cms-computing
+screen -r 10409.pts-6.cms-computing
+la -lte
+ls -ltr
+more Aug.txt 
+cd ..
+ls
+ls -ltr
+ls -ltr RunA_Aug
+root -l RunA_Aug/2_SingleMu-RR-Aug05.root
+root -l RunA_Aug/1_SingleMu-RR-Aug05.root
+l
+ls
+ls -ltr
+source run.sh 
+vi run.sh 
+ls -ltr
+ls s/
+ls -ltr s/
+ls -ltr t_bar/
+vi t_bar/t_tbar.txt 
+ls -ltr RunA_May/
+root -l SingleMu-RR-May10.root
+root -l RunA_May/SingleMu-RR-May10.root
+vi RunA_May.txt
+vi RunA_May/RunA_May.txt
+exit
+screen -r
+htop
+screen -r 30377.pts-4.cms-computing
+screen -r 11833.pts-6.cms-computing
+screen -r 30858.pts-4.cms-computing
+screen -r 11795.pts-6.cms-computing
+screen -r 30771.pts-4.cms-computing
+screen -r 10409.pts-6.cms-computing
+screen -r 30820.pts-4.cms-computing
+screen -r 11870.pts-6.cms-computing
+cd ~/work/AnalysisClasses/EventSelection/macro/t-SingleTopSelection/RunA_PRV6
+ls
+ls -ltr
+cd tt/; source run.sh > tt.txt; cd -; cd t/; source run.sh > t_t.txt; cd -; cd tW_bar/; source run.sh > t_tWbar.txt; cd -;
+source run.sh 
+source run.sh > RunB.txt
+ls -l
+mv RunB.txt RunB_v0.txt 
+source run.sh > RunB.txt
+exit
+cd RunA_PRV4/
+source run.sh > RunA_PRV4.txt 
+exit
+cd RunA_May/
+ls
+source run.sh > RunA_May.txt 
+free
+w
+exit
+screen  -ls
+screen  -r 11833.pts-6.cms-computing
+screen  -r 30858.pts-4.cms-computing
+screen  -r 11795.pts-6.cms-computing
+exit
+screen  -ls
+screen  -r 30858.pts-4.cms-computing
+screen  -r 30771.pts-4.cms-computing
+screen  -r 10409.pts-6.cms-computing
+screen  -r 11870.pts-6.cms-computing
+exit
+cd RunA_PRV6/
+source run.sh > RunA_PRV6.txt 
+exit
+source run.sh > Aug.txt
+exit
+cd s ; source run.sh > t_s.txt; cd -; cd dy/; source run.sh > dy.txt; cd -; cd s_bar/; source run.sh > t_sbar.txt; cd-; cd tW; source run.sh > t_tW.txt ; cd -;
+vi s/run.sh 
+vi s_bar/run.sh 
+vi tW/run.sh 
+
+cd s ; source run.sh > t_s.txt; cd -; cd dy/; source run.sh > dy.txt; cd -; cd s_bar/; source run.sh > t_sbar.txt; cd -; cd tW; source run.sh > t_tW.txt ; cd -;
+exit
+source indvidual_May.sh 
+exit
+source indvidual_tW.sh 
+exit
+source indvidual_sbar.sh 
+cd ..
+mv s_bar/ DONE/
+exit
+cd ~/work/AnalysisClasses/EventSelection/macro/t-SingleTopSelection/dy
+ls -l
+more dy.txt 
+more run.sh 
+cd ../RunA_May/
+vi run.sh 
+vi May_SelectAndSave
+vi May_SelectAndSave.C 
+cd ..
+l
+source ~/.bashrc ]
+l
+l /cmsnas/ajafari/DataSamples/SingleMu/RunA/PromptRecoV4/
+cd RunA_PRV4/
+l
+screen
+l
+cd ..
+cd RunA_PRV6
+l
+mkdir v1
+mv *.root *.txt v1/
+l
+more run.sh 
+root -l 
+screen 
+cd ../RunB/
+l
+mkdir v1
+mv *.root *.txt v1/
+l
+more run.sh 
+ls /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/SingleMu-PR-V1*.root > individual_B.sh 
+gedit individual_B.sh 
+rm individual_B.sh 
+root -l 
+vi indvidual_RunB.sh 
+root -l 
+vi indvidual_RunB.sh 
+./../SelectAndSave out 54_runB.root input /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/SingleMu-PR-V1_54.root  XSec 1 Lumi 1 preSelEff 1 JES 1 isData yes
+screen 
+vi RunB_SelectAndSave
+vi RunB_SelectAndSave.C 
+make
+source indvidual_RunB.sh 
+l
+rm -f *.root
+vi RunB_SelectAndSave.C 
+vi indvidual_RunB.sh 
+./../SelectAndSave out 36_runB.root input /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/SingleMu-PR-V1_36.root  XSec 1 Lumi 1 preSelEff 1 JES 1 isData yes
+emacs -nw indvidual_RunB.sh 
+screen -t
+screen -r
+screen -r 26942.pts-11.cms-computing
+screen -r 27150.pts-11.cms-computing
+l
+exit
+ls -l /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/SingleMu-PR-V1_Second_
+ls -l /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/
+ls -l /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/*Third*
+ls -l /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/*Second*
+ls -l /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/
+exit
+screen -r
+screen -r 30820.pts-4.cms-computing
+screen -r 11870.pts-6.cms-computing
+cd ~/work/AnalysisClasses/EventSelection/macro/t-SingleTopSelection/RunA_PRV6
+cd ../
+ls -l
+vi SelectAndSave.C 
+cd s
+ls -l
+root -l t_s.root
+cd ..
+ls -ltr
+cd t_bar/
+ls -l
+vi t_tbar.txt 
+more run.sh 
+root -l /cmsnas/ajafari/MCsamplesMuSample/Tbar_t-channel/Tbar_t_47.root
+cd ../
+screen -r
+screen -r 10409.pts-6.cms-computing
+screen -r 11870.pts-6.cms-computing
+screen -r 30771.pts-4.cms-computing
+screen -r 11795.pts-6.cms-computing
+screen -r 30858.pts-4.cms-computing
+screen -r 11833.pts-6.cms-computing
+screen -r 30377.pts-4.cms-computing
+ls -ltr
+cd tt/
+ls -l
+vi Count.C
+cp ../SelectAndSave.C Count.C 
+vi Count.C 
+gedit Count.C &
+vi ../Makefile 
+cp ../Makefile .
+gedit Makefile 
+bg
+make
+gedit Makefile 
+bg
+make
+vi Count.C
+make
+cp run.sh Count.sh
+gedit Count.sh 
+bg
+source Count.sh
+vi tt.txt 
+cd ../s
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh 
+vi t_s.txt 
+cd ../
+ls -ltr
+cd t
+ls -l
+rm -f *~
+ls
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh 
+vi t_t.txt 
+root -l 175_t_t.root
+cd ..
+ls -ltr
+cd tW_bar/
+cp run.sh  Count.sh
+vi Count.sh 
+source Count.sh 
+vi t_tWbar.txt 
+cd ../
+ls -ltr
+cd dy/
+vi dy.txt 
+cd ../t_bar/
+ls-ltr
+ls -ltr
+vi t_tbar.txt 
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh 
+cd ../
+ls -ltr
+screen -r
+screen -r 30377.pts-4.cms-computing
+cd RunB/
+vi RunB.txt 
+cd ../
+screen -r 30377.pts-4.cms-computing
+screen -r 11833.pts-6.cms-computing
+screen -r 30858.pts-4.cms-computing
+screen -r 11795.pts-6.cms-computing
+screen -r 
+screen -r 11870.pts-6.cms-computing
+screen -r 10409.pts-6.cms-computing
+screen -r 30771.pts-4.cms-computing
+cd dy/
+ls
+rm -f *.root
+ls -l
+vi dy.txt 
+cd ../
+ls -l
+ls -ltr
+ls -ltr s_bar/
+screen -r
+mkdir DONE
+mv s t tW_bar DONE/
+l DONE/tW_bar/
+ls -ltr DONE/tW_bar/
+ls -ltr
+mv tt/ DONE/
+ls -ltr t_bar/
+mv t_bar/ DONE/
+ls -l
+ls -ltr tW/
+ls -ltr 
+screen -r
+screen
+gedit dy/run.sh &
+ls
+cd dy/
+more run.sh 
+root -l 
+ls 
+root -l
+more indvidual_dy.sh 
+screen -r
+screen -r 25756.pts-6.cms-computing
+cd ../
+ls -l
+ls -ltr
+cd s_bar/
+ls
+rm -f *.root
+l ../dy/
+ls ../dy/
+more run.sh 
+root -l
+vi indvidual_dy.sh 
+mv indvidual_dy.sh indvidual_sbar.sh 
+screen 
+cd ../
+ls -ltr
+cd tW/
+more run.sh 
+root -l
+vi indvidual_tW.sh 
+screen 
+ls -l
+vi ~/.bashrc 
+source ~/.bashrc 
+ls
+l
+l ../dy/
+cd ../
+ls -ltr
+cd RunA_May/
+more run.sh 
+root -l 
+vi indvidual_May.sh 
+screen -r 
+screen
+cd ../
+cd -
+cp ../RunB/RunB_SelectAndSave.C May_SelectAndSave.C
+vi May_SelectAndSave.C 
+cp ../RunB/Makefile .
+vi Make
+vi Makefile 
+make
+vi May_SelectAndSave
+vi May_SelectAndSave.C 
+make
+screen -r
+screen -r 26139.pts-6.cms-computing
+emacs -nw indvidual_May.sh 
+source indvidual_May.sh
+emacs -nw indvidual_May.sh 
+source indvidual_May.sh
+l
+vi RunA_May.txt
+mkdir res1
+mv 1_*_SingleMu_May.root res1/
+mv *_SingleMu_May.root res1/
+l
+root -l SingleMu-RR-May10.root
+cp run.sh Count.sh
+vi Count.sh 
+sourec Count.sh 
+source Count.sh 
+vi Count.sh 
+source Count.sh 
+l ../DONE/tt/
+vi Count.sh 
+source Count.sh 
+l
+root -l 97_SingleMu-RR-May10.root
+vi run.sh 
+rm -rf res1/
+l
+rm -f indvidual_May.sh*
+l
+cd ../RunA_Aug/
+l
+more run.sh 
+vi run.sh 
+cd -
+vi run.sh 
+l /cmsnas/ajafari/DataSamples/SingleMu/RunA/ReReco10May/
+cd -
+vi run.sh 
+l /cmsnas/ajafari/data/V02-05-01/RanAAug/
+l
+root -l 131_SingleMu-RR-Aug05.root
+vi Aug.txt 
+root -l SingleMu-RR-Aug05.root
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh 
+cd ../
+cd RunA_PRV4/
+l
+mkdir v1
+mv *.root v1/
+ls
+l
+mv RunA_PRV4.txt v1/
+more run.sh 
+root -l 
+cd v1/
+l
+cd -
+screen -r
+screen -r 26035.pts-6.cms-computing
+mv ../tW/ ../DONE/
+screen -r
+screen -r 30858.pts-4.cms-computing
+screen -r 25979.pts-6.cms-computing
+screen -r 25756.pts-6.cms-computing
+cd ../DONE/
+cd s_bar/
+l
+mkdir hist 
+mkdir content
+mv *_*_t_sbar.root content/
+l
+hadd t_sbar.root *.root
+ls
+l
+root -l t_sbar.root 
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh 
+ls
+l
+rm -f *_t_sbar.root
+l
+mv content/1_* .
+rm -rf content/
+rm -rf hist/
+l
+cd ../tW/
+l
+mkdir content
+mb *_4_t_tW.root content/
+mv *_4_t_tW.root content/
+l
+l content/
+mv 1_*_t_tW.root content/
+l content/
+l
+hadd t_tW.root *.root
+l
+rm -f *_t_tW.root
+l
+root -l t_tW.
+root -l t_tW.root 
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh
+vi Count.sh 
+vi indvidual_tW.sh 
+l
+l coq
+l content/
+vi indvidual_tW.sh 
+source indvidual_tW.sh 
+cd ..
+mv tW ..
+cd ..
+l
+cd tW/
+source indvidual_tW.sh 
+cd ../
+mv tW DONE/
+cd DONE/tW
+ls
+l
+mv 1_*_t_tW.root content/
+l
+root -l 16_t_tW.root
+rm -f 16_t_tW.root
+hadd hist.root *.root
+mv hist.root 
+mv hist.root t_tW.root
+root -l t_tW.root 
+source Count.sh 
+root -l t_tW.root 
+l
+rm -f *_t_tW.root
+l
+mv content/* .
+l
+rm -rf content/
+cd ../../
+l
+l RunA_PRV4
+screen -r 
+screen -r 30858.pts-4.cms-computing
+screen -r 26888.pts-11.cms-computing
+screen -r 25756.pts-6.cms-computing
+screen -r 26888.pts-11.cms-computing
+l RunA_PRV4/
+htop
+exit
+l
+screen
+screen -r
+screen -r 30858.pts-4.cms-computing
+cd work/AnalysisClasses/EventSelection/macro/t-SingleTopSelection/
+ls
+l
+l w/
+l dy
+screen -r
+screen -r 26888.pts-11.cms-computing
+screen -r 25756.pts-6.cms-computing
+screen -r 27150.pts-11.cms-computing
+screen -r 26942.pts-11.cms-computing
+l
+l RunA_PRV6
+screen -r 26942.pts-11.cms-computing
+mkdir content
+mv 1_*_PRV6.root content/
+cd RunA_PRV6
+mkdir content
+mv 1_*_PRV6.root content/
+l
+hadd PRV6.root *.root
+l
+rm -f *_PRV6.root
+l
+cp run.sh 
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh 
+root -l PRV6.root 
+more run.sh 
+l /cmsnas/ajafari/DataSamples/SingleMu/RunA/PromptRecoV6/
+vi run.sh 
+screen -r 26942.pts-11.cms-computing
+l /cmsnas/ajafari/DataSamples/SingleMu/RunA/PromptRecoV6/
+root -l 
+vi indvidual
+vi indvidual.sh 
+screen -r 26942.pts-11.cms-computing
+cd ../
+l
+l RunA_May/
+l
+rm -rf content
+l
+l RunB
+more RunB/indvidual_RunB.sh
+l
+l w
+l
+l w
+more run.sh 
+more w/run.sh 
+l /cmsnas/ajafari/MCsamplesMuSample/wjet/
+l w
+l
+htop
+mv RunA_May/ DONE/
+mv RunA_Aug/ DONE/
+ls
+l
+l RunB
+htop
+exit
+source indvidual_PRV4.sh 
+exit
+cd dy/
+source indvidual_dy.sh 
+exit
+source indvidual_PRV6.sh 
+:q
+vi indvidual_PRV6.sh 
+source indvidual.sh 
+exit
+htop
+cd work/AnalysisClasses/EventSelection/macro/t-SingleTopSelection/
+l
+l RunA_PRV6
+screen -r
+screen -r 30858.pts-4.cms-computing
+l w
+screen -r 
+screen -r 26888.pts-11.cms-computing
+screen -r 
+screen -r 25756.pts-6.cms-computing
+l dy/
+screen -r 
+screen -r 26942.pts-11.cms-computing
+screen -r 
+screen -r 27150.pts-11.cms-computing
+l
+cd RunA_PRV6/
+l
+mkdir content
+l content
+l
+mv 1_*_PRV6.root content/
+l
+l content/
+cd ../
+ls
+l
+cd -
+l
+rm -f 131_PRV6.root 132_PRV6.root
+l
+hadd final.root *.root
+root -l final.root 
+source Count.sh 
+mv final.root PRV6.root
+rm -f *_PRV6.root
+l
+mkdir v2
+mv content/ v2/
+l
+mv PRV6.root v2/
+l
+cd ..
+mv RunA_PRV6/ DONE/
+l
+cd RunA_PRV4/
+l
+mkdir content
+l
+mv 1_*_PRV4.root content/
+l
+hadd PRV4.root *.root
+l
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh 
+root -l PRV4.root 
+rm -f *_PRV4.root
+l
+mkdir v2
+mv content/ v2/
+mv PRV4.root v2
+cd ..
+mv RunA_PRV4/ DONE/
+l
+cd dy/
+l
+more run.sh 
+l
+mkdir 9
+mv 900_DY.root 90_DY.root 906_DY.root 905_DY.root 904_DY.root 903_DY.root 902_DY.root 901_DY.root 9
+l 9
+mv 91_DY.root 92_DY.root 93_DY.root 94_DY.root 95_DY.root 96_DY.root 97_DY.root 98_DY.root 99_DY.root 9/
+l 9
+l 9*_DY.root
+mv 9_DY.root 9
+l 9*_DY.root
+rm -f 9*_DY.root
+l
+mkdir content
+mv 1_*_DY.root content/
+l
+mv 9/* .
+l
+hadd DY.root *.root
+l
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh 
+root -l DY.root 
+l
+rm -f *_DY.root
+l
+rm -rf 9
+l
+cd ..
+l
+l w
+more w/run.sh 
+l /cmsnas/ajafari/MCsamplesMuSample/wjet/
+l w/
+l RunB/
+more run.sh 
+more RunB/run.sh 
+l  /cmsnas/ajafari/DataSamples/SingleMu/RunB/PromptRecoV1/SingleMu-PR-V1_*.root
+l
+mv dy/ DONE/
+l
+screen -r
+l DONE/
+l
+screen -r
+screen -r 30858.pts-4.cms-computing
+l w/
+l
+l w
+screen -r
+screen -r 30858.pts-4.cms-computing
+more w/run.sh 
+l w
+screen -r 30858.pts-4.cms-computing
+l
+l w
+more w/w.txt 
+cd w/
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh 
+cd ..
+mv w/ DONE/
+l
+l RunB/
+exit
+cd ~/work/AnalysisClasses/EventSelection/macro/t-SingleTopSelection/w
+root -l WJets.root 
+exit
+cd t_bar/; source run.sh > t_tbar.txt; cd -; cd w/; source run.sh > w.txt; cd -;
+ls -l t_bar/
+cd t_bar/; source run.sh > t_tbar.txt; cd -; cd w/; source run.sh > w.txt; cd -;
+l w
+exit
+source indvidual_RunB.sh 
+exit
+screen -r
+screen -r 30858.pts-4.cms-computing
+screen -r 
+cd ~/work/AnalysisClasses/EventSelection/macro/t-SingleTopSelection/
+l
+cd RunB/
+l
+mkdir content
+mv 1_*_runB.root content/
+l
+mv 1_*_runB_Second.root content/
+mv 1_*_runB_Third.root content/
+l
+rm -f *~
+hadd runB.root *.root
+l
+vi run.sh 
+cp run.sh Count.sh
+vi Count.sh 
+source Count.sh 
+root -l runB.root 
+l
+mv runB.root content/
+rm -f *.root
+l
+cd /cmsnas/ajafari/MCsamplesMuSample/T_t-channel/
+l
+cd ../
+l
+cd work/
+l
+l AnalysisClasses/
+l 
+l /cmsnas/ajafari/MCsamplesMuSample/Tbar_t-channel/
+exit
+l /cmsnas/ajafari/MCsamplesMuSample/TTJets/
+exit
+cd /cmsnas/
+l
+cd hbakhshi/
+root -l WPol_SelectedTTBars.root 
+cp WPol_SelectedTTBars.root ../ajafari/
+exit
+cd /public/wpolar/
+l
+l genInfo_effMass2d_350.root 
+cp genInfo_effMass2d_350.root /cmsnas/ajafari/
+exit
+ll
+cd work/
+ll
+exit
+l
+cd /public/
+l
+cd ../cmsnas/ajafari/
+l
+cd ..
+l /public/
+l
+l ajafari/
+cd ~/work/AnalysisClasses/
+l
+l LightJets/macro/
+l LightJets/macro/LightStudy/
+l LightJets/macro/LightStudy/Psudo_100/
+l 
+l LightJets/macro/PseudoExps/
+exit
+l
+cd work/
+l
+cd AnalysisClasses/EventSelection/
+l
+cd macro/
+l
+cd t-SingleTopSelection/
+l
+screen -r
+l RunB/
+l RunB/content/
+mv RunB/ DONE/
+cd DONE/
+l
+cd../
+cd -
+l
+vi SelectAndSave.C 
+cd DONE/
+l
+mkdir histos
+cp tt/TTJets.root histos/
+cp s/t_s.root histos/
+cp t/t_t.root histos/
+cp tW_bar/t_tWbar.root histos/
+cp tW/t_tW.root histos/
+l histos/
+cp t_bar/t_tbar.root histos/
+cp RunA_May/SingleMu-RR-May10.root histos/
+l
+cp RunA_Aug/SingleMu-RR-Aug05.root histos/
+cp RunA_PRV6/v2/PRV6.root histos/
+cp RunA_PRV4/v2/PRV4.root histos/
+cp dy/DY.root histos/
+cp w/WJets.root histos/
+l
+cp RunB/content/runB.root histos/
+cd histos/
+l
+root -l runB.root 
+pwd
+l
+l downloader/
+l /cmsnas/ajafari/
+l /cmsnas/ajafari/data/
+l /cmsnas/ajafari/data/V02-05-01/
+exit
+l
+cd Desktop/
+l
+exit

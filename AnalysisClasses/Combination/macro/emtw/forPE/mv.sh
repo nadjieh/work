@@ -1,0 +1,16 @@
+mv TreesEle_die_TTBar_plots.root       TreesEle_die_plots.root
+mv TreesEle_dimu_TTBar_plots.root     TreesEle_dimu_plots.root  
+mv TreesEle_disemitau_TTBar_plots.root    TreesEle_disemitau_plots.root    
+mv TreesEle_ehad_TTBar_plots.root       TreesEle_ehad_plots.root
+mv TreesEle_etau_TTBar_plots.root       TreesEle_etau_plots.root 
+mv TreesEle_mue_TTBar_plots.root       TreesEle_mue_plots.root 
+mv TreesEle_muhad_TTBar_plots.root       TreesEle_muhad_plots.root  
+mv TreesEle_mutau_TTBar_plots.root    TreesEle_mutau_plots.root   
+mv TreesEle_QCD_plots.root       TreesEle_qcd_plots.root    
+mv TreesEle_SbarChannel_plots.root       TreesEle_sbar_plots.root 
+mv TreesEle_SChannel_plots.root       TreesEle_s_plots.root  
+mv TreesEle_TbaplotsChannel_plots.root       TreesEle_tWbar_plots.root
+mv TreesEle_TWChannel_plots.root       TreesEle_tW_plots.root
+mv TreesEle_WJets_plots.root     TreesEle_w_plots.root   
+mv TreesEle_ZJets_plots.root   TreesEle_dy_plots.root    
+mv TreesEle_TTBar_plots.root   TreesEle_tt_plots.root

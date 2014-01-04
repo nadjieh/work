@@ -1,0 +1,86 @@
+1 ---- do3D
+do3D
+3 ---- channel
+5 ---- is2Drecgen
+is2Drecgen
+7 ---- signal
+ : 0 + 0 = 0
+9 ---- signal
+I am in mu channel and I accept DD/TreesMu_dimu_TTBar_RW.root as signal
+ : 465.919 + 0 = 465.919
+11 ---- signal
+ : 0 + 1130.63 = 1130.63
+13 ---- signal
+ : 0 + 0.181398 = 0.181398
+15 ---- signal
+ : 0 + 53.0452 = 53.0452
+17 ---- signal
+I am in mu channel and I accept DD/TreesMu_mue_TTBar_RW.root as signal
+ : 607.56 + 0 = 607.56
+19 ---- signal
+I am in mu channel and I accept DD/TreesMu_muhad_TTBar_RW.root as signal
+ : 8836.26 + 0 = 8836.26
+21 ---- signal
+I am in mu channel and I accept DD/TreesMu_mutau_TTBar_RW.root as signal
+ : 1558 + 43.1069 = 1601.11
+23 ---- signal
+ : 62.1617 + 5.50049 = 67.6622
+25 ---- signal
+ : 134.741 + 11.5243 = 146.265
+27 ---- signal
+ : 1089.37 + 90.462 = 1179.83
+29 ---- signal
+ : 605.234 + 75.7782 = 681.012
+31 ---- signal
+ : 1924.88 + 155.577 = 2080.46
+33 ---- signal
+ : 622.697 + 82.3281 = 705.025
+35 ---- bkg
+bkg
+2323.01
+DD/TreesMu_bkg_RW.root	myQCD: 0
+here ..
+37 ---- wtemplate
+w template
+DD/TreesMu_WTemplateDefFormat_RW.root	0x473d710
+39 ---- data
+data
+0x4747440
+0x473f200	0x4747440	0x473d710	0
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 1648.14 bkg: 2323.01
+bkg: 3971.14 data: 26772 signal: 15906.8
+DD/TreesMu_SChannel_RW.root	146.265
+DD/TreesMu_SbarChannel_RW.root	67.6622
+DD/TreesMu_TChannel_RW.root	2080.46
+DD/TreesMu_TWChannel_RW.root	705.025
+DD/TreesMu_TbarChannel_RW.root	1179.83
+DD/TreesMu_TbarWChannel_RW.root	681.012
+DD/TreesMu_die_TTBar_RW.root	0
+DD/TreesMu_dimu_TTBar_RW.root	465.919
+DD/TreesMu_disemitau_TTBar_RW.root	1130.63
+DD/TreesMu_ehad_TTBar_RW.root	0.181398
+DD/TreesMu_etau_TTBar_RW.root	53.0452
+DD/TreesMu_mue_TTBar_RW.root	607.56
+DD/TreesMu_muhad_TTBar_RW.root	8836.26
+DD/TreesMu_mutau_TTBar_RW.root	1601.11
+before get minimum simple: 
+bkg bins: 10
+w bins: 10
+data bins: 10
+f0            : 0.536571	+/-	0.0881383
+f_            : 0.275273	+/-	0.0433057
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 7548.31	+/-	316.545
+fr            : 0.188156	+/-	0.0553594
+Df0 Syst       : 0.568784
+DfL Syst       : 0.260807
+Df0            : -0.211216
+DfL            : 0.0208069
+ErrF0          : 0.455109
+ErrFL          : 0.147331
+f0-f_ correlation: -0.861837
+f0-NW correlation: -0.672083
+fl-NW correlation: 0.509491

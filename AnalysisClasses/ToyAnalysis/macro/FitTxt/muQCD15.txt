@@ -1,0 +1,59 @@
+I am in e channel and I accept reweightedHists/vElecMET/noJetCut/TreesMu_die_TTBar_RW.root as signal
+In my 3D signal integral is: 0
+bkginsignal integral: 0
+This is not a so called muon file: reweightedHists/vElecMET/noJetCut/TreesMu_dimu_TTBar_RW.root
+signal2D integral: 1278.56
+bkginsignal integral: 0
+This is not a so called muon file: reweightedHists/vElecMET/noJetCut/TreesMu_disemitau_TTBar_RW.root
+signal2D integral: 0
+bkginsignal integral: 440.928
+I am in e channel and I accept reweightedHists/vElecMET/noJetCut/TreesMu_ehad_TTBar_RW.root as signal
+In my 3D signal integral is: 0
+bkginsignal integral: 0.172523
+I am in e channel and I accept reweightedHists/vElecMET/noJetCut/TreesMu_etau_TTBar_RW.root as signal
+In my 3D signal integral is: 0
+bkginsignal integral: 61.8609
+I am in e channel and I accept reweightedHists/vElecMET/noJetCut/TreesMu_mue_TTBar_RW.root as signal
+In my 3D signal integral is: 1697.62
+bkginsignal integral: 0
+This is not a so called muon file: reweightedHists/vElecMET/noJetCut/TreesMu_muhad_TTBar_RW.root
+signal2D integral: 16417.6
+bkginsignal integral: 0.176026
+This is not a so called muon file: reweightedHists/vElecMET/noJetCut/TreesMu_mutau_TTBar_RW.root
+signal2D integral: 4479.91
+bkginsignal integral: 45.7455
+This is not a so called muon file: reweightedHists/vElecMET/noJetCut/TreesMu_SbarChannel_RW.root
+signal2D integral: 139.609
+bkginsignal integral: 3.32487
+This is not a so called muon file: reweightedHists/vElecMET/noJetCut/TreesMu_SChannel_RW.root
+signal2D integral: 289.269
+bkginsignal integral: 6.96055
+This is not a so called muon file: reweightedHists/vElecMET/noJetCut/TreesMu_TbarChannel_RW.root
+signal2D integral: 2517.44
+bkginsignal integral: 63.005
+This is not a so called muon file: reweightedHists/vElecMET/noJetCut/TreesMu_TbarWChannel_RW.root
+signal2D integral: 1333.18
+bkginsignal integral: 69.3577
+This is not a so called muon file: reweightedHists/vElecMET/noJetCut/TreesMu_TChannel_RW.root
+signal2D integral: 4355.24
+bkginsignal integral: 102.243
+This is not a so called muon file: reweightedHists/vElecMET/noJetCut/TreesMu_TWChannel_RW.root
+signal2D integral: 1326.35
+bkginsignal integral: 56.3539
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 850.128
+33834.7	24469.6	57798
+I am in bias Likelihood
+before get minimum simple: 
+30 30 30
+5 5 5
+simple getMin: 0.636381  0.434152  1.0464
+my getMin-vals Delta: -0.0699204  0.133751  1.0464
+my getMin-vals: 0.597847  0.460513  1.0464
+my getMin-err: 0.290505  0.136592  0.013341
+F0_FNeg correlation: -0.95435
+my getMin-vals: 0.63638  0.434151  1.0464
+my getMin-err: 0.0545825  0.0347989  0.013341
+For Fr: -0.0705307 +/- 0.0237656

@@ -1,0 +1,86 @@
+1 ---- do3D
+do3D
+3 ---- channel
+5 ---- is2Drecgen
+is2Drecgen
+7 ---- signal
+ : 0 + 0 = 0
+9 ---- signal
+I am in mu channel and I accept MG/TreesMu_dimu_TTBar_RW.root as signal
+ : 467.264 + 0 = 467.264
+11 ---- signal
+ : 0 + 1133.9 = 1133.9
+13 ---- signal
+ : 0 + 0.181922 = 0.181922
+15 ---- signal
+ : 0 + 53.1984 = 53.1984
+17 ---- signal
+I am in mu channel and I accept MG/TreesMu_mue_TTBar_RW.root as signal
+ : 609.315 + 0 = 609.315
+19 ---- signal
+I am in mu channel and I accept MG/TreesMu_muhad_TTBar_RW.root as signal
+ : 8861.78 + 0 = 8861.78
+21 ---- signal
+I am in mu channel and I accept MG/TreesMu_mutau_TTBar_RW.root as signal
+ : 1562.5 + 43.2314 = 1605.73
+23 ---- signal
+ : 62.3412 + 5.51638 = 67.8576
+25 ---- signal
+ : 135.13 + 11.5575 = 146.688
+27 ---- signal
+ : 1092.52 + 90.7233 = 1183.24
+29 ---- signal
+ : 606.982 + 75.997 = 682.979
+31 ---- signal
+ : 1930.44 + 156.027 = 2086.47
+33 ---- signal
+ : 624.495 + 82.5658 = 707.061
+35 ---- bkg
+bkg
+2329.71
+MG/TreesMu_bkg_RW.root	myQCD: 0
+here ..
+37 ---- wtemplate
+w template
+MG/TreesMu_WJets_RW.root	0x340d410
+39 ---- data
+data
+0xc03f7c0
+0x340ac10	0xc03f7c0	0x340d410	0
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 1652.9 bkg: 2329.71
+bkg: 3982.61 data: 26772 signal: 15952.8
+MG/TreesMu_SChannel_RW.root	146.688
+MG/TreesMu_SbarChannel_RW.root	67.8576
+MG/TreesMu_TChannel_RW.root	2086.47
+MG/TreesMu_TWChannel_RW.root	707.061
+MG/TreesMu_TbarChannel_RW.root	1183.24
+MG/TreesMu_TbarWChannel_RW.root	682.979
+MG/TreesMu_die_TTBar_RW.root	0
+MG/TreesMu_dimu_TTBar_RW.root	467.264
+MG/TreesMu_disemitau_TTBar_RW.root	1133.9
+MG/TreesMu_ehad_TTBar_RW.root	0.181922
+MG/TreesMu_etau_TTBar_RW.root	53.1984
+MG/TreesMu_mue_TTBar_RW.root	609.315
+MG/TreesMu_muhad_TTBar_RW.root	8861.78
+MG/TreesMu_mutau_TTBar_RW.root	1605.73
+before get minimum simple: 
+bkg bins: 100
+w bins: 100
+data bins: 100
+f0            : 0.675681	+/-	0.078903
+f_            : 0.284222	+/-	0.0410994
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 6897.64	+/-	286.106
+fr            : 0.0400971	+/-	0.0479831
+Df0 Syst       : 0.707894
+DfL Syst       : 0.269756
+Df0            : -0.0721062
+DfL            : 0.0297561
+ErrF0          : 0.407422
+ErrFL          : 0.139825
+f0-f_ correlation: -0.865356
+f0-NW correlation: -0.610014
+fl-NW correlation: 0.499456

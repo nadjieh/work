@@ -1,0 +1,8 @@
+1 ---- do3D
+do3D
+3 ---- is2Drecgen
+is2Drecgen
+5 ---- signal7
+signal7
+I am in signal7 (electron) channel and I accept TreesEle_die_TTBar_RW.root as signal
+ in 3D :-)

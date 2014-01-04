@@ -1,0 +1,59 @@
+I am in e channel and I accept TreesEle_die_TTBar_RW.root as signal
+In my 3D signal integral is: 1450.47
+bkginsignal integral: 0
+This is not a so called muon file: TreesEle_dimu_TTBar_RW.root
+signal2D integral: 0
+bkginsignal integral: 0
+This is not a so called muon file: TreesEle_disemitau_TTBar_RW.root
+signal2D integral: 0
+bkginsignal integral: 780.58
+I am in e channel and I accept TreesEle_ehad_TTBar_RW.root as signal
+In my 3D signal integral is: 11660.5
+bkginsignal integral: 35.0293
+I am in e channel and I accept TreesEle_etau_TTBar_RW.root as signal
+In my 3D signal integral is: 3832.51
+bkginsignal integral: 81.5728
+I am in e channel and I accept TreesEle_mue_TTBar_RW.root as signal
+In my 3D signal integral is: 1172.55
+bkginsignal integral: 3.48479
+This is not a so called muon file: TreesEle_muhad_TTBar_RW.root
+signal2D integral: 0
+bkginsignal integral: 0.970555
+This is not a so called muon file: TreesEle_mutau_TTBar_RW.root
+signal2D integral: 0
+bkginsignal integral: 51.1673
+This is not a so called muon file: TreesEle_SbarChannel_RW.root
+signal2D integral: 84.2042
+bkginsignal integral: 4.32705
+This is not a so called muon file: TreesEle_SChannel_RW.root
+signal2D integral: 176.884
+bkginsignal integral: 9.17493
+This is not a so called muon file: TreesEle_TbarChannel_RW.root
+signal2D integral: 1503.01
+bkginsignal integral: 75.3645
+This is not a so called muon file: TreesEle_TbarWChannel_RW.root
+signal2D integral: 853.226
+bkginsignal integral: 92.0016
+This is not a so called muon file: TreesEle_TChannel_RW.root
+signal2D integral: 2689.81
+bkginsignal integral: 126.761
+This is not a so called muon file: TreesEle_TWChannel_RW.root
+signal2D integral: 859.841
+bkginsignal integral: 100.337
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 1360.77
+24283	4974.88	40297
+I am in bias Likelihood
+before get minimum simple: 
+30 30 30
+5 5 5
+simple getMin: 0.556299  0.259177  1.4506
+my getMin-vals Delta: -0.149992  -0.041216  1.4506
+my getMin-vals: 0.517775  0.285546  1.4506
+my getMin-err: 0.291345  0.121471  0.0141055
+F0_FNeg correlation: -0.915586
+my getMin-vals: 0.556308  0.259184  1.4506
+my getMin-err: 0.0547402  0.0309468  0.0141055
+For Fr: 0.184508 +/- 0.0291912

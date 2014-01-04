@@ -1,0 +1,59 @@
+I am in e channel and I accept reweightedHists/jetCut/TreesMu_die_TTBar_RW.root as signal
+In my 3D signal integral is: 0
+bkginsignal integral: 0
+This is not a so called muon file: reweightedHists/jetCut/TreesMu_dimu_TTBar_RW.root
+signal2D integral: 660.884
+bkginsignal integral: 0
+This is not a so called muon file: reweightedHists/jetCut/TreesMu_disemitau_TTBar_RW.root
+signal2D integral: 0
+bkginsignal integral: 220.353
+I am in e channel and I accept reweightedHists/jetCut/TreesMu_ehad_TTBar_RW.root as signal
+In my 3D signal integral is: 0
+bkginsignal integral: 0
+I am in e channel and I accept reweightedHists/jetCut/TreesMu_etau_TTBar_RW.root as signal
+In my 3D signal integral is: 0
+bkginsignal integral: 31.5492
+I am in e channel and I accept reweightedHists/jetCut/TreesMu_mue_TTBar_RW.root as signal
+In my 3D signal integral is: 875.446
+bkginsignal integral: 0
+This is not a so called muon file: reweightedHists/jetCut/TreesMu_muhad_TTBar_RW.root
+signal2D integral: 8448.8
+bkginsignal integral: 0
+This is not a so called muon file: reweightedHists/jetCut/TreesMu_mutau_TTBar_RW.root
+signal2D integral: 2291.06
+bkginsignal integral: 24.1293
+This is not a so called muon file: reweightedHists/jetCut/TreesMu_SbarChannel_RW.root
+signal2D integral: 72.8844
+bkginsignal integral: 1.84701
+This is not a so called muon file: reweightedHists/jetCut/TreesMu_SChannel_RW.root
+signal2D integral: 156.626
+bkginsignal integral: 3.77303
+This is not a so called muon file: reweightedHists/jetCut/TreesMu_TbarChannel_RW.root
+signal2D integral: 1250.22
+bkginsignal integral: 30.626
+This is not a so called muon file: reweightedHists/jetCut/TreesMu_TbarWChannel_RW.root
+signal2D integral: 582.089
+bkginsignal integral: 27.5972
+This is not a so called muon file: reweightedHists/jetCut/TreesMu_TChannel_RW.root
+signal2D integral: 2298.18
+bkginsignal integral: 52.9004
+This is not a so called muon file: reweightedHists/jetCut/TreesMu_TWChannel_RW.root
+signal2D integral: 583.995
+bkginsignal integral: 29.3555
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 422.131
+17220.2	9807.32	27343
+I am in bias Likelihood
+before get minimum simple: 
+30 30 30
+5 5 5
+simple getMin: 0.599758  0.394505  1.04809
+my getMin-vals Delta: -0.10654  0.0941065  1.04809
+my getMin-vals: 0.561227  0.420869  1.04809
+my getMin-err: 0.372355  0.174769  0.0169944
+F0_FNeg correlation: -0.947433
+my getMin-vals: 0.59976  0.394507  1.04809
+my getMin-err: 0.0699611  0.0445253  0.0169944
+For Fr: 0.00573355 +/- 0.0312166

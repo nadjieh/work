@@ -1,0 +1,4 @@
+1 ---- name
+3 ---- channel
+5 ---- signal
+I am in e channel and I accept TreesEle_die_TTBar_RW.root as signal

@@ -1,0 +1,130 @@
+{
+//=========Macro generated from canvas: Canvas_1/Canvas_1
+//=========  (Mon Oct 21 11:59:28 2013) by ROOT version5.32/00
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",67,53,700,502);
+   Canvas_1->Range(-1.25,-437.5,1.25,3937.5);
+   Canvas_1->SetFillColor(0);
+   Canvas_1->SetBorderMode(0);
+   Canvas_1->SetBorderSize(2);
+   Canvas_1->SetFrameBorderMode(0);
+   Canvas_1->SetFrameBorderMode(0);
+   
+   TH1D *e_3_Components2_subtracted = new TH1D("e_3_Components2_subtracted","Default_allW: cos(#theta)",10,-1,1);
+   e_3_Components2_subtracted->SetBinContent(1,1864.863);
+   e_3_Components2_subtracted->SetBinContent(2,1963.026);
+   e_3_Components2_subtracted->SetBinContent(3,2363.012);
+   e_3_Components2_subtracted->SetBinContent(4,2644.925);
+   e_3_Components2_subtracted->SetBinContent(5,2616.853);
+   e_3_Components2_subtracted->SetBinContent(6,2467.293);
+   e_3_Components2_subtracted->SetBinContent(7,2396.035);
+   e_3_Components2_subtracted->SetBinContent(8,1952.411);
+   e_3_Components2_subtracted->SetBinContent(9,1817.962);
+   e_3_Components2_subtracted->SetBinContent(10,1229.613);
+   e_3_Components2_subtracted->SetBinError(1,69.55573);
+   e_3_Components2_subtracted->SetBinError(2,68.55655);
+   e_3_Components2_subtracted->SetBinError(3,72.82857);
+   e_3_Components2_subtracted->SetBinError(4,74.77968);
+   e_3_Components2_subtracted->SetBinError(5,74.68601);
+   e_3_Components2_subtracted->SetBinError(6,74.1485);
+   e_3_Components2_subtracted->SetBinError(7,73.82412);
+   e_3_Components2_subtracted->SetBinError(8,72.80797);
+   e_3_Components2_subtracted->SetBinError(9,75.34587);
+   e_3_Components2_subtracted->SetBinError(10,81.265);
+   e_3_Components2_subtracted->SetMinimum(0);
+   e_3_Components2_subtracted->SetMaximum(3500);
+   e_3_Components2_subtracted->SetEntries(21315);
+   
+   TPaveStats *ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("e_3_Components2_subtracted");
+   text->SetTextSize(0.0368);
+   text = ptstats->AddText("Entries = 21315  ");
+   text = ptstats->AddText("Mean  = -0.04542");
+   text = ptstats->AddText("RMS   =  0.526");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   e_3_Components2_subtracted->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(e_3_Components2_subtracted);
+   e_3_Components2_subtracted->SetLineColor(2);
+   e_3_Components2_subtracted->SetMarkerStyle(20);
+   e_3_Components2_subtracted->GetXaxis()->SetTitle("cos(#theta*)");
+   e_3_Components2_subtracted->GetXaxis()->SetLabelFont(42);
+   e_3_Components2_subtracted->GetXaxis()->SetLabelSize(0.035);
+   e_3_Components2_subtracted->GetXaxis()->SetTitleSize(0.035);
+   e_3_Components2_subtracted->GetXaxis()->SetTitleFont(42);
+   e_3_Components2_subtracted->GetYaxis()->SetLabelFont(42);
+   e_3_Components2_subtracted->GetYaxis()->SetLabelSize(0.035);
+   e_3_Components2_subtracted->GetYaxis()->SetTitleSize(0.035);
+   e_3_Components2_subtracted->GetYaxis()->SetTitleFont(42);
+   e_3_Components2_subtracted->GetZaxis()->SetLabelFont(42);
+   e_3_Components2_subtracted->GetZaxis()->SetLabelSize(0.035);
+   e_3_Components2_subtracted->GetZaxis()->SetTitleSize(0.035);
+   e_3_Components2_subtracted->GetZaxis()->SetTitleFont(42);
+   e_3_Components2_subtracted->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.3276437,0.9342405,0.6723563,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("Default_allW: cos(#theta)");
+   pt->Draw();
+   
+   TH1D *e_Chi2Syst_uncorrelated_res3D = new TH1D("e_Chi2Syst_uncorrelated_res3D","e_Chi2Syst_uncorrelated_res3D",10,-1,1);
+   e_Chi2Syst_uncorrelated_res3D->SetBinContent(1,1619.309);
+   e_Chi2Syst_uncorrelated_res3D->SetBinContent(2,2068.701);
+   e_Chi2Syst_uncorrelated_res3D->SetBinContent(3,2502.197);
+   e_Chi2Syst_uncorrelated_res3D->SetBinContent(4,2664.421);
+   e_Chi2Syst_uncorrelated_res3D->SetBinContent(5,2632.371);
+   e_Chi2Syst_uncorrelated_res3D->SetBinContent(6,2476.284);
+   e_Chi2Syst_uncorrelated_res3D->SetBinContent(7,2274.269);
+   e_Chi2Syst_uncorrelated_res3D->SetBinContent(8,1970.873);
+   e_Chi2Syst_uncorrelated_res3D->SetBinContent(9,1677.745);
+   e_Chi2Syst_uncorrelated_res3D->SetBinContent(10,1438.648);
+   e_Chi2Syst_uncorrelated_res3D->SetEntries(20);
+   
+   ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   text = ptstats->AddText("e_Chi2Syst_uncorrelated_res3D");
+   text->SetTextSize(0.0368);
+   text = ptstats->AddText("Entries = 20     ");
+   text = ptstats->AddText("Mean  = -0.03914");
+   text = ptstats->AddText("RMS   = 0.5257");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   e_Chi2Syst_uncorrelated_res3D->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(e_Chi2Syst_uncorrelated_res3D);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   e_Chi2Syst_uncorrelated_res3D->SetLineColor(ci);
+   e_Chi2Syst_uncorrelated_res3D->GetXaxis()->SetLabelFont(42);
+   e_Chi2Syst_uncorrelated_res3D->GetXaxis()->SetLabelSize(0.035);
+   e_Chi2Syst_uncorrelated_res3D->GetXaxis()->SetTitleSize(0.035);
+   e_Chi2Syst_uncorrelated_res3D->GetXaxis()->SetTitleFont(42);
+   e_Chi2Syst_uncorrelated_res3D->GetYaxis()->SetLabelFont(42);
+   e_Chi2Syst_uncorrelated_res3D->GetYaxis()->SetLabelSize(0.035);
+   e_Chi2Syst_uncorrelated_res3D->GetYaxis()->SetTitleSize(0.035);
+   e_Chi2Syst_uncorrelated_res3D->GetYaxis()->SetTitleFont(42);
+   e_Chi2Syst_uncorrelated_res3D->GetZaxis()->SetLabelFont(42);
+   e_Chi2Syst_uncorrelated_res3D->GetZaxis()->SetLabelSize(0.035);
+   e_Chi2Syst_uncorrelated_res3D->GetZaxis()->SetTitleSize(0.035);
+   e_Chi2Syst_uncorrelated_res3D->GetZaxis()->SetTitleFont(42);
+   e_Chi2Syst_uncorrelated_res3D->Draw("sames");
+   for(int i = 0; i < e_3_Components2_subtracted->GetXaxis()->GetNbins(); i++)
+	cout<<e_3_Components2_subtracted->GetBinContent(i+1) - e_Chi2Syst_uncorrelated_res3D->GetBinContent(i+1)<<endl;
+   Canvas_1->Modified();
+   Canvas_1->cd();
+   Canvas_1->SetSelected(Canvas_1);
+}
