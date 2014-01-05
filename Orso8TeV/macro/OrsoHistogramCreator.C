@@ -230,9 +230,14 @@ int main(int argc, char** argv) {
     int nSBM = 0;
     TString dirName = "";
     bool isStack = false;
+    int nBinY = 100;
     for (int f = 1; f < argc; f++) {
         std::string arg_fth(*(argv + f));
-        if (arg_fth == "prefix") {
+        if (arg_fth == "nBinY") {
+            f++;
+            std::string in(*(argv + f));
+            nBinY = atof(in.c_str());
+        } else if (arg_fth == "prefix") {
             f++;
             std::string in(*(argv + f));
             prefix = in + string("_");
@@ -412,147 +417,147 @@ int main(int argc, char** argv) {
     if (!isStack)
         MetHist_allW.SetErrors(true);
 
-    SingleTopHistograms Default_Def("Default_Def");
+    SingleTopHistograms Default_Def("Default_Def", false, nBinY);
     if (!isStack)
         Default_Def.SetErrors(true);
-    SingleTopHistograms EtaCut_Def("EtaFwD_Def");
+    SingleTopHistograms EtaCut_Def("EtaFwD_Def", false, nBinY);
     if (!isStack)
         EtaCut_Def.SetErrors(true);
-    SingleTopHistograms HtCut_Def("HtCut_Def");
+    SingleTopHistograms HtCut_Def("HtCut_Def", false, nBinY);
     if (!isStack)
         HtCut_Def.SetErrors(true);
-    SingleTopHistograms AntiEtaCut_allW("antiEtaFwD_allW");
+    SingleTopHistograms AntiEtaCut_allW("antiEtaFwD_allW", false, nBinY);
     if (!isStack)
         AntiEtaCut_allW.SetErrors(true);
-    SingleTopHistograms AntiHtCut_Def("antiHtCut_Def");
+    SingleTopHistograms AntiHtCut_Def("antiHtCut_Def", false, nBinY);
     if (!isStack)
         AntiHtCut_Def.SetErrors(true);
 
-    SingleTopHistograms DefaultTrue_Def("DefaultTrue_Def");
+    SingleTopHistograms DefaultTrue_Def("DefaultTrue_Def", false, nBinY);
     if (!isStack)
         DefaultTrue_Def.SetErrors(true);
-    SingleTopHistograms EtaCutTrue_Def("EtaFwDTrue_Def");
+    SingleTopHistograms EtaCutTrue_Def("EtaFwDTrue_Def", false, nBinY);
     if (!isStack)
         EtaCutTrue_Def.SetErrors(true);
-    SingleTopHistograms HtCutTrue_Def("HtCutTrue_Def");
+    SingleTopHistograms HtCutTrue_Def("HtCutTrue_Def", false, nBinY);
     if (!isStack)
         HtCutTrue_Def.SetErrors(true);
-    SingleTopHistograms AntiEtaCutTrue_Def("antiEtaFwDTrue_Def");
+    SingleTopHistograms AntiEtaCutTrue_Def("antiEtaFwDTrue_Def", false, nBinY);
     if (!isStack)
         AntiEtaCutTrue_Def.SetErrors(true);
-    SingleTopHistograms AntiHtCutTrue_Def("antiHtCutTrue_Def");
+    SingleTopHistograms AntiHtCutTrue_Def("antiHtCutTrue_Def", false, nBinY);
     if (!isStack)
         AntiHtCutTrue_Def.SetErrors(true);
 
-    SingleTopHistograms Default_PuW("Default_PuW");
+    SingleTopHistograms Default_PuW("Default_PuW", false, nBinY);
     if (!isStack)
         Default_PuW.SetErrors(true);
-    SingleTopHistograms Default_BtagPuW("Default_BtagPuW");
+    SingleTopHistograms Default_BtagPuW("Default_BtagPuW", false, nBinY);
     if (!isStack)
         Default_BtagPuW.SetErrors(true);
-    SingleTopHistograms Default_allW("Default_allW");
+    SingleTopHistograms Default_allW("Default_allW", false, nBinY);
     if (!isStack)
         Default_allW.SetErrors(true);
 
-    SingleTopHistograms EtaCut_PuW("EtaFwD_PuW");
+    SingleTopHistograms EtaCut_PuW("EtaFwD_PuW", false, nBinY);
     if (!isStack)
         EtaCut_PuW.SetErrors(true);
-    SingleTopHistograms EtaCut_BtagPuW("EtaFwD_BtagPuW");
+    SingleTopHistograms EtaCut_BtagPuW("EtaFwD_BtagPuW", false, nBinY);
     if (!isStack)
         EtaCut_BtagPuW.SetErrors(true);
-    SingleTopHistograms EtaCut_allW("EtaFwD_allW");
+    SingleTopHistograms EtaCut_allW("EtaFwD_allW", false, nBinY);
     if (!isStack)
         EtaCut_allW.SetErrors(true);
 
-    SingleTopHistograms DefaultTrue_PuW("DefaultTrue_PuW");
+    SingleTopHistograms DefaultTrue_PuW("DefaultTrue_PuW", false, nBinY);
     if (!isStack)
         DefaultTrue_PuW.SetErrors(true);
-    SingleTopHistograms DefaultTrue_BtagPuW("DefaultTrue_BtagPuW");
+    SingleTopHistograms DefaultTrue_BtagPuW("DefaultTrue_BtagPuW", false, nBinY);
     if (!isStack)
         DefaultTrue_BtagPuW.SetErrors(true);
-    SingleTopHistograms DefaultTrue_allW("DefaultTrue_allW");
+    SingleTopHistograms DefaultTrue_allW("DefaultTrue_allW", false, nBinY);
     if (!isStack)
         DefaultTrue_allW.SetErrors(true);
 
-    SingleTopHistograms EtaCutTrue_PuW("EtaFwDTrue_PuW");
+    SingleTopHistograms EtaCutTrue_PuW("EtaFwDTrue_PuW", false, nBinY);
     if (!isStack)
         EtaCutTrue_PuW.SetErrors(true);
-    SingleTopHistograms EtaCutTrue_BtagPuW("EtaFwDTrue_BtagPuW");
+    SingleTopHistograms EtaCutTrue_BtagPuW("EtaFwDTrue_BtagPuW", false, nBinY);
     if (!isStack)
         EtaCutTrue_BtagPuW.SetErrors(true);
-    SingleTopHistograms EtaCutTrue_allW("EtaFwDTrue_allW");
+    SingleTopHistograms EtaCutTrue_allW("EtaFwDTrue_allW", false, nBinY);
     if (!isStack)
         EtaCutTrue_allW.SetErrors(true);
 
-    DiLeptonHistograms DiLep_Default_Def("Default_Def");
+    DiLeptonHistograms DiLep_Default_Def("Default_Def", false, nBinY);
     if (!isStack)
         DiLep_Default_Def.SetErrors(true);
-    DiLeptonHistograms DiLep_EtaCut_Def("EtaFwD_Def");
+    DiLeptonHistograms DiLep_EtaCut_Def("EtaFwD_Def", false, nBinY);
     if (!isStack)
         DiLep_EtaCut_Def.SetErrors(true);
-    DiLeptonHistograms DiLep_HtCut_Def("HtCut_Def");
+    DiLeptonHistograms DiLep_HtCut_Def("HtCut_Def", false, nBinY);
     if (!isStack)
         DiLep_HtCut_Def.SetErrors(true);
-    DiLeptonHistograms DiLep_AntiEtaCut_allW("antiEtaFwD_allW");
+    DiLeptonHistograms DiLep_AntiEtaCut_allW("antiEtaFwD_allW", false, nBinY);
     if (!isStack)
         DiLep_AntiEtaCut_allW.SetErrors(true);
-    DiLeptonHistograms DiLep_AntiHtCut_Def("antiHtCut_Def");
+    DiLeptonHistograms DiLep_AntiHtCut_Def("antiHtCut_Def", false, nBinY);
     if (!isStack)
         DiLep_AntiHtCut_Def.SetErrors(true);
 
-    DiLeptonHistograms DiLep_DefaultTrue_Def("DefaultTrue_Def");
+    DiLeptonHistograms DiLep_DefaultTrue_Def("DefaultTrue_Def", false, nBinY);
     if (!isStack)
         DiLep_DefaultTrue_Def.SetErrors(true);
-    DiLeptonHistograms DiLep_EtaCutTrue_Def("EtaFwDTrue_Def");
+    DiLeptonHistograms DiLep_EtaCutTrue_Def("EtaFwDTrue_Def", false, nBinY);
     if (!isStack)
         DiLep_EtaCutTrue_Def.SetErrors(true);
-    DiLeptonHistograms DiLep_HtCutTrue_Def("HtCutTrue_Def");
+    DiLeptonHistograms DiLep_HtCutTrue_Def("HtCutTrue_Def", false, nBinY);
     if (!isStack)
         DiLep_HtCutTrue_Def.SetErrors(true);
-    DiLeptonHistograms DiLep_AntiEtaCutTrue_Def("antiEtaFwDTrue_Def");
+    DiLeptonHistograms DiLep_AntiEtaCutTrue_Def("antiEtaFwDTrue_Def", false, nBinY);
     if (!isStack)
         DiLep_AntiEtaCutTrue_Def.SetErrors(true);
-    DiLeptonHistograms DiLep_AntiHtCutTrue_Def("antiHtCutTrue_Def");
+    DiLeptonHistograms DiLep_AntiHtCutTrue_Def("antiHtCutTrue_Def", false, nBinY);
     if (!isStack)
         DiLep_AntiHtCutTrue_Def.SetErrors(true);
 
-    DiLeptonHistograms DiLep_Default_PuW("Default_PuW");
+    DiLeptonHistograms DiLep_Default_PuW("Default_PuW", false, nBinY);
     if (!isStack)
         DiLep_Default_PuW.SetErrors(true);
-    DiLeptonHistograms DiLep_Default_BtagPuW("Default_BtagPuW");
+    DiLeptonHistograms DiLep_Default_BtagPuW("Default_BtagPuW", false, nBinY);
     if (!isStack)
         DiLep_Default_BtagPuW.SetErrors(true);
-    DiLeptonHistograms DiLep_Default_allW("Default_allW");
+    DiLeptonHistograms DiLep_Default_allW("Default_allW", false, nBinY);
     if (!isStack)
         DiLep_Default_allW.SetErrors(true);
 
-    DiLeptonHistograms DiLep_EtaCut_PuW("EtaFwD_PuW");
+    DiLeptonHistograms DiLep_EtaCut_PuW("EtaFwD_PuW", false, nBinY);
     if (!isStack)
         DiLep_EtaCut_PuW.SetErrors(true);
-    DiLeptonHistograms DiLep_EtaCut_BtagPuW("EtaFwD_BtagPuW");
+    DiLeptonHistograms DiLep_EtaCut_BtagPuW("EtaFwD_BtagPuW", false, nBinY);
     if (!isStack)
         DiLep_EtaCut_BtagPuW.SetErrors(true);
-    DiLeptonHistograms DiLep_EtaCut_allW("EtaFwD_allW");
+    DiLeptonHistograms DiLep_EtaCut_allW("EtaFwD_allW", false, nBinY);
     if (!isStack)
         DiLep_EtaCut_allW.SetErrors(true);
 
-    DiLeptonHistograms DiLep_DefaultTrue_PuW("DefaultTrue_PuW");
+    DiLeptonHistograms DiLep_DefaultTrue_PuW("DefaultTrue_PuW", false, nBinY);
     if (!isStack)
         DiLep_DefaultTrue_PuW.SetErrors(true);
-    DiLeptonHistograms DiLep_DefaultTrue_BtagPuW("DefaultTrue_BtagPuW");
+    DiLeptonHistograms DiLep_DefaultTrue_BtagPuW("DefaultTrue_BtagPuW", false, nBinY);
     if (!isStack)
         DiLep_DefaultTrue_BtagPuW.SetErrors(true);
-    DiLeptonHistograms DiLep_DefaultTrue_allW("DefaultTrue_allW");
+    DiLeptonHistograms DiLep_DefaultTrue_allW("DefaultTrue_allW", false, nBinY);
     if (!isStack)
         DiLep_DefaultTrue_allW.SetErrors(true);
 
-    DiLeptonHistograms DiLep_EtaCutTrue_PuW("EtaFwDTrue_PuW");
+    DiLeptonHistograms DiLep_EtaCutTrue_PuW("EtaFwDTrue_PuW", false, nBinY);
     if (!isStack)
         DiLep_EtaCutTrue_PuW.SetErrors(true);
-    DiLeptonHistograms DiLep_EtaCutTrue_BtagPuW("EtaFwDTrue_BtagPuW");
+    DiLeptonHistograms DiLep_EtaCutTrue_BtagPuW("EtaFwDTrue_BtagPuW", false, nBinY);
     if (!isStack)
         DiLep_EtaCutTrue_BtagPuW.SetErrors(true);
-    DiLeptonHistograms DiLep_EtaCutTrue_allW("EtaFwDTrue_allW");
+    DiLeptonHistograms DiLep_EtaCutTrue_allW("EtaFwDTrue_allW", false, nBinY);
     if (!isStack)
         DiLep_EtaCutTrue_allW.SetErrors(true);
 
