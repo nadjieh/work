@@ -36,7 +36,7 @@ using namespace std;
 class SingleTopHistograms {
 public:
 
-    SingleTopHistograms(string name, bool sumw2 = false) : Name(name), setSumW2(sumw2) {
+    SingleTopHistograms(string name, bool sumw2 = false, int nBinY = 100) : Name(name), setSumW2(sumw2) {
         Wmass = new TH1D(string(name + "_Wmass").c_str(), string(name + ": final-W-mass").c_str(), 50, 0., 200.);
         Wmass->GetXaxis()->SetTitle("M_{W}");
         WmassII = new TH1D(string(name + "_WmassMET").c_str(), string(name + ": final-W-mass (MET)").c_str(), 50, 0., 200.);
@@ -45,11 +45,11 @@ public:
         topMass->GetXaxis()->SetTitle("M_{top}");
         topMassII = new TH1D(string(name + "_topMassMET").c_str(), string(name + ": final-top-mass (MET)").c_str(), 50, 50., 500.);
         topMassII->GetXaxis()->SetTitle("M_{top}");
-        cosTheta = new TH1D(string(name + "cosTheta").c_str(), string(name + ": cos(#theta)").c_str(), 100, -1., 1.);
+        cosTheta = new TH1D(string(name + "cosTheta").c_str(), string(name + ": cos(#theta)").c_str(), nBinY, -1., 1.);
         cosTheta->GetXaxis()->SetTitle("cos(#theta*)");
         cosTheta2D = new TH2D(string(name + "cosTheta2D").c_str(),
                 string(name + ": cos(#theta); cos(#theta)_{gen}; cos(#theta)_{rec}").c_str(),
-                10000, -1., 1., 100, -1., 1.);
+                10000, -1., 1., nBinY, -1., 1.);
         if (setSumW2) {
             Wmass->Sumw2();
             topMass->Sumw2();
@@ -61,7 +61,7 @@ public:
         //                100, -1., 1., 100, -1., 1., 100, -1., 1.);
         cosTheta3D = new TH3D(string(name + "cosTheta3D").c_str(),
                 string(name + ": cos(#theta); cos(#theta)_{gen-lep}; cos(#theta)_{rec};cos(#theta)_{gen-d};").c_str(),
-                10, -1., 1., 100, -1., 1., 1000, -1., 1.);
+                10, -1., 1., nBinY, -1., 1., 1000, -1., 1.);
         top_W_channel1 = new TH2D("top_W_channel1", "top_W_channel", 4, 0, 4, 4, 0, 4);
         top_W_channel1->GetXaxis()->SetBinLabel(1, "top-Mu");
         top_W_channel1->GetXaxis()->SetBinLabel(2, "top-E");
@@ -258,7 +258,7 @@ public:
 class DiLeptonHistograms : public SingleTopHistograms {
 public:
 
-    DiLeptonHistograms(string name, bool sumw2 = false) : SingleTopHistograms(name, sumw2) {
+    DiLeptonHistograms(string name, bool sumw2 = false, int nBinY = 100) : SingleTopHistograms(name, sumw2, nBinY) {
     }
 
     virtual ~DiLeptonHistograms() {
