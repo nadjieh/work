@@ -10,6 +10,7 @@
 //#define FL 0.3170087 /* SM */
 //#define F0 7.04699e-01 /* 7TeV */
 //#define FL 2.97751e-01 /* 7TeV */
+//#define GENBINCONTENTS
 #ifndef LikelihoodFunction_H
 #define	LikelihoodFunction_H
 #include "TF1.h"
@@ -71,7 +72,7 @@ public:
 
     static std::pair<TF1, WeightFunctionCreator*> getWeightFunction(string name, double std_f0 = F0, double std_fneg = FL) {
         WeightFunctionCreator * functor = new WeightFunctionCreator(std_f0, std_fneg); //F0, FL);
-//        WeightFunctionCreator * functor = new WeightFunctionCreator(F0, FL);
+        //        WeightFunctionCreator * functor = new WeightFunctionCreator(F0, FL);
         TF1 ret(name.c_str(), functor, -1.0, 1.0, 2);
 
         ret.SetParName(0, "F0");
@@ -324,7 +325,17 @@ protected:
                 s << p << "_pX";
                 //                cout<<"sample number "<<p+1<<endl;
                 hithrecbin = signals2D.at(p)->ProjectionX(s.str().c_str(), bin, bin, "o");
-                //                cout<<"In general: "<<hithrecbin->GetName()<<endl;
+#ifdef GENBINCONTENTS
+                int nEmptyBins = 0;
+                for (int iGenBinTemp = 0; iGenBinTemp < hithrecbin->GetXaxis()->GetNbins(); iGenBinTemp++) {
+                    if (hithrecbin->GetBinContent(iGenBinTemp + 1) == 0)
+                        nEmptyBins++;
+                }
+                if (nEmptyBins != 0) {
+                    //                    cout << "In Signal " << p << " there are " << nEmptyBins << " empty bins for 2D histogram" << endl;
+                    cout << "emptyBin" << p << "->Fill(" << bin << ", " << nEmptyBins << ");" << endl;
+                }
+#endif /*GENBINCONTENTS*/
                 hithrecbin->Multiply(&(WeightFunc.first), rec_gen);
                 nSignal += hithrecbin->Integral();
                 delete hithrecbin;
@@ -340,6 +351,17 @@ protected:
                         signals3D.at(p)->GetXaxis()->GetXmax());
                 for (int genBin = 0; genBin < signals3D.at(p)->GetXaxis()->GetNbins(); genBin++) {
                     biasH = (TH1*) signals3D.at(p)->ProjectionZ(s.str().c_str(), genBin + 1, genBin + 1, bin, bin, "o");
+#ifdef GENBINCONTENTS
+                    int nEmptyBins = 0;
+                    for (int iGenBinTemp = 0; iGenBinTemp < biasH->GetXaxis()->GetNbins(); iGenBinTemp++) {
+                        if (biasH->GetBinContent(iGenBinTemp + 1) == 0)
+                            nEmptyBins++;
+                    }
+                    if (nEmptyBins != 0) {
+                        //                        cout << "In Signal " << p << " there are " << nEmptyBins << " empty bins for 3D histogram, second top" << endl;
+                        cout << "emptyBinSecondTop" << p << "->Fill(" << bin << ", " << nEmptyBins << ");" << endl;
+                    }
+#endif /*GENBINCONTENTS*/
                     biasH->Multiply(&(WeightFunc.first), 1);
                     //                    biasH->Multiply(&(WeightFuncTT.first), 1);
                     coefficients->SetBinContent(genBin + 1, biasH->Integral());
