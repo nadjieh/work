@@ -1,0 +1,367 @@
+1 ---- nbin
+3 ---- do3D
+do3D
+5 ---- channel
+7 ---- is2Drecgen
+is2Drecgen
+9 ---- signal
+ : 0 + 0 = 0
+11 ---- signal
+I am in mu channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+ : 360.706 + 0 = 360.706
+13 ---- signal
+ : 0 + 324.931 = 324.931
+15 ---- signal
+ : 0 + 0.177623 = 0.177623
+17 ---- signal
+ : 0 + 24.6149 = 24.6149
+19 ---- signal
+I am in mu channel and I accept TreesMu_mue_TTBar_RW.root as signal
+ : 474.559 + 0 = 474.559
+21 ---- signal
+I am in mu channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+ : 9487.63 + 0 = 9487.63
+23 ---- signal
+I am in mu channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+ : 1323.04 + 21.2069 = 1344.25
+25 ---- signal
+ : 87.7731 + 3.09027 = 90.8634
+27 ---- signal
+ : 178.617 + 6.14261 = 184.759
+29 ---- signal
+ : 1617.49 + 57.3395 = 1674.83
+31 ---- signal
+ : 749.841 + 40.9678 = 790.809
+33 ---- signal
+ : 2815.81 + 92.8618 = 2908.67
+35 ---- signal
+ : 784.592 + 30.3528 = 814.945
+37 ---- bkg
+bkg
+2684.58
+TreesMu_bkg_RW.root	myQCD: 0
+here ..
+39 ---- wtemplate
+w template
+TreesMu_WTemplateDefFormat_RW.root	0x11e61d0
+41 ---- data
+data
+0x11e3410
+0x11fe920	0x11e3410	0x11e61d0	0
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 601.686 bkg: 2684.58
+bkg: 3286.26 data: 31219 signal: 17880
+TreesMu_SChannel_RW.root	184.759
+TreesMu_SbarChannel_RW.root	90.8634
+TreesMu_TChannel_RW.root	2908.67
+TreesMu_TWChannel_RW.root	814.945
+TreesMu_TbarChannel_RW.root	1674.83
+TreesMu_TbarWChannel_RW.root	790.809
+TreesMu_die_TTBar_RW.root	0
+TreesMu_dimu_TTBar_RW.root	360.706
+TreesMu_disemitau_TTBar_RW.root	324.931
+TreesMu_ehad_TTBar_RW.root	0.177623
+TreesMu_etau_TTBar_RW.root	24.6149
+TreesMu_mue_TTBar_RW.root	474.559
+TreesMu_muhad_TTBar_RW.root	9487.63
+TreesMu_mutau_TTBar_RW.root	1344.25
+signal0->SetBinContent(1, 0);
+signalEntries0->SetBinContent(1,  0);
+signal1->SetBinContent(1, 0);
+signalEntries1->SetBinContent(1,  0);
+signal2->SetBinContent(1, 0);
+signalEntries2->SetBinContent(1,  0);
+signal3->SetBinContent(1, 0);
+signalEntries3->SetBinContent(1,  0);
+signal4->SetBinContent(1, 4.64577);
+signalEntries4->SetBinContent(1, 4.52716);
+signal5->SetBinContent(1, 10.9158);
+signalEntries5->SetBinContent(1, 10.6371);
+signal6->SetBinContent(1, 54.4148);
+signalEntries6->SetBinContent(1, 54.1153);
+signal7->SetBinContent(1, 22.8808);
+signalEntries7->SetBinContent(1, 21.7121);
+signal8->SetBinContent(1, 103.122);
+signalEntries8->SetBinContent(1, 102.554);
+signal9->SetBinContent(1, 31.9587);
+signalEntries9->SetBinContent(1, 30.3262);
+signal3D0->SetBinContent(1, 18.2212);
+signal3DEntries0->SetBinContent(1, 18.4664);
+signal3D1->SetBinContent(1, 21.9481);
+signal3DEntries1->SetBinContent(1, 22.2434);
+signal3D2->SetBinContent(1, 372.681);
+signal3DEntries2->SetBinContent(1, 377.696);
+signal3D3->SetBinContent(1, 58.0031);
+signal3DEntries3->SetBinContent(1, 58.7836);
+signal0->SetBinContent(2, 0);
+signalEntries0->SetBinContent(2,  0);
+signal1->SetBinContent(2, 0);
+signalEntries1->SetBinContent(2,  0);
+signal2->SetBinContent(2, 0);
+signalEntries2->SetBinContent(2,  0);
+signal3->SetBinContent(2, 0);
+signalEntries3->SetBinContent(2,  0);
+signal4->SetBinContent(2, 10.0317);
+signalEntries4->SetBinContent(2, 9.77558);
+signal5->SetBinContent(2, 21.7957);
+signalEntries5->SetBinContent(2, 21.2393);
+signal6->SetBinContent(2, 146.738);
+signalEntries6->SetBinContent(2, 145.931);
+signal7->SetBinContent(2, 59.8866);
+signalEntries7->SetBinContent(2, 56.8277);
+signal8->SetBinContent(2, 238.423);
+signalEntries8->SetBinContent(2, 237.111);
+signal9->SetBinContent(2, 58.5849);
+signalEntries9->SetBinContent(2, 55.5924);
+signal3D0->SetBinContent(2, 47.813);
+signal3DEntries0->SetBinContent(2, 48.4564);
+signal3D1->SetBinContent(2, 59.9791);
+signal3DEntries1->SetBinContent(2, 60.7862);
+signal3D2->SetBinContent(2, 957.796);
+signal3DEntries2->SetBinContent(2, 970.684);
+signal3D3->SetBinContent(2, 155.752);
+signal3DEntries3->SetBinContent(2, 157.848);
+signal0->SetBinContent(3, 0);
+signalEntries0->SetBinContent(3,  0);
+signal1->SetBinContent(3, 0);
+signalEntries1->SetBinContent(3,  0);
+signal2->SetBinContent(3, 0);
+signalEntries2->SetBinContent(3,  0);
+signal3->SetBinContent(3, 0);
+signalEntries3->SetBinContent(3,  0);
+signal4->SetBinContent(3, 11.1382);
+signalEntries4->SetBinContent(3, 10.8538);
+signal5->SetBinContent(3, 24.0774);
+signalEntries5->SetBinContent(3, 23.4626);
+signal6->SetBinContent(3, 189.724);
+signalEntries6->SetBinContent(3, 188.68);
+signal7->SetBinContent(3, 83.2358);
+signalEntries7->SetBinContent(3, 78.9842);
+signal8->SetBinContent(3, 330.417);
+signalEntries8->SetBinContent(3, 328.598);
+signal9->SetBinContent(3, 83.773);
+signalEntries9->SetBinContent(3, 79.4939);
+signal3D0->SetBinContent(3, 51.8074);
+signal3DEntries0->SetBinContent(3, 52.5046);
+signal3D1->SetBinContent(3, 71.9539);
+signal3DEntries1->SetBinContent(3, 72.9221);
+signal3D2->SetBinContent(3, 1171.83);
+signal3DEntries2->SetBinContent(3, 1187.59);
+signal3D3->SetBinContent(3, 189.116);
+signal3DEntries3->SetBinContent(3, 191.66);
+signal0->SetBinContent(4, 0);
+signalEntries0->SetBinContent(4,  0);
+signal1->SetBinContent(4, 0);
+signalEntries1->SetBinContent(4,  0);
+signal2->SetBinContent(4, 0);
+signalEntries2->SetBinContent(4,  0);
+signal3->SetBinContent(4, 0);
+signalEntries3->SetBinContent(4,  0);
+signal4->SetBinContent(4, 11.6297);
+signalEntries4->SetBinContent(4, 11.3328);
+signal5->SetBinContent(4, 23.4859);
+signalEntries5->SetBinContent(4, 22.8863);
+signal6->SetBinContent(4, 223.452);
+signalEntries6->SetBinContent(4, 222.222);
+signal7->SetBinContent(4, 95.2733);
+signalEntries7->SetBinContent(4, 90.4068);
+signal8->SetBinContent(4, 370.783);
+signalEntries8->SetBinContent(4, 368.742);
+signal9->SetBinContent(4, 90.8951);
+signalEntries9->SetBinContent(4, 86.2522);
+signal3D0->SetBinContent(4, 50.3822);
+signal3DEntries0->SetBinContent(4, 51.0601);
+signal3D1->SetBinContent(4, 66.8975);
+signal3DEntries1->SetBinContent(4, 67.7977);
+signal3D2->SetBinContent(4, 1260.74);
+signal3DEntries2->SetBinContent(4, 1277.71);
+signal3D3->SetBinContent(4, 184.432);
+signal3DEntries3->SetBinContent(4, 186.914);
+signal0->SetBinContent(5, 0);
+signalEntries0->SetBinContent(5,  0);
+signal1->SetBinContent(5, 0);
+signalEntries1->SetBinContent(5,  0);
+signal2->SetBinContent(5, 0);
+signalEntries2->SetBinContent(5,  0);
+signal3->SetBinContent(5, 0);
+signalEntries3->SetBinContent(5,  0);
+signal4->SetBinContent(5, 11.3797);
+signalEntries4->SetBinContent(5, 11.0891);
+signal5->SetBinContent(5, 22.3961);
+signalEntries5->SetBinContent(5, 21.8243);
+signal6->SetBinContent(5, 213.297);
+signalEntries6->SetBinContent(5, 212.123);
+signal7->SetBinContent(5, 88.6867);
+signalEntries7->SetBinContent(5, 84.1567);
+signal8->SetBinContent(5, 378.321);
+signalEntries8->SetBinContent(5, 376.239);
+signal9->SetBinContent(5, 103.07);
+signalEntries9->SetBinContent(5, 97.8049);
+signal3D0->SetBinContent(5, 42.4487);
+signal3DEntries0->SetBinContent(5, 43.0198);
+signal3D1->SetBinContent(5, 59.7398);
+signal3DEntries1->SetBinContent(5, 60.5437);
+signal3D2->SetBinContent(5, 1218.6);
+signal3DEntries2->SetBinContent(5, 1234.99);
+signal3D3->SetBinContent(5, 165.848);
+signal3DEntries3->SetBinContent(5, 168.079);
+signal0->SetBinContent(6, 0);
+signalEntries0->SetBinContent(6,  0);
+signal1->SetBinContent(6, 0);
+signalEntries1->SetBinContent(6,  0);
+signal2->SetBinContent(6, 0);
+signalEntries2->SetBinContent(6,  0);
+signal3->SetBinContent(6, 0);
+signalEntries3->SetBinContent(6,  0);
+signal4->SetBinContent(6, 9.89732);
+signalEntries4->SetBinContent(6, 9.64463);
+signal5->SetBinContent(6, 19.4473);
+signalEntries5->SetBinContent(6, 18.9507);
+signal6->SetBinContent(6, 201.963);
+signalEntries6->SetBinContent(6, 200.851);
+signal7->SetBinContent(6, 79.8586);
+signalEntries7->SetBinContent(6, 75.7795);
+signal8->SetBinContent(6, 372.241);
+signalEntries8->SetBinContent(6, 370.192);
+signal9->SetBinContent(6, 86.3495);
+signalEntries9->SetBinContent(6, 81.9389);
+signal3D0->SetBinContent(6, 40.4525);
+signal3DEntries0->SetBinContent(6, 40.9969);
+signal3D1->SetBinContent(6, 55.254);
+signal3DEntries1->SetBinContent(6, 55.9975);
+signal3D2->SetBinContent(6, 1120.64);
+signal3DEntries2->SetBinContent(6, 1135.72);
+signal3D3->SetBinContent(6, 150.711);
+signal3DEntries3->SetBinContent(6, 152.739);
+signal0->SetBinContent(7, 0);
+signalEntries0->SetBinContent(7,  0);
+signal1->SetBinContent(7, 0);
+signalEntries1->SetBinContent(7,  0);
+signal2->SetBinContent(7, 0);
+signalEntries2->SetBinContent(7,  0);
+signal3->SetBinContent(7, 0);
+signalEntries3->SetBinContent(7,  0);
+signal4->SetBinContent(7, 9.27037);
+signalEntries4->SetBinContent(7, 9.03368);
+signal5->SetBinContent(7, 16.7776);
+signalEntries5->SetBinContent(7, 16.3493);
+signal6->SetBinContent(7, 187.154);
+signalEntries6->SetBinContent(7, 186.124);
+signal7->SetBinContent(7, 91.0899);
+signalEntries7->SetBinContent(7, 86.4371);
+signal8->SetBinContent(7, 321.067);
+signalEntries8->SetBinContent(7, 319.3);
+signal9->SetBinContent(7, 92.9924);
+signalEntries9->SetBinContent(7, 88.2425);
+signal3D0->SetBinContent(7, 33.3907);
+signal3DEntries0->SetBinContent(7, 33.8401);
+signal3D1->SetBinContent(7, 44.9504);
+signal3DEntries1->SetBinContent(7, 45.5553);
+signal3D2->SetBinContent(7, 1025.57);
+signal3DEntries2->SetBinContent(7, 1039.37);
+signal3D3->SetBinContent(7, 135.689);
+signal3DEntries3->SetBinContent(7, 137.514);
+signal0->SetBinContent(8, 0);
+signalEntries0->SetBinContent(8,  0);
+signal1->SetBinContent(8, 0);
+signalEntries1->SetBinContent(8,  0);
+signal2->SetBinContent(8, 0);
+signalEntries2->SetBinContent(8,  0);
+signal3->SetBinContent(8, 0);
+signalEntries3->SetBinContent(8,  0);
+signal4->SetBinContent(8, 7.81486);
+signalEntries4->SetBinContent(8, 7.61534);
+signal5->SetBinContent(8, 14.8645);
+signalEntries5->SetBinContent(8, 14.485);
+signal6->SetBinContent(8, 161.367);
+signalEntries6->SetBinContent(8, 160.479);
+signal7->SetBinContent(8, 80.3587);
+signalEntries7->SetBinContent(8, 76.2541);
+signal8->SetBinContent(8, 272.132);
+signalEntries8->SetBinContent(8, 270.635);
+signal9->SetBinContent(8, 79.5522);
+signalEntries9->SetBinContent(8, 75.4887);
+signal3D0->SetBinContent(8, 30.3368);
+signal3DEntries0->SetBinContent(8, 30.745);
+signal3D1->SetBinContent(8, 34.8344);
+signal3DEntries1->SetBinContent(8, 35.3032);
+signal3D2->SetBinContent(8, 901.641);
+signal3DEntries2->SetBinContent(8, 913.774);
+signal3D3->SetBinContent(8, 109.433);
+signal3DEntries3->SetBinContent(8, 110.905);
+signal0->SetBinContent(9, 0);
+signalEntries0->SetBinContent(9,  0);
+signal1->SetBinContent(9, 0);
+signalEntries1->SetBinContent(9,  0);
+signal2->SetBinContent(9, 0);
+signalEntries2->SetBinContent(9,  0);
+signal3->SetBinContent(9, 0);
+signalEntries3->SetBinContent(9,  0);
+signal4->SetBinContent(9, 6.55976);
+signalEntries4->SetBinContent(9, 6.39228);
+signal5->SetBinContent(9, 13.5673);
+signalEntries5->SetBinContent(9, 13.2209);
+signal6->SetBinContent(9, 132.561);
+signalEntries6->SetBinContent(9, 131.831);
+signal7->SetBinContent(9, 72.6394);
+signalEntries7->SetBinContent(9, 68.9291);
+signal8->SetBinContent(9, 230.243);
+signalEntries8->SetBinContent(9, 228.975);
+signal9->SetBinContent(9, 83.4456);
+signalEntries9->SetBinContent(9, 79.1832);
+signal3D0->SetBinContent(9, 24.3402);
+signal3DEntries0->SetBinContent(9, 24.6677);
+signal3D1->SetBinContent(9, 31.028);
+signal3DEntries1->SetBinContent(9, 31.4455);
+signal3D2->SetBinContent(9, 784.616);
+signal3DEntries2->SetBinContent(9, 795.174);
+signal3D3->SetBinContent(9, 91.4752);
+signal3DEntries3->SetBinContent(9, 92.7061);
+signal0->SetBinContent(10, 0);
+signalEntries0->SetBinContent(10,  0);
+signal1->SetBinContent(10, 0);
+signalEntries1->SetBinContent(10,  0);
+signal2->SetBinContent(10, 0);
+signalEntries2->SetBinContent(10,  0);
+signal3->SetBinContent(10, 0);
+signalEntries3->SetBinContent(10,  0);
+signal4->SetBinContent(10, 5.40585);
+signalEntries4->SetBinContent(10, 5.26783);
+signal5->SetBinContent(10, 11.2891);
+signalEntries5->SetBinContent(10, 11.0009);
+signal6->SetBinContent(10, 106.82);
+signalEntries6->SetBinContent(10, 106.232);
+signal7->SetBinContent(10, 75.9311);
+signalEntries7->SetBinContent(10, 72.0526);
+signal8->SetBinContent(10, 199.057);
+signalEntries8->SetBinContent(10, 197.961);
+signal9->SetBinContent(10, 73.9714);
+signalEntries9->SetBinContent(10, 70.193);
+signal3D0->SetBinContent(10, 21.5131);
+signal3DEntries0->SetBinContent(10, 21.8026);
+signal3D1->SetBinContent(10, 27.9734);
+signal3DEntries1->SetBinContent(10, 28.3498);
+signal3D2->SetBinContent(10, 673.515);
+signal3DEntries2->SetBinContent(10, 682.577);
+signal3D3->SetBinContent(10, 82.5806);
+signal3DEntries3->SetBinContent(10, 83.6918);
+before get minimum simple: 
+bkg bins: 10
+w bins: 10
+data bins: 10
+f0            : 0.844789	+/-	0.0567039
+f_            : 0.224821	+/-	0.0352685
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 9814.28	+/-	283.886
+fr            : -0.0696101	+/-	0.0299191
+Df0 Syst       : 0.877002
+DfL Syst       : 0.210355
+Df0            : 0.0970023
+DfL            : -0.0296451
+ErrF0          : 0.292795
+ErrFL          : 0.119988
+f0-f_ correlation: -0.891073
+f0-NW correlation: -0.305378
+fl-NW correlation: 0.447221
