@@ -48,11 +48,27 @@ temp: templatefit clean
 
 qcd:  QCD clean
 
+true: TRUE clean
+
+count: COUNTER clean
+
 fit:
 	@echo "Compiling the MultiDimFitTest .... \n"
 	$(CXX) MultiDimFitTest.C -c -o MultiDimFitTest.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
 	@echo "Linking ...... \n"
 	g++ MultiDimFitTest.o -o  TestMDFit $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
+
+TRUE:
+	@echo "Compiling the MultiDimFitTest .... \n"
+	$(CXX) MultiDimFitTest.C -c -o MultiDimFitTest.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
+	@echo "Linking ...... \n"
+	g++ MultiDimFitTest.o -o  TestMDFitTrue $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
+
+COUNTER:
+	@echo "Compiling the signalCheck.C .... \n"
+	$(CXX) signalCheck.C -c -o signalCheck.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
+	@echo "Linking ...... \n"
+	g++ signalCheck.o -o  doSignalCheck $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
 
 templatefit:
 	@echo "Compiling the TemplateFit .... \n"

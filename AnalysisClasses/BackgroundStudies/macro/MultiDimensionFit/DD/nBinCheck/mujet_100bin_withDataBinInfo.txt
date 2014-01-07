@@ -1,0 +1,187 @@
+1 ---- nbin
+3 ---- do3D
+do3D
+5 ---- channel
+7 ---- is2Drecgen
+is2Drecgen
+9 ---- signal
+ : 0 + 0 = 0
+11 ---- signal
+I am in mu channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+ : 1375.9 + 0 = 1375.9
+13 ---- signal
+ : 0 + 458.709 = 458.709
+15 ---- signal
+ : 0 + 0.181538 = 0.181538
+17 ---- signal
+ : 0 + 64.6553 = 64.6553
+19 ---- signal
+I am in mu channel and I accept TreesMu_mue_TTBar_RW.root as signal
+ : 1803.37 + 0 = 1803.37
+21 ---- signal
+I am in mu channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+ : 16767.2 + 0.185227 = 16767.4
+23 ---- signal
+I am in mu channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+ : 4749.77 + 49.9449 = 4799.72
+25 ---- signal
+ : 147.562 + 3.62097 = 151.183
+27 ---- signal
+ : 298.982 + 7.25714 = 306.239
+29 ---- signal
+ : 2762.06 + 69.0686 = 2831.13
+31 ---- signal
+ : 1372.08 + 68.3696 = 1440.45
+33 ---- signal
+ : 4857.03 + 112.194 = 4969.22
+35 ---- signal
+ : 1365.12 + 57.8216 = 1422.94
+37 ---- bkg
+bkg
+4032.16
+TreesMu_bkg_RW.root	myQCD: 0
+here ..
+39 ---- wtemplate
+w template
+TreesMu_WTemplateDefFormat_RW.root	0x2b26030
+41 ---- data
+data
+0x2b27ec0
+0x2b20cd0	0x2b27ec0	0x2b26030	0
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 892.009 bkg: 4032.16
+bkg: 4924.17 data: 58439 signal: 35499
+TreesMu_SChannel_RW.root	306.239
+TreesMu_SbarChannel_RW.root	151.183
+TreesMu_TChannel_RW.root	4969.22
+TreesMu_TWChannel_RW.root	1422.94
+TreesMu_TbarChannel_RW.root	2831.13
+TreesMu_TbarWChannel_RW.root	1440.45
+TreesMu_die_TTBar_RW.root	0
+TreesMu_dimu_TTBar_RW.root	1375.9
+TreesMu_disemitau_TTBar_RW.root	458.709
+TreesMu_ehad_TTBar_RW.root	0.181538
+TreesMu_etau_TTBar_RW.root	64.6553
+TreesMu_mue_TTBar_RW.root	1803.37
+TreesMu_muhad_TTBar_RW.root	16767.4
+TreesMu_mutau_TTBar_RW.root	4799.72
+before get minimum simple: 
+bkg bins: 100
+w bins: 100
+data bins: 100
+nData in bin 1: 907
+nData in bin 2: 475
+nData in bin 3: 474
+nData in bin 4: 497
+nData in bin 5: 475
+nData in bin 6: 502
+nData in bin 7: 566
+nData in bin 8: 537
+nData in bin 9: 546
+nData in bin 10: 578
+nData in bin 11: 572
+nData in bin 12: 599
+nData in bin 13: 575
+nData in bin 14: 615
+nData in bin 15: 638
+nData in bin 16: 641
+nData in bin 17: 607
+nData in bin 18: 646
+nData in bin 19: 593
+nData in bin 20: 634
+nData in bin 21: 601
+nData in bin 22: 677
+nData in bin 23: 665
+nData in bin 24: 693
+nData in bin 25: 633
+nData in bin 26: 697
+nData in bin 27: 634
+nData in bin 28: 626
+nData in bin 29: 611
+nData in bin 30: 662
+nData in bin 31: 623
+nData in bin 32: 663
+nData in bin 33: 629
+nData in bin 34: 643
+nData in bin 35: 609
+nData in bin 36: 698
+nData in bin 37: 602
+nData in bin 38: 617
+nData in bin 39: 595
+nData in bin 40: 633
+nData in bin 41: 634
+nData in bin 42: 682
+nData in bin 43: 630
+nData in bin 44: 667
+nData in bin 45: 626
+nData in bin 46: 687
+nData in bin 47: 606
+nData in bin 48: 592
+nData in bin 49: 643
+nData in bin 50: 629
+nData in bin 51: 610
+nData in bin 52: 621
+nData in bin 53: 598
+nData in bin 54: 675
+nData in bin 55: 596
+nData in bin 56: 613
+nData in bin 57: 597
+nData in bin 58: 522
+nData in bin 59: 578
+nData in bin 60: 608
+nData in bin 61: 594
+nData in bin 62: 591
+nData in bin 63: 563
+nData in bin 64: 569
+nData in bin 65: 586
+nData in bin 66: 565
+nData in bin 67: 552
+nData in bin 68: 556
+nData in bin 69: 578
+nData in bin 70: 571
+nData in bin 71: 508
+nData in bin 72: 513
+nData in bin 73: 562
+nData in bin 74: 544
+nData in bin 75: 514
+nData in bin 76: 569
+nData in bin 77: 503
+nData in bin 78: 532
+nData in bin 79: 545
+nData in bin 80: 522
+nData in bin 81: 539
+nData in bin 82: 566
+nData in bin 83: 574
+nData in bin 84: 530
+nData in bin 85: 564
+nData in bin 86: 560
+nData in bin 87: 516
+nData in bin 88: 543
+nData in bin 89: 549
+nData in bin 90: 518
+nData in bin 91: 493
+nData in bin 92: 471
+nData in bin 93: 484
+nData in bin 94: 507
+nData in bin 95: 503
+nData in bin 96: 488
+nData in bin 97: 546
+nData in bin 98: 525
+nData in bin 99: 519
+nData in bin 100: 505
+f0            : 0.68911	+/-	0.0433257
+f_            : 0.321879	+/-	0.0300998
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 18261.7	+/-	439.228
+fr            : -0.0109891	+/-	0.0196342
+Df0 Syst       : 0.721323
+DfL Syst       : 0.307413
+Df0            : -0.0586769
+DfL            : 0.067413
+ErrF0          : 0.223716
+ErrFL          : 0.102403
+f0-f_ correlation: -0.919263
+f0-NW correlation: -0.316064
+fl-NW correlation: 0.510915

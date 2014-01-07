@@ -74,24 +74,24 @@ int main(int argc, char** argv) {
             }
 
             if (!do3D || (do3D && !muonfile)) {
-                tmpsignalIID.push_back(((TH2*) file->Get("Default_allW/Default_allWcosTheta2D"))->RebinY(nReBin));
+                tmpsignalIID.push_back(((TH2*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta2D"))->RebinY(nReBin));
                 tmpsignalIID[tmpsignalIID.size() - 1]->RebinX(nReBinX);
                 tmpsignalIID.at(tmpsignalIID.size() - 1)->Scale(ratio);
                 //                cout << tmpsignalIID.at(tmpsignalIID.size() - 1)->GetName() << endl;
             }//                else
-            //                tmpsignalIID.push_back(((TH2*) ((TH3D*) file->Get("Default_allW/Default_allWcosTheta3D"))->Project3D("yx"))->Rebin2D(1,1));
+            //                tmpsignalIID.push_back(((TH2*) ((TH3D*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta3D"))->Project3D("yx"))->Rebin2D(1,1));
             if (do3D && muonfile) {
                 //                cout << " in 3D :-)" << endl;
-                tmpsignalIIID.push_back(((TH3D*) file->Get("Default_allW/Default_allWcosTheta3D"))->Rebin3D(1, nReBin, 1, "newname"));
+                tmpsignalIIID.push_back(((TH3D*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta3D"))->Rebin3D(1, nReBin, 1, "newname"));
                 //                cout << tmpsignalIIID.at(tmpsignalIIID.size() - 1) << endl;
                 tmpsignalIIID.at(tmpsignalIIID.size() - 1)->Scale(ratio);
             }
             if (bkginsignal == 0)
-                bkginsignal = (((TH1*) file->Get("Default_allW/Default_allWcosTheta"))->Rebin(nReBin));
+                bkginsignal = (((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta"))->Rebin(nReBin));
             else
-                bkginsignal->Add(((TH1*) file->Get("Default_allW/Default_allWcosTheta"))->Rebin(nReBin));
+                bkginsignal->Add(((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta"))->Rebin(nReBin));
 
-            TH1 * myTemp = (TH1*) (((TH1*) file->Get("Default_allW/Default_allWcosTheta")))->Clone("myTemp");
+            TH1 * myTemp = (TH1*) (((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta")))->Clone("myTemp");
             if (iRandom == 0) {
                 if (!muonfile) {
                     cout << " : " << tmpsignalIID.at(tmpsignalIID.size() - 1)->Integral() << " + " << myTemp->Integral()
@@ -111,7 +111,7 @@ int main(int argc, char** argv) {
             if (iRandom == 0)
                 cout << "data" << endl;
             file = new TFile(out.c_str(), "read");
-            data = ((TH1*) file->Get("Default_allW/Default_allWcosTheta"))->Rebin(nReBin);
+            data = ((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta"))->Rebin(nReBin);
             if (iRandom == 0)
                 cout << data << endl;
         } else if (arg_fth == "bkg") {
@@ -120,13 +120,13 @@ int main(int argc, char** argv) {
             if (iRandom == 0)
                 cout << "bkg" << endl;
             file = new TFile(out.c_str(), "read");
-            cout << ((TH1*) file->Get("Default_allW/Default_allWcosTheta"))->Integral() << endl;
+            cout << ((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta"))->Integral() << endl;
             bool myQCD = (out.find("_QCD.root") > 0 && fabs(out.find("_QCD.root")) < out.size());
             if (iRandom == 0)
                 cout << file->GetName() << "\tmyQCD: " << myQCD << endl;
             TH1 * tmpQCD = 0;
             if (myQCD) {
-                tmpQCD = ((TH1*) file->Get("Default_allW/Default_allWcosTheta"))->Rebin(nReBin);
+                tmpQCD = ((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta"))->Rebin(nReBin);
                 if (iRandom == 0)
                     cout << "tmpQCD: " << tmpQCD << endl;
                 tmpQCD->Scale(107.5 / tmpQCD->Integral());
@@ -139,12 +139,12 @@ int main(int argc, char** argv) {
                 if (myQCD)
                     bkg = tmpQCD;
                 else
-                    bkg = ((TH1*) file->Get("Default_allW/Default_allWcosTheta"))->Rebin(nReBin);
+                    bkg = ((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta"))->Rebin(nReBin);
             } else {
                 if (myQCD)
                     bkg->Add(tmpQCD);
                 else
-                    bkg->Add(((TH1*) file->Get("Default_allW/Default_allWcosTheta"))->Rebin(nReBin));
+                    bkg->Add(((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta"))->Rebin(nReBin));
             }
         } else if (arg_fth == "wtemplate") {
             f++;
@@ -154,12 +154,12 @@ int main(int argc, char** argv) {
             file = new TFile(out.c_str(), "read");
             if (iRandom == 0)
                 cout << out << "\t";
-            wtemplate = ((TH1*) file->Get("Default_allW/Default_allWcosTheta"));
+            wtemplate = ((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta"));
             if (wtemplate == 0)
-                wtemplate = ((TH1*) file->Get("Default_Def/Default_DefcosTheta"));
+                wtemplate = ((TH1*) file->Get("DefaultTrue_Def/DefaultTrue_DefcosTheta"));
             //            wtemplate = ((TH1*) file->Get("btag10"));
 
-            //            wtemplate = ((TH1*) file->Get("Default_Def/Default_DefcosTheta"))->Rebin(10);
+            //            wtemplate = ((TH1*) file->Get("DefaultTrue_Def/DefaultTrue_DefcosTheta"))->Rebin(10);
             if (iRandom == 0)
                 cout << wtemplate << endl;
             wtemplate->Rebin(nReBin);
@@ -167,7 +167,7 @@ int main(int argc, char** argv) {
             //            cout<<file->GetName()<<endl;
             //            file->ls();
             //            wtemplate = ((TH1*) file->Get("EtaCutBtagOrderedB/EtaCutBtagOrderedBcosTheta"));
-            //            wtemplate = ((TH1*) file->Get("Default_allW/Default_allWcosTheta"))->Rebin(1);
+            //            wtemplate = ((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta"))->Rebin(1);
             //            wtemplate = ((TH1*) file->Get("BtagOrderedB/BtagOrderedBcosTheta"));
             //            wtemplate = ((TH1*) file->Get("RandomB/RandomBcosTheta"));
             //            wtemplate = ((TH1*) file->Get("PtOrderedB/PtOrderedBcosTheta"));
@@ -176,7 +176,7 @@ int main(int argc, char** argv) {
             std::string out(*(argv + f));
             cout << "top template" << endl;
             file = new TFile(out.c_str(), "read");
-            toptemplate = ((TH1*) file->Get("Default_allW/Default_allWcosTheta"));
+            toptemplate = ((TH1*) file->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta"));
             //wtemplate = ((TH1*)file->Get("BtagOrderedB/BtagOrderedBcosTheta"));
             //wtemplate = ((TH1*)file->Get("PtOrderedB/PtOrderedBcosTheta"));
         } else if (arg_fth == "singleMatrix") {
@@ -297,6 +297,7 @@ int main(int argc, char** argv) {
         //            TH1D * tmp1Dbin = 0;
         //            for (unsigned int q = 0; q < signalIID.size(); q++) {
         //                tmp1Dbin = signalIID[q]->ProjectionY("prjec");
+        //                cout<<tmp1Dbin->GetBinContent(iBin + 1)<<"\t" << tmp1Dbin->GetBinError(iBin + 1)<<endl;
         //                cout << "signal" << q << "->SetBinContent(" << iBin + 1 << ", " << tmp1Dbin->GetBinContent(iBin + 1) << ");" << endl;
         //                cout << "signalEntries" << q << "->SetBinContent(" << iBin + 1 << ", ";
         //                if (tmp1Dbin->GetBinContent(iBin + 1) != 0)
@@ -307,12 +308,14 @@ int main(int argc, char** argv) {
         //            }
         //            for (unsigned int q = 0; q < signalIIID.size(); q++) {
         //                tmp1Dbin = signalIIID[q]->ProjectionY("prjec3");
+        //                cout<<tmp1Dbin->GetBinContent(iBin + 1)<<"\t" << tmp1Dbin->GetBinError(iBin + 1)<<endl;
         //                cout << "signal3D" << q << "->SetBinContent(" << iBin + 1 << ", " << tmp1Dbin->GetBinContent(iBin + 1) << ");" << endl;
         //                cout << "signal3DEntries" << q << "->SetBinContent(" << iBin + 1 << ", ";
         //                if (tmp1Dbin->GetBinContent(iBin + 1) != 0)
         //                    cout << pow(tmp1Dbin->GetBinContent(iBin + 1), 2) / pow(tmp1Dbin->GetBinError(iBin + 1), 2) << ");" << endl;
         //                else
         //                    cout << " 0);" << endl;
+        //                delete tmp1Dbin;
         //            }
         //        }
         std::pair<ROOT::Math::Functor, MultiDimensionalFitLiklihood*> myLL =
