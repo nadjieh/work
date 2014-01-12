@@ -601,7 +601,7 @@ void GetMinimum(TF3 F, double * x, double * xerr, double & corr12, bool CalcErro
     delete minuit;
 }
 
-TH1* MakeRandomHistogram(TH1* inHist, int nPE, int nDim = 1, bool isQCD = false) {
+TH1* MakeRandomHistogram(TH1* inHist, int nPE, int nDim = 1, bool isQCD = false, double multiplicant = 1) {
     TRandom seed;
     unsigned int mySeed = -10000;
     for (int i = 0; i < nPE; i++) {
@@ -616,9 +616,9 @@ TH1* MakeRandomHistogram(TH1* inHist, int nPE, int nDim = 1, bool isQCD = false)
         for (int iBin = 0; iBin < inHist->GetXaxis()->GetNbins(); iBin++) {
             double nBinNew = 0;
             if (isQCD)
-                nBinNew = s.Gaus(inHist->GetBinContent(iBin + 1), inHist->GetBinContent(iBin + 1));
+                nBinNew = s.Gaus(multiplicant*inHist->GetBinContent(iBin + 1), multiplicant*inHist->GetBinContent(iBin + 1));
             else
-                nBinNew = s.Gaus(inHist->GetBinContent(iBin + 1), inHist->GetBinError(iBin + 1));
+                nBinNew = s.Gaus(multiplicant*inHist->GetBinContent(iBin + 1), multiplicant*inHist->GetBinError(iBin + 1));
             res->SetBinContent(iBin + 1, nBinNew);
         }
         return res;
@@ -628,7 +628,7 @@ TH1* MakeRandomHistogram(TH1* inHist, int nPE, int nDim = 1, bool isQCD = false)
         TH2* res = (TH2*) inHist->Clone(name.str().c_str());
         for (int iBin = 0; iBin < inHist->GetXaxis()->GetNbins(); iBin++) {
             for (int jBin = 0; jBin < inHist->GetYaxis()->GetNbins(); jBin++) {
-                double nBinNew = s.Gaus(inHist->GetBinContent(iBin + 1, jBin + 1), inHist->GetBinError(iBin + 1, jBin + 1));
+                double nBinNew = s.Gaus(multiplicant*inHist->GetBinContent(iBin + 1, jBin + 1), inHist->GetBinError(iBin + 1, jBin + 1));
                 res->SetBinContent(iBin + 1, jBin + 1, nBinNew);
             }
         }
@@ -643,7 +643,7 @@ TH1* MakeRandomHistogram(TH1* inHist, int nPE, int nDim = 1, bool isQCD = false)
                 for (int kBin = 0; kBin < inHist->GetZaxis()->GetNbins(); kBin++) {
                     //                    cout<<"kBin: "<<kBin<<" "<<inHist->GetBinContent(iBin + 1, jBin + 1, kBin + 1)<<endl;
                     //                    cout<<"kBinEr: "<<kBin<<" "<<inHist->GetBinError(iBin + 1, jBin + 1, kBin + 1)<<endl;
-                    double nBinNew = s.Gaus(inHist->GetBinContent(iBin + 1, jBin + 1, kBin + 1), inHist->GetBinError(iBin + 1, jBin + 1, kBin + 1));
+                    double nBinNew = s.Gaus(multiplicant*inHist->GetBinContent(iBin + 1, jBin + 1, kBin + 1), inHist->GetBinError(iBin + 1, jBin + 1, kBin + 1));
                     res->SetBinContent(iBin + 1, jBin + 1, kBin + 1, nBinNew);
                 }
             }
