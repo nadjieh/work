@@ -1,0 +1,8 @@
+1 ---- nPE
+nPE
+2684.58
+------------------------------
+I will randomize the histogram
+PE Number is 1
+------------------------------
+F0->Fill(0.454121);	FNeg->Fill(0.315201);	FPos->Fill(0.230678);
