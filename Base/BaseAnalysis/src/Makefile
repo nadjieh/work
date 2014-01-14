@@ -6,7 +6,7 @@ OutPutOpt     = -o
 HeadSuf       = h
 
 ROOTCFLAGS    = $(shell root-config --cflags)
-ROOTLIBS      = $(shell root-config --libs) -lMinuit
+ROOTLIBS      = $(shell root-config --libs) -lMinuit -lMathMore -lMathCore
 ROOTGLIBS     = $(shell root-config --glibs) -lMinuit
 BASEINCLUDES = -I../interface
 #BASEINCLUDE = 
