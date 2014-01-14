@@ -1,7 +1,7 @@
 ROOTINC		=-I$(shell root-config --incdir)
-ROOTLIBS	=$(shell root-config --libs) -lMinuit -lRooFit -lMinuit2 -lRooFitCore
+ROOTLIBS	=$(shell root-config --libs) -lMinuit -lRooFit -lMinuit2 -lRooFitCore -lMathMore
 ROOTCFLAGS	=$(shell root-config --cflags)
-ROOTGLIBS	=$(shell root-config --glibs) -lMinuit  -lRooFit -lMinuit2 -lRooFitCore
+ROOTGLIBS	=$(shell root-config --glibs) -lMinuit  -lRooFit -lMinuit2 -lRooFitCore -lMathMore
 HOMELIB		= $(HOME)/lib
 TROOTLIBS	= -L$(HOMELIB) -lToto.2013
 ESLIBS 		= -L$(HOMELIB) -lEventSelection.2013
@@ -27,7 +27,7 @@ CXX=g++
 #LIBS		= $(ROOTLIBS)
 LIBS		= $(TROOTLIBS)
 LIBS		+= $(ESLIBS)
-#LIBS		+= $(PULIBS)
+LIBS		+= $(BASE)
 #LIBS		+= $(JETTOOLS)
 #LIBS		+= $(RECOLIBS)
 LIBS		+= $(PHYSOBJLIBS)
@@ -51,6 +51,8 @@ qcd:  QCD clean
 true: TRUE clean
 
 count: COUNTER clean
+
+rnd: RND clean
 
 fit:
 	@echo "Compiling the MultiDimFitTest .... \n"
@@ -81,6 +83,11 @@ QCD:
 	$(CXX) QCDMultiDimFitTest.C -c -o QCDMultiDimFitTest.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
 	@echo "Linking ...... \n"
 	g++ QCDMultiDimFitTest.o -o QCDTestMDFit $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
+RND:
+	@echo "Compiling the DoubledMultiDimFitTest .... \n"
+	$(CXX) DoubledMultiDimFitTest.C -c -o DoubledMultiDimFitTest.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
+	@echo "Linking ...... \n"
+	g++ DoubledMultiDimFitTest.o -o DoubledTestMDFit $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
 
 clean:
 	@echo "Cleaning..."
