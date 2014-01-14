@@ -44,10 +44,10 @@ TreesMu_bkg_RW.root	myQCD: 0
 here ..
 41 ---- wtemplate
 w template
-TreesMu_WTemplateDefFormat_RW.root	0x39029b0
+TreesMu_WTemplateDefFormat_RW.root	0x2c9c180
 43 ---- data
 data
-0x2612a00
+0x2ca93b0
 signal 2D:0
 signal 2D:0
 signal 2D:0
@@ -62,26 +62,26 @@ signal 3D:360.706
 signal 3D:474.559
 signal 3D:9487.63
 signal 3D:1323.04
-0x3919400	0x2612a00	0x39029b0	0
+0x2c98080	0x2ca93b0	0x2c9c180	0
 In Bias fit: 
 	size of 2D signal is 10
 	size of 3D signal is 4
 bkginsignal: 601.686 bkg: 2684.58
 bkg: 3286.26 data: 31219 signal: before get minimum simple: 
-bkg bins: 100
-w bins: 100
-data bins: 100
-f0            : 0.773416	+/-	0.0509919
-f_            : 0.246809	+/-	0.0379514
+bkg bins: 20
+w bins: 20
+data bins: 20
+f0            : 0.791609	+/-	0.0645267
+f_            : 0.23942	+/-	0.0422819
 reg_gen factor: 1	+/-	0
-n_{W+jets}    : 9836.85	+/-	306.65
-fr            : -0.0202247	+/-	0.0203708
-Df0 Syst       : 0.805629
-DfL Syst       : 0.232343
-Df0            : 0.0256286
-DfL            : -0.00765687
-ErrF0          : 0.263301
-ErrFL          : 0.129115
-f0-f_ correlation: -0.936721
-f0-NW correlation: -0.419343
-fl-NW correlation: 0.538594
+n_{W+jets}    : 9802.56	+/-	307.548
+fr            : -0.031029	+/-	0.0292663
+Df0 Syst       : 0.823822
+DfL Syst       : 0.224954
+Df0            : 0.0438224
+DfL            : -0.0150464
+ErrF0          : 0.333189
+ErrFL          : 0.143848
+f0-f_ correlation: -0.933716
+f0-NW correlation: -0.364237
+fl-NW correlation: 0.507943

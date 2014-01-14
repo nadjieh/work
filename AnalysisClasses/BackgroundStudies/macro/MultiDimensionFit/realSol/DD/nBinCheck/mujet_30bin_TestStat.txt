@@ -26,62 +26,62 @@ Weight for a 3D hist is 0.164816
 I am in mu channel and I accept TreesMu_mutau_TTBar_RW.root as signal
 Weight for a 3D hist is 0.105153
 27 ---- signal
-Weight for a 2D hist is 0.00548479
+Weight for a 2D hist is 0.00527383
 29 ---- signal
-Weight for a 2D hist is 0.0059764
+Weight for a 2D hist is 0.00574654
 31 ---- signal
-Weight for a 2D hist is 0.106107
+Weight for a 2D hist is 0.103217
 33 ---- signal
-Weight for a 2D hist is 0.434691
+Weight for a 2D hist is 0.407013
 35 ---- signal
-Weight for a 2D hist is 0.0816152
+Weight for a 2D hist is 0.0793921
 37 ---- signal
-Weight for a 2D hist is 0.427338
+Weight for a 2D hist is 0.400128
 39 ---- bkg
 bkg
-2684.58
+2806.55
 TreesMu_bkg_RW.root	myQCD: 0
 here ..
 41 ---- wtemplate
 w template
-TreesMu_WTemplateDefFormat_RW.root	0x39029b0
+TreesMu_WTemplateDefFormat_RW.root	0x1bf5400
 43 ---- data
 data
-0x2612a00
+0x1c08840
 signal 2D:0
 signal 2D:0
 signal 2D:0
 signal 2D:0
-signal 2D:87.7731
-signal 2D:178.617
-signal 2D:1617.49
-signal 2D:749.841
-signal 2D:2815.81
-signal 2D:784.592
+signal 2D:84.397
+signal 2D:171.747
+signal 2D:1573.43
+signal 2D:702.097
+signal 2D:2739.11
+signal 2D:734.635
 signal 3D:360.706
 signal 3D:474.559
 signal 3D:9487.63
 signal 3D:1323.04
-0x3919400	0x2612a00	0x39029b0	0
+0x1bfbc40	0x1c08840	0x1bf5400	0
 In Bias fit: 
 	size of 2D signal is 10
 	size of 3D signal is 4
-bkginsignal: 601.686 bkg: 2684.58
-bkg: 3286.26 data: 31219 signal: before get minimum simple: 
-bkg bins: 100
-w bins: 100
-data bins: 100
-f0            : 0.773416	+/-	0.0509919
-f_            : 0.246809	+/-	0.0379514
+bkginsignal: 592.698 bkg: 2806.55
+bkg: 3399.25 data: 31219 signal: before get minimum simple: 
+bkg bins: 30
+w bins: 30
+data bins: 30
+f0            : 0.804319	+/-	0.0704445
+f_            : 0.233225	+/-	0.0477186
 reg_gen factor: 1	+/-	0
-n_{W+jets}    : 9836.85	+/-	306.65
-fr            : -0.0202247	+/-	0.0203708
-Df0 Syst       : 0.805629
-DfL Syst       : 0.232343
-Df0            : 0.0256286
-DfL            : -0.00765687
-ErrF0          : 0.263301
-ErrFL          : 0.129115
-f0-f_ correlation: -0.936721
-f0-NW correlation: -0.419343
-fl-NW correlation: 0.538594
+n_{W+jets}    : 9927.78	+/-	310.038
+fr            : -0.0375435	+/-	0.0280513
+Df0 Syst       : 0.836532
+DfL Syst       : 0.218759
+Df0            : 0.0565317
+DfL            : -0.0212412
+ErrF0          : 0.363746
+ErrFL          : 0.162344
+f0-f_ correlation: -0.959779
+f0-NW correlation: -0.410126
+fl-NW correlation: 0.517472
