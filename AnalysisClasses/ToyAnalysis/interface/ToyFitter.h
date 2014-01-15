@@ -10,6 +10,7 @@
 //#define FL 0.3170087 /* SM */
 //#define F0 7.04699e-01 /* 7TeV */
 //#define FL 2.97751e-01 /* 7TeV */
+#define FRFIXEDTOZERO
 //#define GENBINCONTENTS
 #ifndef LikelihoodFunction_H
 #define	LikelihoodFunction_H
@@ -30,7 +31,6 @@
 #include <string>
 #include <iostream>
 #include <sstream>
-
 using namespace std;
 
 Double_t CosTheta(double *x, double *par)
@@ -38,7 +38,12 @@ Double_t CosTheta(double *x, double *par)
     //par[0]: F01
     //par[1]: F-1
     //F+ = 1- F-i - F0i
+#ifdef FRFIXEDTOZERO
+    Double_t firstTerm1 = 0;
+#endif /*FRFIXEDTOZERO*/
+#ifndef FRFIXEDTOZERO
     Double_t firstTerm1 = (1 - par[0] - par[1])*(1 + x[0])*(1 + x[0]);
+#endif /*FRFIXEDTOZERO*/
     Double_t secondTerm1 = par[1]*(1 - x[0])*(1 - x[0]);
     Double_t thirdTerm1 = par[0]*(1 - x[0] * x[0]);
     Double_t First = (3.0 / 8.0)*(firstTerm1 + secondTerm1)+(3.0 / 4.0) * thirdTerm1;
@@ -616,9 +621,9 @@ TH1* MakeRandomHistogram(TH1* inHist, int nPE, int nDim = 1, bool isQCD = false,
         for (int iBin = 0; iBin < inHist->GetXaxis()->GetNbins(); iBin++) {
             double nBinNew = 0;
             if (isQCD)
-                nBinNew = s.Gaus(multiplicant*inHist->GetBinContent(iBin + 1), multiplicant*inHist->GetBinContent(iBin + 1));
+                nBinNew = s.Gaus(multiplicant * inHist->GetBinContent(iBin + 1), multiplicant * inHist->GetBinContent(iBin + 1));
             else
-                nBinNew = s.Gaus(multiplicant*inHist->GetBinContent(iBin + 1), multiplicant*inHist->GetBinError(iBin + 1));
+                nBinNew = s.Gaus(multiplicant * inHist->GetBinContent(iBin + 1), multiplicant * inHist->GetBinError(iBin + 1));
             res->SetBinContent(iBin + 1, nBinNew);
         }
         return res;
@@ -628,7 +633,7 @@ TH1* MakeRandomHistogram(TH1* inHist, int nPE, int nDim = 1, bool isQCD = false,
         TH2* res = (TH2*) inHist->Clone(name.str().c_str());
         for (int iBin = 0; iBin < inHist->GetXaxis()->GetNbins(); iBin++) {
             for (int jBin = 0; jBin < inHist->GetYaxis()->GetNbins(); jBin++) {
-                double nBinNew = s.Gaus(multiplicant*inHist->GetBinContent(iBin + 1, jBin + 1), inHist->GetBinError(iBin + 1, jBin + 1));
+                double nBinNew = s.Gaus(multiplicant * inHist->GetBinContent(iBin + 1, jBin + 1), inHist->GetBinError(iBin + 1, jBin + 1));
                 res->SetBinContent(iBin + 1, jBin + 1, nBinNew);
             }
         }
@@ -643,7 +648,7 @@ TH1* MakeRandomHistogram(TH1* inHist, int nPE, int nDim = 1, bool isQCD = false,
                 for (int kBin = 0; kBin < inHist->GetZaxis()->GetNbins(); kBin++) {
                     //                    cout<<"kBin: "<<kBin<<" "<<inHist->GetBinContent(iBin + 1, jBin + 1, kBin + 1)<<endl;
                     //                    cout<<"kBinEr: "<<kBin<<" "<<inHist->GetBinError(iBin + 1, jBin + 1, kBin + 1)<<endl;
-                    double nBinNew = s.Gaus(multiplicant*inHist->GetBinContent(iBin + 1, jBin + 1, kBin + 1), inHist->GetBinError(iBin + 1, jBin + 1, kBin + 1));
+                    double nBinNew = s.Gaus(multiplicant * inHist->GetBinContent(iBin + 1, jBin + 1, kBin + 1), inHist->GetBinError(iBin + 1, jBin + 1, kBin + 1));
                     res->SetBinContent(iBin + 1, jBin + 1, kBin + 1, nBinNew);
                 }
             }
