@@ -1,7 +1,7 @@
 {
 //=========Macro generated from canvas: c1/c1
-//=========  (Wed Dec 11 18:52:02 2013) by ROOT version5.32/00
-   TCanvas *c1 = new TCanvas("c1", "c1",0,0,700,500);
+//=========  (Fri Jan 24 17:42:58 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1",67,53,700,500);
    c1->Range(0,0,1,1);
    c1->SetFillColor(0);
    c1->SetBorderMode(0);

@@ -11,6 +11,8 @@
 //#define F0 7.04699e-01 /* 7TeV */
 //#define FL 2.97751e-01 /* 7TeV */
 #define FRFIXEDTOZERO
+//#define FZFIXEDTO70
+//#define FLFIXEDTO30
 //#define GENBINCONTENTS
 #ifndef LikelihoodFunction_H
 #define	LikelihoodFunction_H
@@ -38,14 +40,12 @@ Double_t CosTheta(double *x, double *par)
     //par[0]: F01
     //par[1]: F-1
     //F+ = 1- F-i - F0i
-#ifdef FRFIXEDTOZERO
-    Double_t firstTerm1 = 0;
-#endif /*FRFIXEDTOZERO*/
-#ifndef FRFIXEDTOZERO
     Double_t firstTerm1 = (1 - par[0] - par[1])*(1 + x[0])*(1 + x[0]);
-#endif /*FRFIXEDTOZERO*/
-    Double_t secondTerm1 = par[1]*(1 - x[0])*(1 - x[0]);
     Double_t thirdTerm1 = par[0]*(1 - x[0] * x[0]);
+    Double_t secondTerm1 = par[1]*(1 - x[0])*(1 - x[0]);
+#if defined FRFIXEDTOZERO  && !defined FZFIXEDTO70 && !defined FLFIXEDTO30
+    firstTerm1 = 0;
+#endif /*FRFIXEDTOZERO*/
     Double_t First = (3.0 / 8.0)*(firstTerm1 + secondTerm1)+(3.0 / 4.0) * thirdTerm1;
     return First;
 };
@@ -70,6 +70,12 @@ public:
         //	cout<<"SM: "<< func->GetParameter(0)<<"  "<<func->GetParameter(1)<<endl;
         double stdVal = func->Eval(x[0]);
         func->SetParameters(par);
+#if !defined FRFIXEDTOZERO  && !defined FZFIXEDTO70 && defined FLFIXEDTO30  
+        func->FixParameter(1, FL);
+#endif /*FZFIXEDTO30*/      
+#if !defined FRFIXEDTOZERO  && defined FZFIXEDTO70 && !defined FLFIXEDTO30  
+        func->FixParameter(0, F0);
+#endif /*FZFIXEDTO30*/  
         //	cout<<func->GetParameter(0)<<"  "<<func->GetParameter(1)<<endl;
         double nonstdVal = func->Eval(x[0]);
         return ((double) nonstdVal / (double) stdVal);
@@ -82,12 +88,9 @@ public:
 
         ret.SetParName(0, "F0");
         ret.SetParName(1, "FNeg");
-
+        ret.SetParameters(std_f0, std_fneg);
         //        ret.SetParLimits(0 , 0.0 , 1.0);
         //        ret.SetParLimits(1 , 0.0 , 1.0);
-
-        ret.SetParameters(std_f0, std_fneg);
-
         return make_pair(ret, functor);
     }
 private:

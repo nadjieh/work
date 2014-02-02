@@ -333,50 +333,82 @@ public:
 class WtemplateHistograms {
 public:
 
-    WtemplateHistograms(string name) : Name(name) {
+    WtemplateHistograms(string name, bool sumw2 = false, int nBinY = 100) : Name(name) {
         Wmass = new TH1D(string(name + "_Wmass").c_str(), string(name + ": final-W-mass").c_str(), 50, 0., 200.);
         Wmass->GetXaxis()->SetTitle("M_{W}");
-        WmassII = new TH1D(string(name + "_WmassMET").c_str(), string(name + ": final-W-mass (MET)").c_str(), 50, 0., 200.);
-        WmassII->GetXaxis()->SetTitle("M_{W}");
+        //        WmassII = new TH1D(string(name + "_WmassMET").c_str(), string(name + ": final-W-mass (MET)").c_str(), 50, 0., 200.);
+        //        WmassII->GetXaxis()->SetTitle("M_{W}");
         topMass = new TH1D(string(name + "_topMass").c_str(), string(name + ": final-top-mass").c_str(), 50, 50., 500.);
         topMass->GetXaxis()->SetTitle("M_{top}");
-        topMassII = new TH1D(string(name + "_topMassMET").c_str(), string(name + ": final-top-mass (MET)").c_str(), 50, 50., 500.);
-        topMassII->GetXaxis()->SetTitle("M_{top}");
-        cosTheta = new TH1D(string(name + "cosTheta").c_str(), string(name + ": cos(#theta)").c_str(), 100, -1., 1.);
+        //        topMassII = new TH1D(string(name + "_topMassMET").c_str(), string(name + ": final-top-mass (MET)").c_str(), 50, 50., 500.);
+        //        topMassII->GetXaxis()->SetTitle("M_{top}");
+        cosTheta = new TH1D(string(name + "cosTheta").c_str(), string(name + ": cos(#theta)").c_str(), nBinY, -1., 1.);
         cosTheta->GetXaxis()->SetTitle("cos(#theta*)");
-        IsoCosTheta = new TH2D(string(name + "IsoCosTheta").c_str(), string(name + ";isolation; cos(#theta)").c_str(), 100, -1., 1., 15, 0, 0.15);
+        //        IsoCosTheta = new TH2D(string(name + "IsoCosTheta").c_str(), string(name + ";isolation; cos(#theta)").c_str(), 100, -1., 1., 15, 0, 0.15);
         //        cosThetaII = new TH1D(string(name+"cosTheta_MET").c_str(),string(name+": cos(#theta) (MET)").c_str(),10000,-1.,1.);
         //        cosThetaII->GetXaxis()->SetTitle("cos(#theta*)");
-        cosTheta2D = new TH2D(string(name + "cosTheta2D").c_str(), string(name + ": cos(#theta); cos(#theta)_{gen}; cos(#theta)_{rec}").c_str(), 10000, -1., 1., 100, -1., 1.);
+        //        cosTheta2D = new TH2D(string(name + "cosTheta2D").c_str(), string(name + ": cos(#theta); cos(#theta)_{gen}; cos(#theta)_{rec}").c_str(), 10000, -1., 1., 100, -1., 1.);
 
+        WPt = new TH1D(string(name + "_WPt").c_str(), string(name + ": final-W-Pt").c_str(), 50, 0., 500.);
+        WPt->GetXaxis()->SetTitle("P_{T}^{W}");
+        topPt = new TH1D(string(name + "_topPt").c_str(), string(name + ": final-top-Pt").c_str(), 50, 0., 500.);
+        topPt->GetXaxis()->SetTitle("P_{T}^{top}");
+        phi_top_W = new TH1D(string(name + "_PhiTW").c_str(), string(name + ": final-Phi-TW").c_str(), 200, -10., 10.);
+        phi_top_W->GetXaxis()->SetTitle("#phi(t,W)");
+        phi_top_lepton = new TH1D(string(name + "_PhiTL").c_str(), string(name + ": final-Phi-TL").c_str(), 200, -10., 10.);
+        phi_top_lepton->GetXaxis()->SetTitle("#phi(t,l)");
+
+        if (sumw2) {
+            Wmass->Sumw2();
+            topMass->Sumw2();
+            cosTheta->Sumw2();
+            WPt->Sumw2();
+            topPt->Sumw2();
+            phi_top_W->Sumw2();
+            phi_top_lepton->Sumw2();
+        }
     };
 
     ~WtemplateHistograms() {
     };
 
+    void SetErrors(bool s = false) {
+        if (s) {
+            Wmass->Sumw2();
+            topMass->Sumw2();
+            cosTheta->Sumw2();
+            WPt->Sumw2();
+            topPt->Sumw2();
+            phi_top_W->Sumw2();
+            phi_top_lepton->Sumw2();
+        }
+    }
+
     void Fill(SemiLepTopQuark myLeptonicTop, double lumiWeight3D = 1, double iso = 0, GenSingleTopMaker* genTop = 0) {
         Wmass->Fill(myLeptonicTop.W().M(), lumiWeight3D);
         topMass->Fill(myLeptonicTop.top().M(), lumiWeight3D);
-        WmassII->Fill(myLeptonicTop.W(2).M(), lumiWeight3D);
-        topMassII->Fill(myLeptonicTop.top(2).M(), lumiWeight3D);
+        WPt->Fill(myLeptonicTop.W().Pt(), lumiWeight3D);
+        topPt->Fill(myLeptonicTop.top().Pt(), lumiWeight3D);
+        phi_top_W->Fill(myLeptonicTop.top().DeltaPhi(myLeptonicTop.W()), lumiWeight3D);
+        phi_top_lepton->Fill(myLeptonicTop.top().DeltaPhi(myLeptonicTop.getMuon()), lumiWeight3D);
         if (genTop != 0)
             cout << genTop->isSemiMuSingleTop << endl;
         if (genTop == 0) {
             //            cout<<"I am data like!!!"<<endl;
             cosTheta->Fill(myLeptonicTop.cosThetaStar(), lumiWeight3D);
             //            cosThetaII->Fill(myLeptonicTop.cosThetaStar(2),lumiWeight3D);
-            IsoCosTheta->Fill(myLeptonicTop.cosThetaStar(), iso, lumiWeight3D);
+            //            IsoCosTheta->Fill(myLeptonicTop.cosThetaStar(), iso, lumiWeight3D);
         } else if (!genTop->isSemiMuSingleTop) {//cout<<"//Other top decays"<<endl;
             cosTheta->Fill(myLeptonicTop.cosThetaStar(), lumiWeight3D);
             //            cosThetaII->Fill(myLeptonicTop.cosThetaStar(2),lumiWeight3D);
-            IsoCosTheta->Fill(myLeptonicTop.cosThetaStar(), iso, lumiWeight3D);
+            //            IsoCosTheta->Fill(myLeptonicTop.cosThetaStar(), iso, lumiWeight3D);
         } else if (genTop->genSingleTop.MuCharge() != myLeptonicTop.MuCharge()) {//cout<<"// fake muons"<<endl;
             cosTheta->Fill(myLeptonicTop.cosThetaStar(), lumiWeight3D);
             //            cosThetaII->Fill(myLeptonicTop.cosThetaStar(2),lumiWeight3D);
-            IsoCosTheta->Fill(myLeptonicTop.cosThetaStar(), iso, lumiWeight3D);
+            //            IsoCosTheta->Fill(myLeptonicTop.cosThetaStar(), iso, lumiWeight3D);
         } else {
             //cout<<"// OK"<<endl;
-            cosTheta2D->Fill(genTop->genSingleTop.cosThetaStar(0), myLeptonicTop.cosThetaStar(), lumiWeight3D);
+            //            cosTheta2D->Fill(genTop->genSingleTop.cosThetaStar(0), myLeptonicTop.cosThetaStar(), lumiWeight3D);
             //            cosTheta2DII->Fill(genTop->genSingleTop.cosThetaStar(0),myLeptonicTop.cosThetaStar(2), lumiWeight3D);
         }
     }
@@ -387,32 +419,41 @@ public:
         cosTheta->Write();
         Wmass->Write();
         topMass->Write();
-        WmassII->Write();
-        topMassII->Write();
-        cosTheta2D->Write();
-        IsoCosTheta->Write();
+        topPt->Write();
+        WPt->Write();
+        phi_top_lepton->Write();
+        phi_top_W->Write();
+
+        //        WmassII->Write();
+        //        topMassII->Write();
+        //        cosTheta2D->Write();
+        //        IsoCosTheta->Write();
         inDir->cd();
         dir->cd();
     }
     string Name;
     TH1D * Wmass;
-    TH1D * WmassII;
+    //    TH1D * WmassII;
     TH1D * topMass;
-    TH1D * topMassII;
+    //    TH1D * topMassII;
     TH1D * cosTheta;
-    TH1D * cosThetaII;
-    TH2D * cosTheta2D;
-    TH2D * cosTheta2DII;
-    TH1D * semiEcosTheta;
-    TH1D * semiTaucosTheta;
-    TH1D * diTaucosTheta;
-    TH1D * diEcosTheta;
-    TH1D * diMucosTheta;
-    TH1D * MuEcosTheta;
-    TH1D * TauEcosTheta;
-    TH1D * MuTaucosTheta;
-    TH1D * fullHadcosTheta;
-    TH2D * IsoCosTheta;
+    TH1D * topPt;
+    TH1D * WPt;
+    TH1D * phi_top_lepton;
+    TH1D * phi_top_W;
+    //    TH1D * cosThetaII;
+    //    TH2D * cosTheta2D;
+    //    TH2D * cosTheta2DII;
+    //    TH1D * semiEcosTheta;
+    //    TH1D * semiTaucosTheta;
+    //    TH1D * diTaucosTheta;
+    //    TH1D * diEcosTheta;
+    //    TH1D * diMucosTheta;
+    //    TH1D * MuEcosTheta;
+    //    TH1D * TauEcosTheta;
+    //    TH1D * MuTaucosTheta;
+    //    TH1D * fullHadcosTheta;
+    //    TH2D * IsoCosTheta;
 
 };
 

@@ -1,0 +1,14 @@
+*.root
+*~
+nbproject/*
+ActiveTcl8.5.13.296436-linux-x86_64-threaded/*
+TopFit/*
+MadGraph5_v1_5_9/*
+samples/*
+trigger/*
+*.tar*
+Delphes-3.0.7/*
+pythia8176/*
+hepmc/*
+TriggerTool/*
+pythia8176.tgz

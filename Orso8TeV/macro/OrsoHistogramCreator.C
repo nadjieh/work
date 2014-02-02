@@ -4,9 +4,9 @@
  *
  * Created on October 12, 2012, 12:34 PM
  */
-//#define ISDATA
+#define ISDATA
 //#define QCD
-//#define Wtemplate
+#define Wtemplate
 //#define LPTW
 //#define BPTW
 //#define BEtaW
@@ -205,7 +205,7 @@ void CorrectMetPhi(GenInfoMuonTree * input) {//MC
     input->SetMetPhi(ret);
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv) {    
     std::vector<std::string> inputFileNames;
     std::string plotFileName;
     TH1D * METResolutions = 0;
@@ -628,7 +628,8 @@ int main(int argc, char** argv) {
         hMetYNvtx = new TH2D("hMetYNvtx", "hMetYNvtx", 120, 0, 120, 200, 0, 200);
     }
 
-
+    TH1D * WEtaAll = new TH1D("hWEtaAll", "W-#eta", 200, -10, 10);
+    TH1D * WEtaReal = new TH1D("hWEtaReal", "W-#eta", 200, -10, 10);
 
     //    TH2D * met_cosTheta = new TH2D("metcosTheta_true", "metcosTheta;cos(#theta_{l}*);MET", 100, -1., 1., 100, 0, 300);
     //    TH2D * mt_cosTheta = new TH2D("mtcosTheta_true", "mtcosTheta;M_{T}^{W};cos(#theta_{l}*)", 100, -1., 1., 100, 0, 300);
@@ -777,17 +778,17 @@ int main(int argc, char** argv) {
                             continue;
                         }
                 }
-                if (dirName == "TreesMu") {
-                    dr.SetVectors(myEvent_tmp.Dmuons[0], myEvent_tmp.GPFJets[1]);
-                    if (dr.getValue() < 0.3)
-                        continue;
-                    if (myMuonTree->leptonDeltaCorrectedRelIso <= 0.12)
-                        continue;
-                    //                    if (cos(myMuonTree->leptonPhi - myMuonTree->metPhi) >= 0.8) {
-                    //                        cout << "*****************************" << endl;
-                    //                        continue;
-                    //                    }
-                }
+                //                if (dirName == "TreesMu") {
+                //                    dr.SetVectors(myEvent_tmp.Dmuons[0], myEvent_tmp.GPFJets[1]);
+                //                    if (dr.getValue() < 0.3)
+                //                        continue;
+                //                    if (myMuonTree->leptonDeltaCorrectedRelIso <= 0.12)
+                //                        continue;
+                //                    //                    if (cos(myMuonTree->leptonPhi - myMuonTree->metPhi) >= 0.8) {
+                //                    //                        cout << "*****************************" << endl;
+                //                    //                        continue;
+                //                    //                    }
+                //                }
             } else if (dRcut) {
                 DR<TLorentzVector> dr;
                 dr.SetVectors(myEvent_tmp.Dmuons[0], myEvent_tmp.BPFJets[0]);
@@ -867,6 +868,7 @@ int main(int argc, char** argv) {
             if (ttDecayMode == "") {
                 if (myLeptonicTop.hasNeutrinoSolution()) {
                     nGoodSolution++;
+                    WEtaReal->Fill(myLeptonicTop.W().Eta(), lumiWeight3D);
                     //                    nVtx_cosTheta->Fill(myLeptonicTop.cosThetaStar(), myMuonTree->nGoodVertices);
                     //                    met_cosTheta->Fill(myLeptonicTop.cosThetaStar(), myMuonTree->GetMET().Pt());
                     //                    mt_cosTheta->Fill(myLeptonicTop.cosThetaStar(), myMuonTree->GetMTW());
@@ -890,6 +892,7 @@ int main(int argc, char** argv) {
                     } else
                         AntiEtaCutTrue_Def.Fill(myLeptonicTop, 1, genSingleTop, channel);
                 }
+                WEtaAll->Fill(myLeptonicTop.W().Eta(), lumiWeight3D);
                 Default_Def.Fill(myLeptonicTop, 1, genSingleTop, channel);
                 Default_PuW.Fill(myLeptonicTop, puOnlyW, genSingleTop, channel);
                 Default_BtagPuW.Fill(myLeptonicTop, btagpuW, genSingleTop, channel);
@@ -967,7 +970,7 @@ int main(int argc, char** argv) {
             nonBs.push_back(myMuonTree->GetFJet());
 
 
-            atLeastOnGPV.Fill(myEvent_tmp.Gpvs, myEvent_tmp.Gpvs.size(), 1);
+            /*atLeastOnGPV.Fill(myEvent_tmp.Gpvs, myEvent_tmp.Gpvs.size(), 1);
             GoldenFinalPUMuons.Fill(myEvent_tmp.Dmuons, myEvent_tmp.Dmuons.size(), 1);
             Jets.FillPFJets(myEvent_tmp.GPFJets, myEvent_tmp.GPFJets.size(), myEvent_tmp.BPFJets.size(), false, 1);
             BJets.FillPFJets(myEvent_tmp.BPFJets, myEvent_tmp.BPFJets.size(), myEvent_tmp.BPFJets.size(), false, 1);
@@ -1002,6 +1005,7 @@ int main(int argc, char** argv) {
             FwDJet_allW.FillPFJets(sortedJetsbyEta, sortedJetsbyEta.size(), myEvent_tmp.BPFJets.size(), false, lumiWeight3D);
             MetHist_allW.Fill(&myEvent_tmp.mets.at(0), lumiWeight3D);
             allW_finalMT->Fill(mt, lumiWeight3D);
+             */
             //            cout<<"End of event loop --------------------"<<endl;
             if (myLeptonicTop.top().M() > 130 && myLeptonicTop.top().M() < 220) {
                 if (myMuonTree->charge > 0)
@@ -1028,41 +1032,41 @@ int main(int argc, char** argv) {
     TFile * fout = new TFile(plotFileName.c_str(), "recreate");
     fout->cd();
 
-    atLeastOnGPV.WriteAll(fout);
-    GoldenFinalPUMuons.WriteAll(fout);
-    Jets.WriteAll(fout);
-    BJets.WriteAll(fout);
-    nonBJets.WriteAll(fout);
-    FwDJet.WriteAll(fout);
-    MetHist.WriteAll(fout);
-    def_finalMT->Write();
-
-    atLeastOnGPV_PuW.WriteAll(fout);
-    GoldenFinalPUMuons_PuW.WriteAll(fout);
-    Jets_PuW.WriteAll(fout);
-    BJets_PuW.WriteAll(fout);
-    nonBJets_PuW.WriteAll(fout);
-    FwDJet_PuW.WriteAll(fout);
-    MetHist_PuW.WriteAll(fout);
-    PuW_finalMT->Write();
-
-    atLeastOnGPV_BtagPuW.WriteAll(fout);
-    GoldenFinalPUMuons_BtagPuW.WriteAll(fout);
-    Jets_BtagPuW.WriteAll(fout);
-    BJets_BtagPuW.WriteAll(fout);
-    nonBJets_BtagPuW.WriteAll(fout);
-    FwDJet_BtagPuW.WriteAll(fout);
-    MetHist_BtagPuW.WriteAll(fout);
-    BtagPuW_finalMT->Write();
-
-    atLeastOnGPV_allW.WriteAll(fout);
-    GoldenFinalPUMuons_allW.WriteAll(fout);
-    Jets_allW.WriteAll(fout);
-    BJets_allW.WriteAll(fout);
-    nonBJets_allW.WriteAll(fout);
-    FwDJet_allW.WriteAll(fout);
-    MetHist_allW.WriteAll(fout);
-    allW_finalMT->Write();
+    //    atLeastOnGPV.WriteAll(fout);
+    //    GoldenFinalPUMuons.WriteAll(fout);
+    //    Jets.WriteAll(fout);
+    //    BJets.WriteAll(fout);
+    //    nonBJets.WriteAll(fout);
+    //    FwDJet.WriteAll(fout);
+    //    MetHist.WriteAll(fout);
+    //    def_finalMT->Write();
+    //
+    //    atLeastOnGPV_PuW.WriteAll(fout);
+    //    GoldenFinalPUMuons_PuW.WriteAll(fout);
+    //    Jets_PuW.WriteAll(fout);
+    //    BJets_PuW.WriteAll(fout);
+    //    nonBJets_PuW.WriteAll(fout);
+    //    FwDJet_PuW.WriteAll(fout);
+    //    MetHist_PuW.WriteAll(fout);
+    //    PuW_finalMT->Write();
+    //
+    //    atLeastOnGPV_BtagPuW.WriteAll(fout);
+    //    GoldenFinalPUMuons_BtagPuW.WriteAll(fout);
+    //    Jets_BtagPuW.WriteAll(fout);
+    //    BJets_BtagPuW.WriteAll(fout);
+    //    nonBJets_BtagPuW.WriteAll(fout);
+    //    FwDJet_BtagPuW.WriteAll(fout);
+    //    MetHist_BtagPuW.WriteAll(fout);
+    //    BtagPuW_finalMT->Write();
+    //
+    //    atLeastOnGPV_allW.WriteAll(fout);
+    //    GoldenFinalPUMuons_allW.WriteAll(fout);
+    //    Jets_allW.WriteAll(fout);
+    //    BJets_allW.WriteAll(fout);
+    //    nonBJets_allW.WriteAll(fout);
+    //    FwDJet_allW.WriteAll(fout);
+    //    MetHist_allW.WriteAll(fout);
+    //    allW_finalMT->Write();
     if (ttDecayMode == "") {
         Default_Def.Write(fout);
 
@@ -1128,6 +1132,8 @@ int main(int argc, char** argv) {
         hMetYNvtxCorr->Write();
     }
     EventFlavor->Write();
+    WEtaAll->Write();
+    WEtaReal->Write();
     fout->Write();
     fout->Close();
 

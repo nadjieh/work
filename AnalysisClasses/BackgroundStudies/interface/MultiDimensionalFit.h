@@ -130,8 +130,18 @@ public:
         }
         double nData = data->GetBinContent(bin);
         double costheta = data->GetBinCenter(bin);
+        if(nData == 0){
+            cout<<"-------- Empty bins:"<<endl;
+            cout<<"\tIn bin "<<bin<<", equivalent to cosTheta = "<<costheta<<", we have no DATA entry!"<<endl;
+        }
         double nSignal = LikelihoodFunction::nSignalRW(costheta, bin, f0, f_, rec_gen);
+        if(nSignal == 0){
+            cout<<"\tIn bin "<<bin<<", equivalent to cosTheta = "<<costheta<<", we have no SIGNAL entry!"<<endl;
+        }
         double nMC = bkg->GetBinContent(bin)+ (nWjets * wtemplate->GetBinContent(bin)) + nSignal;
+        if(nMC == 0){
+            cout<<"\tIn bin "<<bin<<", equivalent to cosTheta = "<<costheta<<", we have no BKG entry!"<<endl;
+        }
         return make_pair(nData, nMC);
     }
 private:

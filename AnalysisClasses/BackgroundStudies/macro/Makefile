@@ -50,9 +50,19 @@ qcd:  QCD clean
 
 true: TRUE clean
 
+tfr: TRUEFIXEDFR clean
+
+fr: fitFIXEDFR clean
+
+fl: fitFIXEDFL clean
+
+fz: fitFIXEDFZ clean
+
 count: COUNTER clean
 
 rnd: RND clean
+
+mc: MCW clean
 
 fit:
 	@echo "Compiling the MultiDimFitTest .... \n"
@@ -88,6 +98,36 @@ RND:
 	$(CXX) DoubledMultiDimFitTest.C -c -o DoubledMultiDimFitTest.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
 	@echo "Linking ...... \n"
 	g++ DoubledMultiDimFitTest.o -o DoubledTestMDFit $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
+
+TRUEFIXEDFR:
+	@echo "Compiling the MultiDimFitTest .... \n"
+	$(CXX) MultiDimFitTest.C -c -o MultiDimFitTest.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
+	@echo "Linking ...... \n"
+	g++ MultiDimFitTest.o -o  FixedFrTestMDFitTrue $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
+
+fitFIXEDFR:
+	@echo "Compiling the MultiDimFitTest .... \n"
+	$(CXX) MultiDimFitTest.C -c -o MultiDimFitTest.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
+	@echo "Linking ...... \n"
+	g++ MultiDimFitTest.o -o  FixedFrTestMDFit $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
+	
+fitFIXEDFL:
+	@echo "Compiling the MultiDimFitTest .... \n"
+	$(CXX) MultiDimFitTest.C -c -o MultiDimFitTest.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
+	@echo "Linking ...... \n"
+	g++ MultiDimFitTest.o -o  FixedFlTestMDFit $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
+
+fitFIXEDFZ:
+	@echo "Compiling the MultiDimFitTest .... \n"
+	$(CXX) MultiDimFitTest.C -c -o MultiDimFitTest.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
+	@echo "Linking ...... \n"
+	g++ MultiDimFitTest.o -o  FixedFzTestMDFit $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
+	
+MCW:
+	@echo "Compiling the PEWjets .... \n"
+	$(CXX) PEWjets.C -c -o PEWjets.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g 
+	@echo "Linking ...... \n"
+	g++ PEWjets.o -o  doPEWjets $(ROOTGLIBS) -lEG $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
 
 clean:
 	@echo "Cleaning..."

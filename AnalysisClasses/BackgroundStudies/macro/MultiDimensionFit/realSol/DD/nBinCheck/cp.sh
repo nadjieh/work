@@ -1,0 +1,10 @@
+cp mujet_100bin.txt  mujet_100bin.C
+cp mujet_10bin.txt   mujet_10bin.C
+cp mujet_20bin.txt   mujet_20bin.C
+cp mujet_25bin.txt   mujet_25bin.C
+cp mujet_30bin.txt   mujet_30bin.C
+cp mujet_40bin.txt   mujet_40bin.C
+cp mujet_50bin.txt   mujet_50bin.C
+cp mujet_60bin.txt   mujet_60bin.C
+cp mujet_72bin.txt   mujet_72bin.C
+cp mujet_90bin.txt   mujet_90bin.C

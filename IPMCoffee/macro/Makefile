@@ -18,10 +18,10 @@ LIBS		= $(ROOTLIBS)
 HEADERS 	+= $(MYHEADERS)
 
 
-all:  IPMCoffee clean
+all:  ipmCoffee clean
 
 
-IPMCoffee:
+ipmCoffee:
 	@echo "Compiling the IPMCoffee .... \n"
 	$(CXX) IPMCoffee.C -c -o IPMCoffee.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g
 	@echo "Linking ...... \n"
