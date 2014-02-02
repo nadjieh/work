@@ -216,6 +216,13 @@ int main(int argc, char** argv) {
     TFile * WEta = TFile::Open("TreesMu_WEta_plots.root");
     TH1D * trueWEta = (TH1D*) WEta->Get("Weight_WEtaReal");
     TH1D * allWEta = (TH1D*) WEta->Get("Weight_WEtaAll");
+    
+    TFile * WJetPt = TFile::Open("TreesMu_WJetPt_plots.root");
+    TH1D * highTag = (TH1D*) WJetPt->Get("Weight_highTagPt");
+    TH1D * hard = (TH1D*) WJetPt->Get("Weight_hardPt");
+    
+    TFile * WtopPt = TFile::Open("TreesMu_WtopPt_plots.root");
+    TH1D * topPtW = (TH1D*) WtopPt->Get("Weight_topPt");
     std::vector<std::string> inputFileNames;
     std::string plotFileName;
     TH1D * METResolutions = 0;
@@ -580,6 +587,18 @@ int main(int argc, char** argv) {
 
 
 
+    TH1D * hardPt = new TH1D("hardPt", " ;p_{T,jet}^{h-pt}", 500, 0., 500.);
+    if (!isStack)
+        hardPt->Sumw2();
+    TH1D * softPt = new TH1D("softPt", " ;p_{T,jet}^{l-pt}", 500, 0., 500.);
+    if (!isStack)
+        softPt->Sumw2();
+    TH1D * highTagPt = new TH1D("highTagPt", " ;p_{T,jet}^{h-t}", 500, 0., 500.);
+    if (!isStack)
+        highTagPt->Sumw2();
+    TH1D * lowTagPt = new TH1D("lowTagPt", " ;p_{T,jet}^{l-t}", 500, 0., 500.);
+    if (!isStack)
+        lowTagPt->Sumw2();
     TH1D * HT = new TH1D("HT", " ;p_{T,jet}^{2nd}(second)", 500, 0., 500.);
     if (!isStack)
         HT->Sumw2();
@@ -888,8 +907,24 @@ int main(int argc, char** argv) {
                 if (myLeptonicTop.hasNeutrinoSolution()) {
                     nGoodSolution++;
                     lumiWeight3D = lumiWeight3D * GetEtaWeight(trueWEta, myLeptonicTop.W().Eta());
-                    myWTemplateReal.Fill(myLeptonicTop, lumiWeight3D, 0, genSingleTop);
+                    if (myMuonTree->firstJetPt > myMuonTree->secondJetPt)
+                        lumiWeight3D = lumiWeight3D * GetEtaWeight(hard, myMuonTree->firstJetPt);
+                    else
+                        lumiWeight3D = lumiWeight3D * GetEtaWeight(hard, myMuonTree->secondJetPt);
+                    lumiWeight3D = lumiWeight3D * GetEtaWeight(highTag, myMuonTree->bJetPt);
+                    lumiWeight3D = lumiWeight3D * GetEtaWeight(topPtW, myLeptonicTop.top().Pt());
                     WEtaReal->Fill(myLeptonicTop.W().Eta(), lumiWeight3D);
+                    myWTemplateReal.Fill(myLeptonicTop, lumiWeight3D, 0, genSingleTop);
+                    if (myMuonTree->firstJetPt > myMuonTree->secondJetPt) {
+                        hardPt->Fill(myMuonTree->firstJetPt, lumiWeight3D);
+                        softPt->Fill(myMuonTree->secondJetPt, lumiWeight3D);
+                    } else {
+                        hardPt->Fill(myMuonTree->secondJetPt, lumiWeight3D);
+                        softPt->Fill(myMuonTree->firstJetPt, lumiWeight3D);
+                    }
+                    highTagPt->Fill(myMuonTree->bJetPt, lumiWeight3D);
+                    lowTagPt->Fill(myMuonTree->fJetPt, lumiWeight3D);
+
                     //                    nVtx_cosTheta->Fill(myLeptonicTop.cosThetaStar(), myMuonTree->nGoodVertices);
                     //                    met_cosTheta->Fill(myLeptonicTop.cosThetaStar(), myMuonTree->GetMET().Pt());
                     //                    mt_cosTheta->Fill(myLeptonicTop.cosThetaStar(), myMuonTree->GetMTW());
@@ -1159,6 +1194,10 @@ int main(int argc, char** argv) {
     EventFlavor->Write();
     WEtaAll->Write();
     WEtaReal->Write();
+    highTagPt->Write();
+    lowTagPt->Write();
+    hardPt->Write();
+    softPt->Write();
     fout->Write();
     fout->Close();
 

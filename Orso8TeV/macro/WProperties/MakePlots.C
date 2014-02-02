@@ -37,5 +37,46 @@
   	c.SaveAs(a + ".gif");
 		c.SaveAs(a + ".C");
 	}
-
+	
+	
+	TH1D * DataReal = (TH1D*)data->Get("softPt");
+	TH1D * MCReal = (TH1D*)mc->Get("softPt");
+	MCReal->SetLineColor(kGreen);
+	TCanvas c;
+	MCReal->DrawNormalized();
+	DataReal->DrawNormalized("sames");
+	TString a = MCReal->GetName();
+  c.SaveAs(a + "Real.gif");
+	c.SaveAs(a + "Real.C");
+	
+	DataReal = (TH1D*)data->Get("hardPt");
+	MCReal = (TH1D*)mc->Get("hardPt");
+	MCReal->SetLineColor(kGreen);
+	TCanvas c1;
+	MCReal->DrawNormalized();
+	DataReal->DrawNormalized("sames");
+	TString a = MCReal->GetName();
+  c1.SaveAs(a + "Real.gif");
+	c1.SaveAs(a + "Real.C");
+	
+		
+	DataReal = (TH1D*)data->Get("highTagPt");
+	MCReal = (TH1D*)mc->Get("highTagPt");
+	MCReal->SetLineColor(kGreen);
+	TCanvas c2;
+	MCReal->DrawNormalized();
+	DataReal->DrawNormalized("sames");
+	a = MCReal->GetName();
+  c2.SaveAs(a + "Real.gif");
+	c2.SaveAs(a + "Real.C");
+			
+	DataReal = (TH1D*)data->Get("lowTagPt");
+	MCReal = (TH1D*)mc->Get("lowTagPt");
+	MCReal->SetLineColor(kGreen);
+	TCanvas c3;
+	MCReal->DrawNormalized();
+	DataReal->DrawNormalized("sames");
+	a = MCReal->GetName();
+  c3.SaveAs(a + "Real.gif");
+	c3.SaveAs(a + "Real.C");
 }
