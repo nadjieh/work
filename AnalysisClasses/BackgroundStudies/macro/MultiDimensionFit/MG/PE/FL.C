@@ -1,0 +1,112 @@
+{
+//=========Macro generated from canvas: Canvas_1/Canvas_1
+//=========  (Tue Jan 28 13:58:57 2014) by ROOT version5.32/00
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",110,112,700,502);
+   Canvas_1->Range(-0.75,-1.3125,1.75,11.8125);
+   Canvas_1->SetFillColor(0);
+   Canvas_1->SetBorderMode(0);
+   Canvas_1->SetBorderSize(2);
+   Canvas_1->SetFrameBorderMode(0);
+   Canvas_1->SetFrameBorderMode(0);
+   
+   TH1D *FL = new TH1D("FL","FL",500,-0.5,1.5);
+   FL->SetBinContent(208,1);
+   FL->SetBinContent(209,1);
+   FL->SetBinContent(210,2);
+   FL->SetBinContent(211,3);
+   FL->SetBinContent(212,2);
+   FL->SetBinContent(213,5);
+   FL->SetBinContent(214,3);
+   FL->SetBinContent(215,5);
+   FL->SetBinContent(216,6);
+   FL->SetBinContent(217,10);
+   FL->SetBinContent(218,7);
+   FL->SetBinContent(219,10);
+   FL->SetBinContent(220,7);
+   FL->SetBinContent(221,9);
+   FL->SetBinContent(222,4);
+   FL->SetBinContent(223,4);
+   FL->SetBinContent(224,7);
+   FL->SetBinContent(225,5);
+   FL->SetBinContent(226,1);
+   FL->SetBinContent(227,2);
+   FL->SetBinContent(228,4);
+   FL->SetBinContent(229,2);
+   FL->SetEntries(100);
+   
+   TPaveStats *ptstats = new TPaveStats(0.6278736,0.5907173,0.8821839,0.8924051,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("FL");
+   text->SetTextSize(0.03469409);
+   text = ptstats->AddText("Entries = 100    ");
+   text = ptstats->AddText("Mean  = 0.3742");
+   text = ptstats->AddText("RMS   = 0.01923");
+   text = ptstats->AddText("#chi^{2} / ndf = 12.13 / 19");
+   text = ptstats->AddText("Constant = 7.304 ");
+   text = ptstats->AddText("Mean     = 0.3728 ");
+   text = ptstats->AddText("Sigma    = 0.0197 ");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(101);
+   ptstats->Draw();
+   FL->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(FL);
+   
+   TF1 *PrevFitTMP = new TF1("PrevFitTMP","gaus",-0.5,1.5);
+   PrevFitTMP->SetFillColor(19);
+   PrevFitTMP->SetFillStyle(0);
+   PrevFitTMP->SetLineColor(2);
+   PrevFitTMP->SetLineWidth(2);
+   PrevFitTMP->SetChisquare(12.12987);
+   PrevFitTMP->SetNDF(19);
+   PrevFitTMP->GetXaxis()->SetLabelFont(42);
+   PrevFitTMP->GetXaxis()->SetLabelSize(0.035);
+   PrevFitTMP->GetXaxis()->SetTitleSize(0.035);
+   PrevFitTMP->GetXaxis()->SetTitleFont(42);
+   PrevFitTMP->GetYaxis()->SetLabelFont(42);
+   PrevFitTMP->GetYaxis()->SetLabelSize(0.035);
+   PrevFitTMP->GetYaxis()->SetTitleSize(0.035);
+   PrevFitTMP->GetYaxis()->SetTitleFont(42);
+   PrevFitTMP->SetParameter(0,7.303777);
+   PrevFitTMP->SetParError(0,1.113946);
+   PrevFitTMP->SetParLimits(0,0,0);
+   PrevFitTMP->SetParameter(1,0.3728424);
+   PrevFitTMP->SetParError(1,0.002340452);
+   PrevFitTMP->SetParLimits(1,0,0);
+   PrevFitTMP->SetParameter(2,0.01969839);
+   PrevFitTMP->SetParError(2,0.002523997);
+   PrevFitTMP->SetParLimits(2,0,0.1923513);
+   FL->GetListOfFunctions()->Add(PrevFitTMP);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   FL->SetLineColor(ci);
+   FL->GetXaxis()->SetLabelFont(42);
+   FL->GetXaxis()->SetLabelSize(0.035);
+   FL->GetXaxis()->SetTitleSize(0.035);
+   FL->GetXaxis()->SetTitleFont(42);
+   FL->GetYaxis()->SetLabelFont(42);
+   FL->GetYaxis()->SetLabelSize(0.035);
+   FL->GetYaxis()->SetTitleSize(0.035);
+   FL->GetYaxis()->SetTitleFont(42);
+   FL->GetZaxis()->SetLabelFont(42);
+   FL->GetZaxis()->SetLabelSize(0.035);
+   FL->GetZaxis()->SetTitleSize(0.035);
+   FL->GetZaxis()->SetTitleFont(42);
+   FL->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.4691667,0.94,0.5308333,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("FL");
+   pt->Draw();
+   Canvas_1->Modified();
+   Canvas_1->cd();
+   Canvas_1->SetSelected(Canvas_1);
+}

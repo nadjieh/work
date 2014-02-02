@@ -1,0 +1,87 @@
+1 ---- nbin
+3 ---- do3D
+do3D
+5 ---- channel
+7 ---- is2Drecgen
+is2Drecgen
+9 ---- signal
+ : 0 + 0 = 0
+11 ---- signal
+I am in mu channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+ : 360.706 + 0 = 360.706
+13 ---- signal
+ : 0 + 324.931 = 324.931
+15 ---- signal
+ : 0 + 0.177623 = 0.177623
+17 ---- signal
+ : 0 + 24.6149 = 24.6149
+19 ---- signal
+I am in mu channel and I accept TreesMu_mue_TTBar_RW.root as signal
+ : 474.559 + 0 = 474.559
+21 ---- signal
+I am in mu channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+ : 9487.63 + 0 = 9487.63
+23 ---- signal
+I am in mu channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+ : 1323.04 + 21.2069 = 1344.25
+25 ---- signal
+ : 87.7731 + 3.09027 = 90.8634
+27 ---- signal
+ : 178.617 + 6.14261 = 184.759
+29 ---- signal
+ : 1617.49 + 57.3395 = 1674.83
+31 ---- signal
+ : 749.841 + 40.9678 = 790.809
+33 ---- signal
+ : 2815.81 + 92.8618 = 2908.67
+35 ---- signal
+ : 784.592 + 30.3528 = 814.945
+37 ---- bkg
+bkg
+2684.58
+TreesMu_bkg_RW.root	myQCD: 0
+here ..
+39 ---- wtemplate
+w template
+TreesMu_WTemplateDefFormat_RW.root	0x21561d0
+41 ---- data
+data
+0x2153410
+0x216e920	0x2153410	0x21561d0	0
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 601.686 bkg: 2684.58
+bkg: 3286.26 data: 31219 signal: 17880
+TreesMu_SChannel_RW.root	184.759
+TreesMu_SbarChannel_RW.root	90.8634
+TreesMu_TChannel_RW.root	2908.67
+TreesMu_TWChannel_RW.root	814.945
+TreesMu_TbarChannel_RW.root	1674.83
+TreesMu_TbarWChannel_RW.root	790.809
+TreesMu_die_TTBar_RW.root	0
+TreesMu_dimu_TTBar_RW.root	360.706
+TreesMu_disemitau_TTBar_RW.root	324.931
+TreesMu_ehad_TTBar_RW.root	0.177623
+TreesMu_etau_TTBar_RW.root	24.6149
+TreesMu_mue_TTBar_RW.root	474.559
+TreesMu_muhad_TTBar_RW.root	9487.63
+TreesMu_mutau_TTBar_RW.root	1344.25
+before get minimum simple: 
+bkg bins: 10
+w bins: 10
+data bins: 10
+f0            : 0.804598	+/-	0.0482329
+f_            : 0.255632	+/-	0.0297677
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 8054.04	+/-	1081.87
+fr            : -0.0602301	+/-	0.0328005
+Df0 Syst       : 0.836811
+DfL Syst       : 0.241166
+Df0            : 0.0568109
+DfL            : 0.00116613
+ErrF0          : 0.249054
+ErrFL          : 0.101273
+f0-f_ correlation: -0.744073
+f0-NW correlation: -0.843175
+fl-NW correlation: 0.302261

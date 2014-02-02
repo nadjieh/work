@@ -1,0 +1,32 @@
+1 ---- nPE
+nPE
+Weight for a 2D hist is 1
+Weight for a 3D hist is 0.102771
+Weight for a 2D hist is 1
+Weight for a 2D hist is 1
+Weight for a 2D hist is 1
+Weight for a 3D hist is 0.106037
+Weight for a 3D hist is 0.166501
+Weight for a 3D hist is 0.106655
+Weight for a 2D hist is 0.00531258
+Weight for a 2D hist is 0.00581316
+Weight for a 2D hist is 0.106742
+Weight for a 2D hist is 0.410433
+Weight for a 2D hist is 0.0821999
+Weight for a 2D hist is 0.400328
+4032.16
+signal 2D:0
+signal 2D:0
+signal 2D:0
+signal 2D:0
+signal 2D:147.562
+signal 2D:298.982
+signal 2D:2762.06
+signal 2D:1372.08
+signal 2D:4857.03
+signal 2D:1365.12
+signal 3D:1375.9
+signal 3D:1803.37
+signal 3D:16767.2
+signal 3D:4749.77
+F0->Fill(0.654675);	FNeg->Fill(0.364353);	FPos->Fill(-0.0190273);
