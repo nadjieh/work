@@ -1,8 +1,8 @@
 {
-//=========Macro generated from canvas: EtaFwD_allWcosTheta/c1
-//=========  (Fri Feb  7 14:21:57 2014) by ROOT version5.32/00
-   TCanvas *c = new TCanvas("c", "c",140,82,604,628);
-   c->Range(-1.275862,-45.98206,1.022989,434.2249);
+//=========Macro generated from canvas: c/c
+//=========  (Sat Feb  8 01:53:44 2014) by ROOT version5.32/00
+   TCanvas *c = new TCanvas("c", "c",141,111,604,628);
+   c->Range(-1.275862,-176.3701,1.022989,1587.33);
    c->SetFillColor(0);
    c->SetBorderMode(0);
    c->SetBorderSize(2);
@@ -14,10 +14,9 @@
    
    THStack *EtaFwD_allWcosThetaStack = new THStack();
    EtaFwD_allWcosThetaStack->SetName("EtaFwD_allWcosThetaStack");
+   EtaFwD_allWcosThetaStack->SetTitle("");
    
-   TH1F *EtaFwD_allWcosTheta_stack_6 = new TH1F("EtaFwD_allWcosTheta_stack_6","EtaFwD_allWcosTheta",20,-1,1);
-   EtaFwD_allWcosTheta_stack_6->GetXaxis()->SetTitle("cos(#theta_{l}*)");
-   EtaFwD_allWcosTheta_stack_6->GetYaxis()->SetTitle("Events @ 19.8 fb^{-1}");
+   TH1F *EtaFwD_allWcosTheta_stack_6 = new TH1F("EtaFwD_allWcosTheta_stack_6","",20,-1,1);
    EtaFwD_allWcosTheta_stack_6->SetMinimum(0);
    EtaFwD_allWcosTheta_stack_6->SetMaximum(1516.782);
    EtaFwD_allWcosTheta_stack_6->SetDirectory(0);
@@ -26,10 +25,12 @@
    Int_t ci;   // for color index setting
    ci = TColor::GetColor("#000099");
    EtaFwD_allWcosTheta_stack_6->SetLineColor(ci);
+   EtaFwD_allWcosTheta_stack_6->GetXaxis()->SetTitle("cos(#theta_{l}*)");
    EtaFwD_allWcosTheta_stack_6->GetXaxis()->SetLabelFont(42);
    EtaFwD_allWcosTheta_stack_6->GetXaxis()->SetLabelSize(0.035);
    EtaFwD_allWcosTheta_stack_6->GetXaxis()->SetTitleSize(0.035);
    EtaFwD_allWcosTheta_stack_6->GetXaxis()->SetTitleFont(42);
+   EtaFwD_allWcosTheta_stack_6->GetYaxis()->SetTitle("Events @ 19.8 fb^{-1}");
    EtaFwD_allWcosTheta_stack_6->GetYaxis()->SetLabelFont(42);
    EtaFwD_allWcosTheta_stack_6->GetYaxis()->SetLabelSize(0.035);
    EtaFwD_allWcosTheta_stack_6->GetYaxis()->SetTitleSize(0.035);
@@ -60,17 +61,13 @@
    EtaFwD_allWcosTheta__71->SetBinContent(16,30.41896);
    EtaFwD_allWcosTheta__71->SetBinContent(17,38.80654);
    EtaFwD_allWcosTheta__71->SetBinContent(18,49.98998);
-   EtaFwD_allWcosTheta__71->SetBinContent(19, 0.981*57.93022);
-   EtaFwD_allWcosTheta__71->SetBinContent(20, 0.981*78.17225);
+   EtaFwD_allWcosTheta__71->SetBinContent(19,56.82955);
+   EtaFwD_allWcosTheta__71->SetBinContent(20,76.68698);
    EtaFwD_allWcosTheta__71->SetEntries(4427);
    EtaFwD_allWcosTheta__71->SetDirectory(0);
    EtaFwD_allWcosTheta__71->SetStats(0);
-
-   ci = TColor::GetColor("#cccccc");
-   EtaFwD_allWcosTheta__71->SetFillColor(ci);
-
-   ci = TColor::GetColor("#cccccc");
-   EtaFwD_allWcosTheta__71->SetLineColor(ci);
+   EtaFwD_allWcosTheta__71->SetFillColor(17);
+   EtaFwD_allWcosTheta__71->SetLineColor(17);
    EtaFwD_allWcosTheta__71->GetXaxis()->SetTitle("cos(#theta*)");
    EtaFwD_allWcosTheta__71->GetXaxis()->SetLabelFont(42);
    EtaFwD_allWcosTheta__71->GetXaxis()->SetLabelSize(0.035);
@@ -105,8 +102,8 @@
    EtaFwD_allWcosTheta__72->SetBinContent(16,90.77125);
    EtaFwD_allWcosTheta__72->SetBinContent(17,46.41284);
    EtaFwD_allWcosTheta__72->SetBinContent(18,92.51586);
-   EtaFwD_allWcosTheta__72->SetBinContent(19, 0.981*71.88409);
-   EtaFwD_allWcosTheta__72->SetBinContent(20, 0.981*107.0776);
+   EtaFwD_allWcosTheta__72->SetBinContent(19,70.51829);
+   EtaFwD_allWcosTheta__72->SetBinContent(20,105.0431);
    EtaFwD_allWcosTheta__72->SetEntries(172);
    EtaFwD_allWcosTheta__72->SetDirectory(0);
    EtaFwD_allWcosTheta__72->SetStats(0);
@@ -150,8 +147,8 @@
    EtaFwD_allWcosTheta__73->SetBinContent(16,430.0736);
    EtaFwD_allWcosTheta__73->SetBinContent(17,484.5101);
    EtaFwD_allWcosTheta__73->SetBinContent(18,429.6414);
-   EtaFwD_allWcosTheta__73->SetBinContent(19, 0.981*473.4026);
-   EtaFwD_allWcosTheta__73->SetBinContent(20, 0.981*461.2531);
+   EtaFwD_allWcosTheta__73->SetBinContent(19,464.408);
+   EtaFwD_allWcosTheta__73->SetBinContent(20,452.4893);
    EtaFwD_allWcosTheta__73->SetEntries(7113);
    EtaFwD_allWcosTheta__73->SetDirectory(0);
    EtaFwD_allWcosTheta__73->SetStats(0);
@@ -195,17 +192,13 @@
    EtaFwD_allWcosTheta__74->SetBinContent(16,5.271788);
    EtaFwD_allWcosTheta__74->SetBinContent(17,4.398758);
    EtaFwD_allWcosTheta__74->SetBinContent(18,4.581261);
-   EtaFwD_allWcosTheta__74->SetBinContent(19, 0.981*4.365985);
-   EtaFwD_allWcosTheta__74->SetBinContent(20, 0.981*4.295085);
+   EtaFwD_allWcosTheta__74->SetBinContent(19,4.283031);
+   EtaFwD_allWcosTheta__74->SetBinContent(20,4.213478);
    EtaFwD_allWcosTheta__74->SetEntries(529);
    EtaFwD_allWcosTheta__74->SetDirectory(0);
    EtaFwD_allWcosTheta__74->SetStats(0);
-
-   ci = TColor::GetColor("#00ffff");
-   EtaFwD_allWcosTheta__74->SetFillColor(ci);
-
-   ci = TColor::GetColor("#00ffff");
-   EtaFwD_allWcosTheta__74->SetLineColor(ci);
+   EtaFwD_allWcosTheta__74->SetFillColor(7);
+   EtaFwD_allWcosTheta__74->SetLineColor(7);
    EtaFwD_allWcosTheta__74->GetXaxis()->SetTitle("cos(#theta*)");
    EtaFwD_allWcosTheta__74->GetXaxis()->SetLabelFont(42);
    EtaFwD_allWcosTheta__74->GetXaxis()->SetLabelSize(0.035);
@@ -240,17 +233,13 @@
    EtaFwD_allWcosTheta__75->SetBinContent(16,0.4288604);
    EtaFwD_allWcosTheta__75->SetBinContent(17,0.6000948);
    EtaFwD_allWcosTheta__75->SetBinContent(18,0.5341076);
-   EtaFwD_allWcosTheta__75->SetBinContent(19, 0.981*0.8965626);
-   EtaFwD_allWcosTheta__75->SetBinContent(20, 0.981*1.110807);
+   EtaFwD_allWcosTheta__75->SetBinContent(19,0.8795279);
+   EtaFwD_allWcosTheta__75->SetBinContent(20,1.089702);
    EtaFwD_allWcosTheta__75->SetEntries(389);
    EtaFwD_allWcosTheta__75->SetDirectory(0);
    EtaFwD_allWcosTheta__75->SetStats(0);
-
-   ci = TColor::GetColor("#00ffff");
-   EtaFwD_allWcosTheta__75->SetFillColor(ci);
-
-   ci = TColor::GetColor("#00ffff");
-   EtaFwD_allWcosTheta__75->SetLineColor(ci);
+   EtaFwD_allWcosTheta__75->SetFillColor(7);
+   EtaFwD_allWcosTheta__75->SetLineColor(7);
    EtaFwD_allWcosTheta__75->GetXaxis()->SetTitle("cos(#theta*)");
    EtaFwD_allWcosTheta__75->GetXaxis()->SetLabelFont(42);
    EtaFwD_allWcosTheta__75->GetXaxis()->SetLabelSize(0.035);
@@ -285,17 +274,13 @@
    EtaFwD_allWcosTheta__76->SetBinContent(16,7.233072);
    EtaFwD_allWcosTheta__76->SetBinContent(17,5.887524);
    EtaFwD_allWcosTheta__76->SetBinContent(18,6.605472);
-   EtaFwD_allWcosTheta__76->SetBinContent(19, 0.981*6.397856);
-   EtaFwD_allWcosTheta__76->SetBinContent(20, 0.981*5.633778);
+   EtaFwD_allWcosTheta__76->SetBinContent(19,6.276297);
+   EtaFwD_allWcosTheta__76->SetBinContent(20,5.526736);
    EtaFwD_allWcosTheta__76->SetEntries(1246);
    EtaFwD_allWcosTheta__76->SetDirectory(0);
    EtaFwD_allWcosTheta__76->SetStats(0);
-
-   ci = TColor::GetColor("#00ffff");
-   EtaFwD_allWcosTheta__76->SetFillColor(ci);
-
-   ci = TColor::GetColor("#00ffff");
-   EtaFwD_allWcosTheta__76->SetLineColor(ci);
+   EtaFwD_allWcosTheta__76->SetFillColor(7);
+   EtaFwD_allWcosTheta__76->SetLineColor(7);
    EtaFwD_allWcosTheta__76->GetXaxis()->SetTitle("cos(#theta*)");
    EtaFwD_allWcosTheta__76->GetXaxis()->SetLabelFont(42);
    EtaFwD_allWcosTheta__76->GetXaxis()->SetLabelSize(0.035);
@@ -330,8 +315,8 @@
    EtaFwD_allWcosTheta__77->SetBinContent(16,265.3761);
    EtaFwD_allWcosTheta__77->SetBinContent(17,242.4094);
    EtaFwD_allWcosTheta__77->SetBinContent(18,224.0826);
-   EtaFwD_allWcosTheta__77->SetBinContent(19, 0.981*206.5441);
-   EtaFwD_allWcosTheta__77->SetBinContent(20, 0.981*185.6519);
+   EtaFwD_allWcosTheta__77->SetBinContent(19,202.6198);
+   EtaFwD_allWcosTheta__77->SetBinContent(20,182.1245);
    EtaFwD_allWcosTheta__77->SetEntries(59420);
    EtaFwD_allWcosTheta__77->SetDirectory(0);
    EtaFwD_allWcosTheta__77->SetStats(0);
@@ -375,17 +360,13 @@
    EtaFwD_allWcosTheta__78->SetBinContent(16,4.171062);
    EtaFwD_allWcosTheta__78->SetBinContent(17,3.84915);
    EtaFwD_allWcosTheta__78->SetBinContent(18,3.960945);
-   EtaFwD_allWcosTheta__78->SetBinContent(19, 0.981*3.57273);
-   EtaFwD_allWcosTheta__78->SetBinContent(20, 0.981*3.107766);
+   EtaFwD_allWcosTheta__78->SetBinContent(19,3.504848);
+   EtaFwD_allWcosTheta__78->SetBinContent(20,3.048718);
    EtaFwD_allWcosTheta__78->SetEntries(21893);
    EtaFwD_allWcosTheta__78->SetDirectory(0);
    EtaFwD_allWcosTheta__78->SetStats(0);
-
-   ci = TColor::GetColor("#ffff00");
-   EtaFwD_allWcosTheta__78->SetFillColor(ci);
-
-   ci = TColor::GetColor("#ffff00");
-   EtaFwD_allWcosTheta__78->SetLineColor(ci);
+   EtaFwD_allWcosTheta__78->SetFillColor(5);
+   EtaFwD_allWcosTheta__78->SetLineColor(5);
    EtaFwD_allWcosTheta__78->GetXaxis()->SetTitle("cos(#theta*)");
    EtaFwD_allWcosTheta__78->GetXaxis()->SetLabelFont(42);
    EtaFwD_allWcosTheta__78->GetXaxis()->SetLabelSize(0.035);
@@ -420,17 +401,13 @@
    EtaFwD_allWcosTheta__79->SetBinContent(16,1.922933);
    EtaFwD_allWcosTheta__79->SetBinContent(17,1.643114);
    EtaFwD_allWcosTheta__79->SetBinContent(18,1.647417);
-   EtaFwD_allWcosTheta__79->SetBinContent(19, 0.981*1.556537);
-   EtaFwD_allWcosTheta__79->SetBinContent(20, 0.981*1.193751);
+   EtaFwD_allWcosTheta__79->SetBinContent(19,1.526963);
+   EtaFwD_allWcosTheta__79->SetBinContent(20,1.17107);
    EtaFwD_allWcosTheta__79->SetEntries(11054);
    EtaFwD_allWcosTheta__79->SetDirectory(0);
    EtaFwD_allWcosTheta__79->SetStats(0);
-
-   ci = TColor::GetColor("#ffff00");
-   EtaFwD_allWcosTheta__79->SetFillColor(ci);
-
-   ci = TColor::GetColor("#ffff00");
-   EtaFwD_allWcosTheta__79->SetLineColor(ci);
+   EtaFwD_allWcosTheta__79->SetFillColor(5);
+   EtaFwD_allWcosTheta__79->SetLineColor(5);
    EtaFwD_allWcosTheta__79->GetXaxis()->SetTitle("cos(#theta*)");
    EtaFwD_allWcosTheta__79->GetXaxis()->SetLabelFont(42);
    EtaFwD_allWcosTheta__79->GetXaxis()->SetLabelSize(0.035);
@@ -465,8 +442,8 @@
    EtaFwD_allWcosTheta__80->SetBinContent(16,21.94487);
    EtaFwD_allWcosTheta__80->SetBinContent(17,19.06125);
    EtaFwD_allWcosTheta__80->SetBinContent(18,22.77444);
-   EtaFwD_allWcosTheta__80->SetBinContent(19, 0.981*18.63916);
-   EtaFwD_allWcosTheta__80->SetBinContent(20, 0.981*17.04746);
+   EtaFwD_allWcosTheta__80->SetBinContent(19,18.28502);
+   EtaFwD_allWcosTheta__80->SetBinContent(20,16.72356);
    EtaFwD_allWcosTheta__80->SetEntries(1155);
    EtaFwD_allWcosTheta__80->SetDirectory(0);
    EtaFwD_allWcosTheta__80->SetStats(0);
@@ -510,8 +487,8 @@
    EtaFwD_allWcosTheta__81->SetBinContent(16,21.46534);
    EtaFwD_allWcosTheta__81->SetBinContent(17,18.78992);
    EtaFwD_allWcosTheta__81->SetBinContent(18,15.34973);
-   EtaFwD_allWcosTheta__81->SetBinContent(19, 0.981*11.77641);
-   EtaFwD_allWcosTheta__81->SetBinContent(20, 0.981*16.34738);
+   EtaFwD_allWcosTheta__81->SetBinContent(19,11.55266);
+   EtaFwD_allWcosTheta__81->SetBinContent(20,16.03678);
    EtaFwD_allWcosTheta__81->SetEntries(1101);
    EtaFwD_allWcosTheta__81->SetDirectory(0);
    EtaFwD_allWcosTheta__81->SetStats(0);
@@ -555,17 +532,13 @@
    EtaFwD_allWcosTheta__82->SetBinContent(16,150.5499);
    EtaFwD_allWcosTheta__82->SetBinContent(17,140.292);
    EtaFwD_allWcosTheta__82->SetBinContent(18,130.6889);
-   EtaFwD_allWcosTheta__82->SetBinContent(19, 0.981*112.6109);
-   EtaFwD_allWcosTheta__82->SetBinContent(20, 0.981*109.9081);
+   EtaFwD_allWcosTheta__82->SetBinContent(19,110.4713);
+   EtaFwD_allWcosTheta__82->SetBinContent(20,107.8198);
    EtaFwD_allWcosTheta__82->SetEntries(44631);
    EtaFwD_allWcosTheta__82->SetDirectory(0);
    EtaFwD_allWcosTheta__82->SetStats(0);
-
-   ci = TColor::GetColor("#ff0000");
-   EtaFwD_allWcosTheta__82->SetFillColor(ci);
-
-   ci = TColor::GetColor("#ff0000");
-   EtaFwD_allWcosTheta__82->SetLineColor(ci);
+   EtaFwD_allWcosTheta__82->SetFillColor(2);
+   EtaFwD_allWcosTheta__82->SetLineColor(2);
    EtaFwD_allWcosTheta__82->GetXaxis()->SetTitle("cos(#theta*)");
    EtaFwD_allWcosTheta__82->GetXaxis()->SetLabelFont(42);
    EtaFwD_allWcosTheta__82->GetXaxis()->SetLabelSize(0.035);
@@ -600,17 +573,13 @@
    EtaFwD_allWcosTheta__83->SetBinContent(16,85.90657);
    EtaFwD_allWcosTheta__83->SetBinContent(17,71.86238);
    EtaFwD_allWcosTheta__83->SetBinContent(18,64.19207);
-   EtaFwD_allWcosTheta__83->SetBinContent(19, 0.981*61.26986);
-   EtaFwD_allWcosTheta__83->SetBinContent(20, 0.981*53.87581);
+   EtaFwD_allWcosTheta__83->SetBinContent(19,60.10573);
+   EtaFwD_allWcosTheta__83->SetBinContent(20,52.85217);
    EtaFwD_allWcosTheta__83->SetEntries(18443);
    EtaFwD_allWcosTheta__83->SetDirectory(0);
    EtaFwD_allWcosTheta__83->SetStats(0);
-
-   ci = TColor::GetColor("#ff0000");
-   EtaFwD_allWcosTheta__83->SetFillColor(ci);
-
-   ci = TColor::GetColor("#ff0000");
-   EtaFwD_allWcosTheta__83->SetLineColor(ci);
+   EtaFwD_allWcosTheta__83->SetFillColor(2);
+   EtaFwD_allWcosTheta__83->SetLineColor(2);
    EtaFwD_allWcosTheta__83->GetXaxis()->SetTitle("cos(#theta*)");
    EtaFwD_allWcosTheta__83->GetXaxis()->SetLabelFont(42);
    EtaFwD_allWcosTheta__83->GetXaxis()->SetLabelSize(0.035);
@@ -690,14 +659,20 @@
    EtaFwD_allWcosTheta__84->GetZaxis()->SetTitleFont(42);
    EtaFwD_allWcosTheta__84->Draw("PE1sames");
    
-   TPaveText *pt = new TPaveText(0.306092,0.9365254,0.693908,0.995,"blNDC");
-   pt->SetName("title");
-   pt->SetBorderSize(0);
-   pt->SetFillColor(0);
-   pt->SetFillStyle(0);
-   pt->SetTextFont(42);
-   TText *text = pt->AddText("EtaFwD_allWcosTheta");
-   pt->Draw();
+   TPaveStats *ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("EtaFwD_allWcosTheta");
+   text->SetTextSize(0.0368);
+   text = ptstats->AddText("Entries = 171573 ");
+   text = ptstats->AddText("Mean  = -0.04121");
+   text = ptstats->AddText("RMS   = 0.5602");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
    
    TH1D *EtaFwD_allWcosTheta = new TH1D("EtaFwD_allWcosTheta","EtaFwD_allW: cos(#theta)",20,-1,1);
    EtaFwD_allWcosTheta->SetBinContent(1,1166.75);
@@ -718,31 +693,31 @@
    EtaFwD_allWcosTheta->SetBinContent(16,1115.534);
    EtaFwD_allWcosTheta->SetBinContent(17,1078.523);
    EtaFwD_allWcosTheta->SetBinContent(18,1046.564);
-   EtaFwD_allWcosTheta->SetBinContent(19, 0.981*1030.847);
-   EtaFwD_allWcosTheta->SetBinContent(20, 0.981*1044.675);
-   EtaFwD_allWcosTheta->SetBinError(1,1.03*27.49861);
-   EtaFwD_allWcosTheta->SetBinError(2,1.03*29.50793);
-   EtaFwD_allWcosTheta->SetBinError(3,1.03*29.66415);
-   EtaFwD_allWcosTheta->SetBinError(4,1.03*30.9412);
-   EtaFwD_allWcosTheta->SetBinError(5,1.03*30.35125);
-   EtaFwD_allWcosTheta->SetBinError(6,1.03*33.78517);
-   EtaFwD_allWcosTheta->SetBinError(7,1.03*28.18643);
-   EtaFwD_allWcosTheta->SetBinError(8,1.03*27.78791);
-   EtaFwD_allWcosTheta->SetBinError(9,1.03*42.4683);
-   EtaFwD_allWcosTheta->SetBinError(10,1.03*37.68919);
-   EtaFwD_allWcosTheta->SetBinError(11,1.03*34.76517);
-   EtaFwD_allWcosTheta->SetBinError(12,1.03*31.59197);
-   EtaFwD_allWcosTheta->SetBinError(13,1.03*39.92275);
-   EtaFwD_allWcosTheta->SetBinError(14,1.03*37.62271);
-   EtaFwD_allWcosTheta->SetBinError(15,1.03*34.63266);
-   EtaFwD_allWcosTheta->SetBinError(16,1.03*37.21752);
-   EtaFwD_allWcosTheta->SetBinError(17,1.03*35.19693);
-   EtaFwD_allWcosTheta->SetBinError(18,1.03*39.97921);
-   EtaFwD_allWcosTheta->SetBinError(19,1.03*38.79439);
-   EtaFwD_allWcosTheta->SetBinError(20,1.03*43.07864);
+   EtaFwD_allWcosTheta->SetBinContent(19,1011.261);
+   EtaFwD_allWcosTheta->SetBinContent(20,1024.826);
+   EtaFwD_allWcosTheta->SetBinError(1,28.32357);
+   EtaFwD_allWcosTheta->SetBinError(2,30.39317);
+   EtaFwD_allWcosTheta->SetBinError(3,30.55407);
+   EtaFwD_allWcosTheta->SetBinError(4,31.86944);
+   EtaFwD_allWcosTheta->SetBinError(5,31.26179);
+   EtaFwD_allWcosTheta->SetBinError(6,34.79873);
+   EtaFwD_allWcosTheta->SetBinError(7,29.03202);
+   EtaFwD_allWcosTheta->SetBinError(8,28.62155);
+   EtaFwD_allWcosTheta->SetBinError(9,43.74235);
+   EtaFwD_allWcosTheta->SetBinError(10,38.81987);
+   EtaFwD_allWcosTheta->SetBinError(11,35.80813);
+   EtaFwD_allWcosTheta->SetBinError(12,32.53973);
+   EtaFwD_allWcosTheta->SetBinError(13,41.12043);
+   EtaFwD_allWcosTheta->SetBinError(14,38.75139);
+   EtaFwD_allWcosTheta->SetBinError(15,35.67164);
+   EtaFwD_allWcosTheta->SetBinError(16,38.33405);
+   EtaFwD_allWcosTheta->SetBinError(17,36.25284);
+   EtaFwD_allWcosTheta->SetBinError(18,41.17859);
+   EtaFwD_allWcosTheta->SetBinError(19,39.95822);
+   EtaFwD_allWcosTheta->SetBinError(20,44.371);
    EtaFwD_allWcosTheta->SetEntries(171573);
    
-   TPaveStats *ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
+   ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
    ptstats->SetName("stats");
    ptstats->SetBorderSize(1);
    ptstats->SetFillColor(0);
@@ -777,8 +752,7 @@
    EtaFwD_allWcosTheta->GetZaxis()->SetTitleSize(0.035);
    EtaFwD_allWcosTheta->GetZaxis()->SetTitleFont(42);
    EtaFwD_allWcosTheta->Draw("E2SAME");
-
-
+   
    TLegend *leg = new TLegend(0.1516667,0.63,0.4983333,0.9516667,NULL,"brNDC");
    leg->SetBorderSize(0);
    leg->SetTextFont(62);
@@ -788,7 +762,7 @@
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(1001);
-   TLegendEntry *entry=leg->AddEntry("","data","lpf");
+   TLegendEntry *entry=leg->AddEntry("NULL","data","lpf");
    entry->SetFillStyle(1001);
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
@@ -796,7 +770,7 @@
    entry->SetMarkerColor(1);
    entry->SetMarkerStyle(20);
    entry->SetMarkerSize(1);
-   entry=leg->AddEntry("","t-channel","lpf");
+   entry=leg->AddEntry("NULL","t-channel","lpf");
    entry->SetFillColor(2);
    entry->SetFillStyle(1001);
    entry->SetLineColor(2);
@@ -805,18 +779,22 @@
    entry->SetMarkerColor(2);
    entry->SetMarkerStyle(1);
    entry->SetMarkerSize(1);
-   entry=leg->AddEntry("","tW-channel","lpf");
+   entry=leg->AddEntry("NULL","tW-channel","lpf");
+
    ci = TColor::GetColor("#ffcc00");
    entry->SetFillColor(ci);
    entry->SetFillStyle(1001);
+
    ci = TColor::GetColor("#ffcc00");
    entry->SetLineColor(ci);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#ffcc00");
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(1);
    entry->SetMarkerSize(1);
-   entry=leg->AddEntry("","s-channel","lpf");
+   entry=leg->AddEntry("NULL","s-channel","lpf");
    entry->SetFillColor(5);
    entry->SetFillStyle(1001);
    entry->SetLineColor(5);
@@ -825,64 +803,77 @@
    entry->SetMarkerColor(5);
    entry->SetMarkerStyle(1);
    entry->SetMarkerSize(1);
-   entry=leg->AddEntry("","t#bar{t}","lpf");
+   entry=leg->AddEntry("NULL","t#bar{t}","lpf");
+
    ci = TColor::GetColor("#cc33cc");
    entry->SetFillColor(ci);
    entry->SetFillStyle(1001);
+
    ci = TColor::GetColor("#cc33cc");
    entry->SetLineColor(ci);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#cc33cc");
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(1);
    entry->SetMarkerSize(1);
-   entry=leg->AddEntry("","W+Jets","lpf");
+   entry=leg->AddEntry("NULL","W+Jets","lpf");
+
    ci = TColor::GetColor("#0033ff");
    entry->SetFillColor(ci);
    entry->SetFillStyle(1001);
+
    ci = TColor::GetColor("#0033ff");
    entry->SetLineColor(ci);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#0033ff");
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(1);
    entry->SetMarkerSize(1);
-   entry=leg->AddEntry("","#gamma^{*}/Z+Jets","lpf");
+   entry=leg->AddEntry("NULL","#gamma^{*}/Z+Jets","lpf");
+
    ci = TColor::GetColor("#00cc00");
    entry->SetFillColor(ci);
    entry->SetFillStyle(1001);
+
    ci = TColor::GetColor("#00cc00");
    entry->SetLineColor(ci);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#00cc00");
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(1);
    entry->SetMarkerSize(1);
-   entry=leg->AddEntry("","QCD","lpf");
-   ci = TColor::GetColor("#663300");
-   entry->SetFillColor(kGray);
+   entry=leg->AddEntry("NULL","QCD","lpf");
+
+   ci = TColor::GetColor("#cccccc");
+   entry->SetFillColor(ci);
    entry->SetFillStyle(1001);
-   ci = TColor::GetColor("#663300");
-   entry->SetLineColor(kGray);
+
+   ci = TColor::GetColor("#cccccc");
+   entry->SetLineColor(ci);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
-   entry->SetMarkerColor(kGray);
+
+   ci = TColor::GetColor("#cccccc");
+   entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(1);
    entry->SetMarkerSize(1);
    entry=leg->AddEntry("NULL","Stat. Unc.","f");
    entry->SetFillColor(1);
    entry->SetFillStyle(3004);
-   ci = TColor::GetColor("#000099");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
    entry->SetMarkerColor(1);
    entry->SetMarkerStyle(1);
-   entry->SetMarkerSize(0);
-   entry->SetMarkerSize(0);
    leg->Draw();
-   TLatex *   tex = new TLatex(0.27,0.9684385,"CMS preliminary, 19.8 fb^{-1} at #sqrt{s} = 8 TeV");
-   tex->SetNDC();
+      tex = new TLatex(0.27,0.9684385,"CMS preliminary, 19.8 fb^{-1} at #sqrt{s} = 8 TeV");
+tex->SetNDC();
    tex->SetTextSize(0.03156146);
    tex->SetLineWidth(2);
    tex->Draw();
@@ -890,4 +881,3 @@
    c->cd();
    c->SetSelected(c);
 }
-
