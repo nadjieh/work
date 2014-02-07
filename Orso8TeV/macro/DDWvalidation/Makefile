@@ -34,8 +34,11 @@ all:  MC clean
 
 data:  DATA clean
 
+rwsub: RWSUB clean
 
+qcd:  QCD clean
 
+dw: DEFW clean
 
 MC:
 	@echo "Compiling the SelectAndSave .... \n"
@@ -48,9 +51,25 @@ DATA:
 	$(CXX) OrsoHistogramCreator.C -c -o OrsoHistogramCreator.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g
 	@echo "Linking ...... \n"
 	g++ OrsoHistogramCreator.o -o DataOrsoHistogramCreator $(ROOTGLIBS) $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
+	
+QCD:
+	@echo "Compiling the SelectAndSave .... \n"
+	$(CXX) OrsoHistogramCreator.C -c -o OrsoHistogramCreator.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g
+	@echo "Linking ...... \n"
+	g++ OrsoHistogramCreator.o -o QCDOrsoHistogramCreator $(ROOTGLIBS) $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)	
+	
+RWSUB:
+	@echo "Compiling the ReweightorTopSyst  .... \n"
+	$(CXX) ReweightorTopSyst.C -c -o ReweightorTopSyst.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g
+	@echo "Linking ...... \n"
+	g++ ReweightorTopSyst.o -o myReweightorTopSyst $(ROOTGLIBS) $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)
 
 clean:
 	@echo "Cleaning..."
 	@rm -f *.o
 
-
+DEFW:
+	@echo "Compiling the SelectAndSave .... \n"
+	$(CXX) OrsoHistogramCreator.C -c -o OrsoHistogramCreator.o -O0 $(ROOTCFLAGS) -fPIC $(HEADERS) -g
+	@echo "Linking ...... \n"
+	g++ OrsoHistogramCreator.o -o DefWOrsoHistogramCreator $(ROOTGLIBS) $(LIBS) -g -fPIC -O0 -I/opt/root/include -m64 -pthread $(HEADERS)

@@ -13,7 +13,7 @@
 	ttMtop->Add((TH1D*)ttMtop2D->ProjectionY());
 	ttMtop->SetLineColor(kRed);
 	
-	TH1D * dataMtop = (TH1D*)data->Get("antiEtaFwDTrue_allW/antiEtaFwDTrue_allWcosTheta");
+	TH1D * dataMtop = (TH1D*)data->Get("MtopOutWindowTrue_allW/MtopOutWindowTrue_allWcosTheta");
 	TH1D * dataAntiEta = (TH1D*)data->Get("antiEtaFwDTrue_allW/antiEtaFwDTrue_allWcosTheta");
 	
 	TH1D * wDefault = (TH1D*)w->Get("DefaultTrue_allW/DefaultTrue_allWcosTheta");

@@ -4,9 +4,9 @@
  *
  * Created on October 12, 2012, 12:34 PM
  */
-//#define ISDATA
+#define ISDATA
 //#define QCD
-//#define Wtemplate
+#define Wtemplate
 //#define LPTW
 //#define BPTW
 //#define BEtaW
